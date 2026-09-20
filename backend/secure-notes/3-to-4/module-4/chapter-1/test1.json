@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why do machine learning engineers save trained models?",
+      "options": [
+        "To increase training accuracy",
+        "To avoid retraining the model every time it is needed",
+        "To reduce the dataset size",
+        "To create new features"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What does model serialization primarily do?",
+      "options": [
+        "Converts a model into a storable format",
+        "Deletes unnecessary features",
+        "Changes the algorithm",
+        "Creates a new dataset"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "A company trains a recommendation model once and uses it for months without retraining. Which concept makes this possible?",
+      "options": [
+        "Cross-validation",
+        "Feature engineering",
+        "Saving the model",
+        "Data augmentation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which information should generally be stored along with a trained model?",
+      "options": [
+        "Only the model's predictions",
+        "Model parameters and preprocessing steps",
+        "The computer's wallpaper",
+        "Internet browsing history"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is the main purpose of serving a model?",
+      "options": [
+        "Training it faster",
+        "Making the model available to users or applications",
+        "Reducing dataset size",
+        "Increasing the number of features"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "When you ask an online AI chatbot a question and instantly receive a response, the model is being:",
+      "options": [
+        "Retrained",
+        "Compressed",
+        "Served",
+        "Deleted"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "In model serving, the input data provided by a user is commonly called a:",
+      "options": [
+        "Prediction request",
+        "Gradient",
+        "Epoch",
+        "Hyperparameter"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following is an example of a model-serving application?",
+      "options": [
+        "A calculator stored on a USB drive",
+        "A weather app predicting tomorrow's temperature",
+        "A PDF document",
+        "A spreadsheet with no formulas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "What is the primary output of a served machine learning model?",
+      "options": [
+        "A new training dataset",
+        "A prediction or decision",
+        "A source code file",
+        "A hardware upgrade"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "The sequence of steps from building a model to making it available to users is called:",
+      "options": [
+        "Feature extraction",
+        "Deployment workflow",
+        "Gradient descent",
+        "Cross-validation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which of the following is usually the FIRST step in a deployment workflow?",
+      "options": [
+        "Serving predictions to users",
+        "Monitoring the deployed model",
+        "Training and evaluating the model",
+        "Replacing the model"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "After a model is deployed, engineers often monitor it because:",
+      "options": [
+        "Models can become outdated or behave unexpectedly",
+        "Models stop existing after deployment",
+        "Monitoring increases GPU speed",
+        "Monitoring reduces training data size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "A spam detection model is saved and loaded into an email application. Every incoming email is analyzed instantly. This process combines:",
+      "options": [
+        "Feature engineering and clustering",
+        "Saving and serving models",
+        "Cross-validation and tuning",
+        "Regression and classification"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which statement about deployment workflows is TRUE?",
+      "options": [
+        "Deployment ends immediately after training.",
+        "Deployment includes monitoring and maintenance after release.",
+        "Deployment only applies to neural networks.",
+        "Deployment removes the need for evaluation."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "An e-commerce company updates its recommendation model because customer preferences have changed. This step belongs to:",
+      "options": [
+        "Model monitoring and maintenance",
+        "Feature selection",
+        "Data visualization",
+        "Data collection"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which scenario best illustrates model deployment?",
+      "options": [
+        "A student experimenting with a model on their laptop only",
+        "A hospital using an AI model to assist doctors in real time",
+        "A dataset being cleaned",
+        "A chart being plotted"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Why is saving preprocessing steps along with a model important?",
+      "options": [
+        "Because the model expects input data in the same format as during training",
+        "Because it improves internet speed",
+        "Because it increases the number of features",
+        "Because it reduces model size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "A deployed fraud detection model starts performing poorly because new types of fraud appear. This problem is an example of:",
+      "options": [
+        "Data drift or changing patterns",
+        "Overfitting during training only",
+        "Feature engineering failure",
+        "Cross-validation error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which order correctly represents a typical deployment workflow?",
+      "options": [
+        "Deploy → Train → Save → Monitor",
+        "Train → Save → Deploy/Serve → Monitor",
+        "Monitor → Train → Save → Deploy",
+        "Save → Monitor → Train → Deploy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "A company deploys a movie recommendation system. Millions of users receive predictions daily without retraining the model each time. Which combination of concepts makes this possible?",
+      "options": [
+        "Cross-validation and feature engineering",
+        "Saving models and serving models",
+        "Clustering and dimensionality reduction",
+        "Data cleaning and visualization"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

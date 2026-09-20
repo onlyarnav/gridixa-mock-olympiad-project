@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "In Graph Machine Learning, what do nodes primarily represent?",
+      "options": [
+        "Relationships",
+        "Entities",
+        "Algorithms",
+        "Features"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What do edges represent in a graph?",
+      "options": [
+        "Predictions",
+        "Features",
+        "Relationships between entities",
+        "Labels"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is an example of graph-structured data?",
+      "options": [
+        "Student marks spreadsheet",
+        "Monthly weather report",
+        "Social network connections",
+        "Single image file"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "What is the main purpose of Graph Embeddings?",
+      "options": [
+        "Compress images",
+        "Convert graph information into numerical vectors",
+        "Encrypt graph data",
+        "Store graphs in databases"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which concept forms the foundation of most Graph Neural Networks (GNNs)?",
+      "options": [
+        "Feature Scaling",
+        "Gradient Descent",
+        "Message Passing",
+        "Data Augmentation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "What is a Time Series?",
+      "options": [
+        "A collection of unrelated observations",
+        "A sequence of observations recorded over time",
+        "A graph database",
+        "A clustering technique"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which characteristic makes Time Series data different from traditional tabular data?",
+      "options": [
+        "Contains labels",
+        "Contains numerical values",
+        "The order of observations matters",
+        "Uses rows and columns"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "A long-term upward or downward movement in data is called:",
+      "options": [
+        "Noise",
+        "Trend",
+        "Seasonality",
+        "Lag"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Ice cream sales increasing every summer is an example of:",
+      "options": [
+        "Noise",
+        "Seasonality",
+        "Anomaly",
+        "Classification"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is a Lag Feature?",
+      "options": [
+        "Future observation",
+        "Random observation",
+        "Previous observation used as a feature",
+        "Missing observation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "What is the primary goal of Anomaly Detection?",
+      "options": [
+        "Classify images",
+        "Identify unusual or abnormal observations",
+        "Compress datasets",
+        "Generate synthetic data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following best represents a Point Anomaly?",
+      "options": [
+        "25, 26, 24, 27, 150, 26",
+        "Summer followed by Winter",
+        "Daily temperature cycle",
+        "Stock trend over 5 years"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "A transaction occurring at 3 AM for an unusually large amount compared to a customer's normal behavior is an example of:",
+      "options": [
+        "Trend",
+        "Seasonality",
+        "Contextual Anomaly",
+        "Node Classification"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "Which anomaly detection algorithm is based on the idea that anomalies are easier to isolate?",
+      "options": [
+        "K-Means",
+        "Linear Regression",
+        "Isolation Forest",
+        "PCA"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Autoencoders detect anomalies primarily using:",
+      "options": [
+        "Reconstruction Error",
+        "Edge Prediction",
+        "Graph Embeddings",
+        "Seasonality Detection"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "A recommendation system suggesting 'People You May Know' is primarily an example of:",
+      "options": [
+        "Graph Classification",
+        "Edge Prediction",
+        "Forecasting",
+        "Anomaly Detection"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Predicting next month's sales based on previous months' sales is an example of:",
+      "options": [
+        "Node Classification",
+        "Graph Embedding",
+        "Forecasting",
+        "Clustering"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "A sudden spike from 100 requests per minute to 5000 requests per minute on a server is most likely:",
+      "options": [
+        "Trend",
+        "Seasonality",
+        "Anomaly",
+        "Stationarity"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "Graph ML → Learning from relationships",
+        "Time Series → Ignoring temporal order",
+        "Anomaly Detection → Finding common events",
+        "Forecasting → Detecting graph nodes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "A bank uses transaction networks to identify suspicious accounts, analyzes transaction history over time, and flags unusual transfers. Which three AI domains are being combined?",
+      "options": [
+        "Computer Vision, NLP, Reinforcement Learning",
+        "Graph ML, Time Series Analysis, Anomaly Detection",
+        "Clustering, Regression, GANs",
+        "Edge AI, Federated Learning, Privacy-Preserving Learning"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

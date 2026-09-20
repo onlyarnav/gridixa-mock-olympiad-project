@@ -1,0 +1,227 @@
+
+{
+  "title": "Module 4 Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary purpose of data collection in an AI project?",
+      "options": [
+        "To increase computer speed",
+        "To gather information that can be analyzed and used for decision-making",
+        "To create more software bugs",
+        "To reduce storage requirements"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following best describes data collection?",
+      "options": [
+        "Deleting unnecessary files",
+        "Organizing data into charts",
+        "Gathering information from various sources for analysis",
+        "Compressing data into smaller files"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is an example of a primary data source?",
+      "options": [
+        "Government census report",
+        "Research paper",
+        "Survey conducted by a company",
+        "Wikipedia article"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following is considered a secondary data source?",
+      "options": [
+        "Direct observation",
+        "Personal interview",
+        "Questionnaire response",
+        "Published market research report"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q5",
+      "question": "A company collects customer feedback through online forms. This is an example of:",
+      "options": [
+        "Primary data collection",
+        "Secondary data collection",
+        "Data transformation",
+        "Data visualization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "Which source would be most useful for obtaining real-time weather information?",
+      "options": [
+        "Historical textbook",
+        "Archived newspaper",
+        "Live weather sensors",
+        "Research journal from 2010"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Which of the following is NOT a common source of data?",
+      "options": [
+        "Sensors",
+        "Surveys",
+        "Databases",
+        "Compiler errors"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q8",
+      "question": "Data collected from social media platforms is generally categorized as:",
+      "options": [
+        "Digital data source",
+        "Physical sensor data",
+        "Binary-only data",
+        "Structured-only data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Which data format stores information in rows and columns?",
+      "options": [
+        "Image",
+        "Video",
+        "Tabular",
+        "Audio"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following is an example of structured data?",
+      "options": [
+        "JPEG image",
+        "Database table",
+        "MP3 audio file",
+        "Video recording"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "A collection of customer reviews written in natural language is best classified as:",
+      "options": [
+        "Structured data",
+        "Numerical data",
+        "Unstructured data",
+        "Binary data"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "Which file format is commonly used for tabular data exchange?",
+      "options": [
+        "CSV",
+        "PNG",
+        "MP4",
+        "WAV"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "What type of data format is a photograph?",
+      "options": [
+        "Text data",
+        "Image data",
+        "Tabular data",
+        "Numerical data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Why is data quality important during data collection?",
+      "options": [
+        "It increases internet speed",
+        "It ensures accurate and reliable analysis",
+        "It reduces monitor brightness",
+        "It changes file formats automatically"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "A dataset containing employee names, IDs, and salaries is an example of:",
+      "options": [
+        "Structured data",
+        "Audio data",
+        "Video data",
+        "Unstructured data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following is an example of semi-structured data?",
+      "options": [
+        "Relational database table",
+        "Plain image file",
+        "JSON document",
+        "Audio recording"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "An IoT temperature sensor primarily generates which type of data?",
+      "options": [
+        "Textual data",
+        "Numerical data",
+        "Video data",
+        "Graphical data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which combination correctly matches data source and data format?",
+      "options": [
+        "Survey → Tabular data",
+        "Camera → Audio data",
+        "Microphone → Image data",
+        "Spreadsheet → Video data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "What is one major advantage of collecting data from multiple sources?",
+      "options": [
+        "It guarantees zero errors",
+        "It provides broader and more complete information",
+        "It removes the need for analysis",
+        "It automatically trains AI models"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "An AI system analyzing text, images, and audio simultaneously is working with:",
+      "options": [
+        "A single data format",
+        "Only structured data",
+        "Multiple data formats",
+        "Only numerical data"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

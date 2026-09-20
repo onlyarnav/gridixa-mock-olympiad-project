@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why do Large Language Models (LLMs) sometimes hallucinate information?",
+      "options": [
+        "Because they always access the internet during inference",
+        "Because they generate responses from learned statistical patterns rather than real-time verified knowledge",
+        "Because they only process structured databases",
+        "Because they cannot generate new sentences"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which limitation of standard LLMs makes them unreliable for real-time factual tasks?",
+      "options": [
+        "They cannot generate long text",
+        "Their knowledge is frozen after training and may become outdated",
+        "They cannot process embeddings",
+        "They do not use tokens"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "The core idea of Retrieval-Augmented Generation (RAG) is to:",
+      "options": [
+        "Replace neural networks with databases",
+        "Train LLMs using reinforcement learning",
+        "Retrieve relevant external information before generating an answer",
+        "Store all knowledge directly inside the model parameters"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which sequence correctly represents the RAG pipeline?",
+      "options": [
+        "Retriever → User Query → Generator",
+        "User Query → Retriever → Generator",
+        "Generator → Retriever → User Query",
+        "Embedding → Generator → Training"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "In a RAG system, the Retriever component primarily:",
+      "options": [
+        "Generates the final text output",
+        "Stores embeddings permanently",
+        "Searches external databases to find relevant information",
+        "Reduces model parameters"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "Why is chunking important in RAG systems?",
+      "options": [
+        "It compresses embeddings into smaller dimensions",
+        "It divides large documents into smaller meaningful sections for efficient retrieval",
+        "It converts text into audio signals",
+        "It replaces tokenization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "A poorly designed chunking strategy may lead to:",
+      "options": [
+        "Loss of contextual information across document sections",
+        "Improved vector similarity accuracy",
+        "Reduced need for embeddings",
+        "Automatic reasoning by the LLM"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Embedding models convert text into numerical vectors mainly to:",
+      "options": [
+        "Increase vocabulary size",
+        "Represent semantic meaning mathematically",
+        "Remove grammar errors",
+        "Generate new tokens directly"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "If two text chunks have very similar meanings, their embeddings will typically:",
+      "options": [
+        "Have identical token lengths",
+        "Be positioned close together in vector space",
+        "Be randomly distributed",
+        "Have opposite vector directions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is the main purpose of a vector database in a RAG system?",
+      "options": [
+        "Training the LLM from scratch",
+        "Storing embeddings and enabling fast similarity search",
+        "Generating embeddings during inference",
+        "Replacing neural networks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Cosine similarity determines relevance between two vectors by measuring:",
+      "options": [
+        "The difference in their magnitudes",
+        "The angle between them in vector space",
+        "The sum of their coordinates",
+        "The Euclidean distance between tokens"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "If cosine similarity between two embeddings is close to 1, it means:",
+      "options": [
+        "Their meanings are highly similar",
+        "They have opposite meanings",
+        "They belong to different topics",
+        "They are unrelated vectors"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "The 'Needle in a Haystack' problem in RAG refers to:",
+      "options": [
+        "Difficulty retrieving rare tokens",
+        "Challenges in finding small but crucial information within large databases",
+        "Inability to store embeddings",
+        "Errors during tokenization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Why might standard RAG struggle with complex reasoning tasks?",
+      "options": [
+        "Because it stores embeddings incorrectly",
+        "Because relevant knowledge may be distributed across multiple chunks",
+        "Because it cannot convert text into vectors",
+        "Because LLMs cannot generate responses"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "In a knowledge graph, nodes typically represent:",
+      "options": [
+        "Tokens",
+        "Entities such as people, places, or concepts",
+        "Vector embeddings",
+        "Training datasets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Edges in a knowledge graph represent:",
+      "options": [
+        "Vector magnitudes",
+        "Relationships between entities",
+        "Database storage locations",
+        "Attention weights"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Why do knowledge graphs improve reasoning compared to simple text retrieval?",
+      "options": [
+        "They eliminate embeddings entirely",
+        "They explicitly represent relationships between concepts",
+        "They reduce the number of tokens",
+        "They convert text into images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "GraphRAG improves traditional RAG systems by:",
+      "options": [
+        "Replacing vector databases with neural networks",
+        "Combining vector retrieval with relational knowledge graphs",
+        "Eliminating chunking completely",
+        "Training LLMs with smaller datasets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which scenario best demonstrates the advantage of GraphRAG over standard RAG?",
+      "options": [
+        "Retrieving a single factual sentence from a short document",
+        "Understanding relationships between multiple entities across different documents",
+        "Reducing embedding dimensionality",
+        "Compressing model parameters"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "The main goal of combining RAG with knowledge graphs in GraphRAG is to:",
+      "options": [
+        "Reduce model training time",
+        "Enable deeper contextual understanding and relational reasoning",
+        "Replace vector similarity search",
+        "Remove the need for external databases"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

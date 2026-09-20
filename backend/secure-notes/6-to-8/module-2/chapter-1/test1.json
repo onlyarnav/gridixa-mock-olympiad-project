@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Artificial Neural Networks were originally inspired by which structure in humans?",
+      "options": [
+        "The nervous system of muscles",
+        "The human brain made of neurons",
+        "Human DNA sequences",
+        "The respiratory system"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "In an Artificial Neural Network, what performs the role similar to neurons in the human brain?",
+      "options": [
+        "Pixels",
+        "Digital nodes",
+        "Servers",
+        "Algorithms"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Why do connections between nodes strengthen in a neural network during training?",
+      "options": [
+        "To increase internet speed",
+        "To store more images",
+        "To improve the accuracy of predictions",
+        "To reduce the number of neurons"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Deep Learning mainly differs from a basic neural network because it:",
+      "options": [
+        "Uses multiple hidden layers of neurons",
+        "Works without data",
+        "Avoids mathematical calculations",
+        "Uses only one neuron"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Which layer of a deep learning network receives raw data first?",
+      "options": [
+        "Output layer",
+        "Hidden layer",
+        "Input layer",
+        "Activation layer"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "In the detective analogy of Deep Learning, hidden layers are responsible for:",
+      "options": [
+        "Ignoring all clues",
+        "Analyzing patterns step by step",
+        "Giving final results immediately",
+        "Storing images permanently"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which type of neural network is specially designed to analyze images and videos?",
+      "options": [
+        "CNN",
+        "RNN",
+        "Transformer",
+        "GAN"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "In image processing, a CNN scans an image mainly by analyzing:",
+      "options": [
+        "Paragraphs of text",
+        "A grid of pixels",
+        "Sound frequencies",
+        "Binary code patterns"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "What is the main role of filters in a CNN?",
+      "options": [
+        "Deleting pixels",
+        "Scanning images to detect patterns",
+        "Increasing image size",
+        "Converting images into text"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Which real-world application most strongly relies on CNN technology?",
+      "options": [
+        "Predictive keyboard typing",
+        "Facial recognition on smartphones",
+        "Temperature prediction",
+        "Text summarization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "RNNs are most suitable for which type of data?",
+      "options": [
+        "Random numbers",
+        "Sequences with meaningful order",
+        "Single photographs",
+        "Static graphs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Why is the order of data important for RNNs?",
+      "options": [
+        "RNNs only process alphabetical data",
+        "Changing order removes meaning from sequences",
+        "RNNs cannot read numbers",
+        "Order reduces memory usage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Which everyday feature most likely uses an RNN?",
+      "options": [
+        "Photo editing filters",
+        "Word prediction in smartphone keyboards",
+        "Face recognition cameras",
+        "QR code scanning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "The major limitation of early RNNs was that they:",
+      "options": [
+        "Could not process numbers",
+        "Had difficulty remembering long sequences",
+        "Could not process images",
+        "Could not run on computers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Which AI architecture introduced in 2017 greatly improved language understanding?",
+      "options": [
+        "CNN",
+        "RNN",
+        "Transformer",
+        "Decision Tree"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q16",
+      "question": "The key innovation of Transformers that improved language understanding is called:",
+      "options": [
+        "Backpropagation",
+        "Attention Mechanism",
+        "Pixel Mapping",
+        "Signal Encoding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Unlike earlier language models, Transformers analyze text primarily by:",
+      "options": [
+        "Reading characters randomly",
+        "Processing one word at a time sequentially",
+        "Looking at all words in the sentence simultaneously",
+        "Ignoring grammar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "The Attention Mechanism allows AI to:",
+      "options": [
+        "Ignore all important words",
+        "Focus on key words and relationships",
+        "Convert text into images",
+        "Delete irrelevant data automatically"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "In the sentence 'The cat that was hiding under the table suddenly jumped,' which words would the attention mechanism prioritize most for understanding meaning?",
+      "options": [
+        "The, that, was",
+        "Cat, hiding, jumped",
+        "Under, the, table",
+        "Suddenly, the, that"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which statement best explains why Transformers became a major breakthrough in AI?",
+      "options": [
+        "They removed the need for data",
+        "They improved long-range understanding of language",
+        "They replaced neural networks entirely",
+        "They work without mathematical calculations"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

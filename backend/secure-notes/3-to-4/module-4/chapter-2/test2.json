@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary purpose of an API in a machine learning system?",
+      "options": [
+        "To train the model faster",
+        "To allow applications to communicate with the model",
+        "To store training data",
+        "To reduce model size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "A weather app sends a city name to a server and receives tomorrow's temperature prediction. This interaction is an example of:",
+      "options": [
+        "Feature engineering",
+        "Cross-validation",
+        "API communication",
+        "Model tuning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "In an ML API, the data sent by the user or application is called the:",
+      "options": [
+        "Response",
+        "Request",
+        "Version",
+        "Metric"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "The prediction returned by an ML API is called the:",
+      "options": [
+        "Hyperparameter",
+        "Dataset",
+        "Response",
+        "Embedding"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "question": "Why are APIs important for deployed machine learning systems?",
+      "options": [
+        "They eliminate the need for models.",
+        "They allow other applications to use the model's predictions.",
+        "They automatically improve accuracy.",
+        "They remove all errors."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Which of the following is an example of an ML API?",
+      "options": [
+        "A text file containing training data",
+        "A chatbot service that returns answers to user queries",
+        "A spreadsheet with no formulas",
+        "A PDF document"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "What is model monitoring?",
+      "options": [
+        "Training multiple models simultaneously",
+        "Continuously observing how a deployed model performs",
+        "Saving models to disk",
+        "Reducing the number of features"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Why is model monitoring necessary after deployment?",
+      "options": [
+        "Because models may become outdated or perform poorly over time",
+        "Because deployed models automatically delete themselves",
+        "Because monitoring increases GPU memory",
+        "Because monitoring reduces training time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "A fraud detection model suddenly starts missing many new fraud patterns. Monitoring would help engineers:",
+      "options": [
+        "Ignore the issue",
+        "Detect the performance drop and update the model",
+        "Reduce the dataset size",
+        "Increase the learning rate automatically"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Which metric would most likely be monitored in a deployed classification system?",
+      "options": [
+        "Prediction accuracy",
+        "Number of training epochs only",
+        "Screen brightness",
+        "Keyboard speed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "If the distribution of real-world data changes significantly after deployment, the model may suffer from:",
+      "options": [
+        "Data drift",
+        "Feature scaling",
+        "Cross-validation",
+        "Serialization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following best describes model versioning?",
+      "options": [
+        "Deleting old models",
+        "Keeping track of different versions of a model and their changes",
+        "Increasing the number of features",
+        "Running multiple APIs at once"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Why is versioning important in machine learning projects?",
+      "options": [
+        "It allows engineers to compare, reproduce, and roll back models if needed.",
+        "It guarantees perfect predictions.",
+        "It reduces model size automatically.",
+        "It eliminates the need for monitoring."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "A company deploys Model v2, but users report problems. Because they kept Model v1, they can quickly switch back. This is an example of:",
+      "options": [
+        "Cross-validation",
+        "Feature engineering",
+        "Model versioning",
+        "Ensemble learning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Which information is most useful to store along with a model version?",
+      "options": [
+        "The office address of the engineers",
+        "Training data details, parameters, and performance metrics",
+        "The color of the computer used",
+        "The user's internet speed"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "An online recommendation system uses an API to deliver predictions and monitoring tools to track click rates. This demonstrates:",
+      "options": [
+        "Only versioning",
+        "Only feature engineering",
+        "Deployment with APIs and monitoring",
+        "Only hyperparameter tuning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "Which scenario would MOST likely require creating a new model version?",
+      "options": [
+        "Changing the model architecture and retraining it",
+        "Restarting the computer",
+        "Printing the predictions",
+        "Opening the dataset in a spreadsheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "A customer sends an image to an AI service, and the server returns 'Cat'. The image is the ______ and 'Cat' is the ______.",
+      "options": [
+        "response, request",
+        "request, response",
+        "feature, model",
+        "version, metric"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "What is the relationship between monitoring and versioning?",
+      "options": [
+        "They are unrelated concepts.",
+        "Monitoring can reveal problems that lead engineers to create a new model version.",
+        "Versioning eliminates the need for monitoring.",
+        "Monitoring automatically changes model versions."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which sequence best represents a mature machine learning deployment lifecycle?",
+      "options": [
+        "Train → Deploy through API → Monitor performance → Release improved versions",
+        "Deploy → Train → Delete old versions",
+        "Monitor → Collect data → Stop the system",
+        "Save model → Ignore performance → Deploy"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

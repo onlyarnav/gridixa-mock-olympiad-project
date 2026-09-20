@@ -1,0 +1,227 @@
+
+{
+  "title": "Module 5 Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary purpose of algorithmic thinking?",
+      "options": [
+        "To memorize programming syntax",
+        "To break complex problems into logical, manageable steps",
+        "To create computer hardware",
+        "To design graphical interfaces"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "A student wants to organize a school event. Which action best demonstrates algorithmic thinking?",
+      "options": [
+        "Starting without a plan",
+        "Dividing the task into venue booking, invitations, scheduling, and execution",
+        "Waiting for others to solve problems",
+        "Randomly assigning responsibilities"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Breaking a large problem into smaller sub-problems is known as:",
+      "options": [
+        "Debugging",
+        "Decomposition",
+        "Compilation",
+        "Optimization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Why is decomposition important in problem solving?",
+      "options": [
+        "It makes problems more complicated",
+        "It allows each smaller part to be solved independently",
+        "It eliminates the need for planning",
+        "It guarantees a perfect solution"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "A delivery company notices that the same route-planning strategy works in multiple cities. This is an example of:",
+      "options": [
+        "Pattern recognition",
+        "Randomization",
+        "Data duplication",
+        "Encryption"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "Pattern recognition helps problem solvers by:",
+      "options": [
+        "Ignoring similarities",
+        "Finding repeated structures that can be reused",
+        "Creating more variables",
+        "Removing all constraints"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which of the following is the BEST example of pattern recognition?",
+      "options": [
+        "Noticing that several math problems use the same formula",
+        "Creating a new language",
+        "Deleting previous solutions",
+        "Ignoring past experiences"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "What is pseudocode?",
+      "options": [
+        "A programming language executed directly by computers",
+        "A simplified way of describing an algorithm using plain language",
+        "A type of database",
+        "A graphical user interface"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Why is pseudocode useful before writing actual code?",
+      "options": [
+        "It helps plan the logic without worrying about syntax",
+        "It runs faster than code",
+        "It replaces programming languages",
+        "It reduces computer memory usage"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Which statement resembles pseudocode?",
+      "options": [
+        "for(i=0;i<n;i++)",
+        "BEGIN → Input marks → Calculate average → Display result → END",
+        "print('Hello World')",
+        "<html></html>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "A student writes the following steps: 'Take input, check if even, display result.' This is an example of:",
+      "options": [
+        "Pattern matching",
+        "Pseudocode",
+        "Machine learning",
+        "Data cleaning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which step of algorithmic thinking comes AFTER identifying patterns?",
+      "options": [
+        "Applying a structured solution",
+        "Ignoring the problem",
+        "Deleting information",
+        "Compiling code"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "A robot must navigate a maze. What should it do first according to algorithmic thinking principles?",
+      "options": [
+        "Move randomly",
+        "Break the task into smaller navigation decisions",
+        "Restart continuously",
+        "Ignore obstacles"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which of the following is NOT a characteristic of good pseudocode?",
+      "options": [
+        "Clear and logical",
+        "Easy for humans to understand",
+        "Dependent on exact programming syntax",
+        "Focused on solving the problem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Suppose several scheduling problems can be solved using the same sequence of steps. This demonstrates:",
+      "options": [
+        "Pattern recognition",
+        "Data corruption",
+        "Random search",
+        "Hardware acceleration"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which pseudocode fragment correctly represents a decision-making process?",
+      "options": [
+        "Input age; IF age >= 18 THEN Display 'Adult'",
+        "Store image in GPU",
+        "Connect to database",
+        "Create neural network"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "A difficult project is divided into research, design, testing, and deployment phases. This primarily demonstrates:",
+      "options": [
+        "Pattern recognition",
+        "Decomposition",
+        "Visualization",
+        "Encryption"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Why do programmers often create pseudocode before coding?",
+      "options": [
+        "To focus on problem-solving logic before implementation details",
+        "To increase processor speed",
+        "To avoid testing",
+        "To eliminate algorithms"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which scenario requires both decomposition and pattern recognition?",
+      "options": [
+        "Building a large school management system using solutions from previous software projects",
+        "Typing a single word",
+        "Turning on a computer",
+        "Opening a browser"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "A student identifies repeated problem structures, breaks them into smaller tasks, and writes step-by-step instructions before coding. Which combination of concepts is being applied?",
+      "options": [
+        "Data collection, charts, and statistics",
+        "Pattern recognition, decomposition, and pseudocode",
+        "Machine learning, embeddings, and RAG",
+        "Networking, databases, and APIs"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

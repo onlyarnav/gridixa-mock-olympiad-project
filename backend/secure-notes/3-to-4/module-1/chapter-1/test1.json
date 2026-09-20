@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which structure is most commonly used to represent an entire dataset in Machine Learning?",
+      "options": [
+        "Scalar",
+        "Vector",
+        "Matrix",
+        "Tensor"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "What is the main purpose of matrix multiplication inside neural networks?",
+      "options": [
+        "Compress images",
+        "Transform input representations into new feature spaces",
+        "Store datasets",
+        "Generate random weights"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "If matrix A has shape (100 × 5) and matrix B has shape (5 × 8), what is the output shape of A @ B?",
+      "options": [
+        "100 × 8",
+        "5 × 100",
+        "8 × 5",
+        "100 × 5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Which statement best describes an eigenvector?",
+      "options": [
+        "A vector that always becomes zero",
+        "A direction preserved during transformation",
+        "A vector with largest magnitude",
+        "A normalized matrix"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "If Av = λv and λ = -2, what happens to the eigenvector?",
+      "options": [
+        "It disappears",
+        "It doubles without changing direction",
+        "It flips direction and scales by 2",
+        "It rotates by 90°"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "Why can the zero vector never be an eigenvector?",
+      "options": [
+        "It cannot be multiplied",
+        "It has no direction",
+        "It cannot exist in matrices",
+        "It has infinite magnitude"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which equation defines eigenvalues mathematically?",
+      "options": [
+        "det(A + λI)=0",
+        "Av = λv",
+        "A = UV",
+        "A = QR"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "The characteristic equation used to calculate eigenvalues is:",
+      "options": [
+        "A⁻¹v=λ",
+        "det(A−λI)=0",
+        "A=PDP",
+        "A=LU"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "In PCA, eigenvectors represent:",
+      "options": [
+        "Noise values",
+        "Directions of maximum variation",
+        "Compressed labels",
+        "Learning rates"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Large eigenvalues in PCA usually indicate:",
+      "options": [
+        "Low information",
+        "Important directions",
+        "Invalid matrices",
+        "Smaller datasets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "What is the primary objective of matrix decomposition?",
+      "options": [
+        "Create larger matrices",
+        "Break matrices into simpler meaningful components",
+        "Delete dimensions",
+        "Convert matrices into vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which decomposition is most commonly associated with compression and dimensionality reduction?",
+      "options": [
+        "LU",
+        "QR",
+        "SVD",
+        "Cholesky"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "In Singular Value Decomposition, Σ primarily contains:",
+      "options": [
+        "Bias vectors",
+        "Singular values",
+        "Eigenvectors",
+        "Gradients"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Keeping only the largest singular values mainly achieves:",
+      "options": [
+        "Overfitting",
+        "Compression and noise reduction",
+        "Randomization",
+        "Higher dimensionality"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Which decomposition can work directly on rectangular matrices?",
+      "options": [
+        "Eigen Decomposition",
+        "SVD",
+        "Cholesky",
+        "Identity Decomposition"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "If a matrix has low rank, what does it generally imply?",
+      "options": [
+        "Many independent patterns",
+        "Few hidden underlying patterns explain most information",
+        "The matrix cannot transform vectors",
+        "The matrix must be diagonal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Which decomposition expresses a matrix as A = P D P⁻¹?",
+      "options": [
+        "QR",
+        "LU",
+        "Eigen Decomposition",
+        "SVD"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Why are covariance matrices important in AI?",
+      "options": [
+        "They generate embeddings",
+        "They reveal variation structure and support PCA",
+        "They replace datasets",
+        "They reduce GPU usage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which decomposition is specifically optimized for symmetric positive definite matrices?",
+      "options": [
+        "QR",
+        "LU",
+        "Cholesky",
+        "SVD"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "At Olympiad level, matrix decomposition should primarily be viewed as:",
+      "options": [
+        "A memorization formula",
+        "A method for revealing hidden structure and transformations inside data",
+        "A coding shortcut",
+        "A method only for matrix inversion"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

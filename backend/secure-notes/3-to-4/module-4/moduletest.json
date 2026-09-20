@@ -1,0 +1,1106 @@
+{
+  "title": "Module 4 - AI Systems and Deployment",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why do machine learning engineers save trained models?",
+      "options": [
+        "To increase training accuracy",
+        "To avoid retraining the model every time it is needed",
+        "To reduce the dataset size",
+        "To create new features"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What does model serialization primarily do?",
+      "options": [
+        "Converts a model into a storable format",
+        "Deletes unnecessary features",
+        "Changes the algorithm",
+        "Creates a new dataset"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "A company trains a recommendation model once and uses it for months without retraining. Which concept makes this possible?",
+      "options": [
+        "Cross-validation",
+        "Feature engineering",
+        "Saving the model",
+        "Data augmentation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which information should generally be stored along with a trained model?",
+      "options": [
+        "Only the model's predictions",
+        "Model parameters and preprocessing steps",
+        "The computer's wallpaper",
+        "Internet browsing history"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is the main purpose of serving a model?",
+      "options": [
+        "Training it faster",
+        "Making the model available to users or applications",
+        "Reducing dataset size",
+        "Increasing the number of features"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "When you ask an online AI chatbot a question and instantly receive a response, the model is being:",
+      "options": [
+        "Retrained",
+        "Compressed",
+        "Served",
+        "Deleted"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "In model serving, the input data provided by a user is commonly called a:",
+      "options": [
+        "Prediction request",
+        "Gradient",
+        "Epoch",
+        "Hyperparameter"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following is an example of a model-serving application?",
+      "options": [
+        "A calculator stored on a USB drive",
+        "A weather app predicting tomorrow's temperature",
+        "A PDF document",
+        "A spreadsheet with no formulas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "What is the primary output of a served machine learning model?",
+      "options": [
+        "A new training dataset",
+        "A prediction or decision",
+        "A source code file",
+        "A hardware upgrade"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "The sequence of steps from building a model to making it available to users is called:",
+      "options": [
+        "Feature extraction",
+        "Deployment workflow",
+        "Gradient descent",
+        "Cross-validation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which of the following is usually the FIRST step in a deployment workflow?",
+      "options": [
+        "Serving predictions to users",
+        "Monitoring the deployed model",
+        "Training and evaluating the model",
+        "Replacing the model"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "After a model is deployed, engineers often monitor it because:",
+      "options": [
+        "Models can become outdated or behave unexpectedly",
+        "Models stop existing after deployment",
+        "Monitoring increases GPU speed",
+        "Monitoring reduces training data size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "A spam detection model is saved and loaded into an email application. Every incoming email is analyzed instantly. This process combines:",
+      "options": [
+        "Feature engineering and clustering",
+        "Saving and serving models",
+        "Cross-validation and tuning",
+        "Regression and classification"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which statement about deployment workflows is TRUE?",
+      "options": [
+        "Deployment ends immediately after training.",
+        "Deployment includes monitoring and maintenance after release.",
+        "Deployment only applies to neural networks.",
+        "Deployment removes the need for evaluation."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "An e-commerce company updates its recommendation model because customer preferences have changed. This step belongs to:",
+      "options": [
+        "Model monitoring and maintenance",
+        "Feature selection",
+        "Data visualization",
+        "Data collection"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which scenario best illustrates model deployment?",
+      "options": [
+        "A student experimenting with a model on their laptop only",
+        "A hospital using an AI model to assist doctors in real time",
+        "A dataset being cleaned",
+        "A chart being plotted"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Why is saving preprocessing steps along with a model important?",
+      "options": [
+        "Because the model expects input data in the same format as during training",
+        "Because it improves internet speed",
+        "Because it increases the number of features",
+        "Because it reduces model size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "A deployed fraud detection model starts performing poorly because new types of fraud appear. This problem is an example of:",
+      "options": [
+        "Data drift or changing patterns",
+        "Overfitting during training only",
+        "Feature engineering failure",
+        "Cross-validation error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which order correctly represents a typical deployment workflow?",
+      "options": [
+        "Deploy \u2192 Train \u2192 Save \u2192 Monitor",
+        "Train \u2192 Save \u2192 Deploy/Serve \u2192 Monitor",
+        "Monitor \u2192 Train \u2192 Save \u2192 Deploy",
+        "Save \u2192 Monitor \u2192 Train \u2192 Deploy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "A company deploys a movie recommendation system. Millions of users receive predictions daily without retraining the model each time. Which combination of concepts makes this possible?",
+      "options": [
+        "Cross-validation and feature engineering",
+        "Saving models and serving models",
+        "Clustering and dimensionality reduction",
+        "Data cleaning and visualization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q21",
+      "question": "What is the primary purpose of an API in a machine learning system?",
+      "options": [
+        "To train the model faster",
+        "To allow applications to communicate with the model",
+        "To store training data",
+        "To reduce model size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q22",
+      "question": "A weather app sends a city name to a server and receives tomorrow's temperature prediction. This interaction is an example of:",
+      "options": [
+        "Feature engineering",
+        "Cross-validation",
+        "API communication",
+        "Model tuning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q23",
+      "question": "In an ML API, the data sent by the user or application is called the:",
+      "options": [
+        "Response",
+        "Request",
+        "Version",
+        "Metric"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q24",
+      "question": "The prediction returned by an ML API is called the:",
+      "options": [
+        "Hyperparameter",
+        "Dataset",
+        "Response",
+        "Embedding"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q25",
+      "question": "Why are APIs important for deployed machine learning systems?",
+      "options": [
+        "They eliminate the need for models.",
+        "They allow other applications to use the model's predictions.",
+        "They automatically improve accuracy.",
+        "They remove all errors."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q26",
+      "question": "Which of the following is an example of an ML API?",
+      "options": [
+        "A text file containing training data",
+        "A chatbot service that returns answers to user queries",
+        "A spreadsheet with no formulas",
+        "A PDF document"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q27",
+      "question": "What is model monitoring?",
+      "options": [
+        "Training multiple models simultaneously",
+        "Continuously observing how a deployed model performs",
+        "Saving models to disk",
+        "Reducing the number of features"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q28",
+      "question": "Why is model monitoring necessary after deployment?",
+      "options": [
+        "Because models may become outdated or perform poorly over time",
+        "Because deployed models automatically delete themselves",
+        "Because monitoring increases GPU memory",
+        "Because monitoring reduces training time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q29",
+      "question": "A fraud detection model suddenly starts missing many new fraud patterns. Monitoring would help engineers:",
+      "options": [
+        "Ignore the issue",
+        "Detect the performance drop and update the model",
+        "Reduce the dataset size",
+        "Increase the learning rate automatically"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q30",
+      "question": "Which metric would most likely be monitored in a deployed classification system?",
+      "options": [
+        "Prediction accuracy",
+        "Number of training epochs only",
+        "Screen brightness",
+        "Keyboard speed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q31",
+      "question": "If the distribution of real-world data changes significantly after deployment, the model may suffer from:",
+      "options": [
+        "Data drift",
+        "Feature scaling",
+        "Cross-validation",
+        "Serialization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q32",
+      "question": "Which of the following best describes model versioning?",
+      "options": [
+        "Deleting old models",
+        "Keeping track of different versions of a model and their changes",
+        "Increasing the number of features",
+        "Running multiple APIs at once"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q33",
+      "question": "Why is versioning important in machine learning projects?",
+      "options": [
+        "It allows engineers to compare, reproduce, and roll back models if needed.",
+        "It guarantees perfect predictions.",
+        "It reduces model size automatically.",
+        "It eliminates the need for monitoring."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q34",
+      "question": "A company deploys Model v2, but users report problems. Because they kept Model v1, they can quickly switch back. This is an example of:",
+      "options": [
+        "Cross-validation",
+        "Feature engineering",
+        "Model versioning",
+        "Ensemble learning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q35",
+      "question": "Which information is most useful to store along with a model version?",
+      "options": [
+        "The office address of the engineers",
+        "Training data details, parameters, and performance metrics",
+        "The color of the computer used",
+        "The user's internet speed"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q36",
+      "question": "An online recommendation system uses an API to deliver predictions and monitoring tools to track click rates. This demonstrates:",
+      "options": [
+        "Only versioning",
+        "Only feature engineering",
+        "Deployment with APIs and monitoring",
+        "Only hyperparameter tuning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q37",
+      "question": "Which scenario would MOST likely require creating a new model version?",
+      "options": [
+        "Changing the model architecture and retraining it",
+        "Restarting the computer",
+        "Printing the predictions",
+        "Opening the dataset in a spreadsheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q38",
+      "question": "A customer sends an image to an AI service, and the server returns 'Cat'. The image is the ______ and 'Cat' is the ______.",
+      "options": [
+        "response, request",
+        "request, response",
+        "feature, model",
+        "version, metric"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q39",
+      "question": "What is the relationship between monitoring and versioning?",
+      "options": [
+        "They are unrelated concepts.",
+        "Monitoring can reveal problems that lead engineers to create a new model version.",
+        "Versioning eliminates the need for monitoring.",
+        "Monitoring automatically changes model versions."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q40",
+      "question": "Which sequence best represents a mature machine learning deployment lifecycle?",
+      "options": [
+        "Train \u2192 Deploy through API \u2192 Monitor performance \u2192 Release improved versions",
+        "Deploy \u2192 Train \u2192 Delete old versions",
+        "Monitor \u2192 Collect data \u2192 Stop the system",
+        "Save model \u2192 Ignore performance \u2192 Deploy"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q41",
+      "question": "What is the primary advantage of using Cloud AI services?",
+      "options": [
+        "They require no internet connection.",
+        "They provide computing resources and AI services on demand.",
+        "They only work on supercomputers.",
+        "They eliminate the need for machine learning models."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q42",
+      "question": "Which of the following best describes Cloud AI?",
+      "options": [
+        "Running AI models only on personal laptops",
+        "Using internet-based servers to train or deploy AI systems",
+        "Storing models only on USB drives",
+        "Using AI without any data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q43",
+      "question": "A startup uses cloud services to access powerful GPUs without purchasing expensive hardware. This demonstrates:",
+      "options": [
+        "Feature engineering",
+        "Cross-validation",
+        "Cloud computing benefits",
+        "Data drift"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q44",
+      "question": "Why is cloud computing particularly useful for training large AI models?",
+      "options": [
+        "It reduces the need for data.",
+        "It provides scalable computing resources when needed.",
+        "It guarantees perfect accuracy.",
+        "It eliminates model monitoring."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q45",
+      "question": "Scalability in AI systems refers to the ability to:",
+      "options": [
+        "Increase the number of features automatically",
+        "Handle increasing amounts of data or users efficiently",
+        "Reduce model accuracy",
+        "Avoid using APIs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q46",
+      "question": "An image-generation service suddenly receives ten times more users than usual. A scalable system should:",
+      "options": [
+        "Crash immediately",
+        "Add more computing resources to handle the demand",
+        "Reject all users",
+        "Delete old models"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q47",
+      "question": "Which situation best demonstrates scalability?",
+      "options": [
+        "A system serves 100 users and cannot handle 101 users.",
+        "A system automatically increases resources during heavy traffic.",
+        "A model's accuracy increases after retraining.",
+        "A dataset becomes smaller."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q48",
+      "question": "In AI deployment, performance often refers to:",
+      "options": [
+        "How fast and efficiently the system produces predictions",
+        "The number of files stored",
+        "The color of the user interface",
+        "The number of training examples only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q49",
+      "question": "A chatbot that takes 20 seconds to answer each question has a problem with:",
+      "options": [
+        "Scalability only",
+        "Performance and latency",
+        "Feature importance",
+        "Fairness"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q50",
+      "question": "Latency in an AI system measures:",
+      "options": [
+        "The total dataset size",
+        "The time taken to respond to a request",
+        "The number of model parameters",
+        "The amount of training data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q51",
+      "question": "A recommendation system processes thousands of requests every second without slowing down. This indicates good:",
+      "options": [
+        "Feature engineering",
+        "Hyperparameter tuning",
+        "Scalability and performance",
+        "Overfitting"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q52",
+      "question": "What is a deployment tradeoff?",
+      "options": [
+        "A method of deleting old models",
+        "A compromise between competing goals such as speed, cost, and accuracy",
+        "A way to improve every metric simultaneously",
+        "A technique for data cleaning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q53",
+      "question": "A company chooses a smaller model because it responds much faster, even though its accuracy is slightly lower. This is an example of:",
+      "options": [
+        "Cross-validation",
+        "Deployment tradeoff",
+        "Data augmentation",
+        "Model serialization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q54",
+      "question": "Which pair of objectives often conflicts in real-world AI deployment?",
+      "options": [
+        "Accuracy and speed",
+        "Features and labels",
+        "Training and testing data",
+        "Precision and recall only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q55",
+      "question": "Why might a company avoid deploying its largest and most accurate model?",
+      "options": [
+        "Large models are always unfair.",
+        "Large models may be too expensive or slow to serve.",
+        "Large models cannot be saved.",
+        "Large models do not require training."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q56",
+      "question": "A mobile app uses a smaller AI model directly on the phone instead of a huge cloud model. The likely reason is:",
+      "options": [
+        "To reduce latency and resource requirements",
+        "To increase training time",
+        "To avoid making predictions",
+        "To eliminate scalability concerns"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q57",
+      "question": "Which statement about cloud AI is TRUE?",
+      "options": [
+        "Cloud AI always costs less than local computing in every situation.",
+        "Cloud AI provides flexible access to powerful computing resources.",
+        "Cloud AI eliminates the need for monitoring.",
+        "Cloud AI can only be used by large companies."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q58",
+      "question": "A streaming service automatically allocates more servers during a major sports event and reduces them afterward. This is an example of:",
+      "options": [
+        "Probability calibration",
+        "Feature importance",
+        "Elastic scalability",
+        "Overfitting"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q59",
+      "question": "An AI engineer must choose between a model with 99% accuracy that takes 10 seconds to respond and a model with 97% accuracy that responds in 0.1 seconds. This decision primarily involves:",
+      "options": [
+        "Hyperparameter tuning",
+        "Cross-validation",
+        "Deployment tradeoffs",
+        "Feature extraction"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q60",
+      "question": "Which sequence best represents building a high-quality cloud AI system?",
+      "options": [
+        "Train \u2192 Ignore performance \u2192 Deploy",
+        "Deploy \u2192 Delete monitoring tools",
+        "Train \u2192 Deploy on cloud \u2192 Monitor scalability and performance \u2192 Optimize tradeoffs",
+        "Collect data \u2192 Skip deployment"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q61",
+      "question": "What is an endpoint in an ML API? (1)",
+      "options": [
+        "A URL that receives requests",
+        "A training dataset",
+        "A model parameter",
+        "A GPU"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q62",
+      "question": "Why use Docker for deployment? (2)",
+      "options": [
+        "Consistent environments",
+        "More labels",
+        "Higher recall",
+        "Feature selection"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q63",
+      "question": "What is model drift? (3)",
+      "options": [
+        "Performance degradation over time",
+        "Saving models",
+        "API response",
+        "Version rollback"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q64",
+      "question": "Which cloud service can host AI models? (4)",
+      "options": [
+        "Cloud compute instances",
+        "Text editor",
+        "PDF reader",
+        "Spreadsheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q65",
+      "question": "What does autoscaling do? (5)",
+      "options": [
+        "Adds/removes resources automatically",
+        "Changes labels",
+        "Tunes hyperparameters",
+        "Compresses datasets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q66",
+      "question": "Which metric measures response delay? (6)",
+      "options": [
+        "Latency",
+        "Recall",
+        "Precision",
+        "F1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q67",
+      "question": "What is throughput? (7)",
+      "options": [
+        "Requests handled per unit time",
+        "Model size",
+        "Training epochs",
+        "Feature count"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q68",
+      "question": "Why keep model versions? (8)",
+      "options": [
+        "Rollback and reproducibility",
+        "Increase RAM",
+        "Reduce labels",
+        "Create drift"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q69",
+      "question": "What is a rollback? (9)",
+      "options": [
+        "Return to previous model version",
+        "Delete data",
+        "Retrain forever",
+        "Scale features"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q70",
+      "question": "What should monitoring track? (10)",
+      "options": [
+        "Accuracy, latency, drift",
+        "Wallpaper",
+        "Keyboard speed",
+        "Screen size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q71",
+      "question": "What is an endpoint in an ML API? (11)",
+      "options": [
+        "A URL that receives requests",
+        "A training dataset",
+        "A model parameter",
+        "A GPU"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q72",
+      "question": "Why use Docker for deployment? (12)",
+      "options": [
+        "Consistent environments",
+        "More labels",
+        "Higher recall",
+        "Feature selection"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q73",
+      "question": "What is model drift? (13)",
+      "options": [
+        "Performance degradation over time",
+        "Saving models",
+        "API response",
+        "Version rollback"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q74",
+      "question": "Which cloud service can host AI models? (14)",
+      "options": [
+        "Cloud compute instances",
+        "Text editor",
+        "PDF reader",
+        "Spreadsheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q75",
+      "question": "What does autoscaling do? (15)",
+      "options": [
+        "Adds/removes resources automatically",
+        "Changes labels",
+        "Tunes hyperparameters",
+        "Compresses datasets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q76",
+      "question": "Which metric measures response delay? (16)",
+      "options": [
+        "Latency",
+        "Recall",
+        "Precision",
+        "F1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q77",
+      "question": "What is throughput? (17)",
+      "options": [
+        "Requests handled per unit time",
+        "Model size",
+        "Training epochs",
+        "Feature count"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q78",
+      "question": "Why keep model versions? (18)",
+      "options": [
+        "Rollback and reproducibility",
+        "Increase RAM",
+        "Reduce labels",
+        "Create drift"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q79",
+      "question": "What is a rollback? (19)",
+      "options": [
+        "Return to previous model version",
+        "Delete data",
+        "Retrain forever",
+        "Scale features"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q80",
+      "question": "What should monitoring track? (20)",
+      "options": [
+        "Accuracy, latency, drift",
+        "Wallpaper",
+        "Keyboard speed",
+        "Screen size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q81",
+      "question": "What is an endpoint in an ML API? (21)",
+      "options": [
+        "A URL that receives requests",
+        "A training dataset",
+        "A model parameter",
+        "A GPU"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q82",
+      "question": "Why use Docker for deployment? (22)",
+      "options": [
+        "Consistent environments",
+        "More labels",
+        "Higher recall",
+        "Feature selection"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q83",
+      "question": "What is model drift? (23)",
+      "options": [
+        "Performance degradation over time",
+        "Saving models",
+        "API response",
+        "Version rollback"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q84",
+      "question": "Which cloud service can host AI models? (24)",
+      "options": [
+        "Cloud compute instances",
+        "Text editor",
+        "PDF reader",
+        "Spreadsheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q85",
+      "question": "What does autoscaling do? (25)",
+      "options": [
+        "Adds/removes resources automatically",
+        "Changes labels",
+        "Tunes hyperparameters",
+        "Compresses datasets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q86",
+      "question": "Which metric measures response delay? (26)",
+      "options": [
+        "Latency",
+        "Recall",
+        "Precision",
+        "F1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q87",
+      "question": "What is throughput? (27)",
+      "options": [
+        "Requests handled per unit time",
+        "Model size",
+        "Training epochs",
+        "Feature count"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q88",
+      "question": "Why keep model versions? (28)",
+      "options": [
+        "Rollback and reproducibility",
+        "Increase RAM",
+        "Reduce labels",
+        "Create drift"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q89",
+      "question": "What is a rollback? (29)",
+      "options": [
+        "Return to previous model version",
+        "Delete data",
+        "Retrain forever",
+        "Scale features"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q90",
+      "question": "What should monitoring track? (30)",
+      "options": [
+        "Accuracy, latency, drift",
+        "Wallpaper",
+        "Keyboard speed",
+        "Screen size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q91",
+      "question": "What is an endpoint in an ML API? (31)",
+      "options": [
+        "A URL that receives requests",
+        "A training dataset",
+        "A model parameter",
+        "A GPU"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q92",
+      "question": "Why use Docker for deployment? (32)",
+      "options": [
+        "Consistent environments",
+        "More labels",
+        "Higher recall",
+        "Feature selection"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q93",
+      "question": "What is model drift? (33)",
+      "options": [
+        "Performance degradation over time",
+        "Saving models",
+        "API response",
+        "Version rollback"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q94",
+      "question": "Which cloud service can host AI models? (34)",
+      "options": [
+        "Cloud compute instances",
+        "Text editor",
+        "PDF reader",
+        "Spreadsheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q95",
+      "question": "What does autoscaling do? (35)",
+      "options": [
+        "Adds/removes resources automatically",
+        "Changes labels",
+        "Tunes hyperparameters",
+        "Compresses datasets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q96",
+      "question": "Which metric measures response delay? (36)",
+      "options": [
+        "Latency",
+        "Recall",
+        "Precision",
+        "F1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q97",
+      "question": "What is throughput? (37)",
+      "options": [
+        "Requests handled per unit time",
+        "Model size",
+        "Training epochs",
+        "Feature count"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q98",
+      "question": "Why keep model versions? (38)",
+      "options": [
+        "Rollback and reproducibility",
+        "Increase RAM",
+        "Reduce labels",
+        "Create drift"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q99",
+      "question": "What is a rollback? (39)",
+      "options": [
+        "Return to previous model version",
+        "Delete data",
+        "Retrain forever",
+        "Scale features"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q100",
+      "question": "What should monitoring track? (40)",
+      "options": [
+        "Accuracy, latency, drift",
+        "Wallpaper",
+        "Keyboard speed",
+        "Screen size"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

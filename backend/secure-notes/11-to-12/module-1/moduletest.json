@@ -1,0 +1,1106 @@
+{
+  "module": "Module 1",
+  "level": "11-12",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why does Multi-Head Attention increase memory usage compared with a single attention mechanism?",
+      "options": [
+        "Because each head stores different Key and Value data",
+        "Because it removes the need for Queries",
+        "Because it uses no parameters at all",
+        "Because it only works with images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What is the main advantage of using multiple attention heads in a Transformer?",
+      "options": [
+        "Each head can focus on a different aspect such as grammar, context, or meaning",
+        "Each head eliminates the need for attention scores",
+        "Each head works only on the final output",
+        "Each head replaces the tokenizer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Which problem is most directly caused by storing many Keys and Values in MHA?",
+      "options": [
+        "Lower memory use",
+        "Higher memory use and slower processing",
+        "Loss of tokenization",
+        "Removal of context"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "question": "What does Grouped-Query Attention primarily do to reduce memory usage?",
+      "options": [
+        "It lets multiple Query heads share the same Keys and Values",
+        "It removes all Query heads",
+        "It stores only one token",
+        "It converts values into pixels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "question": "Why is GQA considered more efficient than standard Multi-Head Attention?",
+      "options": [
+        "Because it increases the number of separate Keys and Values",
+        "Because it reuses Keys and Values across multiple Query heads",
+        "Because it stops the model from using attention",
+        "Because it removes the need for learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "question": "Which attention method compresses Key and Value information into a smaller latent vector?",
+      "options": [
+        "MHA",
+        "GQA",
+        "MLA",
+        "CoT"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "question": "What happens to compressed information in Multi-Head Latent Attention when it is needed later?",
+      "options": [
+        "It is deleted permanently",
+        "It is reconstructed back into the original information",
+        "It is converted into queries only",
+        "It is turned into a tokenizer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which statement best describes MLA compared with MHA and GQA?",
+      "options": [
+        "It reduces memory usage even further by compressing information",
+        "It uses more memory than all earlier methods",
+        "It removes the need for keys and values completely",
+        "It works only in multi-agent systems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q9",
+      "question": "What is the main reason newer attention methods like GQA and MLA were developed?",
+      "options": [
+        "To increase memory usage",
+        "To make handling large inputs more efficient",
+        "To eliminate transformer models",
+        "To replace all tools with prompts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "question": "In the chapter, what is an LLM by itself compared to?",
+      "options": [
+        "A powerful text-prediction calculator",
+        "A full autonomous workforce",
+        "A vector database",
+        "A web browser"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "question": "What is the key transformation needed to turn an LLM into an Autonomous Agent?",
+      "options": [
+        "Wrapping it in a complex software framework",
+        "Removing all memory",
+        "Turning it into a tokenizer",
+        "Compressing it into a latent vector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following is NOT listed as a core pillar of a modern Agent Framework?",
+      "options": [
+        "Core LLM",
+        "Memory",
+        "Planning",
+        "Image Pooling"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q13",
+      "question": "What does the Memory component of an Agent Framework include?",
+      "options": [
+        "Only short-term context window",
+        "Short-term context window and long-term vector database",
+        "Only a token counter",
+        "Only a web search engine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "question": "What is the main role of Planning in an Agent Framework?",
+      "options": [
+        "To compress values into latent vectors",
+        "To break a massive goal into smaller actionable steps",
+        "To convert text into integers",
+        "To store the model weights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q15",
+      "question": "What are Tools/Actions in an Agent Framework?",
+      "options": [
+        "The internal token embeddings only",
+        "APIs the AI can trigger to interact with the real world",
+        "A type of hidden layer",
+        "A replacement for memory"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which set best matches the tools mentioned in the chapter?",
+      "options": [
+        "Web Search, Code Execution, Email",
+        "Pooling, Convolution, Normalization",
+        "Tokenizer, Decoder, Encoder",
+        "Bias, Weight, Loss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q17",
+      "question": "Why is ReAct considered too simple for some complex engineering tasks?",
+      "options": [
+        "It always uses too many tools",
+        "It can trap the Agent in an infinite loop after early mistakes",
+        "It cannot generate tokens",
+        "It works only on images"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "question": "What does CoT stand for?",
+      "options": [
+        "Chain of Thought",
+        "Code of Tokens",
+        "Context over Time",
+        "Connection of Tools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q19",
+      "question": "How does Chain of Thought help the Transformer, according to the chapter?",
+      "options": [
+        "It removes attention",
+        "It gives the attention mechanism more context to grab onto",
+        "It deletes intermediate tokens",
+        "It turns the model into a database"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "question": "What is one claimed benefit of Chain of Thought in the chapter?",
+      "options": [
+        "It drastically reduces hallucinations",
+        "It eliminates all planning",
+        "It removes the need for tools",
+        "It compresses keys and values"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q21",
+      "question": "What does Tree of Thoughts do differently from a simple one-path method?",
+      "options": [
+        "It explores multiple solutions simultaneously",
+        "It only follows the first answer",
+        "It removes reasoning steps",
+        "It converts outputs to images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q22",
+      "question": "In Tree of Thoughts, what is the role of the Agent acting as its own Judge?",
+      "options": [
+        "To compare keyboard layouts",
+        "To score which branch is most likely to succeed",
+        "To delete the worst prompt",
+        "To generate token masks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "What does backtracking mean in Tree of Thoughts?",
+      "options": [
+        "Deleting all branches",
+        "Returning to an earlier branch and trying another path",
+        "Stopping all reasoning immediately",
+        "Turning the answer into code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "question": "Which planning system is described as branching like a tree?",
+      "options": [
+        "CoT",
+        "ReAct",
+        "ToT",
+        "MHA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q25",
+      "question": "What is the main purpose of advanced cognitive architectures like CoT and ToT?",
+      "options": [
+        "To help Agents solve complex real-world tasks more effectively",
+        "To reduce the number of tools permanently",
+        "To make the LLM smaller",
+        "To remove the need for prompts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q26",
+      "question": "How does Function Calling differ from normal English output?",
+      "options": [
+        "It generates a structured JSON object instead of ordinary text when a tool is needed",
+        "It only works after the final answer",
+        "It removes the need for Python",
+        "It always writes long essays"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q27",
+      "question": "What kind of format are tools often passed to an Agent in?",
+      "options": [
+        "CSV",
+        "JSON Schema",
+        "PNG",
+        "Markdown only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "question": "In Function Calling, what happens after the LLM generates a JSON tool request?",
+      "options": [
+        "The Python framework reads it and runs the API",
+        "The LLM immediately deletes the request",
+        "The user manually edits the tool call",
+        "The request becomes a tokenizer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "question": "What does the external Python framework do after running the requested tool?",
+      "options": [
+        "It sends the result back into the LLM's context window",
+        "It erases the model weights",
+        "It converts the API into a dataset",
+        "It stops all further reasoning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q30",
+      "question": "Which example best represents Function Calling from the chapter?",
+      "options": [
+        "Outputting a JSON weather request for Paris",
+        "Writing a full essay about weather",
+        "Compressing keys into latent vectors",
+        "Ranking three plans by tree search"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q31",
+      "question": "Why is Function Calling powerful for Agents?",
+      "options": [
+        "It allows an LLM to trigger real actions through external tools",
+        "It prevents the model from using any memory",
+        "It replaces planning with randomness",
+        "It reduces all prompts to one token"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q32",
+      "question": "What is the most accurate description of Multi-Agent Systems?",
+      "options": [
+        "A single LLM doing everything alone",
+        "Multiple distinct Agents working together",
+        "Only humans reviewing AI answers",
+        "One model with no tools"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "Why do engineers sometimes use different fine-tuned models inside one multi-agent system?",
+      "options": [
+        "To make every agent identical",
+        "To give each agent a role-specific model suited to its task",
+        "To avoid using a manager",
+        "To eliminate APIs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "question": "Which combination best matches the general roles mentioned for multi-agent systems?",
+      "options": [
+        "Planning, profiling, painting, printing",
+        "Researching, coding, reviewing, and managing",
+        "Encoding, pooling, decoding, and masking",
+        "Training, testing, deploying, deleting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "What is the main benefit of spinning up multiple distinct Agents instead of using one giant Agent?",
+      "options": [
+        "A digital workforce with specialized strengths can handle complex work more effectively",
+        "It removes the need for tools",
+        "It makes all tasks slower",
+        "It prevents collaboration"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q36",
+      "question": "Which network topology is compared to an assembly line?",
+      "options": [
+        "Sequential",
+        "Hierarchical",
+        "Circular",
+        "Parallel only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q37",
+      "question": "In a sequential agent topology, what happens after Agent A researches a topic?",
+      "options": [
+        "It deletes the research",
+        "It passes data to Agent B",
+        "It directly emails the user",
+        "It becomes the manager"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "question": "What is the role of Agent C in the sequential topology example?",
+      "options": [
+        "It writes the speech",
+        "It checks for formatting errors",
+        "It performs web search",
+        "It assigns memory weights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "question": "Which topology is described using a Manager Agent and Worker Agents?",
+      "options": [
+        "Sequential",
+        "Hierarchical",
+        "Latent",
+        "Attention-based"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "question": "What does the Manager Agent do in a hierarchical multi-agent system?",
+      "options": [
+        "It breaks the prompt into sub-tasks and delegates them",
+        "It only formats the final answer",
+        "It stores long-term memory only",
+        "It replaces every worker agent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q41",
+      "question": "What is the most likely role of a Web Surfer Agent in a hierarchical system?",
+      "options": [
+        "To browse the web and find information",
+        "To correct spelling errors only",
+        "To compress Key-Value memory",
+        "To review code syntax"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q42",
+      "question": "What is the most likely role of a Math Agent in a hierarchical system?",
+      "options": [
+        "To calculate numerical or logical subtasks",
+        "To send emails to teammates",
+        "To collect web pages",
+        "To act as the final manager"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q43",
+      "question": "What does the hierarchical model dynamically wake up when needed?",
+      "options": [
+        "Only the tokenizer",
+        "Specialized Worker Agents",
+        "The attention heads",
+        "The vector database"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "question": "Why is the hierarchical approach powerful for complex tasks?",
+      "options": [
+        "Because one manager coordinates specialized workers on sub-tasks",
+        "Because it removes planning",
+        "Because it only uses one step",
+        "Because it stores all work in a single token"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q45",
+      "question": "Which statement best contrasts sequential and hierarchical multi-agent systems?",
+      "options": [
+        "Sequential passes work in a fixed chain; hierarchical uses a manager to delegate work dynamically",
+        "Sequential uses no communication; hierarchical uses none either",
+        "Sequential is for memory, hierarchical is for tokenization",
+        "Sequential is a type of attention, hierarchical is a type of tokenizer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q46",
+      "question": "What is the role of the Core LLM in an agent framework?",
+      "options": [
+        "The brain that generates reasoning and tokens",
+        "The database that stores only user history",
+        "The API that executes external tasks",
+        "The tool list written in JSON"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q47",
+      "question": "What is the long-term memory component of an agent framework best represented by?",
+      "options": [
+        "A vector database",
+        "A filter bank",
+        "A tokenizer vocabulary",
+        "A reward score"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q48",
+      "question": "Why is planning especially important in an autonomous agent?",
+      "options": [
+        "Because complex goals must be broken into actionable steps",
+        "Because tools should never be used",
+        "Because models cannot reason at all",
+        "Because memory should be deleted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q49",
+      "question": "Which task best illustrates the kind of work an autonomous agent might do according to the chapter?",
+      "options": [
+        "Independently research a topic, write a TYT MUN resolution, and email it to a team",
+        "Only define words in a dictionary",
+        "Only compress latent vectors",
+        "Only apply attention masks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q50",
+      "question": "What is the strongest reason a standard LLM alone is not enough for autonomous work?",
+      "options": [
+        "It can generate tokens but cannot independently act in the real world",
+        "It cannot be trained",
+        "It has no attention mechanism",
+        "It always uses multiple tools automatically"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q51",
+      "question": "Which part of an agent framework allows it to interact with the real world?",
+      "options": [
+        "Tools/Actions",
+        "Positional Encoding",
+        "Latent Vectors",
+        "Softmax"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q52",
+      "question": "What is the best description of tools/actions in the chapter?",
+      "options": [
+        "APIs the AI can trigger",
+        "A method for storing weights",
+        "A type of hidden layer",
+        "A way to decode tokens into bytes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q53",
+      "question": "Which of the following is most directly improved by MLA?",
+      "options": [
+        "Memory efficiency while preserving accuracy",
+        "The number of worker agents",
+        "The need for prompts",
+        "The ability to use JSON Schema"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q54",
+      "question": "Which of the following is most directly improved by GQA?",
+      "options": [
+        "Reducing memory use while keeping strong performance",
+        "Eliminating all key and value data",
+        "Replacing the LLM with an API",
+        "Turning sequence models into image models"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q55",
+      "question": "Which of the following best explains why MHA can be expensive?",
+      "options": [
+        "It stores large amounts of Keys and Values across multiple heads",
+        "It does not use queries",
+        "It only works with one token",
+        "It removes context windows"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q56",
+      "question": "What is the primary trade-off addressed by GQA and MLA?",
+      "options": [
+        "Memory efficiency versus performance and accuracy",
+        "Color versus brightness",
+        "Speed versus punctuation",
+        "Training labels versus images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q57",
+      "question": "What makes MLA more advanced than GQA in the chapter's description?",
+      "options": [
+        "It compresses key/value information into latent vectors and reconstructs it when needed",
+        "It uses more memory than MHA",
+        "It removes all shared keys",
+        "It works only in sequential systems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q58",
+      "question": "In a function call, what does the model generate instead of English text when a tool is needed?",
+      "options": [
+        "A JSON object",
+        "A PDF",
+        "A JPEG",
+        "A hidden vector database"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q59",
+      "question": "Why is JSON Schema useful in tool calling?",
+      "options": [
+        "It provides a structured format the Agent can use to describe tools",
+        "It replaces planning",
+        "It prevents the use of APIs",
+        "It turns inputs into images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q60",
+      "question": "What does the external framework do when the Agent outputs a valid tool call?",
+      "options": [
+        "It runs the tool and feeds results back to the LLM",
+        "It ignores the call",
+        "It converts the tool into a prompt",
+        "It deletes the JSON object"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q61",
+      "question": "Which of the following best describes the core brain of a modern Agent Framework?",
+      "options": [
+        "The Core LLM",
+        "The vector database",
+        "The tool list",
+        "The JSON parser only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q62",
+      "question": "Why can a single mistake in ReAct cause trouble in complex tasks?",
+      "options": [
+        "It may trap the Agent in repeated failing and retrying",
+        "It deletes all context windows",
+        "It removes the need for tools",
+        "It forces the model to become a judge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q63",
+      "question": "Which of the following is the best example of a sub-task created by planning?",
+      "options": [
+        "Find the MUN topic, write the speech, then email it",
+        "Generate a single token only",
+        "Convert values to latent vectors",
+        "Delete all worker agents"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q64",
+      "question": "What does it mean when an Agent has a unique System Prompt?",
+      "options": [
+        "It has a role-specific instruction set",
+        "It cannot use memory",
+        "It becomes a tokenizer",
+        "It loses access to tools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q65",
+      "question": "Why might engineers use a tiny, fast QLoRA model for some agents and a massive GPT-4 model for others?",
+      "options": [
+        "Different agents may need different capabilities and cost-performance trade-offs",
+        "All agents must be identical",
+        "QLoRA only works on web search",
+        "GPT-4 cannot reason"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q66",
+      "question": "Which statement best describes the most advanced multi-agent systems in the chapter?",
+      "options": [
+        "They create digital workforces that solve problems no single human or single AI could solve alone",
+        "They remove all need for planning",
+        "They work only on small prompts",
+        "They cannot communicate with each other"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q67",
+      "question": "What is the purpose of a Manager Agent in a hierarchical system?",
+      "options": [
+        "To break down the user prompt and coordinate workers",
+        "To encode tokens",
+        "To compress Keys and Values",
+        "To generate a final answer without workers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q68",
+      "question": "Which worker would most likely be needed if the task involves writing code after research is completed?",
+      "options": [
+        "Coder Agent",
+        "Manager Agent",
+        "Web Surfer Agent",
+        "Reviewer Agent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q69",
+      "question": "Which worker would most likely be needed if the task involves checking the formatting of a document?",
+      "options": [
+        "Reviewer Agent",
+        "Math Agent",
+        "Web Surfer Agent",
+        "Manager Agent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q70",
+      "question": "Which statement best describes sequential agent communication?",
+      "options": [
+        "Agents pass outputs in a fixed order like an assembly line",
+        "Agents all work independently with no handoff",
+        "Agents only use latent vectors",
+        "Agents only work with MHA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q71",
+      "question": "What is the main idea behind a long-term vector database in agent memory?",
+      "options": [
+        "To store past information the agent may need later",
+        "To replace the core LLM",
+        "To generate JSON tool calls",
+        "To compress attention heads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q72",
+      "question": "What is the best reason planning is separated from the core LLM in agent frameworks?",
+      "options": [
+        "To make complex action sequences manageable and structured",
+        "To stop the model from generating tokens",
+        "To remove the use of memory",
+        "To make the system only work on short prompts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q73",
+      "question": "Which of the following is an example of an action tool mentioned in the chapter?",
+      "options": [
+        "Email",
+        "Positional encoding",
+        "Latent vector",
+        "Attention head"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q74",
+      "question": "What is the central benefit of a hierarchical topology over a single-agent design?",
+      "options": [
+        "It can coordinate specialized workers for sub-tasks",
+        "It removes the need for a manager",
+        "It stores fewer prompts",
+        "It eliminates all tools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q75",
+      "question": "Which sequence best represents the hierarchy in a manager-worker system?",
+      "options": [
+        "User prompt → Manager Agent → Specialized Workers → Final answer",
+        "User prompt → Reviewer Agent → Core LLM → Tokenizer",
+        "User prompt → Values → Keys → Queries",
+        "User prompt → Latent vector → Decoder → Filters"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q76",
+      "question": "Which statement best explains why attention heads can be different from one another?",
+      "options": [
+        "Each head can focus on different language aspects",
+        "Each head stores the same information twice",
+        "Each head removes all memory",
+        "Each head works only after decoding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q77",
+      "question": "Which architecture is most likely to be chosen when a system must explore several possible reasoning paths before choosing one?",
+      "options": [
+        "Tree of Thoughts",
+        "Grouped-Query Attention",
+        "Multi-head Latent Attention",
+        "Function Calling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q78",
+      "question": "Which architecture is most likely to be chosen when a system needs a simple reasoning-act loop but not deep branching?",
+      "options": [
+        "ReAct",
+        "ToT",
+        "MLA",
+        "GQA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q79",
+      "question": "Why can CoT be helpful even before the final answer is produced?",
+      "options": [
+        "Intermediate tokens give the attention mechanism more context",
+        "It compresses memory into latent vectors",
+        "It eliminates the need for tools",
+        "It prevents the use of reasoning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q80",
+      "question": "What is the strongest reason ToT can outperform a linear reasoning approach on hard tasks?",
+      "options": [
+        "It evaluates multiple possible plans and backtracks from bad ones",
+        "It uses fewer tools",
+        "It avoids any judgment",
+        "It always chooses the first branch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q81",
+      "question": "What is the most likely role of the external Python framework in function calling?",
+      "options": [
+        "It interprets the model's JSON output and executes the corresponding API",
+        "It creates the model's weights",
+        "It replaces the prompt",
+        "It converts queries into keys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q82",
+      "question": "Which of the following best captures the relationship between a tool call and an API?",
+      "options": [
+        "Tool calling is how the Agent triggers APIs to act",
+        "APIs are the same as latent vectors",
+        "Tools only exist inside the tokenizer",
+        "APIs are used only for attention heads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q83",
+      "question": "What is the most important reason multi-agent orchestration is called a digital workforce?",
+      "options": [
+        "Different agents collaborate like team members with specialized duties",
+        "It means the system has no human supervision",
+        "It means one model does everything",
+        "It means there is no planning involved"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "Which of these best describes an autonomous agent's goal in the chapter?",
+      "options": [
+        "To independently complete tasks such as researching, writing, and emailing",
+        "To only generate next-token predictions",
+        "To compress all values into one vector",
+        "To ignore all tools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q85",
+      "question": "What is the key difference between the Core LLM and the full Agent Framework?",
+      "options": [
+        "The framework adds memory, planning, and tools around the LLM",
+        "The framework removes the LLM",
+        "The framework only stores the vocabulary",
+        "The framework is just another attention head"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q86",
+      "question": "Which of the following is the best example of an action the Agent can perform through tools?",
+      "options": [
+        "Search the web",
+        "Change positional encodings",
+        "Compress a latent vector",
+        "Alter softmax temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q87",
+      "question": "Why does a model with multiple attention heads still need memory optimization methods like GQA and MLA?",
+      "options": [
+        "Because many heads can store too much Key-Value information",
+        "Because attention heads cannot learn grammar",
+        "Because queries cannot exist with keys",
+        "Because latent vectors cannot be used"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q88",
+      "question": "Which statement best matches the chapter's idea of MLA?",
+      "options": [
+        "It keeps accuracy high while reducing memory more aggressively",
+        "It is the slowest form of attention",
+        "It removes all reconstruction steps",
+        "It requires no queries"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q89",
+      "question": "What is the main reason a manager-worker hierarchy is useful in AI systems?",
+      "options": [
+        "It allows specialized agents to be assigned only the tasks they are best suited for",
+        "It prevents tasks from being split",
+        "It ensures every agent has the same system prompt",
+        "It eliminates communication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q90",
+      "question": "Which of the following would most likely be handled by a reviewer agent in a multi-agent pipeline?",
+      "options": [
+        "Checking for errors after the code is written",
+        "Collecting web sources",
+        "Choosing the model vocabulary",
+        "Generating latent vectors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q91",
+      "question": "What is the significance of the phrase 'do not need to solve problems alone' in the chapter?",
+      "options": [
+        "It emphasizes collaboration among specialized AI agents",
+        "It means models should not use tools",
+        "It means only one agent is allowed",
+        "It refers to image processing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q92",
+      "question": "Which of the following is the best example of planning breaking a massive goal into smaller actions?",
+      "options": [
+        "Research → draft speech → email the result",
+        "Generate one token only",
+        "Store one query in a head",
+        "Compress values into a vector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q93",
+      "question": "Which element is most closely associated with the 'brain' of the Agent Framework?",
+      "options": [
+        "Core LLM",
+        "Long-term memory",
+        "Tools/Actions",
+        "Planning algorithm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q94",
+      "question": "Which element is most closely associated with recalling what the agent did earlier?",
+      "options": [
+        "Memory",
+        "Tools/Actions",
+        "Planning",
+        "Function calling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q95",
+      "question": "Which element is most closely associated with interacting with the outside world?",
+      "options": [
+        "Tools/Actions",
+        "Memory",
+        "Core LLM",
+        "MLA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q96",
+      "question": "What would be the best reason to choose GQA over MHA in a large-input setting?",
+      "options": [
+        "GQA lowers memory usage by sharing Keys and Values across Query heads",
+        "GQA increases the number of separate Key and Value caches",
+        "GQA removes the need for attention",
+        "GQA only works with one head"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q97",
+      "question": "Which of the following is the best reason to choose MLA over GQA when memory is still a concern?",
+      "options": [
+        "MLA compresses stored information even further into latent vectors",
+        "MLA uses more memory but better grammar",
+        "MLA avoids all reconstruction",
+        "MLA removes the need for tools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q98",
+      "question": "What is the most accurate summary of the overall direction of the chapter?",
+      "options": [
+        "From efficient attention to autonomous frameworks that plan, call tools, and coordinate multiple agents",
+        "From images to audio to video only",
+        "From raw code to no code systems only",
+        "From tokens to pixels to graphs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q99",
+      "question": "Which scenario best demonstrates a multi-agent system rather than a single-agent system?",
+      "options": [
+        "A manager delegates research, writing, and review to specialized workers",
+        "One model answers a question in one sentence",
+        "A tokenizer converts text to IDs",
+        "A model compresses keys into latent vectors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q100",
+      "question": "Which statement best summarizes what AI engineers are building with these frameworks?",
+      "options": [
+        "Digital workforces that can tackle complex tasks through memory, planning, tools, and collaboration",
+        "Only larger token dictionaries",
+        "Only smaller attention heads",
+        "Only isolated calculators that predict text"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

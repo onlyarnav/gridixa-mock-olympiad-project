@@ -1,0 +1,226 @@
+{
+  "title": "Module 2 - Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "During a teacher-guided AI demonstration, what is the teacher's main role?",
+      "options": [
+        "To help students understand how AI works safely",
+        "To let AI teach without any supervision",
+        "To stop students from asking questions",
+        "To replace classroom learning completely"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "question": "Why are teacher-guided AI demonstrations useful?",
+      "options": [
+        "They help students see real examples of AI in action",
+        "They allow AI to grade every student automatically",
+        "They replace all textbooks",
+        "They make homework disappear"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "Which is a benefit of using AI in everyday life?",
+      "options": [
+        "It can help people complete tasks more quickly",
+        "It always knows every answer correctly",
+        "It never needs human guidance",
+        "It completely replaces human creativity"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following is a limitation of AI?",
+      "options": [
+        "It can sometimes make mistakes or give incorrect answers",
+        "It never makes errors",
+        "It understands every situation perfectly",
+        "It always knows the latest information"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Why should people check AI-generated answers?",
+      "options": [
+        "Because AI can sometimes be wrong",
+        "Because AI refuses to answer",
+        "Because AI cannot understand words",
+        "Because AI only works at night"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "Which statement best describes AI?",
+      "options": [
+        "AI is a helpful tool that works best with human guidance",
+        "AI is smarter than every human in every situation",
+        "AI never needs people",
+        "AI always makes perfect decisions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "What is Creative AI mainly used for?",
+      "options": [
+        "Creating new ideas such as stories, pictures, music, or designs",
+        "Repairing broken bicycles",
+        "Building houses by itself",
+        "Cooking food without machines"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "A student designs an AI that reminds classmates to drink water during sports practice. This is an example of:",
+      "options": [
+        "Using creativity to solve a real-world problem",
+        "Replacing teachers completely",
+        "Removing the need for exercise",
+        "Deleting school rules"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "If you were designing your own AI, what should you think about first?",
+      "options": [
+        "What problem the AI will help solve",
+        "What color the computer is",
+        "How many stickers are on the laptop",
+        "What snacks to eat while coding"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Which AI idea would help students the most?",
+      "options": [
+        "An AI that explains difficult lessons step by step",
+        "An AI that hides homework forever",
+        "An AI that cancels school every day",
+        "An AI that deletes books"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "Which of these is an important advantage of AI?",
+      "options": [
+        "It can work quickly and help people with many tasks",
+        "It never needs electricity",
+        "It can think exactly like every human",
+        "It knows the future"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Which situation shows responsible use of AI?",
+      "options": [
+        "Using AI ideas and checking them before sharing",
+        "Believing every AI answer without thinking",
+        "Using AI to copy homework without learning",
+        "Ignoring teachers' instructions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "An AI drawing tool creates a picture from your description. What makes this possible?",
+      "options": [
+        "Creative AI can generate new content from instructions",
+        "The computer copies every picture exactly",
+        "The keyboard paints by itself",
+        "The monitor draws with a pencil"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Why is imagination important when designing a new AI idea?",
+      "options": [
+        "It helps create useful solutions for real problems",
+        "It makes computers run faster",
+        "It increases internet speed",
+        "It changes the weather"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "A teacher shows students how AI identifies different animals in pictures. This is an example of:",
+      "options": [
+        "A teacher-guided AI demonstration",
+        "A video game competition",
+        "A science experiment without AI",
+        "A computer repair lesson"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which AI idea is MOST likely to help the environment?",
+      "options": [
+        "An AI that reminds people to recycle and save energy",
+        "An AI that wastes electricity",
+        "An AI that throws away useful items",
+        "An AI that keeps lights on all day"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What should students remember when using AI tools?",
+      "options": [
+        "AI is a helper, but people should still think carefully",
+        "AI is always correct",
+        "AI should make every decision",
+        "AI replaces learning completely"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Which question is MOST helpful when creating your own AI idea?",
+      "options": [
+        "\"Who will benefit from my AI?\"",
+        "\"What is my favorite color?\"",
+        "\"How many pencils do I own?\"",
+        "\"Which day of the week is longest?\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "An AI that helps elderly people remember their medicines is an example of:",
+      "options": [
+        "Using AI to solve a real-life problem",
+        "Using AI only for games",
+        "Replacing doctors completely",
+        "Making medicine unnecessary"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which statement best describes the future of AI?",
+      "options": [
+        "AI will continue to improve and help people, but humans will still make important decisions",
+        "AI will replace every person in every job",
+        "AI will stop changing forever",
+        "AI will no longer need people to guide it"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

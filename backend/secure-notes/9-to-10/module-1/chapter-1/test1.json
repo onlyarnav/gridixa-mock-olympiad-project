@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which sequence correctly represents the structural flow of information in a neural network?",
+      "options": [
+        "Hidden Layer → Input Layer → Output Layer",
+        "Input Layer → Hidden Layers → Output Layer",
+        "Output Layer → Hidden Layer → Input Layer",
+        "Hidden Layer → Output Layer → Input Layer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "In a neural network connection, the weight primarily represents:",
+      "options": [
+        "The computational speed of the neuron",
+        "The importance assigned to an input feature",
+        "The number of hidden layers",
+        "The probability of neuron failure"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is the primary purpose of a bias in a neuron?",
+      "options": [
+        "To multiply the input value",
+        "To ensure the neuron can activate even when inputs are zero",
+        "To remove unnecessary neurons",
+        "To increase the training dataset size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "The neuron calculation z = (w · x) + b is mathematically most similar to which algebraic equation?",
+      "options": [
+        "a² + b² = c²",
+        "y = mx + b",
+        "x² − y² = 1",
+        "z = x/y"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "If an input feature has a very small weight in a neural network, it implies that:",
+      "options": [
+        "The input has minimal influence on the final decision",
+        "The neuron cannot activate",
+        "The dataset is too small",
+        "The bias must be zero"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "The activation function in a neural network primarily acts as:",
+      "options": [
+        "A storage system",
+        "A gatekeeper determining whether the neuron fires",
+        "A training algorithm",
+        "A data normalization process"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Forward propagation refers to:",
+      "options": [
+        "Passing error backward through the network",
+        "Passing input data layer by layer toward the output",
+        "Randomly adjusting weights",
+        "Increasing the dataset size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "The loss function measures:",
+      "options": [
+        "The computational cost of the model",
+        "How incorrect the model's prediction is",
+        "The number of neurons in the network",
+        "The training speed of the algorithm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "The main objective during neural network training is to:",
+      "options": [
+        "Maximize loss",
+        "Minimize loss",
+        "Increase hidden layers infinitely",
+        "Remove all weights"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Gradient Descent helps an AI model:",
+      "options": [
+        "Increase dataset size",
+        "Find weight values that reduce prediction error",
+        "Remove activation functions",
+        "Create new neurons"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "In the 'blindfolded hiker' analogy, the gradient represents:",
+      "options": [
+        "The total dataset size",
+        "The slope indicating the direction of steepest descent",
+        "The learning rate",
+        "The neural network architecture"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "If the learning rate is extremely large, what is the most likely consequence during training?",
+      "options": [
+        "The model reaches the minimum instantly",
+        "The model may overshoot the optimal solution",
+        "The network stops updating weights",
+        "The loss becomes permanently zero"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "If the learning rate is extremely small, training will most likely:",
+      "options": [
+        "Become unstable",
+        "Take an extremely long time to converge",
+        "Skip the loss calculation",
+        "Deactivate neurons"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Backpropagation primarily works by:",
+      "options": [
+        "Adding new neurons automatically",
+        "Sending prediction errors backward through the network",
+        "Removing activation functions",
+        "Increasing dataset size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Which mathematical rule is fundamental for computing gradients during backpropagation?",
+      "options": [
+        "Binomial theorem",
+        "Chain Rule",
+        "Pythagorean theorem",
+        "Bayes' theorem"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which parameter values are adjusted during backpropagation to improve accuracy?",
+      "options": [
+        "Only activation functions",
+        "Weights and biases",
+        "Input data",
+        "Hidden layers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "At the beginning of training, neural network weights are typically:",
+      "options": [
+        "Perfectly optimized",
+        "Set to zero always",
+        "Randomly initialized",
+        "Derived from the dataset"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Consider a neuron where z = (w · x) + b. If all inputs are zero but the bias is positive, the neuron:",
+      "options": [
+        "Still produces a non-zero output",
+        "Always outputs zero",
+        "Stops functioning",
+        "Deletes the neuron"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which sequence best describes the full training cycle of a neural network?",
+      "options": [
+        "Forward Propagation → Loss Calculation → Backpropagation → Weight Update",
+        "Backpropagation → Input Layer → Output Layer",
+        "Loss Calculation → Input Layer → Hidden Layer",
+        "Weight Update → Dataset Creation → Training Stop"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Why is backpropagation repeated many times during training?",
+      "options": [
+        "To randomly shuffle neurons",
+        "To gradually reduce error and improve prediction accuracy",
+        "To increase dataset size",
+        "To remove hidden layers"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

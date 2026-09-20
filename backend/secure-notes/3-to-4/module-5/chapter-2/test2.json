@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary idea behind Edge AI?",
+      "options": [
+        "Training models only in cloud data centers",
+        "Running AI models directly on local devices",
+        "Removing machine learning from devices",
+        "Using AI without data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following is an example of an edge device?",
+      "options": [
+        "Cloud data center",
+        "Database cluster",
+        "Smartphone",
+        "Internet backbone router"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "A major advantage of Edge AI is:",
+      "options": [
+        "Infinite computing power",
+        "Lower latency",
+        "Unlimited storage",
+        "Guaranteed perfect accuracy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Why is Edge AI useful in autonomous vehicles?",
+      "options": [
+        "Vehicles have unlimited memory",
+        "Decisions can be made immediately without cloud delays",
+        "Cars cannot connect to sensors",
+        "Cloud computing is illegal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which statement best describes Federated Learning?",
+      "options": [
+        "All data is collected in one central location",
+        "Models are trained without any data",
+        "Multiple devices train a shared model without sharing raw data",
+        "Only cloud servers participate in learning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "The core philosophy of Federated Learning is:",
+      "options": [
+        "Data moves to the model",
+        "Data is deleted after training",
+        "The model moves to the data",
+        "No model is required"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "In Federated Learning, what is typically shared with the central server?",
+      "options": [
+        "Raw user data",
+        "Personal documents",
+        "Model updates",
+        "Entire databases"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "What is the purpose of Federated Averaging (FedAvg)?",
+      "options": [
+        "Delete local models",
+        "Average updates received from participating clients",
+        "Encrypt training data",
+        "Compress images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which challenge is commonly faced in Federated Learning?",
+      "options": [
+        "Unlimited bandwidth",
+        "Non-IID data across devices",
+        "Infinite storage",
+        "Perfect communication"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What does Non-IID data mean in Federated Learning?",
+      "options": [
+        "All devices have identical datasets",
+        "Data distributions differ significantly across clients",
+        "Data is encrypted",
+        "Data is deleted"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "What is the primary goal of Privacy-Preserving Learning?",
+      "options": [
+        "Increase hardware costs",
+        "Learn useful patterns while protecting sensitive information",
+        "Eliminate machine learning",
+        "Replace data collection completely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following is a privacy risk in machine learning?",
+      "options": [
+        "Membership inference attacks",
+        "Model optimization",
+        "Feature scaling",
+        "Data normalization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Differential Privacy protects individuals primarily by:",
+      "options": [
+        "Adding carefully controlled noise",
+        "Deleting all data",
+        "Increasing model size",
+        "Using larger GPUs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Homomorphic Encryption allows:",
+      "options": [
+        "Computation directly on encrypted data",
+        "Removal of encryption",
+        "Faster internet connectivity",
+        "Compression of neural networks"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Secure Multi-Party Computation (SMPC) enables:",
+      "options": [
+        "Collaboration without revealing private data",
+        "Model compression",
+        "Cloud scaling",
+        "Image generation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which statement correctly compares Edge AI and Cloud AI?",
+      "options": [
+        "Edge AI processes data locally while Cloud AI processes data remotely",
+        "Both always require internet connectivity",
+        "Cloud AI never uses servers",
+        "Edge AI has unlimited computing resources"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "A smartphone performs face recognition entirely on-device without sending images to the cloud. This is an example of:",
+      "options": [
+        "Federated Averaging",
+        "Differential Privacy",
+        "Edge AI",
+        "Model Inversion"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "A hospital wants to collaborate with other hospitals to improve a disease prediction model without sharing patient records. Which approach is most suitable?",
+      "options": [
+        "Data duplication",
+        "Federated Learning",
+        "Feature scaling",
+        "Cloud-only training"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which concept describes the balance between protecting privacy and maintaining model performance?",
+      "options": [
+        "Scalability Tradeoff",
+        "Privacy-Utility Tradeoff",
+        "Latency Tradeoff",
+        "Hardware Optimization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which sequence best represents a privacy-aware AI system?",
+      "options": [
+        "Collect all data → Ignore privacy → Train model",
+        "Design privacy protections → Protect data → Train model → Deploy responsibly",
+        "Deploy model → Collect data later",
+        "Train model → Remove security controls"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

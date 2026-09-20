@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which metric measures the proportion of all predictions that were correct?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Accuracy",
+        "F1 Score"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "A medical test identifies 90 sick patients correctly but also marks 30 healthy people as sick. Which metric is directly affected by these false positives?",
+      "options": [
+        "Recall",
+        "Precision",
+        "MAE",
+        "R² Score"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Recall answers the question:",
+      "options": [
+        "Of all predicted positives, how many were correct?",
+        "How many total predictions were correct?",
+        "Of all actual positives, how many did the model find?",
+        "How close are predicted values to actual values?"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which metric provides a balance between precision and recall?",
+      "options": [
+        "Accuracy",
+        "Mean Squared Error",
+        "R² Score",
+        "F1 Score"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q5",
+      "question": "A spam detector catches every spam email but also marks many genuine emails as spam. The model most likely has:",
+      "options": [
+        "High precision and low recall",
+        "High recall and low precision",
+        "Low recall and low precision",
+        "Perfect accuracy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "In a highly imbalanced dataset, accuracy can be misleading because:",
+      "options": [
+        "It ignores true positives",
+        "It ignores false negatives",
+        "A model can achieve high accuracy by predicting only the majority class",
+        "It cannot be calculated"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Which metric is commonly used for regression problems?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Mean Absolute Error (MAE)",
+        "F1 Score"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "What does Mean Absolute Error (MAE) measure?",
+      "options": [
+        "The squared average of errors",
+        "The average absolute difference between predictions and actual values",
+        "The percentage of correct predictions",
+        "The correlation between variables"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Compared to MAE, Mean Squared Error (MSE) penalizes:",
+      "options": [
+        "Small errors less heavily",
+        "Large errors more heavily",
+        "All errors equally",
+        "Only positive errors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "A model predicts house prices. One prediction is off by ₹50,000 while another is off by ₹5,000. Which metric will punish the ₹50,000 error disproportionately more?",
+      "options": [
+        "Accuracy",
+        "MAE",
+        "MSE",
+        "Recall"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "The R² (coefficient of determination) score measures:",
+      "options": [
+        "The percentage of classification accuracy",
+        "The proportion of variance explained by the model",
+        "The average absolute error",
+        "The precision of positive predictions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "An R² score of 1 indicates:",
+      "options": [
+        "The model performs worse than random guessing",
+        "The model explains none of the variance",
+        "A perfect fit to the data",
+        "The model has high bias"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "Error analysis is primarily performed to:",
+      "options": [
+        "Increase dataset size",
+        "Understand why the model makes mistakes",
+        "Reduce the number of features automatically",
+        "Avoid testing the model"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "A classifier consistently mistakes cats for dogs but rarely confuses dogs for birds. This observation is an example of:",
+      "options": [
+        "Feature engineering",
+        "Cross-validation",
+        "Error analysis",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Which tool is especially useful for analyzing classification errors across classes?",
+      "options": [
+        "Confusion Matrix",
+        "Histogram",
+        "Scatter Plot",
+        "Learning Rate Scheduler"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "A model predicts every patient as healthy in a disease dataset where only 2% are sick. The model achieves 98% accuracy. What is the biggest issue?",
+      "options": [
+        "Accuracy is misleading because recall for sick patients is very poor.",
+        "The model has perfect precision.",
+        "The model has perfect F1 score.",
+        "The model has low variance."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which metric would be most important for a cancer detection system where missing a positive case is extremely dangerous?",
+      "options": [
+        "Precision",
+        "Recall",
+        "MAE",
+        "R² Score"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which metric would be most important for an email spam filter where incorrectly marking genuine emails as spam should be minimized?",
+      "options": [
+        "Recall",
+        "Precision",
+        "MSE",
+        "R² Score"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "After performing error analysis, a data scientist discovers that most mistakes occur in low-light images. What is the MOST reasonable next step?",
+      "options": [
+        "Ignore the issue",
+        "Collect more low-light training data or improve preprocessing",
+        "Decrease the test dataset size",
+        "Remove all low-light images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which sequence best represents a mature machine learning evaluation workflow?",
+      "options": [
+        "Train → Deploy immediately",
+        "Train → Compute metrics → Analyze errors → Improve the model",
+        "Collect data → Deploy → Evaluate",
+        "Evaluate → Delete misclassified samples"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

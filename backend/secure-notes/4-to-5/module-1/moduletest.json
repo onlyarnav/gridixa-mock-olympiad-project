@@ -1,0 +1,1106 @@
+{
+  "module": "Module 1",
+  "level": "4-5",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does AI stand for?",
+      "options": [
+        "Apple Internet",
+        "Artificial Intelligence",
+        "Automated Information",
+        "Animal Instinct"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "What is Artificial Intelligence?",
+      "options": [
+        "A robot that eats food",
+        "A human brain inside a machine",
+        "Computers doing things that normally require human brainpower",
+        "A new type of video game console"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q3",
+      "question": "Can AI think exactly like a human being?",
+      "options": [
+        "Yes, it is exactly the same",
+        "No, it follows instructions and learns from data",
+        "Yes, it has a heart and brain",
+        "No, it cannot think at all"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which of these is the best example of AI?",
+      "options": [
+        "A smart speaker answering your question",
+        "A normal wooden pencil",
+        "A bicycle",
+        "A printed book"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "question": "Is a regular kitchen toaster an example of AI?",
+      "options": [
+        "Yes, because it uses electricity",
+        "Yes, because it makes toast",
+        "No, it just heats bread when you push a button",
+        "No, because it does not have a screen"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q6",
+      "question": "Does Artificial Intelligence have real feelings or emotions?",
+      "options": [
+        "Yes, it gets sad when it makes a mistake",
+        "Yes, it feels happy when you use it",
+        "No, it is a machine and does not have feelings",
+        "Only if it is a robot with a face"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "question": "Who creates and builds AI?",
+      "options": [
+        "Aliens from space",
+        "Human programmers and scientists",
+        "The AI creates itself from nothing",
+        "Animals in nature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "question": "What makes AI 'artificial'?",
+      "options": [
+        "It is made of plastic",
+        "It is made by humans, not born in nature",
+        "It is very colorful",
+        "It is fake and does not work"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "question": "Can AI learn new things over time?",
+      "options": [
+        "No, it only knows what it is born with",
+        "Yes, if we give it more information and data",
+        "Yes, by eating books",
+        "No, machines cannot learn anything"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "question": "Is a basic solar-powered calculator an AI?",
+      "options": [
+        "Yes, because it does math quickly",
+        "No, it only does simple math rules without learning or deciding",
+        "Yes, because it has a screen",
+        "No, because it doesn't plug into the wall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which word best describes a machine that can learn and make its own decisions?",
+      "options": [
+        "Heavy",
+        "Smart",
+        "Loud",
+        "Sleepy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which everyday app uses AI to recommend what video you should watch next?",
+      "options": [
+        "A calculator",
+        "YouTube",
+        "A digital clock",
+        "A flashlight app"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "question": "How do maps on a smartphone use AI?",
+      "options": [
+        "By taking pictures of the road",
+        "By making the phone heavier",
+        "By finding the fastest route and checking traffic for you",
+        "By changing the color of your car"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q14",
+      "question": "Which of these features in a car uses AI?",
+      "options": [
+        "The steering wheel",
+        "The seatbelts",
+        "Self-driving and auto-parking features",
+        "The mirrors"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q15",
+      "question": "When you talk to a smart assistant like Alexa or Siri, what helps it understand your words?",
+      "options": [
+        "A tiny person inside",
+        "Magic",
+        "Artificial Intelligence (Voice Recognition)",
+        "A tape recorder"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q16",
+      "question": "How does AI help in video games?",
+      "options": [
+        "It makes the TV screen brighter",
+        "It controls the computer players and enemies you play against",
+        "It turns the game off",
+        "It builds the plastic controller"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "question": "Which of these is NOT an everyday use of AI?",
+      "options": [
+        "Riding a normal pedal bicycle",
+        "Unlocking a phone with your face",
+        "Getting movie suggestions on Netflix",
+        "Asking a smart speaker for the weather"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q18",
+      "question": "How does AI help you when typing a message on a tablet?",
+      "options": [
+        "It makes the screen crack",
+        "It predicts the next word you want to type or fixes spelling",
+        "It sends the message to a stranger",
+        "It deletes all your apps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q19",
+      "question": "Can AI help doctors at a hospital?",
+      "options": [
+        "No, doctors do not use computers",
+        "Yes, by looking at x-rays and finding patterns to help spot illnesses",
+        "Yes, by eating all the hospital food",
+        "No, AI is only for video games"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "question": "How do online stores use AI?",
+      "options": [
+        "To deliver packages using a bicycle",
+        "To suggest toys or books you might like based on what you looked at",
+        "To break your computer",
+        "To turn off your internet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "question": "What does a spam filter in an email do using AI?",
+      "options": [
+        "It deletes your good emails",
+        "It automatically hides bad, fake, or junk emails so you don't see them",
+        "It prints your emails on paper",
+        "It reads your emails out loud very fast"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "question": "Face unlock on a phone works by using AI to recognize what?",
+      "options": [
+        "Your voice",
+        "Your fingerprint",
+        "Your face",
+        "Your password"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "question": "What is something a human can do that AI CANNOT do?",
+      "options": [
+        "Do math quickly",
+        "Feel real love and empathy",
+        "Store a lot of pictures",
+        "Search the internet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "question": "Why does AI need electricity to work?",
+      "options": [
+        "Because it is afraid of the dark",
+        "Because it gets thirsty",
+        "Because it is a machine and needs power to run",
+        "Because humans need electricity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q25",
+      "question": "What happens when a human gets tired, compared to an AI?",
+      "options": [
+        "Humans need sleep, but AI does not need sleep",
+        "AI needs to sleep in a bed, humans do not",
+        "Both humans and AI need 8 hours of sleep",
+        "Neither humans nor AI ever get tired"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q26",
+      "question": "Who is usually faster at solving a million math problems?",
+      "options": [
+        "A 4th grade student",
+        "A math teacher",
+        "An Artificial Intelligence computer",
+        "A pet dog"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q27",
+      "question": "How does a human learn compared to how AI learns?",
+      "options": [
+        "Humans use data files, AI goes to school",
+        "Humans experience the world through senses, AI learns by processing data files",
+        "They both learn by eating books",
+        "AI does not learn at all"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "question": "Can AI imagine completely new things the way a human child plays pretend?",
+      "options": [
+        "Yes, it has a better imagination than anyone",
+        "No, it only remixes and copies patterns from data it has already seen",
+        "Yes, but only on weekends",
+        "No, it only knows math"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "question": "Do smart machines eat food?",
+      "options": [
+        "Yes, they eat metal",
+        "Yes, they like pizza",
+        "No, they use power like electricity or batteries",
+        "No, they use water"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q30",
+      "question": "Who decides what is right or wrong in a tricky moral situation?",
+      "options": [
+        "The computer",
+        "The internet",
+        "Humans, because machines do not understand right and wrong",
+        "The robot"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q31",
+      "question": "What is a big advantage humans have over AI?",
+      "options": [
+        "We can calculate faster",
+        "We have common sense and can understand the real world easily",
+        "We don't need to eat",
+        "We can memorize the whole internet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "What is an advantage AI has over humans?",
+      "options": [
+        "It can feel happiness",
+        "It can look at millions of pictures in seconds without getting bored",
+        "It can make real friends",
+        "It can taste food"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "Can an AI be your real-life human friend?",
+      "options": [
+        "Yes, if it has a nice voice",
+        "No, it is just a computer program, not a real living person",
+        "Yes, if you buy it a gift",
+        "No, because it lives on the moon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "question": "What is the 'brain' of a computer called?",
+      "options": [
+        "The keyboard",
+        "The processor or CPU",
+        "The monitor",
+        "The mouse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "How does a robot 'see' the world around it?",
+      "options": [
+        "Using human eyeballs",
+        "Using cameras and sensors",
+        "By smelling the air",
+        "By reading books"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "question": "What is a computer program?",
+      "options": [
+        "A TV show about computers",
+        "A set of step-by-step instructions written by a human for the computer to follow",
+        "A game you play outside",
+        "The plug that goes into the wall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "question": "When a smart machine hears your voice asking a question, what is it taking in?",
+      "options": [
+        "Output",
+        "Input",
+        "Electricity",
+        "A virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "question": "When a smart speaker plays a song you asked for, what is the song?",
+      "options": [
+        "Output",
+        "Input",
+        "A sensor",
+        "A processor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q39",
+      "question": "What do smart machines need to make good choices?",
+      "options": [
+        "Good data and good rules",
+        "Candy and toys",
+        "Sleep and water",
+        "Loud music"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q40",
+      "question": "If a robot is programmed with a rule to ONLY pick up red blocks, will it pick up a blue block?",
+      "options": [
+        "Yes, if it wants to",
+        "Yes, if it gets bored of red",
+        "No, it will only follow its rules and pick up red blocks",
+        "No, it will pick up green blocks instead"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q41",
+      "question": "What is an algorithm?",
+      "options": [
+        "A type of dance",
+        "A step-by-step list of instructions to solve a problem",
+        "A piece of computer hardware",
+        "A musical instrument"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "question": "How does a self-driving car know to stop?",
+      "options": [
+        "It guesses when to stop",
+        "Its sensors see a stop sign, and the algorithm tells the brakes to stop",
+        "It asks the other cars",
+        "It never stops"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "question": "What happens if a smart machine has broken sensors?",
+      "options": [
+        "It will work perfectly",
+        "It might make bad decisions because it can't 'see' or 'hear' properly",
+        "It will become a human",
+        "It will fix itself instantly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "question": "Do machines work by using magic?",
+      "options": [
+        "Yes, all computers are magic",
+        "No, they work using math, code, and electronics",
+        "Only on holidays",
+        "Yes, if a wizard builds them"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "question": "What does it mean to 'find a pattern'?",
+      "options": [
+        "Hiding your toys",
+        "Seeing things that repeat or look similar",
+        "Drawing a picture",
+        "Breaking a rule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "question": "If a pattern is 2, 4, 6, 8, what is the next number?",
+      "options": [
+        "9",
+        "12",
+        "10",
+        "15"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q47",
+      "question": "How does AI predict the weather for tomorrow?",
+      "options": [
+        "By looking out the window",
+        "By guessing randomly",
+        "By looking at past weather patterns and current data",
+        "By asking a bird"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q48",
+      "question": "If an AI notices you always watch cartoon videos on Fridays, what will it do next Friday?",
+      "options": [
+        "Delete all your videos",
+        "Predict you want to watch a cartoon and suggest one",
+        "Turn off the TV",
+        "Suggest a math video"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q49",
+      "question": "What is a 'prediction'?",
+      "options": [
+        "A good guess about what will happen next based on patterns",
+        "A type of food",
+        "A mistake in a program",
+        "A story about the past"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q50",
+      "question": "How does a computer learn to recognize a picture of a dog?",
+      "options": [
+        "By reading a dictionary",
+        "By looking at thousands of pictures of dogs to find patterns",
+        "By adopting a real dog",
+        "By barking at the screen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q51",
+      "question": "If an AI is trying to recognize a cat, what pattern might it look for?",
+      "options": [
+        "Wheels and doors",
+        "Pointy ears, whiskers, and a tail",
+        "Feathers and a beak",
+        "Scales and fins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q52",
+      "question": "Why does AI need lots of examples to find a pattern?",
+      "options": [
+        "Because one example isn't enough to learn a rule",
+        "Because it gets hungry",
+        "Because it needs to fill up its hard drive",
+        "Because computers are very slow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q53",
+      "question": "Can a prediction from an AI be wrong?",
+      "options": [
+        "No, AI is always 100% perfect",
+        "Yes, if the data is tricky, new, or missing information",
+        "Only if the computer is turned off",
+        "No, predictions are facts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q54",
+      "question": "If you play a game and always hide behind the same rock, what will the AI enemy do?",
+      "options": [
+        "Forget where you are",
+        "Find the pattern and look behind the rock to catch you",
+        "Run away from the rock",
+        "Turn off the game"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q55",
+      "question": "What is it called when AI guesses the word you are typing on a phone?",
+      "options": [
+        "Predictive text",
+        "Magic spelling",
+        "Auto-delete",
+        "Keyboard reading"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q56",
+      "question": "What is 'data'?",
+      "options": [
+        "Information like numbers, words, or pictures",
+        "A type of robot",
+        "A computer virus",
+        "The screen of a phone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q57",
+      "question": "How does AI learn?",
+      "options": [
+        "By going to elementary school",
+        "By analyzing large amounts of data",
+        "By sleeping",
+        "By talking to other computers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q58",
+      "question": "If you want to train an AI to recognize apples, what data should you give it?",
+      "options": [
+        "Pictures of cars",
+        "Pictures of bananas",
+        "Pictures of apples",
+        "Songs about fruit"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q59",
+      "question": "What happens if you only train an AI with pictures of red apples, and then show it a green apple?",
+      "options": [
+        "It will know it is an apple instantly",
+        "It might get confused and not know it is an apple",
+        "It will turn the apple red",
+        "It will crash forever"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q60",
+      "question": "Why is it important to use good, correct data to train AI?",
+      "options": [
+        "Because bad data makes the AI give bad answers",
+        "Because computers only like pretty pictures",
+        "Because data is very expensive",
+        "Because AI will get angry"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q61",
+      "question": "Is a voice recording a type of data?",
+      "options": [
+        "Yes",
+        "No, only text is data",
+        "No, only pictures are data",
+        "Yes, but only if it is loud"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q62",
+      "question": "How is training an AI similar to studying for a test?",
+      "options": [
+        "Both require eating a good breakfast",
+        "Both require looking at information and practicing to learn",
+        "Both take exactly 10 minutes",
+        "They are not similar at all"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q63",
+      "question": "What do we call the data used to teach an AI for the very first time?",
+      "options": [
+        "Testing data",
+        "Training data",
+        "Sleeping data",
+        "Deleted data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q64",
+      "question": "Can an AI learn to play chess?",
+      "options": [
+        "No, chess is only for humans",
+        "Yes, by looking at data from millions of past chess games",
+        "Yes, but it will always lose",
+        "No, because chess has no patterns"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q65",
+      "question": "Where does AI get its data from?",
+      "options": [
+        "From space",
+        "From the internet, sensors, and humans giving it information",
+        "It makes it all up",
+        "From magic spells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q66",
+      "question": "What does an AI do if it makes a mistake while learning?",
+      "options": [
+        "It can adjust its math and rules to do better next time",
+        "It gives up and turns off",
+        "It starts crying",
+        "It breaks its screen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q67",
+      "question": "Does an AI know what an object is the very first time it is turned on, before any training?",
+      "options": [
+        "Yes, it is born smart",
+        "No, it needs to be trained with data first",
+        "Yes, it can search the internet immediately",
+        "No, and it can never learn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q68",
+      "question": "What does it mean to be a good digital citizen?",
+      "options": [
+        "Playing games all day",
+        "Being kind, safe, and respectful to others online",
+        "Having the newest computer",
+        "Never using the internet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q69",
+      "question": "If someone is mean to you in an online game, what should you do?",
+      "options": [
+        "Be mean back to them",
+        "Keep it a secret",
+        "Tell a trusted adult and block the person",
+        "Delete the whole game forever"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q70",
+      "question": "Is it okay to say mean things online if you use a fake name?",
+      "options": [
+        "Yes, because they don't know it's you",
+        "No, it is cyberbullying and never okay",
+        "Yes, if they were mean first",
+        "Yes, if it's a joke"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q71",
+      "question": "What should you do before clicking on a strange link in an email?",
+      "options": [
+        "Click it quickly to see what happens",
+        "Ask an adult if it is safe",
+        "Send it to all your friends",
+        "Download it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q72",
+      "question": "Why should you balance your screen time with outdoor play?",
+      "options": [
+        "To keep your brain and body healthy",
+        "Because the internet turns off outside",
+        "Because screens are bad for adults",
+        "To charge your phone faster"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q73",
+      "question": "If an online friend you have never met in real life asks to meet up, what should you do?",
+      "options": [
+        "Go meet them",
+        "Tell your parents immediately",
+        "Meet them but bring a friend",
+        "Give them your address to come over"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q74",
+      "question": "How should you treat other people on the internet?",
+      "options": [
+        "You can ignore them",
+        "With the same kindness and respect you would in person",
+        "Like they are not real people",
+        "Always be angry at them"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q75",
+      "question": "What is a 'digital footprint'?",
+      "options": [
+        "A footprint on your computer screen",
+        "The trail of information, comments, and pictures you leave behind online",
+        "A special shoe for walking on keyboards",
+        "A game about dinosaurs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q76",
+      "question": "Can things you post online be seen by others even after you delete them?",
+      "options": [
+        "Yes, because someone might have saved or shared it",
+        "No, deleting it erases it from the whole world forever",
+        "Only if they have a special password",
+        "No, the internet forgets everything at midnight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q77",
+      "question": "Is it true that everything you read on the internet is 100% correct?",
+      "options": [
+        "Yes, the internet never lies",
+        "No, anyone can write anything, so you must check facts",
+        "Yes, if it has a picture",
+        "Yes, if it is in a video"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q78",
+      "question": "What should you do if an app asks for permission to use your camera and you don't know why?",
+      "options": [
+        "Say yes just in case",
+        "Say no and ask an adult",
+        "Cover the camera with your hand forever",
+        "Delete all your photos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q79",
+      "question": "What is personal information?",
+      "options": [
+        "Information about your favorite movie",
+        "Details like your full name, home address, and school name",
+        "A story you wrote for fun",
+        "Your score in a video game"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q80",
+      "question": "Should you ever share your home address in an online game chat?",
+      "options": [
+        "Yes, if you want them to send you a gift",
+        "No, never share your address with strangers",
+        "Yes, but only the street name",
+        "Yes, if they ask nicely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q81",
+      "question": "Which of these makes a strong, safe password?",
+      "options": [
+        "Your name and 123",
+        "The word 'password'",
+        "A mix of uppercase letters, lowercase letters, numbers, and symbols",
+        "Your dog's name"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q82",
+      "question": "Who is the ONLY person you should share your passwords with?",
+      "options": [
+        "Your best friend at school",
+        "Your parents or guardians",
+        "Someone online who promises free games",
+        "Your younger sibling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q83",
+      "question": "Why shouldn't you use 'password123' as your password?",
+      "options": [
+        "It is too easy for a stranger or hacker to guess",
+        "It is too hard to remember",
+        "The computer doesn't like numbers",
+        "It is too long"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "If a website asks for your phone number so you can win a free toy, what should you do?",
+      "options": [
+        "Give them your number immediately",
+        "Close the page and tell an adult, because it is probably a trick",
+        "Give them your friend's number",
+        "Type a fake number"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q85",
+      "question": "Is telling someone your favorite color considered sharing dangerous personal information?",
+      "options": [
+        "Yes, it is very dangerous",
+        "No, it is safe to talk about hobbies and colors, but still be careful",
+        "Yes, they can find your house with it",
+        "No, but they can steal your money with it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q86",
+      "question": "Why do we keep our passwords a secret?",
+      "options": [
+        "So we don't forget them",
+        "So strangers cannot get into our accounts and pretend to be us",
+        "Because it is a fun game",
+        "So the computer doesn't break"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q87",
+      "question": "What should you do if you accidentally share personal information online?",
+      "options": [
+        "Hide your tablet",
+        "Tell an adult right away so they can help you fix it",
+        "Cry and never use the internet again",
+        "Share more information to cover it up"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q88",
+      "question": "Is it safe to post a picture showing your school uniform with the school logo for strangers to see?",
+      "options": [
+        "Yes, because school is safe",
+        "No, because it tells strangers exactly where you go to school",
+        "Yes, if it is a nice picture",
+        "No, because the logo is copyrighted"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q89",
+      "question": "If a pop-up box says your computer has a virus and you need to type your name to fix it, should you?",
+      "options": [
+        "Yes, to fix the computer quickly",
+        "No, it is a trick to get your personal information",
+        "Yes, if the box is red",
+        "Only if you type your first name"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q90",
+      "question": "If you have to write a story for school, is it okay to have an AI write the whole thing and say you wrote it?",
+      "options": [
+        "Yes, because AI is smart",
+        "No, that is cheating and not your own work",
+        "Yes, if the story is really good",
+        "Yes, if you change one word"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q91",
+      "question": "How can you use AI responsibly for homework?",
+      "options": [
+        "Have it do all your math problems",
+        "Use it to get ideas or check your spelling, but always do your own work",
+        "Copy and paste its answers directly",
+        "Never use it at all"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q92",
+      "question": "What should you do if you are unsure if an AI's answer is true?",
+      "options": [
+        "Believe it anyway",
+        "Check the facts using a book, teacher, or trusted website",
+        "Ask a different AI and pick the answer you like better",
+        "Get mad at the computer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q93",
+      "question": "Why might an AI give a wrong or silly answer?",
+      "options": [
+        "Because it wants to trick you",
+        "Because it might have learned from incorrect or bad data",
+        "Because it is tired",
+        "Because it doesn't like you"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q94",
+      "question": "What does it mean to use technology responsibly?",
+      "options": [
+        "Using it in a way that is helpful and does not hurt or trick anyone",
+        "Using it to play games all night long",
+        "Breaking it when you are done",
+        "Refusing to share it"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q95",
+      "question": "If an AI generates a cool picture, who actually did the work?",
+      "options": [
+        "You did, because you clicked a button",
+        "The AI, and the human programmers who built and trained the AI",
+        "No one, it just appeared",
+        "The computer monitor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q96",
+      "question": "Why is it important to take breaks from using technology?",
+      "options": [
+        "So the computer can sleep",
+        "To rest your eyes, stretch your body, and do other fun activities",
+        "So you don't run out of internet",
+        "To save electricity money"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q97",
+      "question": "If you find a phone that isn't yours on the playground, what is the responsible thing to do?",
+      "options": [
+        "Keep it for yourself",
+        "Give it to a teacher or adult so they can find the owner",
+        "Throw it away",
+        "Try to guess the password"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q98",
+      "question": "Can AI solve every single problem in the world?",
+      "options": [
+        "Yes, it is perfect",
+        "No, humans are still needed to care, invent, and make important decisions",
+        "Yes, but it takes a long time",
+        "No, it can only solve math problems"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q99",
+      "question": "What should you do if an AI chat program says something scary, mean, or confusing?",
+      "options": [
+        "Argue with it",
+        "Close the program and tell an adult about what happened",
+        "Keep talking to see what it says next",
+        "Show it to your friends"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q100",
+      "question": "Who is ultimately in charge of how technology is used in our world?",
+      "options": [
+        "The computers",
+        "The robots",
+        "You, and all the humans using and building it",
+        "The internet"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+
+{
+  "title": "NumPy, Pandas & Matplotlib - Chapter Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does NumPy stand for?",
+      "options": [
+        "Number Python",
+        "Numerical Python",
+        "Network Python",
+        "Numeric Processor"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Why are NumPy arrays faster than normal Python lists?",
+      "options": [
+        "They use internet acceleration",
+        "They are optimized for mathematical computation",
+        "They permanently store data",
+        "They avoid memory completely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which line correctly imports NumPy using the standard alias?",
+      "options": [
+        "import numpy",
+        "import np as numpy",
+        "import numpy as np",
+        "from numpy import array"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "What is the heart of NumPy?",
+      "options": [
+        "Dictionary",
+        "Array",
+        "Tuple",
+        "Function"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is vectorized computation in NumPy?",
+      "options": [
+        "Running programs online",
+        "Performing operations on entire arrays instantly",
+        "Converting arrays into strings",
+        "Deleting unused memory"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "What does arr.shape return for a NumPy array?",
+      "options": [
+        "Data type",
+        "Array color",
+        "Rows and columns information",
+        "File size"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Which NumPy function creates an array filled with zeros?",
+      "options": [
+        "np.ones()",
+        "np.zeros()",
+        "np.arange()",
+        "np.random.rand()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which NumPy function generates random numbers?",
+      "options": [
+        "np.sqrt()",
+        "np.mean()",
+        "np.random.rand()",
+        "np.reshape()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "What does arr.reshape(2, 3) do?",
+      "options": [
+        "Deletes array elements",
+        "Converts array into text",
+        "Changes the structure of the array",
+        "Sorts the array"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Which operation calculates the average value of a NumPy array?",
+      "options": [
+        "arr.sum()",
+        "arr.max()",
+        "arr.mean()",
+        "arr.reshape()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "What is the most important structure in Pandas?",
+      "options": [
+        "Array",
+        "Tuple",
+        "DataFrame",
+        "Dictionary"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "Which line correctly imports Pandas using the standard alias?",
+      "options": [
+        "import pandas as pd",
+        "import pd as pandas",
+        "from pandas import dataframe",
+        "import pandas"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "What does CSV stand for?",
+      "options": [
+        "Computer Stored Values",
+        "Comma Separated Values",
+        "Central System Variables",
+        "Column Sorted Values"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which Pandas function is commonly used to load CSV datasets?",
+      "options": [
+        "pd.load_csv()",
+        "pd.read_csv()",
+        "pd.import_csv()",
+        "pd.open_csv()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "What is a single column in Pandas called?",
+      "options": [
+        "Matrix",
+        "Series",
+        "Vector",
+        "Dataset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "What does iloc stand for in Pandas?",
+      "options": [
+        "Integer Location",
+        "Internal Locator",
+        "Indexed Local",
+        "Input Logic"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What does NaN represent in Pandas datasets?",
+      "options": [
+        "Negative number",
+        "Network error",
+        "Missing value",
+        "New array"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Which function removes rows containing missing values?",
+      "options": [
+        "dropna()",
+        "fillna()",
+        "sort_values()",
+        "groupby()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which Pandas function is used to group data for analysis?",
+      "options": [
+        "groupby()",
+        "sort_values()",
+        "describe()",
+        "head()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "What is the purpose of df.head()?",
+      "options": [
+        "Deletes the dataset",
+        "Shows the first few rows",
+        "Creates a graph",
+        "Groups columns"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q21",
+      "question": "What is Matplotlib mainly used for?",
+      "options": [
+        "Game development",
+        "Data visualization",
+        "Database storage",
+        "Cybersecurity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q22",
+      "question": "Which module is commonly imported as plt in Matplotlib?",
+      "options": [
+        "matplotlib.graph",
+        "matplotlib.pyplot",
+        "matplotlib.visual",
+        "matplotlib.chart"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "What does plt.show() do?",
+      "options": [
+        "Deletes the graph",
+        "Displays the graph window",
+        "Saves the graph automatically",
+        "Loads a CSV file"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q24",
+      "question": "Which Matplotlib function creates a line graph?",
+      "options": [
+        "plt.scatter()",
+        "plt.bar()",
+        "plt.plot()",
+        "plt.hist()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q25",
+      "question": "Which chart type is best for comparing categories?",
+      "options": [
+        "Histogram",
+        "Pie chart",
+        "Scatter plot",
+        "Bar chart"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q26",
+      "question": "Which chart type is heavily used in Machine Learning to identify clusters and outliers?",
+      "options": [
+        "Pie chart",
+        "Scatter plot",
+        "Bar chart",
+        "Line plot"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q27",
+      "question": "What is the purpose of plt.legend()?",
+      "options": [
+        "To remove graph labels",
+        "To identify multiple graph lines",
+        "To save the graph",
+        "To change data types"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q28",
+      "question": "Which chart type is used to visualize data distribution?",
+      "options": [
+        "Histogram",
+        "Line graph",
+        "Scatter plot",
+        "Pie chart"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q29",
+      "question": "Which function saves a graph as an image file?",
+      "options": [
+        "plt.store()",
+        "plt.export()",
+        "plt.savefig()",
+        "plt.keep()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q30",
+      "question": "Why are visualization tools important in AI and Machine Learning?",
+      "options": [
+        "They permanently increase RAM",
+        "They help humans understand patterns and trends in data",
+        "They replace datasets completely",
+        "They automatically train models"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary goal of AI Safety?",
+      "options": [
+        "To make AI models train faster",
+        "To make AI systems more intelligent",
+        "To ensure AI systems behave safely and beneficially",
+        "To reduce dataset sizes"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "AI Safety is mainly concerned with:",
+      "options": [
+        "Increasing model complexity",
+        "Building larger datasets",
+        "Ensuring AI systems remain reliable and aligned with human intentions",
+        "Reducing cloud costs"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "The famous Paperclip Maximizer thought experiment illustrates:",
+      "options": [
+        "Feature engineering",
+        "Model deployment",
+        "How poorly specified objectives can create harmful outcomes",
+        "Cloud scalability"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "What does AI Alignment primarily seek to achieve?",
+      "options": [
+        "Increase training speed",
+        "Ensure AI goals match human intentions",
+        "Reduce memory consumption",
+        "Improve internet connectivity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which statement best describes alignment?",
+      "options": [
+        "Making AI models larger",
+        "Matching AI behavior with human values and goals",
+        "Reducing training data",
+        "Improving cloud infrastructure"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Outer Alignment focuses on:",
+      "options": [
+        "Whether the objective itself is correct",
+        "GPU optimization",
+        "Model serialization",
+        "Cloud deployment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Inner Alignment focuses on:",
+      "options": [
+        "Whether the model internally learns the intended objective",
+        "Data storage efficiency",
+        "Hyperparameter tuning",
+        "API design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following is an example of specification gaming?",
+      "options": [
+        "A cleaning robot hiding trash under a carpet",
+        "A model improving accuracy",
+        "A cloud server scaling resources",
+        "A chatbot answering questions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Reward hacking occurs when an AI:",
+      "options": [
+        "Optimizes a reward in unintended ways",
+        "Uses reinforcement learning correctly",
+        "Improves generalization",
+        "Reduces overfitting"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "What is a major challenge in value alignment?",
+      "options": [
+        "Human values are complex and sometimes contradictory",
+        "AI models cannot learn",
+        "Data cannot be stored",
+        "GPUs are too slow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "Reliability in AI refers to:",
+      "options": [
+        "Average training accuracy",
+        "Consistent and dependable performance over time",
+        "Number of model parameters",
+        "Training speed"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Risk in AI can be defined as:",
+      "options": [
+        "Model size",
+        "The possibility of undesirable outcomes",
+        "Training duration",
+        "Cloud storage usage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Which factor contributes directly to overall risk?",
+      "options": [
+        "Probability of failure and impact of failure",
+        "Dataset size only",
+        "Number of features",
+        "Learning rate"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "A highly accurate model that occasionally makes catastrophic mistakes demonstrates that:",
+      "options": [
+        "Accuracy alone is not sufficient for reliability",
+        "The model is perfectly safe",
+        "More data is unnecessary",
+        "Deployment is impossible"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Distribution shift occurs when:",
+      "options": [
+        "Training and real-world data differ significantly",
+        "Features are removed",
+        "Models are compressed",
+        "APIs fail"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Human-in-the-Loop systems improve safety by:",
+      "options": [
+        "Removing all human involvement",
+        "Allowing humans to review important decisions",
+        "Increasing model size",
+        "Eliminating uncertainty"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "What is the purpose of graceful degradation in AI systems?",
+      "options": [
+        "Fail safely when problems occur",
+        "Increase training speed",
+        "Reduce dataset size",
+        "Improve cloud storage"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Why is interpretability important for AI Safety?",
+      "options": [
+        "It helps humans understand and verify AI decisions",
+        "It increases GPU performance",
+        "It eliminates all risks",
+        "It replaces model evaluation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which scenario best represents a reliability failure?",
+      "options": [
+        "A medical AI performs inconsistently across patient groups",
+        "A model trains successfully",
+        "A server receives requests",
+        "A dataset is uploaded"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which sequence best represents responsible AI development?",
+      "options": [
+        "Build AI → Ignore risks → Deploy",
+        "Train model → Evaluate alignment and risks → Test reliability → Deploy safely",
+        "Deploy first → Analyze later",
+        "Increase model size → Skip safety checks"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

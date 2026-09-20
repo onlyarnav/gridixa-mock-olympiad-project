@@ -1,0 +1,226 @@
+{
+  "title": "Module 5 - Chapter Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why are files considered essential in real-world software systems?",
+      "options": [
+        "Because variables can permanently store data",
+        "Because files allow programs to store information permanently",
+        "Because files replace memory completely",
+        "Because files only work in AI applications"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which Python function is used to connect a program to a file?",
+      "options": [
+        "connect()",
+        "load()",
+        "open()",
+        "read()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "What is the primary advantage of using the 'with' statement while handling files?",
+      "options": [
+        "It increases GPU performance",
+        "It automatically closes files safely",
+        "It permanently stores variables",
+        "It converts files into dictionaries"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which method reads the entire contents of a file at once?",
+      "options": [
+        "read()",
+        "write()",
+        "append()",
+        "split()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Why is line-by-line reading preferred for massive datasets?",
+      "options": [
+        "It improves internet speed",
+        "It avoids loading the entire file into memory",
+        "It automatically compresses files",
+        "It converts text into vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "What does the '\\n' character represent in text files?",
+      "options": [
+        "A tab space",
+        "A memory allocation",
+        "A new line",
+        "A file mode"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Which file mode completely replaces old content in a file?",
+      "options": [
+        "\"a\"",
+        "\"r\"",
+        "\"rb\"",
+        "\"w\""
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q8",
+      "question": "Which file mode is used when adding new data without deleting existing content?",
+      "options": [
+        "\"w\"",
+        "\"a\"",
+        "\"r\"",
+        "\"x\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "What will happen if Python tries to open a non-existent file in read mode?",
+      "options": [
+        "The file is automatically created",
+        "Python ignores the error",
+        "A FileNotFoundError occurs",
+        "The system restarts"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Which statement best describes a relative file path?",
+      "options": [
+        "It specifies the full location from the root directory",
+        "It always starts with C:/",
+        "It searches for the file in the current working folder",
+        "It only works online"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "Why are CSV files commonly used in Machine Learning?",
+      "options": [
+        "They store videos efficiently",
+        "They are commonly used for structured datasets",
+        "They automatically train AI models",
+        "They replace neural networks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which method converts all lines of a file into a Python list?",
+      "options": [
+        "read()",
+        "readline()",
+        "readlines()",
+        "splitlines()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "What is the purpose of the strip() function during text file processing?",
+      "options": [
+        "To encrypt the file",
+        "To remove extra spaces and newline characters",
+        "To convert numbers into strings",
+        "To open compressed files"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Why must numbers often be converted using str() before writing to text files?",
+      "options": [
+        "Files can only directly store textual data",
+        "Numbers consume too much RAM",
+        "Python cannot calculate integers",
+        "The operating system blocks numeric values"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "What is the main purpose of exception handling in file operations?",
+      "options": [
+        "To permanently increase memory",
+        "To prevent program crashes during errors",
+        "To automatically create AI models",
+        "To convert files into binary"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which operation is most memory-efficient for processing a 10 GB dataset?",
+      "options": [
+        "Using read() on the entire file",
+        "Loading all lines into a list",
+        "Reading line-by-line using a loop",
+        "Converting the file into an image"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "What is the purpose of text encoding such as UTF-8?",
+      "options": [
+        "To increase CPU speed",
+        "To define how characters are stored and interpreted",
+        "To compress images",
+        "To improve GPU rendering"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "In AI systems, why are logs often written using append mode?",
+      "options": [
+        "To continuously add new records without deleting old ones",
+        "To reduce dataset size automatically",
+        "To prevent neural network training",
+        "To overwrite corrupted models"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "What is the role of split(\",\") in processing CSV-like text data?",
+      "options": [
+        "It encrypts the data",
+        "It separates text into smaller parts using commas",
+        "It deletes extra rows",
+        "It converts text into binary vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which workflow best represents a real-world AI data pipeline?",
+      "options": [
+        "Delete data → Restart computer → Shutdown",
+        "Read dataset → Process information → Write outputs",
+        "Open browser → Watch video → Close file",
+        "Train GPU → Erase logs → Disconnect storage"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

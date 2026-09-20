@@ -1,0 +1,1107 @@
+
+{
+  "module": "Module 5",
+  "level": "11-12",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the process of breaking a complex problem into smaller, manageable parts called?",
+      "options": [
+        "Pattern recognition",
+        "Decomposition",
+        "Abstraction",
+        "Algorithm design"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "Why is problem decomposition important in computer science?",
+      "options": [
+        "It makes complex problems easier to understand, solve, and distribute among a team",
+        "It automatically writes the code for the computer",
+        "It hides the syntax errors from the compiler",
+        "It increases the amount of memory a program uses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is the best first step when using decomposition to make a cup of tea?",
+      "options": [
+        "Drink the tea",
+        "Buy a tea farm",
+        "Boil the water",
+        "Wash the cup after finishing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "question": "What is a sub-problem?",
+      "options": [
+        "A problem that cannot be solved by computers",
+        "A smaller, distinct, and manageable part of a larger problem",
+        "An error in a program's logic",
+        "The final output of an algorithm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "question": "In software development, what does breaking down a problem allow a team to do?",
+      "options": [
+        "Write the entire program in one line of code",
+        "Avoid using programming languages completely",
+        "Divide the work so different members can work on different modules simultaneously",
+        "Skip the testing phase entirely"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q6",
+      "question": "If your goal is to build a calculator app, which of the following is a logical sub-task?",
+      "options": [
+        "Building a social media feed",
+        "Creating the user interface for the number buttons",
+        "Designing a weather map",
+        "Writing a video game engine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "question": "What happens if a complex problem is NOT broken down into steps before coding?",
+      "options": [
+        "It becomes overwhelming, confusing, and highly prone to errors",
+        "The computer will solve it automatically",
+        "It compiles much faster",
+        "The code runs without needing memory"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which phase of computational thinking typically directly follows understanding the primary problem?",
+      "options": [
+        "Executing the code",
+        "Decomposition",
+        "Releasing the software",
+        "Deleting the source code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "question": "When organizing a school event, what is an example of decomposition?",
+      "options": [
+        "Doing everything yourself on the day of the event",
+        "Canceling the event",
+        "Assigning separate tasks for catering, decorations, and ticketing",
+        "Guessing how many people will attend"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "question": "Decomposition applies to which of the following?",
+      "options": [
+        "Only computer programming",
+        "Only physical engineering tasks",
+        "Both physical real-world tasks and software programming",
+        "Neither physical nor digital tasks"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q11",
+      "question": "What is pattern recognition in computational thinking?",
+      "options": [
+        "Hiding information from the user",
+        "Finding similarities, trends, or repeating structures within problems",
+        "Deleting redundant files on a hard drive",
+        "Translating code to English"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "question": "Why is recognizing patterns useful when writing code?",
+      "options": [
+        "It allows you to reuse solutions and write less, more efficient code",
+        "It ensures the code uses maximum battery power",
+        "It changes the language from Python to Java",
+        "It makes the code completely unreadable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "question": "If you are instructing a robot to draw 5 separate squares, what is the repeating pattern?",
+      "options": [
+        "Draw 1 line and stop",
+        "Draw 4 lines and turn 90 degrees, repeated for each square",
+        "Draw 5 circles",
+        "Turn 180 degrees 5 times"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which programming construct is most commonly used when a pattern repeats exactly?",
+      "options": [
+        "Variables",
+        "IF statements",
+        "Loops (like FOR or WHILE)",
+        "Comments"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q15",
+      "question": "You notice your program sorts names, then sorts numbers, then sorts dates using the exact same logic. What should you do?",
+      "options": [
+        "Write the exact same sorting code three separate times",
+        "Create a single reusable sorting function and call it three times",
+        "Delete the sorting feature",
+        "Use a random number generator instead"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "question": "In the sequence 2, 4, 6, 8, what is the mathematical pattern?",
+      "options": [
+        "Multiply by 2",
+        "Subtract 2",
+        "Add 2 to the previous number",
+        "Square the previous number"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q17",
+      "question": "Recognizing a pattern helps a programmer transition from a specific, narrow solution to a more ________ solution.",
+      "options": [
+        "Complex and fragile",
+        "Generalized and flexible",
+        "Syntax-heavy",
+        "Error-prone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "question": "Abstraction is closely related to pattern recognition because it involves:",
+      "options": [
+        "Focusing on the general pattern and ignoring specific, irrelevant details",
+        "Focusing only on the errors in the code",
+        "Adding as much detail to the program as possible",
+        "Converting images to text"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q19",
+      "question": "What is a common outcome of failing to recognize patterns in code?",
+      "options": [
+        "Writing highly repetitive, redundant, and hard-to-maintain code",
+        "The computer catching fire",
+        "The code running instantly",
+        "Automatically generating a flowchart"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which real-world AI task relies heavily on pattern recognition?",
+      "options": [
+        "A calculator adding 2 + 2",
+        "Predicting tomorrow's weather based on historical data trends",
+        "Printing a blank page",
+        "A keyboard typing a letter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "question": "What is pseudocode?",
+      "options": [
+        "A secret encrypted language used by hackers",
+        "A plain English, informal way of describing an algorithm's logic",
+        "The final machine code read by the CPU",
+        "A graphical chart of shapes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "question": "Who is the primary audience for pseudocode?",
+      "options": [
+        "The computer's processor",
+        "Human programmers and designers",
+        "The operating system",
+        "The compiler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "Can pseudocode be compiled and run directly by a computer?",
+      "options": [
+        "Yes, always",
+        "Yes, but only on Macs",
+        "No, because it is not written in strict programming language syntax",
+        "No, because it contains viruses"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q24",
+      "question": "Which of the following is a common keyword used in pseudocode to get data from a user?",
+      "options": [
+        "PRINT",
+        "END",
+        "INPUT or READ",
+        "CALCULATE"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q25",
+      "question": "What is the best pseudocode representation for showing a message on the screen?",
+      "options": [
+        "STORE \"Hello\"",
+        "PRINT \"Hello\"",
+        "WHILE \"Hello\"",
+        "IF \"Hello\""
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "question": "How do you represent a decision-making process in pseudocode?",
+      "options": [
+        "IF [condition] THEN [action] ELSE [alternative action]",
+        "LOOP [condition] TO [action]",
+        "ADD [action] TO [condition]",
+        "PRINT [decision]"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q27",
+      "question": "Why do programmers write pseudocode before actual code?",
+      "options": [
+        "To satisfy the compiler's requirements",
+        "To plan the logic and structure without worrying about language-specific syntax errors",
+        "To make the final program run slower",
+        "To use up extra paper"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "question": "Which pseudocode statement best represents a loop that continues as long as a condition is true?",
+      "options": [
+        "IF [condition] THEN",
+        "WHILE [condition] DO",
+        "READ [condition]",
+        "STOP [condition]"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "question": "Is there a strict, universal standard dictionary for writing pseudocode?",
+      "options": [
+        "Yes, governed by international law",
+        "Yes, it must be written in Python syntax",
+        "No, it varies by person, but it should remain clear and logically readable",
+        "No, it must only be written in binary"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q30",
+      "question": "What does the assignment operation typically look like in pseudocode?",
+      "options": [
+        "An arrow (<-) or equals sign (=)",
+        "A question mark (?)",
+        "A dollar sign ($)",
+        "An exclamation mark (!)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q31",
+      "question": "Translate this instruction to pseudocode: \"Add 5 to x and store the result in y\".",
+      "options": [
+        "y <- 5",
+        "y = x + 5",
+        "x = y + 5",
+        "PRINT y + 5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "What is the primary benefit of language-independent pseudocode?",
+      "options": [
+        "It automatically runs on any computer",
+        "It can easily be translated into any programming language like Python, Java, or C++",
+        "It finds syntax errors for you",
+        "It eliminates the need for testing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "In pseudocode, what does \"END IF\" signify?",
+      "options": [
+        "The end of the entire program",
+        "The end of a specific conditional logic block",
+        "A command to crash the program",
+        "The start of a loop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "question": "What is a common mistake when writing pseudocode?",
+      "options": [
+        "Writing it in English",
+        "Making it too complex by writing actual, strict programming language syntax",
+        "Using spaces between words",
+        "Using capital letters for commands like READ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "How do you describe a repeating process for every item in a list using pseudocode?",
+      "options": [
+        "FOR EACH item IN list",
+        "IF item IN list",
+        "READ list ONCE",
+        "PRINT list item"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q36",
+      "question": "What is a flowchart?",
+      "options": [
+        "A text document full of code",
+        "A visual, graphical representation of an algorithm or process",
+        "A chart showing fluid dynamics",
+        "A tool used only for hardware design"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "question": "What shape is conventionally used to represent the START or END of a flowchart?",
+      "options": [
+        "Rectangle",
+        "Diamond",
+        "Oval / Terminal",
+        "Parallelogram"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q38",
+      "question": "What does a parallelogram represent in a flowchart?",
+      "options": [
+        "Input or Output operations",
+        "A decision",
+        "The start of the program",
+        "A processing calculation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q39",
+      "question": "Which flowchart symbol represents a process, action, or calculation?",
+      "options": [
+        "Oval",
+        "Diamond",
+        "Parallelogram",
+        "Rectangle"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q40",
+      "question": "What does a diamond shape represent in a flowchart?",
+      "options": [
+        "A calculation step",
+        "A Decision / Condition",
+        "An error",
+        "The end of the flowchart"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "question": "How is the flow of logic indicated in a flowchart?",
+      "options": [
+        "With different colors",
+        "With numbers",
+        "With directional arrows",
+        "With randomly placed dots"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q42",
+      "question": "If a flowchart has a diamond asking \"Is age > 18?\", how many arrows typically exit the diamond?",
+      "options": [
+        "One",
+        "Two (one for Yes, one for No)",
+        "Three",
+        "None"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "question": "What is the purpose of a connector symbol (usually a small circle) in a flowchart?",
+      "options": [
+        "To represent user input",
+        "To connect different parts of a complex flowchart without drawing long, crossing lines",
+        "To stop the program from running",
+        "To indicate a print command"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "question": "Why might a programmer choose to draw a flowchart instead of writing pseudocode?",
+      "options": [
+        "Because computers can read flowcharts directly",
+        "To provide a clearer visual map of complex branching logic and loops",
+        "To save space on the page",
+        "Because pseudocode requires an internet connection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "question": "Which of the following actions requires a rectangle symbol in a flowchart?",
+      "options": [
+        "READ user_name",
+        "IF speed > 60",
+        "total_cost = price * quantity",
+        "START"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q46",
+      "question": "What is a \"bug\" in computer programming?",
+      "options": [
+        "A secure feature of a program",
+        "An error, flaw, or fault that causes a program to produce an incorrect or unexpected result",
+        "A type of computer hardware",
+        "A programming language loop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "question": "What is debugging?",
+      "options": [
+        "The process of writing new code from scratch",
+        "The process of deleting all code",
+        "The systematic process of finding and fixing errors in code",
+        "The process of compiling a file"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q48",
+      "question": "What was the legendary original \"computer bug\" discovered by Grace Hopper's team in 1947?",
+      "options": [
+        "A missing semicolon in the code",
+        "An actual moth trapped in a relay of the Harvard Mark II computer",
+        "A spilled cup of coffee",
+        "A virus downloaded from the internet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q49",
+      "question": "Which of the following is typically the first step in the debugging process?",
+      "options": [
+        "Rewrite the entire program",
+        "Blame the hardware",
+        "Reproduce the error to understand exactly when and how it happens",
+        "Ship the software to users"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q50",
+      "question": "What is a \"syntax error\"?",
+      "options": [
+        "An error caused by breaking the grammatical or structural rules of the programming language",
+        "An error where the logic is backwards",
+        "An error caused by a power outage",
+        "An error that only happens at midnight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q51",
+      "question": "If you forget to close a parenthesis in Python, what kind of error do you get?",
+      "options": [
+        "Logic error",
+        "Runtime error",
+        "Syntax error",
+        "Hardware error"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q52",
+      "question": "What is a \"runtime error\"?",
+      "options": [
+        "An error discovered before the program is run",
+        "An error that occurs while the program is actively executing, often causing it to crash",
+        "An error in the programmer's spelling of an output word",
+        "An error where the program runs too fast"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q53",
+      "question": "Dividing a number by zero during a calculation causes what type of error?",
+      "options": [
+        "Syntax error",
+        "Compilation error",
+        "Runtime error",
+        "Logic error"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q54",
+      "question": "What is a common software tool used by programmers to step through code line-by-line?",
+      "options": [
+        "A Debugger",
+        "A Web Browser",
+        "A Text Editor",
+        "A Database"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q55",
+      "question": "How can simple \"print debugging\" help find an error?",
+      "options": [
+        "By printing the code on paper to read it",
+        "By displaying variable values at different stages of the program to see where they go wrong",
+        "By printing an apology to the user",
+        "By erasing lines of code automatically"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q56",
+      "question": "What defines a \"logic error\"?",
+      "options": [
+        "The program crashes immediately upon launch",
+        "The program refuses to compile due to bad spelling",
+        "The program runs without crashing but produces the wrong output or behavior",
+        "The program runs out of memory"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q57",
+      "question": "Why are logic errors often considered the most difficult type of error to fix?",
+      "options": [
+        "Because the computer does not generate an error message or crash; it thinks it did exactly what you asked",
+        "Because they destroy the hard drive",
+        "Because they cannot be reproduced",
+        "Because they only happen on Tuesdays"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q58",
+      "question": "Which of the following is a classic example of a logic error?",
+      "options": [
+        "Missing a colon at the end of an IF statement",
+        "Using a plus sign (+) instead of a minus sign (-) in a math formula",
+        "Trying to open a file that doesn't exist",
+        "Misspelling the word 'print'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q59",
+      "question": "If a program is supposed to calculate the area of a circle (pi * r^2) but the code is written as (pi * 2 * r), what type of error is this?",
+      "options": [
+        "Syntax error",
+        "Runtime error",
+        "Logic error",
+        "Type error"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q60",
+      "question": "You write an IF statement: `if age < 18:` to check if someone is legally an adult. The program works, but blocks adults. What type of error is this?",
+      "options": [
+        "Logic error",
+        "Syntax error",
+        "Runtime error",
+        "Network error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q61",
+      "question": "How does a programmer typically detect a logic error?",
+      "options": [
+        "By waiting for the compiler to highlight it in red",
+        "By testing the program with known inputs and verifying if the output matches the expected result",
+        "By looking for missing parentheses",
+        "By running an antivirus scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q62",
+      "question": "What is an \"off-by-one\" error?",
+      "options": [
+        "A syntax error where a '1' is typed instead of an 'l'",
+        "A runtime error caused by dividing by 1",
+        "A logic error where a loop iterates one time too many or one time too few",
+        "A hardware error causing the keyboard to miss keystrokes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q63",
+      "question": "An infinite loop (a loop that never ends) is usually caused by which type of error?",
+      "options": [
+        "Syntax error",
+        "Logic error in the loop's exit condition",
+        "Compiler error",
+        "Memory error"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q64",
+      "question": "Your banking app accidentally deposits money when you click 'Withdraw'. The app doesn't crash, but your balance goes up. What happened?",
+      "options": [
+        "A syntax error",
+        "A tragic logic error",
+        "A compilation failure",
+        "A division by zero"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q65",
+      "question": "What is the best way to prevent logic errors before writing a single line of code?",
+      "options": [
+        "Careful algorithmic planning using flowcharts, pseudocode, and dry-runs",
+        "Typing as fast as possible",
+        "Ignoring the requirements",
+        "Writing all the code on one line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q66",
+      "question": "What is the output of the following Python snippet: `print(3 + 4 * 2)`?",
+      "options": [
+        "14",
+        "11",
+        "24",
+        "9"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q67",
+      "question": "What is the output of this Python snippet: `name = \"Alice\"; print(\"Hello \" + name)`?",
+      "options": [
+        "Hello Alice",
+        "Hello name",
+        "Alice Hello",
+        "Error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q68",
+      "question": "What will the following code output? `x = 5; x = x + 1; print(x)`",
+      "options": [
+        "5",
+        "x",
+        "6",
+        "1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q69",
+      "question": "Read the snippet: `if 5 > 10: print(\"A\") else: print(\"B\")`. What is printed?",
+      "options": [
+        "A",
+        "B",
+        "AB",
+        "Nothing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q70",
+      "question": "What is the output of the following loop: `for i in range(3): print(i)`?",
+      "options": [
+        "1, 2, 3",
+        "0, 1, 2, 3",
+        "0, 1, 2",
+        "3, 3, 3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q71",
+      "question": "What does this code do? `total = 0; for i in [1, 2, 3]: total += i; print(total)`",
+      "options": [
+        "Prints 1, then 2, then 3",
+        "Prints 0",
+        "Prints 6",
+        "Prints 3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q72",
+      "question": "What is the output of: `word = \"Python\"; print(word[0])`?",
+      "options": [
+        "P",
+        "n",
+        "y",
+        "Python"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q73",
+      "question": "What is the output of: `x = 10; y = 3; print(x % y)`?",
+      "options": [
+        "3",
+        "3.33",
+        "1",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q74",
+      "question": "Read the snippet: `def greet(): return \"Hi\"`. What happens when you run `print(greet())`?",
+      "options": [
+        "It prints \"Hi\"",
+        "It prints \"greet\"",
+        "It causes an error",
+        "It prints nothing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q75",
+      "question": "What is the output of: `colors = [\"red\", \"blue\"]; print(len(colors))`?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "red"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q76",
+      "question": "If `x = True` and `y = False`, what is the result of `print(x and y)`?",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q77",
+      "question": "What does `print(type(42))` return in Python?",
+      "options": [
+        "<class 'str'>",
+        "<class 'float'>",
+        "<class 'bool'>",
+        "<class 'int'>"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q78",
+      "question": "What is the output of: `print(10 == 10.0)`?",
+      "options": [
+        "False",
+        "True",
+        "Error",
+        "0"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q79",
+      "question": "Read the snippet: `x = \"5\"; y = \"5\"; print(x + y)`. What is the output?",
+      "options": [
+        "10",
+        "25",
+        "55",
+        "Error"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q80",
+      "question": "What will `print(\"A\" * 3)` output?",
+      "options": [
+        "A3",
+        "3A",
+        "AAA",
+        "Error"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q81",
+      "question": "In the context of programming, what is an \"input\"?",
+      "options": [
+        "Data provided to a program by the user, a file, or another system",
+        "The final result printed on the screen",
+        "A type of syntax error",
+        "The speed of the processor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q82",
+      "question": "What is an \"output\"?",
+      "options": [
+        "The keyboard typing",
+        "Data produced, displayed, or returned by a program after processing",
+        "A power cable",
+        "The process of debugging"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q83",
+      "question": "If a program asks for your birth year and then tells you your age, what is the input?",
+      "options": [
+        "The calculated age",
+        "The birth year provided by the user",
+        "The calculation itself",
+        "The print statement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q84",
+      "question": "In the Python statement `name = input(\"Enter name: \")`, what happens when the code runs?",
+      "options": [
+        "The program prints 'name' and ends",
+        "The program pauses, displays the prompt, and waits for the user to type something and press Enter",
+        "The program generates a random name",
+        "The program deletes the variable 'name'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q85",
+      "question": "If a function is defined as `def calculate_area(length, width):`, what are 'length' and 'width'?",
+      "options": [
+        "Outputs",
+        "Syntax errors",
+        "Inputs / Parameters required by the function",
+        "Loops"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q86",
+      "question": "Which Python command is exclusively used for standard text output to the console?",
+      "options": [
+        "input()",
+        "print()",
+        "type()",
+        "len()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q87",
+      "question": "A weather app reads a temperature sensor and displays the weather on a screen. What is the output?",
+      "options": [
+        "The temperature sensor hardware",
+        "The reading from the sensor",
+        "The visual display of the weather on the screen",
+        "The battery of the device"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q88",
+      "question": "In the mathematical function f(x) = 2x, what role does 'x' play in a programming context?",
+      "options": [
+        "The Output",
+        "The Input",
+        "The Logic Error",
+        "The Output variable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q89",
+      "question": "If a Python script reads a CSV file, calculates averages, and saves a new PDF report, what is the CSV file?",
+      "options": [
+        "The output destination",
+        "The processing module",
+        "The input source",
+        "The debugging log"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q90",
+      "question": "Why is distinguishing between input and output important in software design?",
+      "options": [
+        "It defines the boundaries, data flow, and core purpose of a program",
+        "It prevents syntax errors",
+        "It makes the code colorful",
+        "It replaces the need for debugging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q91",
+      "question": "You see the error `IndentationError: expected an indented block`. What is the likely fix in Python?",
+      "options": [
+        "Add a missing quote mark",
+        "Add spaces or tabs before the line of code that immediately follows a colon (like after an IF or FOR statement)",
+        "Change the variable name",
+        "Delete the entire file"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q92",
+      "question": "You see the code: `print(\"Hello World)`. What is the error and how do you fix it?",
+      "options": [
+        "Missing closing parenthesis; add `)` at the end",
+        "Missing closing quote mark; add `\"` after World",
+        "Hello World is misspelled; change it to HelloWorld",
+        "print should be Print; capitalize it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q93",
+      "question": "The code `if x = 5:` throws a syntax error in Python. How do you fix it?",
+      "options": [
+        "Remove the colon",
+        "Change it to `if x == 5:` because a double equals sign is used for comparison",
+        "Change it to `if 5 = x:`",
+        "Put quotes around the 5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q94",
+      "question": "Your code reads: `age = 20; print(Age)`. It throws a `NameError`. What is the fix?",
+      "options": [
+        "Change `Age` to lowercase `age`, as Python variables are case-sensitive",
+        "Put quotes around `Age`",
+        "Change `age = 20` to `age == 20`",
+        "Remove the print statement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q95",
+      "question": "The code `num = input(\"Enter number: \"); total = num + 5` causes a `TypeError`. Why and how do you fix it?",
+      "options": [
+        "Variables can't be named 'num'; change it to 'x'",
+        "input() returns a string, so you cannot add 5 to it. Fix it by converting num to an integer: `int(num) + 5`",
+        "You can't add 5 in Python; change it to 5.0",
+        "The string is too long"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q96",
+      "question": "A `ZeroDivisionError` occurs in `result = x / y`. What is the safest way to fix this?",
+      "options": [
+        "Change the division to multiplication",
+        "Use an IF statement to check if `y` is zero before performing the division",
+        "Delete the variable `y`",
+        "Change `x` to 0"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q97",
+      "question": "You have a list `fruits = [\"apple\", \"banana\"]`. You call `print(fruits[2])` and get an `IndexError`. How to fix it if you want to print banana?",
+      "options": [
+        "Add a third fruit to the list",
+        "Access `fruits[1]` instead, since list indexing starts at 0",
+        "Change the list to a dictionary",
+        "Use `print(fruits)`"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q98",
+      "question": "The code `while True: print(\"Help\")` runs forever and freezes your terminal. What is missing?",
+      "options": [
+        "A syntax error",
+        "A loop termination condition or a `break` statement inside the loop",
+        "An input statement",
+        "A dictionary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q99",
+      "question": "You write `import Math` and get a `ModuleNotFoundError`. What is the likely fix?",
+      "options": [
+        "Python doesn't do math",
+        "Change it to lowercase `import math`",
+        "Install a new operating system",
+        "Change it to `import Numbers`"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q100",
+      "question": "You write `def my_func() print(\"Hi\")`. You get a syntax error pointing at the end of `my_func()`. What is missing?",
+      "options": [
+        "A semicolon at the end of the line",
+        "A colon `:` directly after the parentheses",
+        "A variable assignment",
+        "A return statement"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

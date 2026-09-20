@@ -1,0 +1,1106 @@
+{
+  "module": "Module 2",
+  "level": "9-10",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why did LSTMs still become a bottleneck for very large language models?",
+      "options": [
+        "They could not use weights",
+        "They had to process language one word at a time",
+        "They could only work with images",
+        "They removed the need for training data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "What major idea in the Transformer removed the slow sequence loop of RNNs and LSTMs?",
+      "options": [
+        "Pooling",
+        "Self-Attention",
+        "Gradient Descent",
+        "Bias Encoding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "What does parallel processing mean in the context of Transformers?",
+      "options": [
+        "Reading one word after another in order",
+        "Processing all words in a document at the same time",
+        "Deleting all hidden layers",
+        "Using only one token at a time"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "question": "In self-attention, which three elements are used to determine relationships between words?",
+      "options": [
+        "Weights, Biases, Tokens",
+        "Queries, Keys, Values",
+        "Inputs, Outputs, Filters",
+        "Layers, Loops, Gates"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which element in self-attention best matches 'what you are looking for'?",
+      "options": [
+        "Key",
+        "Value",
+        "Query",
+        "Decoder"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q6",
+      "question": "Which element in self-attention is best described as the label on the outside of a file?",
+      "options": [
+        "Query",
+        "Key",
+        "Value",
+        "Attention score"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which element in self-attention contains the deep meaning of a word?",
+      "options": [
+        "Query",
+        "Key",
+        "Value",
+        "Position"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "question": "In the sentence 'I sat by the river bank,' what does the Transformer use to understand the meaning of 'bank'?",
+      "options": [
+        "It ignores nearby words completely",
+        "It matches the Query of bank with related Keys such as river",
+        "It converts bank into an image",
+        "It assigns the same meaning to every word"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "question": "What is the effect of a high dot product score between a Query and a Key?",
+      "options": [
+        "The words are likely unrelated",
+        "The words are highly related",
+        "The sentence becomes shorter",
+        "The Decoder stops working"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is the purpose of softmax in self-attention?",
+      "options": [
+        "To turn raw scores into percentages that add up to 100%",
+        "To remove all values from the sentence",
+        "To create hidden layers",
+        "To change the meaning of words randomly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "question": "Which Transformer component is responsible for reading the prompt and building a structured map of numbers?",
+      "options": [
+        "Decoder",
+        "Encoder",
+        "Filter",
+        "Gate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which Transformer component predicts the answer token by token?",
+      "options": [
+        "Encoder",
+        "Decoder",
+        "Query",
+        "Key"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "question": "Why does the Decoder need attention on the words it has already generated?",
+      "options": [
+        "To avoid repeating itself and losing grammar",
+        "To reduce the number of tokens in the prompt",
+        "To convert text into images",
+        "To eliminate the need for an Encoder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "question": "What problem appears if a Transformer reads all words at the same time without any extra information?",
+      "options": [
+        "It cannot recognize colors",
+        "It would lose the order of the words",
+        "It would stop using attention",
+        "It would only process one sentence per day"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q15",
+      "question": "What does Positional Encoding solve?",
+      "options": [
+        "The problem of word order in simultaneous processing",
+        "The problem of image resolution",
+        "The problem of token length",
+        "The problem of API access"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "question": "Positional Encoding can best be described as:",
+      "options": [
+        "A mathematical time code stamped onto each word",
+        "A filter that scans images",
+        "A memory gate in LSTM",
+        "A method for reducing bias"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which word pair in the sentence order example shows why word order matters?",
+      "options": [
+        "\"The dog bit the man\" and \"The man bit the dog\"",
+        "\"Bank river\" and \"river bank\"",
+        "\"Query key\" and \"value query\"",
+        "\"Attention value\" and \"softmax key\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q18",
+      "question": "Why did Transformers help scientists build massive LLMs?",
+      "options": [
+        "They processed every word much faster through parallelism",
+        "They removed the need for text data",
+        "They worked only on small documents",
+        "They made all words identical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q19",
+      "question": "What is the main reason Transformers were considered a breakthrough in 2017?",
+      "options": [
+        "They made neural networks unnecessary",
+        "They replaced slow word-by-word processing with self-attention",
+        "They stopped using mathematical operations",
+        "They could only handle speech"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "question": "If a Transformer receives the word 'bank' and pays more attention to 'river' than 'money,' what does it most likely understand?",
+      "options": [
+        "A financial institution",
+        "A river edge",
+        "A calculator result",
+        "A computer file"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "question": "What allows self-attention to compare a word with other words mathematically?",
+      "options": [
+        "Dot product",
+        "Pooling",
+        "Bias addition",
+        "Convolution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q22",
+      "question": "Which best explains why Attention is powerful in language understanding?",
+      "options": [
+        "It gives every word equal importance all the time",
+        "It helps focus on the most relevant words",
+        "It removes the need for training",
+        "It turns sentences into images"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "What is the role of the Encoder in a Transformer?",
+      "options": [
+        "To create the final answer one token at a time",
+        "To read the input and build the deep context map",
+        "To assign labels to images",
+        "To store the API keys"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "question": "Which statement best describes the relationship between self-attention and context?",
+      "options": [
+        "Self-attention destroys context",
+        "Self-attention helps the model understand how words connect",
+        "Self-attention is used only for images",
+        "Self-attention works without any math"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "question": "Which feature makes Transformer processing much faster than LSTM processing?",
+      "options": [
+        "It reads words one after another",
+        "It processes all words at once",
+        "It uses no output layer",
+        "It removes the vocabulary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "question": "What would happen if a Transformer had no positional encoding?",
+      "options": [
+        "It would lose the order information of words",
+        "It would become a CNN",
+        "It would only generate images",
+        "It would no longer use attention"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q27",
+      "question": "What does the text say about the relationship between Transformer speed and model scale?",
+      "options": [
+        "Speed limits model size severely",
+        "Fast parallel processing enabled much larger models",
+        "Large models cannot use attention",
+        "Only LSTMs can scale up"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "question": "Which of the following is the best summary of the Transformer's key advantage?",
+      "options": [
+        "It reads all words at once while preserving order mathematically",
+        "It deletes the need for language data",
+        "It stores every word forever without limits",
+        "It works only when inputs are short"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "question": "What kind of information does the Encoder convert the prompt into?",
+      "options": [
+        "A massive, organized map of numbers",
+        "A set of image pixels",
+        "A random set of labels",
+        "A hidden memory belt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q30",
+      "question": "Which concept is most directly responsible for making Transformers understand grammar better as they generate text?",
+      "options": [
+        "Decoder attention on already generated words",
+        "Pooling",
+        "Vanishing gradient",
+        "Filter size"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q31",
+      "question": "Which of these is a likely consequence of deleting the RNN loop from text processing?",
+      "options": [
+        "Slower training",
+        "Parallel processing",
+        "Loss of all word meanings",
+        "No need for prompts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "Why is the paper 'Attention Is All You Need' historically important?",
+      "options": [
+        "It introduced self-attention and the Transformer architecture",
+        "It proved CNNs can read text",
+        "It removed the need for all APIs",
+        "It invented the first computer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q33",
+      "question": "What does the value vector contribute in self-attention?",
+      "options": [
+        "The actual meaning or content of a word",
+        "The order of the sentence",
+        "The model's training speed",
+        "The number of layers in the encoder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q34",
+      "question": "If a word has a strong Query-Key match, what is the Transformer likely to do?",
+      "options": [
+        "Ignore the word completely",
+        "Pull the related Value into the meaning computation",
+        "Convert the word into a filter",
+        "Delete the previous sentence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "Which statement best describes the role of attention in long documents?",
+      "options": [
+        "It helps the model focus on the most relevant parts",
+        "It makes the document shorter",
+        "It replaces the need for text",
+        "It removes the order of words"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q36",
+      "question": "A standard LLM is compared in the chapter to a genius that:",
+      "options": [
+        "Can move around freely and act in the world",
+        "Is locked in a box and cannot do actions by itself",
+        "Can only process images",
+        "Can only use one token"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "question": "What additional feature turns a standard LLM into an Agent?",
+      "options": [
+        "A specific goal, an internal logic loop, and access to real-world tools",
+        "More hidden layers only",
+        "A larger vocabulary only",
+        "A new loss function only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q38",
+      "question": "What does the word 'Autonomous' imply for an AI Agent?",
+      "options": [
+        "It can act independently toward a goal",
+        "It can only answer questions passively",
+        "It can only store data",
+        "It cannot use tools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q39",
+      "question": "What is the core idea behind the ReAct framework?",
+      "options": [
+        "Reasoning and Acting in a loop",
+        "Reading and Analyzing Text only",
+        "Random Actions and Tests",
+        "Recursive Attention over Tokens"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q40",
+      "question": "In ReAct, what comes immediately after a Thought?",
+      "options": [
+        "Observation",
+        "Action",
+        "Training",
+        "Encoding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "question": "In the MUN example, why would a standard chatbot fail?",
+      "options": [
+        "It cannot search the web or send emails",
+        "It cannot understand grammar",
+        "It cannot produce tokens",
+        "It cannot read prompts at all"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q42",
+      "question": "Which step in the MUN example uses a web search tool?",
+      "options": [
+        "Thought 1",
+        "Action 1",
+        "Observation 1",
+        "Action 3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "question": "After finding the winner's name in the MUN example, what is the next logical step?",
+      "options": [
+        "Send the email immediately",
+        "Find the winner's email address in the database",
+        "Restart the search with a new keyword",
+        "Delete the observation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "question": "What does the 'Observation' in the ReAct framework represent?",
+      "options": [
+        "The result returned after an action is taken",
+        "A guess made before using tools",
+        "The final answer only",
+        "The model's training data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q45",
+      "question": "Which of the following is the best description of tool calling?",
+      "options": [
+        "Letting the AI use external services through APIs",
+        "Making the AI read only one sentence",
+        "Forcing the AI to speak in code",
+        "Removing all actions from the Agent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q46",
+      "question": "What is an API in the context of AI Agents?",
+      "options": [
+        "A digital bridge that allows software programs to communicate",
+        "A type of attention score",
+        "A loss minimization method",
+        "A memory gate inside LSTMs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q47",
+      "question": "Which tool would the Agent connect to if it needed current temperature information?",
+      "options": [
+        "Image Generation API",
+        "Weather API",
+        "Database API",
+        "Speech API"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q48",
+      "question": "Which tool would the Agent use if it needed to calculate complex arithmetic?",
+      "options": [
+        "Weather API",
+        "Calculator API",
+        "Search API",
+        "Mail API"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q49",
+      "question": "Which tool would the Agent use if it needed to create a promotional poster?",
+      "options": [
+        "Image Generation API",
+        "Database API",
+        "Weather API",
+        "Compiler API"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q50",
+      "question": "What makes tool calling especially important for Agents?",
+      "options": [
+        "It gives the LLM hands to act in the real world",
+        "It reduces the need for language understanding",
+        "It prevents the use of reasoning",
+        "It turns all tools into text"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q51",
+      "question": "What is the main idea behind Multi-Agent Systems?",
+      "options": [
+        "One giant agent does everything alone",
+        "A team of specialized agents work together",
+        "Agents cannot communicate",
+        "Only one model is ever used"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q52",
+      "question": "Which Agent in the team is responsible for breaking the user's prompt into smaller tasks?",
+      "options": [
+        "Researcher Agent",
+        "Manager Agent",
+        "Coder Agent",
+        "Reviewer Agent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q53",
+      "question": "Which Agent is described as browsing the web to find facts?",
+      "options": [
+        "Manager Agent",
+        "Researcher Agent",
+        "Reviewer Agent",
+        "Coder Agent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q54",
+      "question": "Which Agent writes Python code based on research?",
+      "options": [
+        "Coder Agent",
+        "Manager Agent",
+        "Researcher Agent",
+        "Viewer Agent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q55",
+      "question": "Which Agent checks code for bugs?",
+      "options": [
+        "Manager Agent",
+        "Reviewer Agent",
+        "Coder Agent",
+        "Search Agent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q56",
+      "question": "Why are multi-agent systems often preferred over one massive all-purpose agent?",
+      "options": [
+        "Specialized agents can divide labor and work more efficiently",
+        "They eliminate the need for tasks",
+        "They remove all communication",
+        "They only work on images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q57",
+      "question": "What happens in the background among agents in a multi-agent system?",
+      "options": [
+        "They debate and coordinate solutions",
+        "They become one fixed model forever",
+        "They stop using tools",
+        "They ignore each other completely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q58",
+      "question": "Which sequence best matches how a ReAct Agent solves a task?",
+      "options": [
+        "Thought → Action → Observation",
+        "Observation → Action → Thought",
+        "Action → Thought → Observation",
+        "Thought → Observation → Action"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q59",
+      "question": "In a ReAct Agent, why is the cycle repeated multiple times?",
+      "options": [
+        "So the agent can refine its understanding and continue working toward the goal",
+        "So it can avoid using tools",
+        "So it can produce only one word",
+        "So it can erase previous observations"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q60",
+      "question": "What is the biggest difference between a standard chatbot and an AI Agent?",
+      "options": [
+        "A chatbot can think, but an agent cannot",
+        "An agent can act using tools toward a goal",
+        "A chatbot always has APIs, but an agent does not",
+        "An agent cannot use language"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q61",
+      "question": "Which of these tasks is outside the capability of a standard LLM but possible for an Agent with tools?",
+      "options": [
+        "Explaining a definition",
+        "Writing a summary",
+        "Booking a flight",
+        "Predicting the next token"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q62",
+      "question": "Why does the chapter compare an Agent to a digital assistant or robot?",
+      "options": [
+        "Because it can only talk",
+        "Because it can figure out steps to complete a mission",
+        "Because it has no memory",
+        "Because it uses no reasoning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q63",
+      "question": "Which part of the agent system would most likely interact directly with a student's calendar?",
+      "options": [
+        "Manager Agent only",
+        "Tool/API layer",
+        "Attention mechanism",
+        "Positional encoding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q64",
+      "question": "In the birthday party example, what is the agent expected to do after deciding the theme and date?",
+      "options": [
+        "Only report the idea and stop",
+        "Automatically email invitations and order decorations",
+        "Switch to CNN processing",
+        "Retrain itself on new text"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q65",
+      "question": "Which of the following best describes the 'internal logic loop' of an Agent?",
+      "options": [
+        "A loop of reasoning, action, and observation",
+        "A loop of filters and pooling",
+        "A loop of weights and biases",
+        "A loop of tokens and pixels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q66",
+      "question": "What does the first thought in the MUN example reveal about the Agent?",
+      "options": [
+        "It needs to search the web first",
+        "It already knows the email address",
+        "It cannot use any tools",
+        "It must generate a poster"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q67",
+      "question": "Why is the database search in the MUN example necessary?",
+      "options": [
+        "To find the winner's email before sending the message",
+        "To calculate the weather",
+        "To generate the congratulatory email body",
+        "To change the model's encoder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q68",
+      "question": "Which observation confirms that the action in the MUN example was successful?",
+      "options": [
+        "Search results returned Aisha Khan",
+        "The database returned the email address",
+        "The email was successfully sent",
+        "The user typed the prompt"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q69",
+      "question": "Which of the following best describes the role of the Researcher Agent in a multi-agent system?",
+      "options": [
+        "To write code",
+        "To gather factual information",
+        "To test for bugs",
+        "To issue final emails"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q70",
+      "question": "In a multi-agent workflow, which agent would most likely handle the first decomposition of the user's request?",
+      "options": [
+        "Reviewer Agent",
+        "Coder Agent",
+        "Manager Agent",
+        "Researcher Agent"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q71",
+      "question": "What makes self-attention different from older sequence loops?",
+      "options": [
+        "It processes relationships without waiting for words one by one",
+        "It only works after all words are removed",
+        "It cannot use math",
+        "It always reads from right to left"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q72",
+      "question": "Which of the following best captures the idea of a Query in the library analogy?",
+      "options": [
+        "The title on the outside of the book",
+        "The information you are trying to find",
+        "The page number of the book",
+        "The shelf where the book rests"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q73",
+      "question": "In the bank example, what role does the Key of 'river' play?",
+      "options": [
+        "It acts like the label that helps match meaning",
+        "It is the final answer to the sentence",
+        "It determines the learning rate",
+        "It removes the need for attention"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q74",
+      "question": "Why is positional encoding necessary even after adding self-attention?",
+      "options": [
+        "Because attention alone does not preserve word order",
+        "Because attention cannot compare words",
+        "Because attention works only on images",
+        "Because attention removes meaning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q75",
+      "question": "What would be the most likely result if a Transformer handled words without positional encoding?",
+      "options": [
+        "The sentence order would become ambiguous",
+        "The model would automatically become an LSTM",
+        "The model would stop generating tokens",
+        "The model would only output images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q76",
+      "question": "Which of the following best explains the phrase 'Attention Is All You Need' in the chapter?",
+      "options": [
+        "Only attention is used to remove slow sequential processing",
+        "Attention is optional in Transformers",
+        "Attention is only for images",
+        "Attention replaces all language data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q77",
+      "question": "What is the key reason a Transformer can process a million words quickly in theory?",
+      "options": [
+        "It uses parallel processing with position information",
+        "It reads only the first word",
+        "It avoids all mathematical operations",
+        "It stores words as pictures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q78",
+      "question": "Which statement best describes the relationship between self-attention and the word 'bank'?",
+      "options": [
+        "Self-attention helps determine the correct meaning from nearby context",
+        "Self-attention makes all meanings identical",
+        "Self-attention removes context from the sentence",
+        "Self-attention only changes punctuation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q79",
+      "question": "A Transformer's decoder is most like a writer because it:",
+      "options": [
+        "Predicts tokens step by step",
+        "Reads only images",
+        "Uses no context",
+        "Ignores grammar completely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q80",
+      "question": "Which of the following is the best reason the encoder is described as a reader?",
+      "options": [
+        "It converts the prompt into numerical context",
+        "It sends emails",
+        "It draws images",
+        "It forgets the prompt immediately"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q81",
+      "question": "What is the main weakness of a standard chatbot compared to an Agent in the chapter?",
+      "options": [
+        "It cannot use tools or perform actions",
+        "It cannot understand any text at all",
+        "It always has positional encoding",
+        "It never uses language"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q82",
+      "question": "Which part of the ReAct framework is most responsible for making the agent dynamic?",
+      "options": [
+        "Continuous updates after each observation",
+        "One-time final answer generation only",
+        "Static memorization of facts",
+        "Random guessing without tools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q83",
+      "question": "What is the most accurate description of the Observation stage in ReAct?",
+      "options": [
+        "The agent interprets the result of a tool action and uses it to plan next steps",
+        "The agent creates the prompt from scratch",
+        "The agent trains itself on a dataset",
+        "The agent changes its architecture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "Why is the MUN example especially suitable for explaining ReAct?",
+      "options": [
+        "It shows a task that requires search, lookup, and communication",
+        "It requires only image recognition",
+        "It has no steps",
+        "It can be solved without any information"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q85",
+      "question": "Which part of the Agent system is closest to the phrase 'giving the AI hands'?",
+      "options": [
+        "Tool calling through APIs",
+        "Positional encoding",
+        "Softmax normalization",
+        "Hidden layers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q86",
+      "question": "What would an AI likely use if it needed live weather data before planning an outdoor event?",
+      "options": [
+        "Weather API",
+        "Reviewer Agent",
+        "Encoder-only model",
+        "Positional code"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q87",
+      "question": "Which best describes the relationship between LLMs and Agents in the chapter?",
+      "options": [
+        "LLMs are smart brains; Agents are LLMs with goals and tools",
+        "Agents are older than LLMs",
+        "LLMs can act but Agents cannot",
+        "Agents are only used for image generation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q88",
+      "question": "What is the most important reason multi-agent systems can produce better results?",
+      "options": [
+        "They divide tasks among specialized roles",
+        "They never need research",
+        "They remove the need for communication",
+        "They only use one tool"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q89",
+      "question": "Which agent is best described as a quality checker in a multi-agent setup?",
+      "options": [
+        "Reviewer Agent",
+        "Manager Agent",
+        "Researcher Agent",
+        "Search Agent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q90",
+      "question": "Which statement about the Coder Agent is most accurate?",
+      "options": [
+        "It generates code based on research findings",
+        "It performs only web search",
+        "It sends the final email",
+        "It breaks the prompt into tasks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q91",
+      "question": "Which of the following is the strongest example of a multi-agent system being more effective than one agent?",
+      "options": [
+        "A team handling research, coding, and review separately",
+        "A single agent ignoring tools",
+        "A model reading one word at a time",
+        "A model with no goal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q92",
+      "question": "How does the chapter suggest agents should behave after each action?",
+      "options": [
+        "They should observe the new situation and continue the loop",
+        "They should stop after the first output",
+        "They should discard their goal",
+        "They should ignore any observations"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q93",
+      "question": "Which option best explains why tool access is necessary for true agents?",
+      "options": [
+        "It lets them interact with real-world systems rather than only generating text",
+        "It makes attention faster",
+        "It removes the need for reasoning",
+        "It replaces the encoder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q94",
+      "question": "In the MUN example, which step directly follows the database lookup?",
+      "options": [
+        "Send the message",
+        "Find the winner's name",
+        "Search the web again",
+        "Ask the user for a different task"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q95",
+      "question": "What does the final thought in the MUN example indicate?",
+      "options": [
+        "The task is complete and the agent can report back",
+        "The agent has lost the email address",
+        "The model needs retraining",
+        "The search was unsuccessful"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q96",
+      "question": "Which of the following is the best analogy for an Agent according to the chapter?",
+      "options": [
+        "A digital assistant or robot that completes missions",
+        "A static dictionary",
+        "A photo album",
+        "A one-time calculator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q97",
+      "question": "Which part of the multi-agent team is most likely to identify bugs before delivery?",
+      "options": [
+        "Reviewer Agent",
+        "Manager Agent",
+        "Researcher Agent",
+        "Encoder Agent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q98",
+      "question": "Which choice best describes the overall evolution shown in Module 2?",
+      "options": [
+        "From slow sequence models to faster attention-based models and then to tool-using agents",
+        "From images to audio only",
+        "From CNNs to filters to pooling only",
+        "From weights to tokens to pixels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q99",
+      "question": "Which is the clearest example of an AI system acting, not just answering?",
+      "options": [
+        "Sending a message after searching and finding the needed email",
+        "Defining the word 'bank'",
+        "Explaining what attention is",
+        "Listing the components of an LLM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q100",
+      "question": "What is the central idea linking Transformers, Agents, and Multi-Agent Systems in this module?",
+      "options": [
+        "Better language understanding enables systems to reason, act, and collaborate",
+        "All AI must use images first",
+        "Only one model can solve every task",
+        "Words do not need order in language"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+"title": "Chapter 1 Test",
+"timePerQuestion": 40,
+"questions": [
+{
+"id": "q1",
+"question": "What is Python best described as?",
+"options": [
+"A machine language made of binary only",
+"A programming language that helps humans communicate instructions to computers",
+"A hardware component for running code",
+"A browser extension for data analysis"
+],
+"correctAnswer": 1
+},
+{
+"id": "q2",
+"question": "Why is Python widely used in AI and Machine Learning?",
+"options": [
+"Because it is the fastest language for every task",
+"Because it is simple, readable, and supported by powerful AI libraries",
+"Because it can only be used for small projects",
+"Because it does not need any syntax rules"
+],
+"correctAnswer": 1
+},
+{
+"id": "q3",
+"question": "Which line correctly prints a message in Python?",
+"options": [
+"print \"Hello\"",
+"print('Hello')",
+"echo('Hello')",
+"display 'Hello'"
+],
+"correctAnswer": 1
+},
+{
+"id": "q4",
+"question": "What does the print() function do?",
+"options": [
+"It stores values in memory",
+"It displays output on the screen",
+"It converts Python code into hardware signals",
+"It creates variables automatically"
+],
+"correctAnswer": 1
+},
+{
+"id": "q5",
+"question": "In Python, what are the words inside quotation marks called?",
+"options": [
+"Integers",
+"Strings",
+"Keywords",
+"Functions"
+],
+"correctAnswer": 1
+},
+{
+"id": "q6",
+"question": "What does it mean when Python is called an interpreted language?",
+"options": [
+"It runs code step by step using an interpreter",
+"It can only run inside a browser",
+"It does not require any code execution",
+"It always compiles everything before running"
+],
+"correctAnswer": 0
+},
+{
+"id": "q7",
+"question": "Which of the following is a valid Python variable name?",
+"options": [
+"2score",
+"student-name",
+"student_name",
+"class"
+],
+"correctAnswer": 2
+},
+{
+"id": "q8",
+"question": "Why is this code invalid? `print(\"Hello\"`",
+"options": [
+"Because Python does not allow text",
+"Because the closing parenthesis is missing",
+"Because print() cannot be used at all",
+"Because quotes are not required"
+],
+"correctAnswer": 1
+},
+{
+"id": "q9",
+"question": "What is indentation in Python used for?",
+"options": [
+"To make code colorful",
+"To define blocks of code",
+"To declare variables",
+"To store comments"
+],
+"correctAnswer": 1
+},
+{
+"id": "q10",
+"question": "Which statement about indentation is correct?",
+"options": [
+"It is optional in Python",
+"It replaces braces used in many other languages",
+"It is only used in comments",
+"It works only with loops and never with if statements"
+],
+"correctAnswer": 1
+},
+{
+"id": "q11",
+"question": "What is a comment in Python?",
+"options": [
+"A line of code that Python executes twice",
+"A note for humans that Python ignores during execution",
+"A type of variable",
+"A special loop structure"
+],
+"correctAnswer": 1
+},
+{
+"id": "q12",
+"question": "Which symbol is used to write a single-line comment in Python?",
+"options": [
+"//",
+"/*",
+"#",
+"--"
+],
+"correctAnswer": 2
+},
+{
+"id": "q13",
+"question": "What does this code do? `name = \"Aarav\"`",
+"options": [
+"It compares two values",
+"It stores the string \"Aarav\" in a variable called name",
+"It prints the word Aarav",
+"It creates a comment"
+],
+"correctAnswer": 1
+},
+{
+"id": "q14",
+"question": "What is the output of this code? `print(10 + 5)`",
+"options": [
+"105",
+"15",
+"10 + 5",
+"Error"
+],
+"correctAnswer": 1
+},
+{
+"id": "q15",
+"question": "What is the output of this code? `print(\"Hello\")`",
+"options": [
+"Hello",
+"\"Hello\"",
+"print Hello",
+"No output"
+],
+"correctAnswer": 0
+},
+{
+"id": "q16",
+"question": "What happens if Python cannot understand your code structure?",
+"options": [
+"It silently ignores the code",
+"It immediately throws an error",
+"It guesses the meaning automatically",
+"It converts it into another language"
+],
+"correctAnswer": 1
+},
+{
+"id": "q17",
+"question": "Why is Python considered beginner-friendly?",
+"options": [
+"Because it has no rules",
+"Because its syntax is clean and readable",
+"Because it cannot do advanced tasks",
+"Because it never produces errors"
+],
+"correctAnswer": 1
+},
+{
+"id": "q18",
+"question": "Which of the following best describes a program?",
+"options": [
+"A set of instructions given to a computer",
+"A collection of websites",
+"A device used to run apps",
+"A type of database"
+],
+"correctAnswer": 0
+},
+{
+"id": "q19",
+"question": "What is the correct output order of this code?\n`print(\"Step 1\")`\n`print(\"Step 2\")`\n`print(\"Step 3\")`",
+"options": [
+"Step 3, Step 2, Step 1",
+"Step 1, Step 2, Step 3",
+"Step 2, Step 3, Step 1",
+"Random order"
+],
+"correctAnswer": 1
+},
+{
+"id": "q20",
+"question": "Which mindset is most important when learning Python for AI?",
+"options": [
+"Memorizing syntax only",
+"Computational thinking and problem solving",
+"Avoiding all mistakes",
+"Writing the longest code possible"
+],
+"correctAnswer": 1
+}
+]
+}

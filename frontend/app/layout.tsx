@@ -1,0 +1,60 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
+import "./globals.css";
+import {AuthProvider} from "@/context/AuthContext";
+import SessionWarning from "@/components/SessionWarning";
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: {
+    default: "Gridixa AI Olympiad",
+    template: "%s | Gridixa AI Olympiad",
+  },
+  description:
+    "AI Olympiad platform for students to learn, test, and master artificial intelligence.",
+  keywords: [
+    "AI Olympiad",
+    "Artificial Intelligence for students",
+    "AI learning platform",
+  ],
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning={true}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <AuthProvider>
+
+          <Analytics />
+          <SpeedInsights />
+          
+          {/* ✅ reCAPTCHA v3 script */}
+          <Script
+            src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}`}
+            strategy="afterInteractive"
+          />
+
+          <SessionWarning />
+          
+          {children}
+        </AuthProvider>
+      </body>
+    </html>
+  );
+}

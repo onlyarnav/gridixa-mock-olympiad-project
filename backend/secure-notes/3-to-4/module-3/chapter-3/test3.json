@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary goal of Explainable AI (XAI)?",
+      "options": [
+        "To make AI models train faster",
+        "To reduce the size of datasets",
+        "To help humans understand why AI made a particular decision",
+        "To replace machine learning algorithms"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "Why is explainability especially important in medical AI systems?",
+      "options": [
+        "Doctors need to trust and understand the reasoning behind predictions",
+        "It increases GPU memory",
+        "It guarantees perfect predictions",
+        "It eliminates uncertainty"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "An AI system rejects a loan application but cannot explain why. This situation illustrates the problem of:",
+      "options": [
+        "Feature engineering",
+        "Black-box models",
+        "Cross-validation",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which statement best describes a 'black-box' AI model?",
+      "options": [
+        "A model that uses only numerical data",
+        "A model whose internal reasoning is difficult for humans to understand",
+        "A model with no parameters",
+        "A model that cannot make predictions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Feature importance refers to:",
+      "options": [
+        "The number of features in a dataset",
+        "How strongly each feature influences a model's prediction",
+        "The order in which features are collected",
+        "The size of feature vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "A house-price prediction model considers location more influential than the number of bedrooms. This is an example of:",
+      "options": [
+        "Feature importance",
+        "Fairness analysis",
+        "Model calibration",
+        "Data augmentation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Why is feature importance useful?",
+      "options": [
+        "It helps explain which inputs contributed most to a prediction",
+        "It guarantees zero error",
+        "It automatically removes bias",
+        "It replaces model evaluation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "An AI predicts that a student will pass an exam mainly because of attendance and previous scores. Attendance and previous scores are:",
+      "options": [
+        "Labels",
+        "Features with high importance",
+        "Hyperparameters",
+        "Loss values"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which feature would likely have high importance in a model predicting whether it will rain?",
+      "options": [
+        "Temperature and humidity",
+        "Student attendance",
+        "Movie ratings",
+        "House prices"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "What does fairness in AI primarily aim to achieve?",
+      "options": [
+        "Faster predictions",
+        "Lower computational cost",
+        "Equal and unbiased treatment of individuals or groups",
+        "Larger datasets"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "An AI hiring system consistently favors one gender despite equal qualifications. This is an example of:",
+      "options": [
+        "Model calibration",
+        "Fairness issue or bias",
+        "Feature scaling",
+        "Overfitting"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Why can biased training data lead to unfair models?",
+      "options": [
+        "The model learns patterns, including unfair ones, from the data",
+        "The model ignores the training data",
+        "Bias only affects testing data",
+        "Biased data improves generalization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Which of the following is an example of a fairness concern?",
+      "options": [
+        "A model takes too long to train",
+        "A recommendation system uses too much memory",
+        "A credit approval model unfairly rejects applicants from a specific region",
+        "A model uses too many features"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "Why is explainability often connected to fairness?",
+      "options": [
+        "Understanding a model's decisions can help identify unfair behavior",
+        "Explainability automatically removes bias",
+        "Fairness and explainability are unrelated",
+        "Only explainable models can be trained"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "A healthcare model gives different recommendations to identical patients because of their ethnicity. This indicates:",
+      "options": [
+        "Good feature engineering",
+        "A fairness problem",
+        "High feature importance",
+        "Excellent calibration"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which statement about feature importance is TRUE?",
+      "options": [
+        "Every feature contributes equally.",
+        "Some features may have little or no effect on predictions.",
+        "Feature importance exists only in regression models.",
+        "Feature importance cannot be estimated."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "An AI model predicts loan defaults. Income has very high importance, while favorite color has almost no importance. This suggests:",
+      "options": [
+        "The model is unfair",
+        "The model has learned meaningful relationships",
+        "The model is underfitting",
+        "The model cannot explain its predictions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which question is MOST related to explainable AI?",
+      "options": [
+        "How many GPUs were used for training?",
+        "Why did the model classify this email as spam?",
+        "What programming language was used?",
+        "How large is the dataset?"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "A university uses an AI system for admissions. To ensure responsible AI, administrators should be concerned about:",
+      "options": [
+        "Only maximizing accuracy",
+        "Only reducing training time",
+        "Both explainability and fairness of decisions",
+        "Only increasing dataset size"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "Which sequence best represents responsible AI development?",
+      "options": [
+        "Train model → Ignore explanations → Deploy",
+        "Build model → Analyze feature importance → Check fairness → Deploy",
+        "Collect data → Deploy immediately",
+        "Tune hyperparameters → Ignore bias"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

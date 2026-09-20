@@ -1,0 +1,1106 @@
+{
+  "module": "Module 3",
+  "level": "9-10",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why do modern AI engineers prefer an end-to-end pipeline instead of writing all AI math from scratch?",
+      "options": [
+        "Because the math is impossible to use",
+        "Because the pipeline lets them gather data, process it, run it through a pre-trained model, and return results efficiently",
+        "Because pre-trained models cannot be downloaded",
+        "Because AI apps do not need data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which platform is described as the central ecosystem used by the AI industry for building applied AI systems?",
+      "options": [
+        "TensorFlow Hub",
+        "HuggingFace",
+        "GitHub Copilot",
+        "PyTorch Playground"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "What are the three main pillars of the HuggingFace ecosystem mentioned in the chapter?",
+      "options": [
+        "Models, datasets, and the Transformers library",
+        "Weights, biases, and activations",
+        "Tokens, prompts, and embeddings",
+        "Input, hidden, and output layers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q4",
+      "question": "Which pillar of HuggingFace is most directly described as a package of Python code that connects models and datasets?",
+      "options": [
+        "Model Hub",
+        "Datasets Hub",
+        "Transformers Library",
+        "Token Dictionary"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "question": "What is the best description of the Model Hub?",
+      "options": [
+        "A library of training labels only",
+        "A massive library of pre-trained open-source AI models",
+        "A place where only raw text is stored",
+        "A dashboard for monitoring latency"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is the role of the Datasets Hub in the HuggingFace ecosystem?",
+      "options": [
+        "It stores the final predictions of models",
+        "It provides text, image, and audio data used to train models",
+        "It converts output back into English",
+        "It ranks model answers using humans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "question": "Why is the HuggingFace Transformers library especially important for AI engineers?",
+      "options": [
+        "It creates GPUs from scratch",
+        "It lets engineers connect models and datasets with only a few lines of code",
+        "It removes the need for any data pipeline",
+        "It replaces tokenization with manual work"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "question": "What does ETL stand for in the data pipeline described in the chapter?",
+      "options": [
+        "Encode, Train, Learn",
+        "Extract, Transform, Load",
+        "Evaluate, Test, Label",
+        "Embed, Tokenize, Launch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which step in ETL is responsible for gathering messy raw material such as TikTok transcripts and Instagram captions?",
+      "options": [
+        "Load",
+        "Transform",
+        "Extract",
+        "Infer"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "question": "Why is the Extract step in the chapter described as messy?",
+      "options": [
+        "Because the data is already perfectly cleaned",
+        "Because it may contain typos, emojis, and broken links",
+        "Because it can only include numbers",
+        "Because it deletes all useful information"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "question": "What is the main purpose of the Transform step in ETL?",
+      "options": [
+        "To make raw data more useful by cleaning and translating it into numbers",
+        "To train the model with rewards and punishments",
+        "To send the answer directly to the screen",
+        "To collect user feedback"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following is specifically mentioned as part of the Transform step?",
+      "options": [
+        "Removing broken links and weird computer code",
+        "Deleting all punctuation from the final output",
+        "Ranking answers from best to worst",
+        "Creating positional encodings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "question": "What does the Load step do in the ETL pipeline?",
+      "options": [
+        "Sends cleaned numbers into the GPU so the model can learn",
+        "Deletes bad data from the internet",
+        "Calculates reward scores",
+        "Creates a tokenizer vocabulary"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "question": "In the chapter, cleaned numbers that are loaded into the model are also called:",
+      "options": [
+        "Tensors",
+        "Rubrics",
+        "Prompts",
+        "Logs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "question": "Why must an AI pipeline use the exact tokenizer designed for a specific model?",
+      "options": [
+        "Because every model shares the same dictionary",
+        "Because using the wrong dictionary would make the AI output gibberish",
+        "Because tokenizers only work with images",
+        "Because tokenizers replace the model itself"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "question": "What is a vocabulary in the context of tokenization?",
+      "options": [
+        "A unique dictionary for a specific LLM",
+        "A set of GPU instructions",
+        "A list of user reviews",
+        "A dashboard for latency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q17",
+      "question": "In one model, the word 'Youth' may have a different token ID than in another model because:",
+      "options": [
+        "The models use different vocabularies",
+        "The GPU changes the word",
+        "The prompt is always the same",
+        "Token IDs are random and never model-specific"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q18",
+      "question": "Which of the following is an example of encoding in tokenization?",
+      "options": [
+        "Turning a prompt into a list of integers",
+        "Turning integers back into English text",
+        "Ranking three answers by humans",
+        "Measuring time to first token"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q19",
+      "question": "What is the purpose of an attention mask?",
+      "options": [
+        "To tell the AI which tokens are real and which are padding",
+        "To improve the reward model",
+        "To convert text into images",
+        "To increase the dataset size"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which option best describes decoding?",
+      "options": [
+        "Translating model output numbers back into readable English",
+        "Turning English into token IDs",
+        "Removing broken links from raw data",
+        "Assigning rewards to answers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q21",
+      "question": "In an end-to-end inference pipeline, what happens first after the user asks a question?",
+      "options": [
+        "The model immediately writes the answer",
+        "The text is extracted and transformed by the tokenizer",
+        "The output is judged by humans",
+        "The reward model gives a penalty"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "question": "What is inference in simple technical terms?",
+      "options": [
+        "Training an AI from scratch",
+        "Asking the AI a question and getting an answer",
+        "Ranking model answers with humans",
+        "Loading raw links into the GPU"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "What role does the pre-trained model play in the pipeline?",
+      "options": [
+        "It replaces the tokenizer",
+        "It processes the cleaned numerical input and predicts output numbers",
+        "It stores only the raw dataset",
+        "It serves as the human judge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "question": "Which stage directly connects the model's numerical output to the visible final answer on screen?",
+      "options": [
+        "Load",
+        "Decode",
+        "Extract",
+        "Train"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "question": "What does mastering the pipeline allow an engineer to do?",
+      "options": [
+        "Only read AI theory",
+        "Deploy applied AI systems",
+        "Avoid using models",
+        "Replace all datasets with manual rules"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "question": "During pre-training, what is the AI mainly taught to do?",
+      "options": [
+        "Predict the next word by learning the basic rules of human language",
+        "Rank answers using human judges",
+        "Write only one specific type of email",
+        "Learn how to run a GPU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q27",
+      "question": "What best describes a pre-trained model in the chapter's analogy?",
+      "options": [
+        "A college graduate with general knowledge but no specific job training",
+        "A beginner who knows nothing",
+        "A robot that can only do one task",
+        "A dataset without labels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q28",
+      "question": "Fine-tuning is most accurately described as:",
+      "options": [
+        "Teaching the AI general English from the internet",
+        "On-the-job training for a very specific task",
+        "Deleting the model's weights",
+        "Measuring latency in a dashboard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "question": "Which of the following is NOT one of the specific tasks mentioned as a fine-tuning example?",
+      "options": [
+        "Writing Gen Z marketing emails",
+        "Writing Python code",
+        "Grading MUN debate speeches",
+        "Detecting faces in X-rays"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q30",
+      "question": "What does fine-tuning change inside the model?",
+      "options": [
+        "Its token IDs only",
+        "Its internal parameter dials, weights, and biases",
+        "Its internet connection",
+        "Its dataset filename"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "question": "What is Supervised Fine-Tuning (SFT) based on?",
+      "options": [
+        "Raw internet crawling without labels",
+        "Input/output pairs showing the AI a perfect answer",
+        "Human voting after deployment only",
+        "A dashboard of latency metrics"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "In SFT, what kind of dataset is required?",
+      "options": [
+        "Only unlabeled examples",
+        "High-quality input/output pairs",
+        "Only feedback scores",
+        "Only random prompts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "If the AI is shown 1,000 examples of a specific MUN reminder tone during SFT, what is the likely outcome?",
+      "options": [
+        "The model permanently adopts the new personality and style more strongly",
+        "The model forgets language rules",
+        "The tokenizer stops working",
+        "The reward model disappears"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q34",
+      "question": "Which of these is the best example of an SFT output from the chapter?",
+      "options": [
+        "A rude one-word reply",
+        "A polished reminder with emojis and MUN details",
+        "A random sequence of token IDs",
+        "A latency report"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "What is the main limitation of SFT that RLHF is designed to improve?",
+      "options": [
+        "SFT cannot use any labels",
+        "SFT does not always guarantee helpful, safe, and non-harmful behavior",
+        "SFT only works on images",
+        "SFT cannot change weights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "question": "RLHF is compared in the chapter to training a puppy using:",
+      "options": [
+        "Tokens",
+        "Treats",
+        "Filters",
+        "Queries"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "question": "Which company/model transition is explicitly mentioned as an example of RLHF's impact?",
+      "options": [
+        "BERT into Gemini",
+        "GPT-3 into ChatGPT",
+        "Llama 2 into CNN",
+        "Gemma into RNN"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "question": "What is the first step in the RLHF process described in the chapter?",
+      "options": [
+        "Human ranking",
+        "Generate options",
+        "Apply reward scores",
+        "Deploy the model"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "question": "In RLHF, what do human workers do after the AI generates several answers?",
+      "options": [
+        "They retrain the tokenizer",
+        "They rank the answers using a strict rubric",
+        "They delete the worst answer permanently",
+        "They change the dataset vocabulary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "question": "Which of the following is most likely to earn a high reward score in RLHF?",
+      "options": [
+        "A polite, helpful, and accurate answer",
+        "A rude answer with false claims",
+        "A dangerous answer",
+        "An answer that ignores the prompt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q41",
+      "question": "What kind of score does a rude or dangerous answer receive in RLHF according to the chapter?",
+      "options": [
+        "+10",
+        "0",
+        "-10",
+        "+100"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q42",
+      "question": "What does RLHF ultimately teach the AI to do?",
+      "options": [
+        "Chase the highest mathematical reward and align with human values",
+        "Ignore human feedback entirely",
+        "Use only one token per reply",
+        "Stop using any parameters"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q43",
+      "question": "Which term best describes the AI output produced by a reward-based training process in RLHF?",
+      "options": [
+        "Randomized behavior",
+        "Aligned behavior",
+        "Untrained behavior",
+        "Token padding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "question": "Why is RLHF considered a reinforcement learning method?",
+      "options": [
+        "Because it uses only images",
+        "Because the model learns by maximizing reward and minimizing penalty",
+        "Because it removes human feedback",
+        "Because it does not involve rankings"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "question": "What is the 'Black Box' problem in LLMs?",
+      "options": [
+        "The model cannot process black text",
+        "The model's exact outputs are hard to predict because it generates new text from many parameter combinations",
+        "The model only works offline",
+        "The model cannot use a tokenizer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "question": "Why is observability needed after launching a chatbot?",
+      "options": [
+        "To prevent the model from learning language",
+        "To monitor what the AI is actually saying and catch problems quickly",
+        "To increase the vocabulary size",
+        "To replace the judge model"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "question": "What can prompt injection potentially do to an AI system?",
+      "options": [
+        "Force it to swear or behave unexpectedly",
+        "Improve its GPU speed",
+        "Automatically reduce token cost",
+        "Remove the need for a dashboard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q48",
+      "question": "Which problem is specifically mentioned as something observability should catch?",
+      "options": [
+        "Hallucinating fake debate rules",
+        "Writing too many emojis",
+        "Using the wrong font",
+        "Training on a small dataset"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q49",
+      "question": "LLM Observability is compared to a car's:",
+      "options": [
+        "Engine block",
+        "Dashboard",
+        "Fuel tank only",
+        "Brake pads"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q50",
+      "question": "Which metric in observability tracks how long it takes for the first token to appear?",
+      "options": [
+        "Token cost",
+        "Drift",
+        "Latency / Time to First Token",
+        "Reward score"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q51",
+      "question": "Why is Time to First Token especially important for Gen Z users according to the chapter?",
+      "options": [
+        "They prefer slow replies",
+        "If it takes too long, they may close the app",
+        "They only use offline apps",
+        "They do not care about speed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q52",
+      "question": "What does token cost represent in LLM observability?",
+      "options": [
+        "The number of human judges used",
+        "The money charged for tokens the AI reads and writes",
+        "The size of the tokenizer vocabulary",
+        "The number of outputs shown"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q53",
+      "question": "Why do observability dashboards track exact token usage?",
+      "options": [
+        "To prevent the system from becoming a CNN",
+        "To avoid accidentally spending too much money",
+        "To increase reward scores",
+        "To eliminate hallucinations completely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q54",
+      "question": "What is drift in the context of observability?",
+      "options": [
+        "A model becoming slower due to the internet",
+        "Behavior changes over time that move the AI away from its original training",
+        "The process of token decoding",
+        "The ranking done by human workers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q55",
+      "question": "Which of the following is the best purpose of observability in a production AI system?",
+      "options": [
+        "To hide all logs from engineers",
+        "To track, record, and analyze conversations in real time",
+        "To eliminate the need for evaluation",
+        "To prevent users from asking questions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q56",
+      "question": "What is the modern solution for grading human-like text called?",
+      "options": [
+        "LLM-as-a-Judge",
+        "Tokenizer-as-a-Service",
+        "Prompt Compression",
+        "Vector Scoring"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q57",
+      "question": "Why is LLM-as-a-Judge useful?",
+      "options": [
+        "It grades answers using deep understanding instead of only strict word matching",
+        "It removes the need for rubrics",
+        "It only works on numbers",
+        "It replaces the chatbot completely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q58",
+      "question": "In the MUN analogy, what represents the Judge LLM?",
+      "options": [
+        "Junior delegates",
+        "Executive Board or Senior Chairs",
+        "The prompt injection attacker",
+        "The GPU"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q59",
+      "question": "What information is sent to the Judge LLM in the observability pipeline?",
+      "options": [
+        "Only the model's weights",
+        "The prompt, the chatbot's answer, and the rubric",
+        "Only the user's IP address",
+        "Only the final reward score"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q60",
+      "question": "What might a grading rubric ask the Judge LLM to score?",
+      "options": [
+        "Tone, Accuracy, and Safety",
+        "Color, Brightness, and Contrast",
+        "Token IDs and Padding Length",
+        "Latency, GPU Temperature, and Costs only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q61",
+      "question": "What does the Judge LLM typically return after evaluating an answer?",
+      "options": [
+        "A grade and a brief explanation",
+        "A new tokenizer",
+        "A rewritten GPU driver",
+        "A hidden layer count"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q62",
+      "question": "Which feature makes LLM-as-a-Judge more powerful than simple word matching?",
+      "options": [
+        "It understands deep context",
+        "It works only with exact string matches",
+        "It ignores the rubric",
+        "It cannot score safety"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q63",
+      "question": "What is the first step in the continuous feedback loop described in the chapter?",
+      "options": [
+        "Evaluate",
+        "Observe",
+        "Fine-Tune",
+        "Deploy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q64",
+      "question": "In the feedback loop, what happens after the observability dashboard flags a bad conversation?",
+      "options": [
+        "The LLM-as-a-Judge analyzes the mistake",
+        "The model is immediately deleted",
+        "The tokenizer is replaced",
+        "The data pipeline is skipped"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q65",
+      "question": "If the Judge LLM confirms that the chatbot failed the Accuracy test, what is the next logical step if the issue was rude tone?",
+      "options": [
+        "Create a new dataset from the corrected conversation and run SFT",
+        "Increase token cost",
+        "Change the model to a CNN",
+        "Stop using observability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q66",
+      "question": "Why is the continuous feedback loop considered the heartbeat of the modern AI industry?",
+      "options": [
+        "Because it allows systems to get smarter every day",
+        "Because it removes all mistakes instantly",
+        "Because it eliminates the need for training",
+        "Because it makes models smaller"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q67",
+      "question": "Which of the following best describes the combined purpose of pipelines, vector databases, fine-tuning, and observability?",
+      "options": [
+        "They are the exact skills used by top AI engineers in applied AI systems",
+        "They only matter for image generation",
+        "They replace all pretrained models",
+        "They are unrelated to real-world AI deployment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q68",
+      "question": "In production, why is an AI system often compared to a black box?",
+      "options": [
+        "Because its outputs can be hard to predict exactly",
+        "Because it cannot process any inputs",
+        "Because it only uses one token",
+        "Because it is made of metal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q69",
+      "question": "What is the most likely danger of not having observability in a live chatbot?",
+      "options": [
+        "You may not notice hallucinations, unsafe behavior, or prompt injection attacks",
+        "The model will stop tokenizing",
+        "The data pipeline will disappear",
+        "The hub will stop hosting models"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q70",
+      "question": "Which of the following best captures the flow from raw data to final answer in the chapter?",
+      "options": [
+        "Extract → Transform → Load → Tokenize → Model → Decode",
+        "Decode → Model → Load → Extract → Transform",
+        "Tokenize → Judge → Observe → Train → Output",
+        "Rank → Reward → Encode → Display → Evaluate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q71",
+      "question": "Which part of the HuggingFace pipeline is most directly responsible for converting user text into numbers the model can understand?",
+      "options": [
+        "The tokenizer",
+        "The judge model",
+        "The reward model",
+        "The dashboard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q72",
+      "question": "Which component is most likely to be downloaded automatically from the HuggingFace Hub in a real inference pipeline?",
+      "options": [
+        "A pre-trained model and its matching tokenizer",
+        "A human rubric only",
+        "The observability dashboard",
+        "The final output text"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q73",
+      "question": "Which of the following best explains why data must be transformed before loading?",
+      "options": [
+        "Raw text is messy and the model needs numerical input",
+        "The GPU can only read emojis",
+        "The tokenizer cannot work on numbers",
+        "The model only understands broken links"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q74",
+      "question": "What is the most accurate description of a prompt in the chapter's pipeline view?",
+      "options": [
+        "The user text that begins the inference process",
+        "The reward score given after training",
+        "A hidden layer value",
+        "The model's final loss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q75",
+      "question": "Why is inference described as the technical term for asking AI a question and getting an answer?",
+      "options": [
+        "Because it refers to using a trained model to produce output",
+        "Because it means only training a tokenizer",
+        "Because it is the same as human ranking",
+        "Because it replaces pre-training"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q76",
+      "question": "What is the strongest reason pre-trained models are compared to college graduates?",
+      "options": [
+        "They possess broad general knowledge before specific job training",
+        "They are always perfect at one niche task",
+        "They do not need any more training",
+        "They can only answer yes/no questions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q77",
+      "question": "Which statement best distinguishes pre-training from fine-tuning?",
+      "options": [
+        "Pre-training learns general language rules; fine-tuning adapts the model to a specific task",
+        "Pre-training is done only with human judges; fine-tuning is done only with tokenizers",
+        "Pre-training happens after deployment; fine-tuning happens before deployment",
+        "Pre-training removes weights; fine-tuning removes biases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q78",
+      "question": "In the chapter, what is the main goal of pre-training an LLM?",
+      "options": [
+        "To learn the next-word prediction task from internet-scale text",
+        "To grade debate speeches",
+        "To create reward scores from humans",
+        "To track token cost in a dashboard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q79",
+      "question": "Which of the following best captures the idea of supervised fine-tuning?",
+      "options": [
+        "Showing the AI exact prompt-answer examples of ideal behavior",
+        "Letting the AI explore randomly without examples",
+        "Using only reward scores without labels",
+        "Training the AI on images only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q80",
+      "question": "Why does the chapter say SFT can permanently adopt a new personality or style?",
+      "options": [
+        "Because repeated high-quality examples slightly adjust the model's parameters",
+        "Because the tokenizer changes the font",
+        "Because the model forgets all general knowledge",
+        "Because the GPU stores emotions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q81",
+      "question": "What role do human workers play in RLHF?",
+      "options": [
+        "They rank model outputs using a safety and helpfulness rubric",
+        "They rewrite the model architecture",
+        "They generate every final token manually",
+        "They remove the need for reinforcement learning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q82",
+      "question": "Which of the following would most likely be rewarded in RLHF?",
+      "options": [
+        "An answer that is polite, helpful, and accurate",
+        "An answer that is rude but very long",
+        "An answer that is unsafe but confident",
+        "An answer that ignores the user's request"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q83",
+      "question": "Which of the following is the best summary of the reward model in RLHF?",
+      "options": [
+        "It learns to score answers based on human ranking preferences",
+        "It translates English into tokens",
+        "It measures GPU temperature",
+        "It stores the model's vocabulary"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "Why is RLHF especially useful for making AI safe?",
+      "options": [
+        "It teaches the model to prefer helpful and safe responses over harmful ones",
+        "It deletes unsafe words from the dictionary automatically",
+        "It eliminates all human feedback",
+        "It prevents the AI from answering questions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q85",
+      "question": "What is the most direct connection between observability and fine-tuning in the feedback loop?",
+      "options": [
+        "Observability identifies problems, and fine-tuning corrects them in the model",
+        "Observability replaces the model, and fine-tuning replaces the dashboard",
+        "Observability creates tokens, and fine-tuning creates latency",
+        "Observability prevents any need for evaluation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q86",
+      "question": "Which issue would most likely be caught by the 'Drift' metric?",
+      "options": [
+        "The AI begins acting strangely compared with its original training behavior",
+        "The AI's prompt is too short",
+        "The tokenizer has too many vowels",
+        "The model has no attention mask"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q87",
+      "question": "Which issue would most likely be caught by the token cost metric?",
+      "options": [
+        "The chatbot suddenly begins using too many tokens and becomes expensive",
+        "The chatbot uses a wrong rubric",
+        "The model forgets how to decode",
+        "The dataset contains images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q88",
+      "question": "Which issue would most likely be caught by latency monitoring?",
+      "options": [
+        "The first token takes too long to appear",
+        "The model ranking is incorrect",
+        "The dataset has broken links",
+        "The reward score is negative"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q89",
+      "question": "What is the best explanation of the 'Judge LLM' role in evaluation?",
+      "options": [
+        "It grades outputs from a smaller AI app based on context and rubric",
+        "It trains the tokenizer vocabulary",
+        "It replaces the user prompt",
+        "It creates the GPU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q90",
+      "question": "Why is a judge model more suitable than exact word matching for human-like text?",
+      "options": [
+        "Because it can evaluate meaning, tone, accuracy, and safety",
+        "Because it can only count words",
+        "Because it ignores the rubric",
+        "Because it cannot understand language"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q91",
+      "question": "What is the final objective of the continuous feedback loop?",
+      "options": [
+        "To make the AI system smarter every day through monitoring and correction",
+        "To eliminate all users",
+        "To stop all fine-tuning jobs",
+        "To prevent any model deployment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q92",
+      "question": "In the feedback loop, what kind of conversation is most valuable for future correction?",
+      "options": [
+        "A corrected conversation where the AI made a mistake",
+        "A conversation with no issues and no analysis",
+        "A conversation that never reaches observability",
+        "A conversation that only contains token IDs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q93",
+      "question": "Which sequence best describes the production AI improvement cycle from the chapter?",
+      "options": [
+        "Observe → Evaluate → Fine-Tune",
+        "Fine-Tune → Observe → Ignore",
+        "Evaluate → Deploy → Forget",
+        "Train → Delete → Restart"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q94",
+      "question": "Which of the following is the most accurate description of applied AI systems?",
+      "options": [
+        "AI systems built using models, pipelines, and tools to solve real tasks",
+        "Only theoretical math problems",
+        "Only large datasets without models",
+        "Only human-written scripts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q95",
+      "question": "Which combination is most directly responsible for turning raw prompt text into a user-visible answer in the HuggingFace workflow?",
+      "options": [
+        "Tokenizer → Model → Decoder",
+        "Judge → Reward → Ranking",
+        "Dataset → Dashboard → Drift",
+        "Prompt → Rubric → Fine-tune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q96",
+      "question": "Why are open-source models important in the Model Hub?",
+      "options": [
+        "They let developers reuse powerful pre-trained AI models rather than starting from zero",
+        "They remove the need for training data",
+        "They only work offline",
+        "They prevent tokenization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q97",
+      "question": "Which of the following best explains the relationship between Transformers and HuggingFace?",
+      "options": [
+        "Transformers are a key library that helps engineers connect models and datasets in code",
+        "Transformers are a replacement for all datasets",
+        "Transformers are a dashboard metric",
+        "Transformers are only used in RLHF"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q98",
+      "question": "Which task is most directly handled by a tokenizer during inference?",
+      "options": [
+        "Converting prompt text into model-readable integers and later decoding outputs back to text",
+        "Ranking answers with humans",
+        "Monitoring drift over time",
+        "Training the model's reward score"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q99",
+      "question": "What does the chapter imply is the key to building safe and useful custom AI apps?",
+      "options": [
+        "Combining pipelines, pre-trained models, fine-tuning, and observability correctly",
+        "Using only one huge prompt",
+        "Avoiding all evaluation",
+        "Skipping tokenization entirely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q100",
+      "question": "Which statement best summarizes the progression taught in Module 3?",
+      "options": [
+        "From using pre-trained models through pipelines, to fine-tuning behavior, to monitoring and improving systems in production",
+        "From images to sounds to robots only",
+        "From raw code to no code to zero models",
+        "From weights to filters to pooling only"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

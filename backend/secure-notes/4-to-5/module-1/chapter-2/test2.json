@@ -1,0 +1,227 @@
+
+{
+  "title": "Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What do smart machines mainly do before making a decision?",
+      "options": [
+        "Guess randomly",
+        "Look for patterns in data",
+        "Ask another machine",
+        "Turn themselves off"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following is an example of pattern recognition?",
+      "options": [
+        "Recognizing your face to unlock a phone",
+        "Writing with a pencil",
+        "Using a ruler to measure length",
+        "Opening a notebook"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "What is 'data' in Artificial Intelligence?",
+      "options": [
+        "Only numbers",
+        "Information that AI learns from",
+        "Only pictures",
+        "Only computer games"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "A smart machine learns that every time dark clouds appear, it usually rains. What has it learned?",
+      "options": [
+        "A random fact",
+        "A pattern",
+        "A joke",
+        "A password"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which of these is most likely used by an AI to predict tomorrow's weather?",
+      "options": [
+        "Old weather data",
+        "A random guess",
+        "A coin toss",
+        "The color of a notebook"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "If an AI is shown many pictures of cats and dogs, what is it trying to learn?",
+      "options": [
+        "How to draw animals",
+        "How to recognize the difference between cats and dogs",
+        "How to feed animals",
+        "How to build a cage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Making a prediction means:",
+      "options": [
+        "Looking into the future using magic",
+        "Using patterns from past data to guess what may happen next",
+        "Copying someone's homework",
+        "Ignoring all information"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which example shows AI making a prediction?",
+      "options": [
+        "A music app suggesting your next favorite song",
+        "A lamp giving light",
+        "A chair supporting a person",
+        "A pencil writing on paper"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Why does AI need lots of data?",
+      "options": [
+        "To become heavier",
+        "To find better patterns and make smarter predictions",
+        "To use more electricity",
+        "To make computers bigger"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Which of these is NOT an example of data?",
+      "options": [
+        "Pictures",
+        "Videos",
+        "Songs",
+        "A wooden table"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q11",
+      "question": "A shopping website recommends toys based on what you bought before. This works because AI:",
+      "options": [
+        "Reads your thoughts",
+        "Finds patterns in your shopping history",
+        "Always recommends random items",
+        "Calls the shopkeeper"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which statement about smart machines is TRUE?",
+      "options": [
+        "They can learn from examples",
+        "They never need data",
+        "They always know the correct answer",
+        "They only work on weekends"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "If an AI is trained using only pictures of apples, what may happen when it sees an orange?",
+      "options": [
+        "It may get confused because it has not learned enough patterns",
+        "It will always know it is an orange",
+        "It will stop working forever",
+        "It will become a calculator"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Which type of information can AI learn from?",
+      "options": [
+        "Only text",
+        "Only numbers",
+        "Only pictures",
+        "Text, pictures, sounds, and numbers"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q15",
+      "question": "What helps AI improve its predictions over time?",
+      "options": [
+        "Learning from more data and examples",
+        "Using fewer examples every day",
+        "Closing the computer",
+        "Changing the keyboard"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "A teacher checks many old test scores to guess which students may need extra help. This is similar to AI because it:",
+      "options": [
+        "Uses patterns to make predictions",
+        "Uses magic",
+        "Avoids looking at data",
+        "Writes new questions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Why can two smart machines give different predictions?",
+      "options": [
+        "They may learn from different data",
+        "One machine is sleeping",
+        "Machines cannot predict anything",
+        "They always copy each other"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Which situation BEST shows pattern recognition?",
+      "options": [
+        "A phone recognizing your fingerprint every time you unlock it",
+        "A clock showing the current time",
+        "A fan spinning",
+        "A book lying on a table"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "What is the correct order of how AI usually works?",
+      "options": [
+        "Data → Find Patterns → Make Predictions",
+        "Predictions → Data → Patterns",
+        "Patterns → Predictions → Data",
+        "Guess → Forget → Repeat"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which statement BEST describes how smart machines learn?",
+      "options": [
+        "They memorize every answer without using data",
+        "They study data, discover patterns, and use those patterns to make predictions",
+        "They always ask humans before making every decision",
+        "They only work with numbers and cannot use pictures"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

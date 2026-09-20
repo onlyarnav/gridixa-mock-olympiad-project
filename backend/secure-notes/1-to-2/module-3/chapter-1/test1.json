@@ -1,0 +1,226 @@
+{
+  "title": "Module 3 - Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why are matrices considered fundamental in AI?",
+      "options": [
+        "They store only one value",
+        "They organize vectors into structured information highways used by AI computations",
+        "They replace neural networks",
+        "They eliminate GPU usage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What represents the dimensions of a matrix?",
+      "options": [
+        "Columns only",
+        "Rows × Columns",
+        "Diagonal count",
+        "Vector size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which operation requires matrices to have identical dimensions?",
+      "options": [
+        "Matrix Multiplication",
+        "Scalar Multiplication",
+        "Matrix Addition",
+        "Transpose"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "A grayscale image is naturally represented as:",
+      "options": [
+        "A scalar",
+        "A vector",
+        "A matrix",
+        "A graph"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "question": "What happens during scalar multiplication?",
+      "options": [
+        "Rows and columns swap",
+        "Every element is multiplied by one number",
+        "Elements are rearranged",
+        "Dimensions change"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "If A is 2×3 and B is 3×2, what operation is valid?",
+      "options": [
+        "Addition",
+        "Transpose only",
+        "Matrix Multiplication",
+        "Scalar Addition"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Which statement correctly describes matrix multiplication?",
+      "options": [
+        "Multiply corresponding elements only",
+        "Row-column dot products determine values",
+        "Rows must always equal columns",
+        "Only square matrices work"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "What does transpose do?",
+      "options": [
+        "Adds matrices",
+        "Swaps rows and columns",
+        "Multiplies matrices",
+        "Scales matrices"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which AI operation depends heavily on GPU acceleration?",
+      "options": [
+        "Sorting text",
+        "Parallel matrix multiplication",
+        "String comparison",
+        "File reading"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Identity matrices behave like:",
+      "options": [
+        "0 in multiplication",
+        "1 in multiplication",
+        "Random matrices",
+        "Transpose matrices"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which matrix shape contains exactly one row?",
+      "options": [
+        "Column Matrix",
+        "Row Matrix",
+        "Square Matrix",
+        "Identity Matrix"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which operation is commonly used to measure neural network errors?",
+      "options": [
+        "Matrix Addition",
+        "Transpose",
+        "Matrix Subtraction",
+        "Identity Multiplication"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "Why cannot all matrices be multiplied together?",
+      "options": [
+        "Because multiplication requires identical values",
+        "Because dimensions must satisfy row-column compatibility",
+        "Because matrices cannot contain negatives",
+        "Because AI only supports square matrices"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "In recommendation systems, user-item data is commonly represented as:",
+      "options": [
+        "Graph",
+        "Matrix",
+        "Scalar",
+        "Tensor"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "What is the result of transposing a 4×2 matrix?",
+      "options": [
+        "2×4",
+        "4×2",
+        "8×8",
+        "16×1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which operation transforms information rather than combining values directly?",
+      "options": [
+        "Addition",
+        "Subtraction",
+        "Matrix Multiplication",
+        "Scalar Division"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "Why do real AI systems prefer NumPy over plain Python lists?",
+      "options": [
+        "Better syntax only",
+        "Faster numerical and matrix computations",
+        "More memory usage",
+        "No mathematical support"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which statement is true for color images?",
+      "options": [
+        "They use one matrix",
+        "They use multiple matrices for RGB channels",
+        "They cannot be processed by AI",
+        "They use only vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "What mathematical structure comes after matrices in AI complexity?",
+      "options": [
+        "Scalars",
+        "Graphs",
+        "Tensors",
+        "Lists"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "At a deep level, much of AI computation can be described as:",
+      "options": [
+        "Massive matrix operations performed extremely quickly",
+        "Random number generation",
+        "Rule-based logic only",
+        "Database searching"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

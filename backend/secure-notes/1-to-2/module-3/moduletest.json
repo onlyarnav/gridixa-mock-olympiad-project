@@ -1,0 +1,1106 @@
+{
+  "module": "Module 3",
+  "level": "11-12",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary difference between a scalar and a vector?",
+      "options": [
+        "A vector has both magnitude and direction, while a scalar only has magnitude",
+        "A scalar has both magnitude and direction, while a vector only has magnitude",
+        "Vectors are only used in physics, while scalars are used in mathematics",
+        "There is no difference; they are interchangeable terms"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following is an example of a scalar quantity?",
+      "options": [
+        "Velocity",
+        "Force",
+        "Temperature",
+        "Acceleration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is an example of a vector quantity?",
+      "options": [
+        "Mass",
+        "Time",
+        "Speed",
+        "Displacement"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q4",
+      "question": "What does the magnitude of a vector represent?",
+      "options": [
+        "Its angle relative to the origin",
+        "Its length or size",
+        "Its x-coordinate only",
+        "Its rate of change"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "question": "How is a vector typically represented graphically?",
+      "options": [
+        "As a circle",
+        "As an arrow pointing in a specific direction",
+        "As a curved line",
+        "As a single dot on a plane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is a zero vector?",
+      "options": [
+        "A vector with infinite magnitude",
+        "A vector with a magnitude of 1",
+        "A vector with a magnitude of 0 and no specific direction",
+        "A scalar with a value of 0"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "question": "What is a unit vector?",
+      "options": [
+        "A vector with a magnitude of exactly 1",
+        "A vector with a magnitude of 0",
+        "A vector used only in one-dimensional space",
+        "A vector that represents time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "question": "When two vectors are added head-to-tail, what is the resulting vector called?",
+      "options": [
+        "The cross product",
+        "The dot product",
+        "The resultant vector",
+        "The scalar vector"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q9",
+      "question": "What happens when you multiply a vector by a negative scalar?",
+      "options": [
+        "Its magnitude becomes zero",
+        "Its direction reverses",
+        "It becomes a scalar",
+        "Its direction remains the same"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is the dot product of two vectors?",
+      "options": [
+        "A scalar quantity",
+        "A new vector orthogonal to both",
+        "A matrix",
+        "A zero vector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "question": "If the dot product of two non-zero vectors is zero, what is true about the vectors?",
+      "options": [
+        "They are parallel",
+        "They are equal",
+        "They are perpendicular (orthogonal)",
+        "They are moving in opposite directions"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q12",
+      "question": "What is a matrix in mathematics?",
+      "options": [
+        "A rectangular array of numbers arranged in rows and columns",
+        "A single number representing a variable",
+        "A line drawn on a coordinate plane",
+        "A calculation of probability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "question": "How are the dimensions of a matrix formally written?",
+      "options": [
+        "Number of rows by number of columns (m x n)",
+        "Number of columns by number of rows (n x m)",
+        "Total number of elements squared",
+        "The highest value in the array"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "question": "What defines a square matrix?",
+      "options": [
+        "All elements are squared numbers",
+        "The number of rows equals the number of columns",
+        "It only contains zeros and ones",
+        "It is a 2x2 matrix only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q15",
+      "question": "What defines an identity matrix?",
+      "options": [
+        "A matrix where all elements are 1",
+        "A matrix where all elements are 0",
+        "A matrix with negative numbers on the diagonal",
+        "A square matrix with 1s on the main diagonal and 0s elsewhere"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q16",
+      "question": "What is a column matrix (or column vector)?",
+      "options": [
+        "A matrix with only one row",
+        "A matrix with only one column",
+        "A matrix that is square",
+        "An identity matrix"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "question": "What is a zero matrix?",
+      "options": [
+        "A matrix where every element is zero",
+        "A matrix with no rows or columns",
+        "An identity matrix",
+        "A matrix where the determinant is zero"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q18",
+      "question": "What condition must be met to add two matrices together?",
+      "options": [
+        "They must have the exact same dimensions",
+        "They must both be square matrices",
+        "The first must have the same number of rows as the second has columns",
+        "There are no conditions; any matrices can be added"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q19",
+      "question": "How is matrix addition performed?",
+      "options": [
+        "By adding corresponding elements from each matrix",
+        "By multiplying the rows of the first by the columns of the second",
+        "By adding the determinants",
+        "By squaring each element"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q20",
+      "question": "Is matrix addition commutative (i.e., A + B = B + A)?",
+      "options": [
+        "Yes, always",
+        "No, never",
+        "Only for square matrices",
+        "Only for identity matrices"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q21",
+      "question": "What happens in scalar multiplication of a matrix?",
+      "options": [
+        "Only the diagonal elements are multiplied by the scalar",
+        "Every element in the matrix is multiplied by the scalar",
+        "The matrix dimensions are multiplied by the scalar",
+        "Only the first row is multiplied by the scalar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "question": "What is the requirement for multiplying Matrix A by Matrix B?",
+      "options": [
+        "Both matrices must have identical dimensions",
+        "The number of columns in Matrix A must equal the number of rows in Matrix B",
+        "The number of rows in Matrix A must equal the number of columns in Matrix B",
+        "Matrix B must be an identity matrix"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "If Matrix A is 3x2 and Matrix B is 2x4, what are the dimensions of the product matrix AB?",
+      "options": [
+        "2x2",
+        "3x4",
+        "4x3",
+        "It cannot be multiplied"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "question": "Is matrix multiplication generally commutative (i.e., AB = BA)?",
+      "options": [
+        "Yes, always",
+        "No, generally not",
+        "Only for matrices with negative numbers",
+        "Only when multiplying by a zero matrix"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "question": "How do you find the transpose of a matrix?",
+      "options": [
+        "By multiplying all elements by -1",
+        "By finding the reciprocal of each element",
+        "By swapping its rows with its columns",
+        "By adding an identity matrix to it"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q26",
+      "question": "What is a symmetric matrix?",
+      "options": [
+        "A matrix equal to its transpose",
+        "A matrix equal to its negative transpose",
+        "An identity matrix",
+        "A matrix with all zeros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q27",
+      "question": "What is the determinant of a 2x2 matrix [[a, b], [c, d]]?",
+      "options": [
+        "ab - cd",
+        "ad - bc",
+        "a+d - b+c",
+        "ac - bd"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "question": "If a matrix has a determinant of zero, it is called a:",
+      "options": [
+        "Singular matrix",
+        "Identity matrix",
+        "Square matrix",
+        "Inverse matrix"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "question": "What happens when a matrix is multiplied by its inverse?",
+      "options": [
+        "The result is a zero matrix",
+        "The result is the identity matrix",
+        "The result is a singular matrix",
+        "The result is the original matrix transposed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "question": "Does every square matrix have an inverse?",
+      "options": [
+        "Yes, always",
+        "No, only if its determinant is non-zero",
+        "No, only if its determinant is zero",
+        "Yes, as long as it has positive numbers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "question": "Which of the following best describes the mean of a dataset?",
+      "options": [
+        "The sum of all values divided by the total number of values",
+        "The middle value when the data is sorted",
+        "The value that appears most frequently",
+        "The difference between the highest and lowest values"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q32",
+      "question": "How is the median defined in statistics?",
+      "options": [
+        "The sum of the highest and lowest numbers",
+        "The middle value of a dataset when ordered from least to greatest",
+        "The most common number in the dataset",
+        "The square root of the variance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "What does the mode represent in a set of numbers?",
+      "options": [
+        "The exact center of the dataset",
+        "The total average of the dataset",
+        "The value that appears most frequently",
+        "The largest number minus the smallest number"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q34",
+      "question": "Find the mean of the numbers: 2, 4, 6, 8, 10.",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "30"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "Find the median of the numbers: 1, 3, 3, 6, 7, 8, 9.",
+      "options": [
+        "3",
+        "6",
+        "7",
+        "5.2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "question": "What is the median of an even-numbered set of sorted data?",
+      "options": [
+        "The exact middle number",
+        "The average of the two middle numbers",
+        "The mode of the dataset",
+        "The highest number minus the lowest number"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "question": "Find the mode of the numbers: 2, 4, 4, 5, 7, 9, 9, 9.",
+      "options": [
+        "4",
+        "9",
+        "5",
+        "2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "question": "Can a dataset have more than one mode?",
+      "options": [
+        "No, never",
+        "Yes, it is called bimodal or multimodal",
+        "Only if the mean is zero",
+        "Only if the dataset contains negative numbers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "question": "In which scenario is the median often a better measure of central tendency than the mean?",
+      "options": [
+        "When the dataset has extreme outliers",
+        "When all the numbers are exactly the same",
+        "When the dataset is perfectly symmetrical",
+        "When dealing with very small datasets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q40",
+      "question": "If a very large outlier is added to a dataset, which measure is affected the most?",
+      "options": [
+        "Mode",
+        "Median",
+        "Mean",
+        "All are affected equally"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q41",
+      "question": "What is the possible range of values for a probability?",
+      "options": [
+        "-1 to 1",
+        "0 to 1",
+        "1 to 100",
+        "0 to infinity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "question": "What does a probability of 0 indicate?",
+      "options": [
+        "The event is certain to happen",
+        "The event is impossible",
+        "The event has a 50% chance of happening",
+        "The data is invalid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "question": "What does a probability of 1 indicate?",
+      "options": [
+        "The event is impossible",
+        "The event is highly unlikely",
+        "The event is certain to happen",
+        "The event has already happened"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q44",
+      "question": "The sum of the probabilities of all possible outcomes in a sample space must equal:",
+      "options": [
+        "0",
+        "0.5",
+        "100",
+        "1"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q45",
+      "question": "If the probability of an event happening is P(A), what is the probability of the event NOT happening?",
+      "options": [
+        "P(A) - 1",
+        "1 - P(A)",
+        "0",
+        "1 / P(A)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "question": "What is the probability of flipping a fair coin and getting heads?",
+      "options": [
+        "0.25",
+        "0.5",
+        "1",
+        "0"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "question": "What is the probability of rolling a standard 6-sided die and getting a number greater than 4?",
+      "options": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q48",
+      "question": "What does it mean for two events to be mutually exclusive?",
+      "options": [
+        "They must happen at the same time",
+        "They cannot happen at the same time",
+        "One event causes the other",
+        "They have the exact same probability"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q49",
+      "question": "What does it mean for two events to be independent?",
+      "options": [
+        "The outcome of one event does not affect the outcome of the other",
+        "The two events cannot happen at the same time",
+        "One event causes the other to happen",
+        "The probabilities of both events add up to 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q50",
+      "question": "If two events A and B are independent, how do you find the probability of both happening (P(A and B))?",
+      "options": [
+        "P(A) + P(B)",
+        "P(A) - P(B)",
+        "P(A) * P(B)",
+        "P(A) / P(B)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q51",
+      "question": "What does standard deviation measure in a dataset?",
+      "options": [
+        "How spread out the numbers are relative to the mean",
+        "The total sum of all the data points",
+        "The difference between the maximum and minimum values",
+        "The number of variables in an experiment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q52",
+      "question": "What does a very low standard deviation indicate?",
+      "options": [
+        "The data points are spread over a very wide range",
+        "Most data points are clustered very close to the mean",
+        "The mean of the dataset is zero",
+        "The dataset has many extreme outliers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q53",
+      "question": "What does a high standard deviation indicate?",
+      "options": [
+        "The data points are tightly clustered around the mean",
+        "The data points are spread out over a wide range of values",
+        "The dataset has a mean of 100",
+        "The mode is equal to the median"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q54",
+      "question": "What is the mathematical relationship between standard deviation and variance?",
+      "options": [
+        "Variance is the square root of the standard deviation",
+        "They are the exact same value",
+        "Standard deviation is the square root of the variance",
+        "Standard deviation is variance divided by 2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q55",
+      "question": "Can standard deviation ever be a negative number?",
+      "options": [
+        "Yes, if the mean is negative",
+        "No, it is always zero or positive",
+        "Yes, if all data points are negative",
+        "Yes, but only in sample standard deviations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q56",
+      "question": "What is the first step in calculating the standard deviation manually?",
+      "options": [
+        "Square all the numbers",
+        "Find the mean of the dataset",
+        "Subtract the median from the mode",
+        "Find the square root of the dataset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q57",
+      "question": "In a normal distribution, approximately what percentage of data falls within one standard deviation of the mean?",
+      "options": [
+        "50%",
+        "68%",
+        "95%",
+        "99.7%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q58",
+      "question": "What is the strict mathematical definition of a function?",
+      "options": [
+        "A relation where every input has exactly one output",
+        "An equation that contains an exponent",
+        "A relation where an input can have multiple outputs",
+        "A line that passes through the origin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q59",
+      "question": "What is the 'domain' of a function?",
+      "options": [
+        "The set of all possible outputs",
+        "The set of all possible input values",
+        "The maximum value the function can reach",
+        "The graphical representation of the equation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q60",
+      "question": "What is the 'range' of a function?",
+      "options": [
+        "The set of all possible output values",
+        "The set of all possible input values",
+        "The difference between the highest and lowest inputs",
+        "The slope of the function"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q61",
+      "question": "Which visual test is used to determine if a graph represents a function?",
+      "options": [
+        "The horizontal line test",
+        "The vertical line test",
+        "The diagonal line test",
+        "The symmetry test"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q62",
+      "question": "If f(x) = 3x - 5, what is the value of f(4)?",
+      "options": [
+        "7",
+        "12",
+        "-1",
+        "17"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q63",
+      "question": "If f(x) = x^2 + 2x, what is f(-3)?",
+      "options": [
+        "-15",
+        "3",
+        "15",
+        "-3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q64",
+      "question": "What type of graph does a linear function produce?",
+      "options": [
+        "A parabola",
+        "A straight line",
+        "A circle",
+        "A sine wave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q65",
+      "question": "What type of graph does a quadratic function (e.g., f(x) = x^2) produce?",
+      "options": [
+        "A straight line",
+        "A hyperbola",
+        "A parabola",
+        "A cubic curve"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q66",
+      "question": "What is a composite function, written as f(g(x))?",
+      "options": [
+        "Adding function f to function g",
+        "Multiplying function f by function g",
+        "Applying function g first, then applying function f to the result",
+        "Taking the derivative of f and g together"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q67",
+      "question": "In calculus, what does a derivative essentially represent?",
+      "options": [
+        "The total area under a curve",
+        "The exact middle point of a function",
+        "The instantaneous rate of change or the slope of the tangent line",
+        "The sum of all inputs and outputs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q68",
+      "question": "What is the derivative of a constant number (e.g., f(x) = 5)?",
+      "options": [
+        "0",
+        "1",
+        "The number itself",
+        "Infinity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q69",
+      "question": "What is the derivative of f(x) = x with respect to x?",
+      "options": [
+        "0",
+        "1",
+        "x^2",
+        "-1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q70",
+      "question": "According to the power rule, what is the derivative of x^n?",
+      "options": [
+        "n * x^(n+1)",
+        "x^(n-1)",
+        "n * x^(n-1)",
+        "(1/n) * x^n"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q71",
+      "question": "What is the derivative of x^2 with respect to x?",
+      "options": [
+        "x",
+        "2x",
+        "x^3",
+        "2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q72",
+      "question": "What is the derivative of 3x^3?",
+      "options": [
+        "9x^2",
+        "3x^2",
+        "6x",
+        "9x^3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q73",
+      "question": "If a function describes the position of an object over time, what does its first derivative describe?",
+      "options": [
+        "The mass of the object",
+        "The velocity of the object",
+        "The acceleration of the object",
+        "The total distance traveled"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q74",
+      "question": "If a function describes velocity over time, what does its derivative describe?",
+      "options": [
+        "Position",
+        "Momentum",
+        "Acceleration",
+        "Speed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q75",
+      "question": "What is the derivative of f(x) = e^x?",
+      "options": [
+        "x * e^(x-1)",
+        "e^x",
+        "1/x",
+        "ln(x)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q76",
+      "question": "What rule is used to find the derivative of a function composed of two functions, f(g(x))?",
+      "options": [
+        "Product Rule",
+        "Quotient Rule",
+        "Chain Rule",
+        "Power Rule"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q77",
+      "question": "What is a partial derivative?",
+      "options": [
+        "A derivative taken with respect to one variable, holding other variables constant",
+        "A derivative that is only partially complete",
+        "A derivative of a constant",
+        "A derivative of an integer only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q78",
+      "question": "What is the primary goal of the gradient descent algorithm in machine learning?",
+      "options": [
+        "To find the minimum of a cost or loss function",
+        "To maximize the amount of data processed",
+        "To increase the learning rate over time",
+        "To calculate the maximum error possible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q79",
+      "question": "What does a 'loss function' or 'cost function' represent in machine learning?",
+      "options": [
+        "The total number of parameters",
+        "The amount of data lost during processing",
+        "The error or difference between predicted and actual values",
+        "The speed of the algorithm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q80",
+      "question": "In mathematics, the gradient of a function points in which direction?",
+      "options": [
+        "The direction of the absolute minimum",
+        "The direction of a slope of zero",
+        "The direction of the steepest ascent (greatest increase) of the function",
+        "The direction of the y-axis only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q81",
+      "question": "Why does gradient descent subtract the gradient from the current weights?",
+      "options": [
+        "Because moving against the gradient ensures we step towards the local minimum",
+        "Because weights must always be negative numbers",
+        "Because addition is computationally too slow",
+        "Because it transforms the loss function into an identity matrix"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q82",
+      "question": "What role does the 'learning rate' play in gradient descent?",
+      "options": [
+        "It decides how many layers the network has",
+        "It determines the size of the steps taken towards the minimum",
+        "It acts as the final output of the loss function",
+        "It counts the number of epochs remaining"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q83",
+      "question": "What can happen if the learning rate in gradient descent is set too high?",
+      "options": [
+        "The algorithm may overshoot the minimum and fail to converge",
+        "The algorithm will find the minimum instantly",
+        "The model will delete its training data",
+        "The loss function will become completely linear"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "What happens if the learning rate in gradient descent is set too low?",
+      "options": [
+        "The algorithm will bounce wildly around the minimum",
+        "The algorithm will run backwards",
+        "The algorithm will take an extremely long time to converge to the minimum",
+        "The loss function will become negative"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q85",
+      "question": "What is a 'local minimum' in the context of gradient descent?",
+      "options": [
+        "The absolute lowest point on the entire loss curve",
+        "A low point on the curve that is not the lowest possible overall point",
+        "The point where the loss is completely zero",
+        "The highest point on the curve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q86",
+      "question": "What is the 'global minimum' in a loss function?",
+      "options": [
+        "The lowest possible error across the entire function landscape",
+        "Any point where the gradient is zero",
+        "The starting point of the algorithm",
+        "The highest error possible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q87",
+      "question": "Which of the following is a challenge faced by standard gradient descent in complex, non-convex functions?",
+      "options": [
+        "It might get stuck in a local minimum instead of finding the global minimum",
+        "It naturally finds the global minimum instantly",
+        "It deletes all gradients",
+        "It only works on straight lines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q88",
+      "question": "What is Stochastic Gradient Descent (SGD)?",
+      "options": [
+        "Gradient descent using the entire dataset at once",
+        "Gradient descent that updates parameters using a single, randomly chosen data point per step",
+        "Gradient descent without a learning rate",
+        "A method that finds the maximum instead of the minimum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q89",
+      "question": "How does Mini-batch Gradient Descent differ from standard (Batch) Gradient Descent?",
+      "options": [
+        "It uses only a small subset of data for each step instead of the whole dataset",
+        "It uses zero data points",
+        "It only computes the maximum",
+        "It removes the need for derivatives"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q90",
+      "question": "When the gradient of a loss function reaches exactly zero, what does this mathematically signify?",
+      "options": [
+        "The learning rate is too high",
+        "The algorithm has reached a flat point, such as a minimum, maximum, or saddle point",
+        "The model is overfitting",
+        "The function has an infinite loss"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q91",
+      "question": "What is an 'epoch' in the context of training a machine learning model with gradient descent?",
+      "options": [
+        "A single update to the weights",
+        "One complete pass through the entire training dataset",
+        "The final loss value",
+        "The initial random weights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q92",
+      "question": "Which concept connects derivatives to gradient descent?",
+      "options": [
+        "The derivative calculates the mean of the loss",
+        "The derivative (or gradient) provides the slope of the loss function, indicating the direction to move",
+        "The derivative determines the size of the dataset",
+        "The derivative converts matrices into scalars"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q93",
+      "question": "Why are partial derivatives necessary in multivariable gradient descent?",
+      "options": [
+        "To find the slope with respect to each individual weight parameter while holding others constant",
+        "To divide the dataset into smaller batches",
+        "To ignore non-linear functions",
+        "Because full derivatives are mathematically impossible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q94",
+      "question": "What physical analogy is most commonly used to explain gradient descent?",
+      "options": [
+        "Flying an airplane in a straight line",
+        "A blindfolded person taking steps down a hill to reach the bottom valley",
+        "A boat sailing against the current",
+        "Building a house brick by brick"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q95",
+      "question": "If gradient descent starts on a completely flat surface (a plateau), what problem occurs?",
+      "options": [
+        "The gradient is zero, so the algorithm stops updating and gets stuck",
+        "The algorithm moves infinitely fast",
+        "The learning rate automatically increases",
+        "The model achieves perfect accuracy instantly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q96",
+      "question": "In the gradient descent update formula: w_new = w_old - (learning_rate * gradient), what happens if the gradient is positive?",
+      "options": [
+        "w_new will be greater than w_old",
+        "w_new will be less than w_old",
+        "w_new will equal w_old",
+        "The learning rate becomes negative"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q97",
+      "question": "In the gradient descent update formula, what happens if the gradient is negative?",
+      "options": [
+        "w_new will be greater than w_old",
+        "w_new will be less than w_old",
+        "w_new will equal w_old",
+        "The learning rate becomes zero"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q98",
+      "question": "Which advanced optimization algorithm builds upon gradient descent by adding 'momentum' to avoid getting stuck in local minima?",
+      "options": [
+        "K-Means",
+        "Adam (Adaptive Moment Estimation)",
+        "Linear Regression",
+        "Decision Trees"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q99",
+      "question": "What does a 'convex' loss function guarantee for gradient descent?",
+      "options": [
+        "That there are infinite global minima",
+        "That there is only one global minimum, so gradient descent won't get trapped in a local minimum",
+        "That the learning rate will never need to be set",
+        "That the gradient is always zero"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q100",
+      "question": "Ultimately, why is gradient descent so fundamental to modern AI and deep learning?",
+      "options": [
+        "It is the primary engine used to iteratively adjust millions of parameters to minimize error and 'learn'",
+        "It generates the training data required by the models",
+        "It translates Python code into binary",
+        "It designs the physical hardware used for processing"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

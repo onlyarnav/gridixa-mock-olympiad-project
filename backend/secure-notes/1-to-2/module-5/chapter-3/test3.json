@@ -1,0 +1,226 @@
+{
+  "title": "Module 5 Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What will be the output of the following code?\n\nx = 5\ny = 3\nprint(x + y)",
+      "options": [
+        "53",
+        "8",
+        "2",
+        "15"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What will be printed?\n\nname = 'AI'\nprint(name * 2)",
+      "options": [
+        "AIAI",
+        "AI 2",
+        "4",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "What is the output?\n\nnum = 10\nif num > 5:\n    print('A')\nelse:\n    print('B')",
+      "options": [
+        "A",
+        "B",
+        "10",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "What value will be stored in 'total'?\n\na = 4\nb = 6\ntotal = a * b",
+      "options": [
+        "10",
+        "24",
+        "46",
+        "2"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which input will make the following condition true?\n\nage = int(input())\nif age >= 18:\n    print('Adult')",
+      "options": [
+        "10",
+        "15",
+        "18",
+        "5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "What will be printed?\n\nx = 7\nprint(x % 2)",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "What is the output?\n\nfor i in range(3):\n    print(i)",
+      "options": [
+        "1 2 3",
+        "0 1 2",
+        "0 1 2 3",
+        "3"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "A student writes:\n\nprint('Hello World'\n\nWhat is the error?",
+      "options": [
+        "Logic Error",
+        "Missing closing bracket",
+        "Wrong variable",
+        "Infinite loop"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "What will be the output?\n\nx = 3\nx = x + 2\nprint(x)",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Which line correctly takes input from a user?",
+      "options": [
+        "print(input())",
+        "name = input()",
+        "input = name",
+        "take(input)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "What will be printed?\n\nword = 'Python'\nprint(word[0])",
+      "options": [
+        "y",
+        "0",
+        "Python",
+        "P"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q12",
+      "question": "Find the output:\n\nx = 2\nfor i in range(2):\n    x = x + 1\nprint(x)",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "Which correction fixes the code?\n\nif 5 > 3\n    print('Yes')",
+      "options": [
+        "Replace > with <",
+        "Add a colon (:) after the condition",
+        "Remove print",
+        "Add brackets around Yes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "What is the output?\n\nn = 4\nif n % 2 == 0:\n    print('Even')",
+      "options": [
+        "Odd",
+        "4",
+        "Even",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "What will be printed?\n\nx = '5'\ny = '3'\nprint(x + y)",
+      "options": [
+        "8",
+        "53",
+        "15",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "A program should print the square of a number. Which line is correct?",
+      "options": [
+        "print(n * n)",
+        "print(n + n)",
+        "print(n / n)",
+        "print(n - n)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What is the output?\n\ncount = 1\nwhile count < 4:\n    print(count)\n    count += 1",
+      "options": [
+        "1 2 3",
+        "1 2 3 4",
+        "4",
+        "0 1 2 3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Which error exists in the code?\n\nx = 10\nif x = 10:\n    print('Ten')",
+      "options": [
+        "Indentation Error",
+        "Logic Error",
+        "Using '=' instead of '==' in the condition",
+        "Variable Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "If the user enters 6, what will be the output?\n\nnum = int(input())\nprint(num + 2)",
+      "options": [
+        "62",
+        "8",
+        "4",
+        "12"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "A program runs without errors but gives the wrong answer because '+' was used instead of '*'. This is an example of:",
+      "options": [
+        "Syntax Error",
+        "Indentation Error",
+        "Logic Error",
+        "Input Error"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

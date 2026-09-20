@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the main goal of pre-training a large language model?",
+      "options": [
+        "To specialize the model for a specific company task",
+        "To teach the model general language patterns by predicting the next word",
+        "To permanently reduce the number of parameters",
+        "To generate images from text prompts"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "In the chapter analogy, a pre-trained model is compared to:",
+      "options": [
+        "A high school student learning grammar",
+        "A super-smart college graduate with general knowledge",
+        "A robot designed for a single job",
+        "A calculator used for arithmetic"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is the primary purpose of fine-tuning an AI model?",
+      "options": [
+        "To erase all pre-trained knowledge",
+        "To specialize the model for a particular task or style",
+        "To reduce the training dataset size",
+        "To remove the tokenizer vocabulary"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which example best represents a fine-tuning task?",
+      "options": [
+        "Teaching a model basic English grammar",
+        "Training a model specifically to write Gen Z marketing emails",
+        "Reducing the number of tokens in a prompt",
+        "Removing attention mechanisms"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What type of dataset is required for supervised fine-tuning (SFT)?",
+      "options": [
+        "A dataset of unlabeled random text",
+        "A dataset of input and perfect output pairs",
+        "Only numerical vectors",
+        "Only images with captions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "In supervised fine-tuning, who acts as the supervisor determining correct answers?",
+      "options": [
+        "The tokenizer",
+        "Human designers creating example responses",
+        "The GPU hardware",
+        "The embedding model"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "What internal components of the model are adjusted during fine-tuning?",
+      "options": [
+        "The attention masks only",
+        "The parameters such as weights and biases",
+        "The dataset tokens",
+        "The operating system"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "What does SFT stand for?",
+      "options": [
+        "Statistical Feature Training",
+        "Supervised Fine-Tuning",
+        "Sequential Function Training",
+        "System Feedback Testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Why might supervised fine-tuning alone not be enough for a safe AI system?",
+      "options": [
+        "Because it removes the ability to generate text",
+        "Because it does not directly enforce helpfulness, safety, or alignment",
+        "Because it eliminates neural networks",
+        "Because it cannot process prompts"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What does RLHF stand for?",
+      "options": [
+        "Reinforcement Learning from Human Feedback",
+        "Recursive Language Heuristic Framework",
+        "Robust Learning Hyperparameter Function",
+        "Response Layer Human Filter"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "RLHF helps make AI models:",
+      "options": [
+        "Smaller and faster only",
+        "More helpful, safe, and aligned with human preferences",
+        "Unable to generate text",
+        "Independent of training data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "In the RLHF process, what happens first?",
+      "options": [
+        "Human ranking of answers",
+        "The model generates multiple candidate responses",
+        "The reward model trains itself",
+        "The tokenizer changes the vocabulary"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "During the human ranking step of RLHF, what do human reviewers do?",
+      "options": [
+        "Delete incorrect prompts",
+        "Rank the AI responses from best to worst",
+        "Train the tokenizer vocabulary",
+        "Rewrite the dataset entirely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "What criteria might humans use when ranking responses in RLHF?",
+      "options": [
+        "Length and punctuation only",
+        "Helpfulness, safety, and accuracy",
+        "Random selection",
+        "Token count only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "What role does the reward model play in RLHF?",
+      "options": [
+        "It converts words into tokens",
+        "It assigns scores based on human preferences",
+        "It deletes incorrect datasets",
+        "It replaces the LLM completely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Why is RLHF compared to training a puppy with treats?",
+      "options": [
+        "Because the AI receives rewards for good behavior and penalties for bad responses",
+        "Because the model uses animal datasets",
+        "Because reinforcement learning removes neural networks",
+        "Because the training is random"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What happens when the model produces a polite and helpful response during RLHF?",
+      "options": [
+        "It receives a high reward score",
+        "It loses parameters",
+        "It deletes the dataset",
+        "It resets the tokenizer"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "What happens when the model produces a rude or dangerous response during RLHF?",
+      "options": [
+        "It receives a positive reward",
+        "It receives a penalty score",
+        "It increases the vocabulary size",
+        "It disables the reward model"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "What is the main objective of reinforcement learning in RLHF?",
+      "options": [
+        "To maximize the reward score learned from human feedback",
+        "To reduce the size of the training dataset",
+        "To remove attention mechanisms",
+        "To eliminate tokenization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which real-world AI system was improved using RLHF to become more helpful and polite?",
+      "options": [
+        "AlphaGo",
+        "ChatGPT",
+        "Deep Blue",
+        "ResNet"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

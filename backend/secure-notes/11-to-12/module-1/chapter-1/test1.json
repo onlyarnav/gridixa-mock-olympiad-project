@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the main advantage of using multiple attention heads in Multi-Head Attention (MHA)?",
+      "options": [
+        "Each head can focus on different aspects such as grammar, context, or meaning",
+        "It eliminates the need for Keys and Values completely",
+        "It compresses memory more than MLA",
+        "It allows the model to skip attention"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "question": "Which statement best describes the main limitation of MHA mentioned in the chapter?",
+      "options": [
+        "It cannot process long inputs",
+        "It requires storing many Keys and Values, increasing memory use",
+        "It only works with one attention head",
+        "It destroys contextual meaning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "In MHA, the different attention heads primarily help the model to:",
+      "options": [
+        "Store more training data",
+        "Learn different kinds of relationships in the input",
+        "Remove the need for queries",
+        "Compress everything into latent vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "What problem does Grouped-Query Attention (GQA) mainly solve?",
+      "options": [
+        "It reduces memory usage by sharing Keys and Values among multiple Query heads",
+        "It removes the need for queries altogether",
+        "It increases memory usage to improve accuracy",
+        "It stores more latent vectors than MLA"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Which component is shared among multiple Query heads in GQA?",
+      "options": [
+        "Only the Queries",
+        "Keys and Values",
+        "Only the Outputs",
+        "Only the latent vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Why is GQA considered more efficient than standard MHA?",
+      "options": [
+        "It uses fewer Queries and no Keys",
+        "It reduces memory while keeping strong performance",
+        "It eliminates all attention heads",
+        "It replaces attention with convolution"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which architecture is described as a newer improvement that reduces memory usage even further?",
+      "options": [
+        "MHA",
+        "GQA",
+        "MLA",
+        "RNN"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "What is the key idea behind Multi-head Latent Attention (MLA)?",
+      "options": [
+        "It stores large Key and Value data in multiple copies",
+        "It compresses Key and Value information into a smaller latent vector",
+        "It removes the need for reconstruction",
+        "It uses only one attention head"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "In MLA, what happens when the model needs the original information again?",
+      "options": [
+        "It discards the latent vector permanently",
+        "It reconstructs the original information from the compressed form",
+        "It asks the user to resend the prompt",
+        "It switches back to GQA"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following best explains why MLA is efficient?",
+      "options": [
+        "It stores more Keys and Values than MHA",
+        "It compresses information and reconstructs it when needed",
+        "It ignores memory constraints entirely",
+        "It uses fewer attention heads than GQA only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which attention method is most directly associated with higher memory usage because of storing separate Keys and Values for many heads?",
+      "options": [
+        "MHA",
+        "GQA",
+        "MLA",
+        "None of these"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Which attention method allows multiple Query heads to use the same Keys and Values?",
+      "options": [
+        "MHA",
+        "GQA",
+        "MLA",
+        "All of the above"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Which architecture is best described as compressing attention memory into a latent representation?",
+      "options": [
+        "MHA",
+        "GQA",
+        "MLA",
+        "Softmax Attention"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "A transformer system needs to balance strong performance with lower memory usage. Which progression best reflects the improvements described in the chapter?",
+      "options": [
+        "MLA → GQA → MHA",
+        "MHA → GQA → MLA",
+        "GQA → MHA → MLA",
+        "MHA → MLA → GQA"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Which option best captures the trade-off in MHA?",
+      "options": [
+        "Low memory usage but weak attention",
+        "High memory usage but rich attention across multiple aspects",
+        "No memory usage and no performance",
+        "Compression without reconstruction"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "What makes GQA a practical compromise?",
+      "options": [
+        "It keeps efficiency high while preserving strong model performance",
+        "It removes attention computation completely",
+        "It stores all Keys and Values separately",
+        "It only works for image tasks"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "In which method are Keys and Values not stored in their full form but instead compressed first?",
+      "options": [
+        "MHA",
+        "GQA",
+        "MLA",
+        "Neither MHA nor GQA"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Which statement is most accurate about MLA compared with GQA?",
+      "options": [
+        "MLA uses more memory than GQA",
+        "MLA reduces memory usage further by using latent vectors",
+        "GQA compresses information more than MLA",
+        "MLA does not need reconstruction"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "The main reason Transformers use multiple heads in attention is to:",
+      "options": [
+        "Make the model slower on purpose",
+        "Capture different aspects of the input simultaneously",
+        "Eliminate the need for context",
+        "Replace numerical computation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "MHA — shared Keys and Values among Query heads",
+        "GQA — compressed latent vectors with reconstruction",
+        "MLA — compressed Keys and Values stored as latent vectors",
+        "MHA — no memory storage needed"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

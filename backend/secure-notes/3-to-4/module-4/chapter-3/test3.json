@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary advantage of using Cloud AI services?",
+      "options": [
+        "They require no internet connection.",
+        "They provide computing resources and AI services on demand.",
+        "They only work on supercomputers.",
+        "They eliminate the need for machine learning models."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following best describes Cloud AI?",
+      "options": [
+        "Running AI models only on personal laptops",
+        "Using internet-based servers to train or deploy AI systems",
+        "Storing models only on USB drives",
+        "Using AI without any data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "A startup uses cloud services to access powerful GPUs without purchasing expensive hardware. This demonstrates:",
+      "options": [
+        "Feature engineering",
+        "Cross-validation",
+        "Cloud computing benefits",
+        "Data drift"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Why is cloud computing particularly useful for training large AI models?",
+      "options": [
+        "It reduces the need for data.",
+        "It provides scalable computing resources when needed.",
+        "It guarantees perfect accuracy.",
+        "It eliminates model monitoring."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Scalability in AI systems refers to the ability to:",
+      "options": [
+        "Increase the number of features automatically",
+        "Handle increasing amounts of data or users efficiently",
+        "Reduce model accuracy",
+        "Avoid using APIs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "An image-generation service suddenly receives ten times more users than usual. A scalable system should:",
+      "options": [
+        "Crash immediately",
+        "Add more computing resources to handle the demand",
+        "Reject all users",
+        "Delete old models"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which situation best demonstrates scalability?",
+      "options": [
+        "A system serves 100 users and cannot handle 101 users.",
+        "A system automatically increases resources during heavy traffic.",
+        "A model's accuracy increases after retraining.",
+        "A dataset becomes smaller."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "In AI deployment, performance often refers to:",
+      "options": [
+        "How fast and efficiently the system produces predictions",
+        "The number of files stored",
+        "The color of the user interface",
+        "The number of training examples only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "A chatbot that takes 20 seconds to answer each question has a problem with:",
+      "options": [
+        "Scalability only",
+        "Performance and latency",
+        "Feature importance",
+        "Fairness"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Latency in an AI system measures:",
+      "options": [
+        "The total dataset size",
+        "The time taken to respond to a request",
+        "The number of model parameters",
+        "The amount of training data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "A recommendation system processes thousands of requests every second without slowing down. This indicates good:",
+      "options": [
+        "Feature engineering",
+        "Hyperparameter tuning",
+        "Scalability and performance",
+        "Overfitting"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "What is a deployment tradeoff?",
+      "options": [
+        "A method of deleting old models",
+        "A compromise between competing goals such as speed, cost, and accuracy",
+        "A way to improve every metric simultaneously",
+        "A technique for data cleaning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "A company chooses a smaller model because it responds much faster, even though its accuracy is slightly lower. This is an example of:",
+      "options": [
+        "Cross-validation",
+        "Deployment tradeoff",
+        "Data augmentation",
+        "Model serialization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which pair of objectives often conflicts in real-world AI deployment?",
+      "options": [
+        "Accuracy and speed",
+        "Features and labels",
+        "Training and testing data",
+        "Precision and recall only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Why might a company avoid deploying its largest and most accurate model?",
+      "options": [
+        "Large models are always unfair.",
+        "Large models may be too expensive or slow to serve.",
+        "Large models cannot be saved.",
+        "Large models do not require training."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "A mobile app uses a smaller AI model directly on the phone instead of a huge cloud model. The likely reason is:",
+      "options": [
+        "To reduce latency and resource requirements",
+        "To increase training time",
+        "To avoid making predictions",
+        "To eliminate scalability concerns"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which statement about cloud AI is TRUE?",
+      "options": [
+        "Cloud AI always costs less than local computing in every situation.",
+        "Cloud AI provides flexible access to powerful computing resources.",
+        "Cloud AI eliminates the need for monitoring.",
+        "Cloud AI can only be used by large companies."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "A streaming service automatically allocates more servers during a major sports event and reduces them afterward. This is an example of:",
+      "options": [
+        "Probability calibration",
+        "Feature importance",
+        "Elastic scalability",
+        "Overfitting"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "An AI engineer must choose between a model with 99% accuracy that takes 10 seconds to respond and a model with 97% accuracy that responds in 0.1 seconds. This decision primarily involves:",
+      "options": [
+        "Hyperparameter tuning",
+        "Cross-validation",
+        "Deployment tradeoffs",
+        "Feature extraction"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "Which sequence best represents building a high-quality cloud AI system?",
+      "options": [
+        "Train → Ignore performance → Deploy",
+        "Deploy → Delete monitoring tools",
+        "Train → Deploy on cloud → Monitor scalability and performance → Optimize tradeoffs",
+        "Collect data → Skip deployment"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

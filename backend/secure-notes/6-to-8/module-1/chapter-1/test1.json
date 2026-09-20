@@ -1,0 +1,226 @@
+{
+    "title": "Chapter 1 Test",
+    "timePerQuestion": 40,
+    "questions": [
+        {
+            "id": "q1",
+            "question": "Which ability best represents human intelligence that AI tries to imitate?",
+            "options": [
+                "Only following fixed instructions",
+                "Learning from mistakes and solving problems",
+                "Repeating tasks endlessly",
+                "Performing calculations only"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q2",
+            "question": "How is an AI system different from a basic calculator?",
+            "options": [
+                "AI cannot process numbers",
+                "AI can learn from data and make decisions",
+                "AI only follows strict rules",
+                "AI works slower than calculators"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q3",
+            "question": "When a smart speaker converts your voice into text to understand your command, which AI ability is being used?",
+            "options": [
+                "Image recognition",
+                "Speech recognition",
+                "Game prediction",
+                "Navigation planning"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q4",
+            "question": "AI recommends videos on platforms like Instagram Reels mainly by analyzing:",
+            "options": [
+                "Your phone battery level",
+                "Your location only",
+                "Patterns in what you watch or like",
+                "Your contact list"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q5",
+            "question": "Which AI technology helps smartphones unlock by recognizing the user’s face?",
+            "options": [
+                "Speech synthesis",
+                "Face detection",
+                "Text prediction",
+                "Code compilation"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q6",
+            "question": "Which of the following is the best example of Narrow AI?",
+            "options": [
+                "A machine that can perform every human task",
+                "An AI that predicts cricket ball trajectories in DRS",
+                "A robot that learns all school subjects",
+                "A computer that can think like humans in all situations"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q7",
+            "question": "Why is Narrow AI called 'narrow'?",
+            "options": [
+                "It works only on small devices",
+                "It specializes in one specific task",
+                "It has very little memory",
+                "It only works offline"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q8",
+            "question": "General AI refers to:",
+            "options": [
+                "AI that can perform only mathematical tasks",
+                "AI that works only in robots",
+                "AI that has human-like intelligence in many tasks",
+                "AI that works only on the internet"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q9",
+            "question": "Which statement about General AI is correct today?",
+            "options": [
+                "It is widely used in schools",
+                "It exists only in science fiction",
+                "It controls most computers",
+                "It replaces all humans"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q10",
+            "question": "Who proposed the famous test to check whether a machine can think like a human?",
+            "options": [
+                "Isaac Newton",
+                "Alan Turing",
+                "Bill Gates",
+                "Elon Musk"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q11",
+            "question": "In the Turing Test, what must a machine do to pass?",
+            "options": [
+                "Solve math problems quickly",
+                "Convince a human during a text conversation that it is human",
+                "Play chess better than humans",
+                "Recognize images accurately"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q12",
+            "question": "Which computer defeated world chess champion Garry Kasparov in 1997?",
+            "options": [
+                "Watson",
+                "AlphaGo",
+                "Deep Blue",
+                "HAL 9000"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q13",
+            "question": "The victory of Deep Blue over Kasparov showed that:",
+            "options": [
+                "Computers cannot play chess",
+                "Machines can outperform humans in certain logical tasks",
+                "Humans are always better at strategy",
+                "Chess is easy for everyone"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q14",
+            "question": "The breakthrough in 2012 that helped computers recognize images and objects was called:",
+            "options": [
+                "Quantum Computing",
+                "Deep Learning",
+                "Binary Processing",
+                "Algorithm Mining"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q15",
+            "question": "Which AI architecture introduced in 2017 greatly improved language understanding?",
+            "options": [
+                "Transformers",
+                "Neural Chips",
+                "Quantum Nodes",
+                "Binary Engines"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q16",
+            "question": "Which everyday tool uses AI to predict traffic and suggest the fastest route?",
+            "options": [
+                "Calculator",
+                "Google Maps",
+                "Word Processor",
+                "Spreadsheet"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q17",
+            "question": "What is the main role of AI in smart assistants like Siri or Alexa?",
+            "options": [
+                "Increasing phone brightness",
+                "Understanding and responding to voice commands",
+                "Charging the battery",
+                "Updating apps automatically"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q18",
+            "question": "Chatbots on websites are mainly used to:",
+            "options": [
+                "Repair hardware problems",
+                "Provide automated help or answers to users",
+                "Control internet speed",
+                "Design websites"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q19",
+            "question": "Self-driving cars rely on AI mainly to:",
+            "options": [
+                "Change the color of the car",
+                "Recognize roads, signs, and pedestrians",
+                "Increase engine size",
+                "Send text messages"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q20",
+            "question": "Which of the following best summarizes Artificial Intelligence?",
+            "options": [
+                "Machines that only store data",
+                "Machines that can mimic human intelligence such as learning and decision making",
+                "Machines that only calculate numbers",
+                "Machines that replace electricity"
+            ],
+            "correctAnswer": 1
+        }
+    ]
+}

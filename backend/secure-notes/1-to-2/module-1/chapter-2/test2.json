@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary purpose of a variable in Python?",
+      "options": [
+        "To execute loops automatically",
+        "To store and manage data during program execution",
+        "To convert Python into machine code",
+        "To replace operators"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What does the assignment operator (=) do in Python?",
+      "options": [
+        "Checks equality",
+        "Stores the value on the right into the variable on the left",
+        "Adds two values",
+        "Creates comments"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is a valid Python variable name?",
+      "options": [
+        "student marks",
+        "2student",
+        "student_name",
+        "class"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Python automatically identifying a variable’s datatype is called:",
+      "options": [
+        "Static compilation",
+        "Dynamic typing",
+        "Variable casting",
+        "Automatic execution"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which datatype represents decimal numbers?",
+      "options": [
+        "int",
+        "bool",
+        "float",
+        "str"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "What will be the output?\nprint(\"10\" + \"5\")",
+      "options": [
+        "15",
+        "105",
+        "Error",
+        "10.5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which function is used to check a value’s datatype?",
+      "options": [
+        "datatype()",
+        "kind()",
+        "type()",
+        "check()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "What datatype does Python assign to True?",
+      "options": [
+        "str",
+        "float",
+        "bool",
+        "int"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "Which conversion correctly changes text \"18\" into a number?",
+      "options": [
+        "float(18)",
+        "str(\"18\")",
+        "int(\"18\")",
+        "bool(\"18\")"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Which arithmetic operator returns only the remainder?",
+      "options": [
+        "/",
+        "//",
+        "%",
+        "**"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "What is the output?\nprint(10 // 3)",
+      "options": [
+        "3",
+        "3.33",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Which operator checks equality in Python?",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        ">="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "What is the output?\nprint(5 > 10 or 8 > 3)",
+      "options": [
+        "False",
+        "True",
+        "Error",
+        "None"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which logical operator returns True only if all conditions are True?",
+      "options": [
+        "or",
+        "not",
+        "and",
+        "=="
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "What does x += 5 mean?",
+      "options": [
+        "x = 5",
+        "x = x + 5",
+        "x = x - 5",
+        "x == 5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "What is the output?\nprint(2 + 3 * 4)",
+      "options": [
+        "20",
+        "14",
+        "24",
+        "10"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "What naming convention is commonly followed in Python?",
+      "options": [
+        "camelCase",
+        "snake_case",
+        "PascalCase",
+        "UpperCaseOnly"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Why are variables essential in AI systems?",
+      "options": [
+        "They generate GPUs",
+        "They store values like loss, weights, and predictions",
+        "They remove training",
+        "They replace neural networks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which statement about booleans is correct?",
+      "options": [
+        "They store decimals",
+        "They only store True or False",
+        "They store collections",
+        "They store operators"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which mindset best represents olympiad-level Python thinking?",
+      "options": [
+        "Memorize syntax only",
+        "Think about data meaning, operations, and program behavior",
+        "Avoid variables",
+        "Use only arithmetic operators"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

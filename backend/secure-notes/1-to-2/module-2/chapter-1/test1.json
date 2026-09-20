@@ -1,0 +1,228 @@
+
+{
+  "title": "Module Test - Lists, Tuples & Dictionaries",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why are Python lists considered extremely important in AI systems?",
+      "options": [
+        "Because they can only store numbers",
+        "Because AI systems process large collections of data efficiently using structures like lists",
+        "Because lists automatically train neural networks",
+        "Because lists prevent all programming errors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What will be the output of the following code?\\n\\ncolors = [\"Red\", \"Blue\", \"Green\"]\\nprint(colors[-2])",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "IndexError"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which property makes lists highly dynamic compared to tuples?",
+      "options": [
+        "Lists use parentheses",
+        "Lists support hashing",
+        "Lists are mutable",
+        "Lists are immutable"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which Python method adds an element specifically at the end of a list?",
+      "options": [
+        "insert()",
+        "append()",
+        "extend()",
+        "push()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is the main purpose of list slicing in Machine Learning workflows?",
+      "options": [
+        "Encrypting datasets",
+        "Compressing neural networks",
+        "Extracting portions of datasets efficiently",
+        "Creating immutable structures"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "What will be the output?\\n\\nnumbers = [10, 20, 30, 40, 50]\\nprint(numbers[1:4])",
+      "options": [
+        "[10, 20, 30]",
+        "[20, 30, 40]",
+        "[20, 30, 40, 50]",
+        "[30, 40, 50]"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Why are nested lists important in AI mathematics?",
+      "options": [
+        "They permanently lock data",
+        "They behave like matrices containing rows and columns",
+        "They reduce Python memory to zero",
+        "They replace neural networks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which statement about tuples is TRUE?",
+      "options": [
+        "Tuples can grow automatically during execution",
+        "Tuples are slower than lists in all cases",
+        "Tuples are immutable after creation",
+        "Tuples only store integers"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "What will happen in the following code?\\n\\ndays = (\"Mon\", \"Tue\", \"Wed\")\\ndays[1] = \"Friday\"",
+      "options": [
+        "The tuple changes successfully",
+        "The tuple becomes a list",
+        "A TypeError occurs",
+        "Python ignores the statement"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Why are tuples commonly used in AI systems and financial software?",
+      "options": [
+        "Because they are editable",
+        "Because they prevent accidental modification of important data",
+        "Because they automatically generate predictions",
+        "Because they only store text"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which option correctly creates a single-element tuple?",
+      "options": [
+        "(5)",
+        "[5]",
+        "(5,)",
+        "{5}"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "What concept is demonstrated in the following code?\\n\\nstudent = (\"Aarav\", 15, \"India\")\\nname, age, country = student",
+      "options": [
+        "Tuple mutation",
+        "Tuple unpacking",
+        "Dictionary mapping",
+        "List slicing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "What is the biggest conceptual advantage of dictionaries over lists?",
+      "options": [
+        "Dictionaries only store numbers",
+        "Dictionaries access data using meaningful keys instead of positions",
+        "Dictionaries cannot be modified",
+        "Dictionaries are always sorted automatically"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "What will be the output?\\n\\nstudent = {\"name\": \"Rahul\", \"score\": 95}\\nprint(student[\"score\"])",
+      "options": [
+        "Rahul",
+        "95",
+        "score",
+        "KeyError"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Which statement about dictionary keys is correct?",
+      "options": [
+        "Dictionary keys can repeat infinitely",
+        "Duplicate keys overwrite previous values",
+        "Keys must always be integers",
+        "Keys are automatically converted into lists"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Why are dictionaries heavily used in APIs and AI systems?",
+      "options": [
+        "Because they support key-value mapping for structured information",
+        "Because they permanently freeze data",
+        "Because they remove the need for algorithms",
+        "Because they can only store strings"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What is the safest way to access a dictionary key that may not exist?",
+      "options": [
+        "student[\"age\"]",
+        "student.age()",
+        "student.get(\"age\")",
+        "student.search(\"age\")"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "What is the main computational advantage of dictionaries internally?",
+      "options": [
+        "They use neural networks internally",
+        "They are implemented using optimized hash tables for fast searching",
+        "They automatically compress memory",
+        "They avoid all loops"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "In the word-frequency example, why is the dictionary structure effective?",
+      "options": [
+        "Because it maps each word to its occurrence count efficiently",
+        "Because dictionaries sort words alphabetically by default",
+        "Because dictionaries convert text into images",
+        "Because dictionaries prevent duplicate words completely"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which combination correctly matches the data structure with its primary strength?",
+      "options": [
+        "List → Immutable storage",
+        "Tuple → Dynamic editing",
+        "Dictionary → Key-value mapping",
+        "Dictionary → Position-based indexing"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}
+

@@ -1,0 +1,227 @@
+
+{
+  "title": "Module 2 - Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How can AI help students in school?",
+      "options": [
+        "By automatically completing all homework without learning",
+        "By giving personalized learning and practice activities",
+        "By replacing teachers completely",
+        "By removing all exams forever"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which example shows AI being used in healthcare?",
+      "options": [
+        "A calculator solving sums",
+        "AI helping doctors study X-ray images",
+        "A ruler measuring length",
+        "A notebook storing homework"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "How does AI help in transportation?",
+      "options": [
+        "By changing traffic lights randomly",
+        "By finding faster routes and improving traffic management",
+        "By making roads disappear",
+        "By removing all vehicles"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following is a voice assistant?",
+      "options": [
+        "Microsoft Paint",
+        "Google Assistant",
+        "Calculator",
+        "PowerPoint"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is the main job of a chatbot?",
+      "options": [
+        "To paint pictures",
+        "To answer questions and help users through conversation",
+        "To wash clothes",
+        "To repair computers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "A recommendation system suggests movies based on what?",
+      "options": [
+        "The weather",
+        "Your interests and previous choices",
+        "Your shoe size",
+        "Your favorite color only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which device is most likely to use AI?",
+      "options": [
+        "A smart speaker",
+        "A wooden chair",
+        "A pencil",
+        "A paper notebook"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "How can AI make learning more enjoyable?",
+      "options": [
+        "By giving interactive quizzes and learning games",
+        "By removing all books",
+        "By stopping students from asking questions",
+        "By replacing schools"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Which situation uses a recommendation system?",
+      "options": [
+        "A music app suggesting songs you may like",
+        "A clock showing time",
+        "A pencil writing on paper",
+        "A fan cooling a room"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Why do people use voice assistants?",
+      "options": [
+        "To ask questions, set reminders, or play music using voice commands",
+        "To replace electricity",
+        "To clean the house automatically",
+        "To repair cars"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "Which example shows AI helping doctors?",
+      "options": [
+        "Analyzing medical images to support diagnosis",
+        "Printing school books",
+        "Sharpening pencils",
+        "Cooking meals"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "How can AI improve road safety?",
+      "options": [
+        "By helping manage traffic and giving navigation assistance",
+        "By removing traffic signs",
+        "By making all cars drive faster",
+        "By closing all roads"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "In many video games, AI is used to:",
+      "options": [
+        "Control computer characters that react to players",
+        "Turn off the game automatically",
+        "Delete the game",
+        "Replace the game controller"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Which smart home device commonly uses AI?",
+      "options": [
+        "A smart speaker that responds to voice commands",
+        "A paper calendar",
+        "A chalkboard",
+        "A wooden table"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "A chatbot can best be described as:",
+      "options": [
+        "A computer program that talks with people using text or voice",
+        "A toy robot only",
+        "A video game console",
+        "A television channel"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Why do recommendation systems give different suggestions to different people?",
+      "options": [
+        "Because they learn from each person's interests and choices",
+        "Because everyone likes the same things",
+        "Because they choose randomly",
+        "Because they only work on weekends"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which of the following is NOT a common use of AI in everyday life?",
+      "options": [
+        "A refrigerator suggesting recipes based on available food",
+        "A recommendation system suggesting videos",
+        "A voice assistant setting alarms",
+        "A chatbot answering customer questions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "How does AI make smart devices more useful?",
+      "options": [
+        "By understanding user commands and helping perform tasks",
+        "By making them heavier",
+        "By removing all buttons",
+        "By preventing them from connecting to the internet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which statement about AI is TRUE?",
+      "options": [
+        "AI helps people complete tasks but still needs humans to build and improve it",
+        "AI knows everything in the world",
+        "AI never makes mistakes",
+        "AI can replace every human job today"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which situation uses more than one AI application together?",
+      "options": [
+        "Asking a voice assistant to play a recommended song",
+        "Using a ruler to measure a book",
+        "Writing with a pencil",
+        "Opening a notebook"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

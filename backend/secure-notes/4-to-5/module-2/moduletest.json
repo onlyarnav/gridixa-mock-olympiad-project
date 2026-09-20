@@ -1,0 +1,1106 @@
+{
+  "module": "Module 2",
+  "level": "4-5",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does logical reasoning mean?",
+      "options": [
+        "Guessing the answer without looking",
+        "Thinking step-by-step to solve a problem using facts",
+        "Asking a friend to do your work",
+        "Reading a book backward"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "If all dogs bark, and Buster is a dog, what is the logical conclusion?",
+      "options": [
+        "Buster meows",
+        "Buster barks",
+        "Buster flies",
+        "Buster is a cat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "Why is problem-solving an important skill?",
+      "options": [
+        "It helps us find answers to tricky situations in everyday life",
+        "It makes computers turn off",
+        "It stops us from playing games",
+        "It makes problems bigger"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q4",
+      "question": "What is the first step to solving a big problem?",
+      "options": [
+        "Cry about it",
+        "Understand exactly what the problem is",
+        "Start guessing",
+        "Write the final answer down"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "question": "If a pattern is: Square, Circle, Square, Circle... what comes next?",
+      "options": [
+        "Triangle",
+        "Circle",
+        "Square",
+        "Star"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q6",
+      "question": "How do computers solve problems?",
+      "options": [
+        "By taking a nap",
+        "By following step-by-step instructions given by humans",
+        "By guessing",
+        "By using their imagination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "question": "What do we call breaking a big problem into smaller, easier pieces?",
+      "options": [
+        "Decomposition",
+        "Destruction",
+        "Debugging",
+        "Designing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "question": "You lost your keys. What is a logical first step to solve this?",
+      "options": [
+        "Buy a new car",
+        "Think about where you last had them and retrace your steps",
+        "Go to sleep",
+        "Call the police"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "question": "Is guessing wildly the best way to solve a math problem?",
+      "options": [
+        "Yes, it is the fastest way",
+        "No, using steps and logic is much better",
+        "Yes, computers guess too",
+        "Only on Tuesdays"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "question": "Which of these games uses a lot of logical reasoning?",
+      "options": [
+        "Chess",
+        "Tag",
+        "Hide and Seek",
+        "Musical Chairs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "question": "What is an algorithm?",
+      "options": [
+        "A type of musical instrument",
+        "A list of step-by-step instructions to complete a task",
+        "A math problem with no answer",
+        "A computer virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which everyday activity is most like following an algorithm?",
+      "options": [
+        "Dreaming while asleep",
+        "Following a recipe to bake a cake",
+        "Listening to music",
+        "Eating a sandwich"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "question": "Why must an algorithm be in the correct order?",
+      "options": [
+        "Because computers like it neat",
+        "Because if steps are mixed up, the final result will be wrong",
+        "Because it won't rhyme otherwise",
+        "It doesn't matter what order it is in"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "question": "If an algorithm for brushing teeth forgets the step 'put toothpaste on brush', what happens?",
+      "options": [
+        "You swallow the toothpaste",
+        "You brush your teeth with a dry, empty brush",
+        "Your teeth turn green",
+        "The computer crashes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q15",
+      "question": "Do computers need algorithms to work?",
+      "options": [
+        "Yes, they cannot do anything without instructions",
+        "No, they just know what to do",
+        "Only if they are playing games",
+        "No, algorithms are only for humans"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "question": "What is a 'loop' in an algorithm?",
+      "options": [
+        "A circle drawn on the screen",
+        "A mistake in the code",
+        "A step or set of steps that repeats over and over",
+        "The end of the program"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q17",
+      "question": "If an algorithm says 'Walk forward 2 steps', what will a robot do?",
+      "options": [
+        "Walk forward 5 steps",
+        "Turn around",
+        "Walk forward exactly 2 steps",
+        "Start dancing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q18",
+      "question": "What happens when an algorithm is completely finished?",
+      "options": [
+        "The problem is solved or the task is done",
+        "The computer explodes",
+        "It starts over forever",
+        "The power goes out"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q19",
+      "question": "Can two different algorithms solve the exact same problem?",
+      "options": [
+        "No, there is only one way to do things",
+        "Yes, there can be many different ways to solve the same problem",
+        "Only if they are written in pencil",
+        "No, algorithms cannot solve problems"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "question": "Who writes the algorithms for computers?",
+      "options": [
+        "Aliens",
+        "Human computer programmers",
+        "The computer writes them itself from scratch",
+        "Animals"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "question": "What is a 'bug' in a computer program?",
+      "options": [
+        "A small insect living in the keyboard",
+        "A mistake or error in the code that makes it not work right",
+        "A special feature that helps you win",
+        "A tiny camera"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "question": "What does 'debugging' mean?",
+      "options": [
+        "Catching real bugs with a net",
+        "Deleting all your work",
+        "Finding and fixing the mistakes in your code",
+        "Turning off the computer"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "question": "What should you do if your code doesn't work the first time?",
+      "options": [
+        "Give up and cry",
+        "Look for bugs, fix them, and try again",
+        "Throw the computer away",
+        "Ask a dog for help"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "question": "How is the best way to find a bug in an algorithm?",
+      "options": [
+        "Read through the steps one by one to see where it went wrong",
+        "Press all the buttons at once",
+        "Shake the computer",
+        "Guess randomly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q25",
+      "question": "If your robot character turns left instead of right, what is the bug?",
+      "options": [
+        "The robot is broken",
+        "The screen is upside down",
+        "The code says 'Left' instead of 'Right'",
+        "The computer needs to be charged"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q26",
+      "question": "Who can make bugs in their code?",
+      "options": [
+        "Only beginners",
+        "Only kids",
+        "Everyone, even expert adult programmers",
+        "Nobody makes bugs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q27",
+      "question": "Is getting a bug in your code a bad thing to be ashamed of?",
+      "options": [
+        "Yes, it means you are bad at coding",
+        "No, it is a normal part of learning and solving problems",
+        "Yes, you will be in trouble",
+        "Yes, bugs are evil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "question": "What animal is a computer 'bug' named after?",
+      "options": [
+        "A spider",
+        "A moth found inside a giant old computer",
+        "A ladybug",
+        "A beetle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "question": "If a video game suddenly freezes and closes, what might be the cause?",
+      "options": [
+        "You pressed the jump button",
+        "The game is tired",
+        "A bug in the game's code",
+        "The TV is too loud"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q30",
+      "question": "What can help you debug a program?",
+      "options": [
+        "Ignoring the problem",
+        "Reading the code step-by-step or asking a friend to look at it",
+        "Closing your eyes",
+        "Typing faster"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "question": "How can AI help in a classroom?",
+      "options": [
+        "By doing all the students' homework for them",
+        "By giving students practice questions that match their learning level",
+        "By cleaning the chalkboard",
+        "By eating the students' lunches"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "Can an AI replace a human teacher?",
+      "options": [
+        "Yes, AI is much better",
+        "No, teachers care for students and explain things with feelings and understanding",
+        "Yes, teachers will be robots soon",
+        "No, because AI can't read"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "What is an example of AI in healthcare?",
+      "options": [
+        "A robot that does backflips",
+        "An AI helping doctors look at X-ray pictures to spot illnesses faster",
+        "A machine that makes cotton candy",
+        "A computer playing video games in the waiting room"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "question": "Why do doctors use AI?",
+      "options": [
+        "To help them find illnesses quicker and keep patients safe",
+        "To play games during surgery",
+        "Because they don't know anything",
+        "To make the hospital look cool"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q35",
+      "question": "Can AI decide to give you a strong medicine entirely on its own?",
+      "options": [
+        "Yes, it is always right",
+        "No, a human doctor must review and make the final decision",
+        "Only on weekends",
+        "Yes, if the robot is tall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "question": "What is a self-driving car?",
+      "options": [
+        "A car that you push with your feet",
+        "A car that uses AI and sensors to steer and drive without a human touching the wheel",
+        "A car that drives inside a house",
+        "A remote control toy car"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "question": "How does a self-driving car know when to stop at a red light?",
+      "options": [
+        "It uses cameras and AI algorithms to 'see' the red light and apply brakes",
+        "It guesses when the light is red",
+        "The driver tells it to stop",
+        "It never stops"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q38",
+      "question": "How does AI help airplanes in transportation?",
+      "options": [
+        "It serves snacks to passengers",
+        "It helps pilots fly safely using autopilot systems",
+        "It paints the airplane",
+        "It makes the airplane invisible"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "question": "Which of these is an example of AI in education?",
+      "options": [
+        "A language app that listens to you speak Spanish and corrects your pronunciation",
+        "A normal printed math textbook",
+        "A wooden ruler",
+        "A whiteboard marker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q40",
+      "question": "How can AI help school buses?",
+      "options": [
+        "By making the bus fly",
+        "By calculating the fastest and safest route to pick up students",
+        "By honking the horn loudly",
+        "By doing the students' homework on the way"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "question": "What can a smart AI app do for a sick patient at home?",
+      "options": [
+        "Cook them a full dinner",
+        "Remind them to take their medicine at the exact right time",
+        "Drive them to the park",
+        "Perform surgery"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "question": "Why is AI helpful for city traffic?",
+      "options": [
+        "It can change traffic lights by watching cameras to prevent traffic jams",
+        "It makes all cars turn blue",
+        "It stops all cars forever",
+        "It yells at bad drivers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q43",
+      "question": "Will AI robots do all our school homework for us in the future?",
+      "options": [
+        "Yes, we will never have to learn anything",
+        "No, doing our own work helps our brains grow and learn",
+        "Yes, and we will get all A's",
+        "No, because robots hate homework"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "question": "How does AI help nurses in a busy hospital?",
+      "options": [
+        "By quickly searching through thousands of patient records",
+        "By sweeping the floors",
+        "By wearing a nurse hat",
+        "By sleeping in the beds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q45",
+      "question": "Can AI help trains run better?",
+      "options": [
+        "No, trains are too old",
+        "Yes, AI helps trains stay on schedule and avoid crashes safely",
+        "Only if the train is made of wood",
+        "No, trains don't use computers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "question": "What is a voice assistant?",
+      "options": [
+        "A person who helps you sing",
+        "An AI like Siri or Alexa that answers when you speak to it",
+        "A microphone that changes your voice",
+        "A loud speaker at school"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "question": "How do you usually wake up a smart voice assistant?",
+      "options": [
+        "By shaking it",
+        "By saying its special 'wake word' like 'Hey Siri'",
+        "By clapping three times",
+        "By turning off the lights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q48",
+      "question": "What is a chatbot?",
+      "options": [
+        "A robot that talks too much",
+        "An AI that you can talk to by typing text messages",
+        "A video game character",
+        "A chat between two human friends"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q49",
+      "question": "Where might you see a chatbot?",
+      "options": [
+        "In a book",
+        "On a store's website popping up to ask if you need help finding a toy",
+        "On a piece of paper",
+        "In the refrigerator"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q50",
+      "question": "Do chatbots know the answer to absolutely everything?",
+      "options": [
+        "Yes, they know the whole universe",
+        "No, they only know information based on the data they were trained on",
+        "Yes, they are smarter than humans",
+        "No, they can only say 'Hello'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q51",
+      "question": "What is a recommendation system?",
+      "options": [
+        "A system that tells you what to wear",
+        "An AI that suggests things you might like based on patterns",
+        "A system that writes letters of recommendation",
+        "A robot that forces you to buy things"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q52",
+      "question": "If YouTube suggests a video you might like to watch next, what is it using?",
+      "options": [
+        "A recommendation system",
+        "A voice assistant",
+        "A chatbot",
+        "A self-driving car"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q53",
+      "question": "How does a recommendation system guess what you might like?",
+      "options": [
+        "By reading your mind",
+        "By looking at data of what you clicked on or watched in the past",
+        "By calling your mom",
+        "By guessing randomly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q54",
+      "question": "If you buy a lot of art supplies online, what will the AI likely recommend to you next?",
+      "options": [
+        "Car tires",
+        "More paint or drawing paper",
+        "Dog food",
+        "A basketball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q55",
+      "question": "Can a voice assistant turn on the lights in a smart home?",
+      "options": [
+        "Yes, if the lights are connected to the smart home system",
+        "No, voice assistants can only play music",
+        "Yes, by flipping the switch with a robot arm",
+        "No, they are afraid of the dark"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q56",
+      "question": "What happens if you ask a chatbot a very confusing question it doesn't understand?",
+      "options": [
+        "It will get angry",
+        "It might give a silly answer or say 'I don't know'",
+        "It will delete your computer",
+        "It will start crying"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q57",
+      "question": "Is the voice coming from a smart speaker a real person hiding inside?",
+      "options": [
+        "Yes, a tiny person is in there",
+        "No, it is a computer-generated voice made by AI",
+        "Yes, they are on a telephone call",
+        "Only if it's a boy's voice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q58",
+      "question": "Why do online stores use recommendation systems?",
+      "options": [
+        "To annoy you",
+        "To help you easily find things you want to buy so you spend more money",
+        "To hide the best toys",
+        "To make their website slower"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q59",
+      "question": "Can you ask a voice assistant what the weather is going to be tomorrow?",
+      "options": [
+        "No, they don't know about weather",
+        "Yes, it uses AI to search the internet and read the forecast to you",
+        "Only if you ask it at night",
+        "Yes, but it always lies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q60",
+      "question": "What should you do if an online chatbot asks for your home address and school name?",
+      "options": [
+        "Give it to them so they can send you a prize",
+        "Never give it, close the chat, and tell a trusted adult",
+        "Give a fake address",
+        "Tell them your friend's address"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q61",
+      "question": "How is AI used in video games?",
+      "options": [
+        "To turn off the TV",
+        "To control the characters you play against so they act smart",
+        "To make the controller heavier",
+        "To pause the game forever"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q62",
+      "question": "What does NPC stand for in a video game?",
+      "options": [
+        "New Playing Computer",
+        "Non-Player Character (controlled by the game's AI)",
+        "Never Play Cards",
+        "Nice Puppy Cat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q63",
+      "question": "If you play a racing game by yourself, who controls the other cars on the track?",
+      "options": [
+        "Ghosts",
+        "The game's Artificial Intelligence",
+        "People inside the TV",
+        "The controller"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q64",
+      "question": "What makes a device a 'smart' device?",
+      "options": [
+        "It wears glasses",
+        "It uses a computer, sensors, and often AI to do its job better automatically",
+        "It can do math homework",
+        "It has a lot of buttons"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q65",
+      "question": "What does a smart thermostat do in a house?",
+      "options": [
+        "It cooks dinner",
+        "It learns when you are home and changes the temperature to save energy",
+        "It cleans the windows",
+        "It plays loud music"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q66",
+      "question": "How does a smart fridge use AI?",
+      "options": [
+        "It can see what food you have and send an alert to your phone when you are out of milk",
+        "It eats all the leftovers",
+        "It makes the food taste better",
+        "It walks to the grocery store"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q67",
+      "question": "If a video game enemy learns to dodge your attacks after you do the same move 5 times, what is it using?",
+      "options": [
+        "Magic",
+        "Artificial Intelligence pattern recognition",
+        "A glitch in the game",
+        "A cheat code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q68",
+      "question": "What is a smart watch?",
+      "options": [
+        "A watch that only tells time",
+        "A watch that can track your steps, heart rate, and connect to your phone using computer code",
+        "A watch made of books",
+        "A watch that does your spelling test"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q69",
+      "question": "Can AI make a video game harder if you are winning too easily?",
+      "options": [
+        "Yes, some smart games adjust the difficulty to match how well you play",
+        "No, games always stay the same",
+        "Only if you pay more money",
+        "Yes, but it makes you start over"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q70",
+      "question": "Is a normal, old-fashioned lightbulb a smart device?",
+      "options": [
+        "Yes, because it uses electricity",
+        "No, it only turns on and off with a switch and has no computer inside",
+        "Yes, because it is bright",
+        "Yes, if it is in a smart house"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q71",
+      "question": "When your teacher shows you an AI drawing tool in class, what are you learning?",
+      "options": [
+        "How to use paint",
+        "How AI can generate new art from text descriptions",
+        "How to build a robot",
+        "How to erase a whiteboard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q72",
+      "question": "If a teacher uses an AI to read a story aloud in different character voices, what AI technology is this?",
+      "options": [
+        "Self-driving technology",
+        "Text-to-Speech AI",
+        "Image recognition",
+        "Calculator"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q73",
+      "question": "Why do teachers show AI tools in the classroom?",
+      "options": [
+        "So they can take a nap",
+        "To help students learn how future technology works and how to use it safely",
+        "Because the school is turning into robots",
+        "To make learning harder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q74",
+      "question": "If the class plays a game where they train a simple AI to tell the difference between apples and oranges, what is that called?",
+      "options": [
+        "Machine Learning",
+        "Cooking Class",
+        "Sports",
+        "Drawing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q75",
+      "question": "What is the most important rule when using AI in class?",
+      "options": [
+        "Break the computer",
+        "Follow the teacher's instructions, use it for learning, and stay safe online",
+        "Share your passwords",
+        "Don't tell anyone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q76",
+      "question": "When you use an AI tool with your teacher, who is really in charge of the learning?",
+      "options": [
+        "The computer",
+        "The AI",
+        "The teacher and the students",
+        "The principal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q77",
+      "question": "If the teacher's AI makes a silly mistake during a demonstration, what does it teach us?",
+      "options": [
+        "That computers are broken",
+        "That AI is not perfect and still makes errors, so humans must double-check it",
+        "That AI is evil",
+        "That the teacher broke it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q78",
+      "question": "How can an AI help you start writing a story in class?",
+      "options": [
+        "By writing the whole thing so you do nothing",
+        "By giving you fun ideas or prompts to spark your own imagination",
+        "By reading a book to you",
+        "By deleting your words"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q79",
+      "question": "What do you provide to an AI image generator to make it draw a picture?",
+      "options": [
+        "A piece of paper",
+        "A text prompt or description of what you want",
+        "A pencil",
+        "A battery"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q80",
+      "question": "Why is it fun to test AI with your teacher?",
+      "options": [
+        "Because you don't have to listen",
+        "You can explore what it does well and laugh at what it gets confused about",
+        "Because it gives you free toys",
+        "You can play video games"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q81",
+      "question": "What is a big benefit (a good thing) about using AI?",
+      "options": [
+        "It can do boring, repetitive tasks very fast",
+        "It steals your lunch",
+        "It makes everything slower",
+        "It complains a lot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q82",
+      "question": "What is a limitation (a bad thing or weakness) of AI?",
+      "options": [
+        "It is too fast",
+        "It does not have common sense or real human feelings",
+        "It is always right",
+        "It can only be used at night"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q83",
+      "question": "Can AI work all day without getting tired?",
+      "options": [
+        "No, it needs an hour of sleep",
+        "Yes, as a machine, it doesn't need sleep or rest",
+        "Only if it eats lunch",
+        "No, it gets tired after 10 minutes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q84",
+      "question": "Is AI better than humans at being creative and feeling deep emotions?",
+      "options": [
+        "Yes, it is the most creative thing ever",
+        "No, humans are much better at feeling emotions and true creativity",
+        "Yes, it cries when it is sad",
+        "They are exactly the same"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q85",
+      "question": "What happens if AI is trained using bad or unfair data?",
+      "options": [
+        "It magically fixes the data",
+        "It learns the bad patterns and makes bad, unfair decisions",
+        "It turns into a human",
+        "It stops working forever"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q86",
+      "question": "Why is AI helpful for dangerous jobs, like exploring the bottom of the ocean or a volcano?",
+      "options": [
+        "Because robots with AI can go where it is unsafe for humans without getting hurt",
+        "Because robots like swimming",
+        "Because humans are too loud",
+        "Because volcanoes are cold"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q87",
+      "question": "Can AI know when you are truly sad just by talking to you?",
+      "options": [
+        "Yes, it feels your sadness in its heart",
+        "No, it can guess based on words, but it can't truly feel or understand human emotions",
+        "Yes, it cries with you",
+        "No, it thinks everyone is happy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q88",
+      "question": "Does AI know right from wrong by itself?",
+      "options": [
+        "Yes, it is born with rules",
+        "No, it only knows what human programmers teach it",
+        "Yes, it reads rulebooks",
+        "No, but it always does the wrong thing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q89",
+      "question": "Why might it be a bad idea to let AI make all our important life decisions?",
+      "options": [
+        "Because it is too smart",
+        "Because it doesn't understand human feelings, fairness, or common sense",
+        "Because it takes too long",
+        "Because humans don't want to relax"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q90",
+      "question": "Which of these is a great benefit of AI in the real world?",
+      "options": [
+        "Helping scientists discover new medicines very quickly",
+        "Eating all the food in the world",
+        "Making everyone forget how to read",
+        "Taking away all the fun games"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q91",
+      "question": "If you could design an AI to clean your bedroom, what would be its input?",
+      "options": [
+        "Putting the toys in the toy box",
+        "Seeing the messy toys on the floor using a camera sensor",
+        "Making the bed",
+        "Turning off the lights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q92",
+      "question": "What would be the output of your bedroom-cleaning AI?",
+      "options": [
+        "Seeing the toys",
+        "Picking up the toys and putting them away",
+        "Taking a picture of the room",
+        "Asking you for a snack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q93",
+      "question": "Why is it important for kids to design AI that helps people?",
+      "options": [
+        "So technology is used to make the world a better, fairer, and happier place",
+        "To make scary robots",
+        "To avoid doing chores forever",
+        "So humans can sleep all day"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q94",
+      "question": "If you design an AI app to help you pick out clothes for the day, what data does it need?",
+      "options": [
+        "What you ate for breakfast",
+        "What the weather is like and what clothes are in your closet",
+        "What your dog's name is",
+        "What time you go to bed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q95",
+      "question": "When designing a brand new AI, what should you think about first?",
+      "options": [
+        "What color to paint it",
+        "What real-world problem you want to solve or help with",
+        "How much it will cost",
+        "What the robot's name will be"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q96",
+      "question": "What is the role of a human when designing a new AI?",
+      "options": [
+        "To plan it, code it, test it, and make sure it is safe",
+        "To sit back and let the computer do it",
+        "To yell at it",
+        "To build the plastic case"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q97",
+      "question": "If you create an AI to automatically feed your dog, what important rule must it have?",
+      "options": [
+        "Give the dog human food",
+        "Only dispense the right amount of dog food so the dog doesn't get sick",
+        "Feed the dog every 5 minutes",
+        "Let the dog decide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q98",
+      "question": "Can kids come up with great ideas for new AI?",
+      "options": [
+        "No, only adults can",
+        "Yes! Kids have amazing imaginations for solving problems creatively",
+        "Only if they know how to code",
+        "No, kids don't use AI"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q99",
+      "question": "What would an AI designed for a school library do?",
+      "options": [
+        "Burn the books",
+        "Help students find the perfect book to read based on what they like",
+        "Eat the bookmarks",
+        "Hide the books"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q100",
+      "question": "When you dream up a new AI invention to help the world, you are acting like a...",
+      "options": [
+        "Magician",
+        "Computer Scientist and Inventor",
+        "Superhero",
+        "Video Game Player"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

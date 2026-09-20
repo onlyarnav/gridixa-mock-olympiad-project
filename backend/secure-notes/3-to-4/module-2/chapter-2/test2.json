@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is a hyperparameter in machine learning?",
+      "options": [
+        "A parameter learned automatically during training",
+        "A setting chosen before training begins",
+        "The final prediction of a model",
+        "The output of a neural network"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following is a hyperparameter of a decision tree?",
+      "options": [
+        "Predicted class",
+        "Feature importance",
+        "Maximum tree depth",
+        "Training accuracy"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Why is hyperparameter tuning important?",
+      "options": [
+        "It changes the dataset size",
+        "It helps find settings that improve model performance",
+        "It guarantees perfect accuracy",
+        "It removes the need for testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which method tries all possible combinations of selected hyperparameter values?",
+      "options": [
+        "Random Search",
+        "Cross-Validation",
+        "Grid Search",
+        "Bagging"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "question": "Compared to Grid Search, Random Search often:",
+      "options": [
+        "Tests every possible combination",
+        "Cannot tune hyperparameters",
+        "Explores randomly selected combinations and may be more efficient",
+        "Always gives worse results"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "What is the primary idea behind ensemble methods?",
+      "options": [
+        "Use only the best model",
+        "Combine multiple models to make better predictions",
+        "Reduce the dataset size",
+        "Train a single model for longer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "An ensemble of weak learners can often produce:",
+      "options": [
+        "A weaker model",
+        "A stronger and more accurate model",
+        "No predictions",
+        "A random classifier"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following is an example of an ensemble method?",
+      "options": [
+        "Linear Regression",
+        "K-Means",
+        "Random Forest",
+        "Principal Component Analysis"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "Bagging mainly aims to:",
+      "options": [
+        "Increase model bias",
+        "Reduce variance by combining multiple models",
+        "Reduce the number of features",
+        "Increase learning rate"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What type of base model is commonly used in Random Forest?",
+      "options": [
+        "Neural Networks",
+        "Decision Trees",
+        "Support Vector Machines",
+        "K-Nearest Neighbors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "A Random Forest is called 'random' because:",
+      "options": [
+        "It makes random predictions",
+        "It randomly changes the labels",
+        "It uses random subsets of data and features",
+        "Its output is unpredictable"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "In a Random Forest, each tree is typically trained on:",
+      "options": [
+        "The entire dataset with all features",
+        "A bootstrap sample of the data",
+        "Only one feature",
+        "Only the test set"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "How does a Random Forest usually make a classification prediction?",
+      "options": [
+        "Using the first tree only",
+        "Averaging class labels",
+        "Majority voting among trees",
+        "Random guessing"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "Increasing the number of trees in a Random Forest generally:",
+      "options": [
+        "Makes the model weaker",
+        "Can improve stability and reduce variance",
+        "Guarantees overfitting",
+        "Reduces training data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Which hyperparameter directly controls the number of trees in a Random Forest?",
+      "options": [
+        "max_depth",
+        "learning_rate",
+        "n_estimators",
+        "batch_size"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q16",
+      "question": "Why do Random Forests usually perform better than a single decision tree?",
+      "options": [
+        "They eliminate all errors",
+        "They combine many diverse trees and reduce overfitting",
+        "They use no training data",
+        "They never require tuning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Which of the following would MOST likely be tuned during model optimization?",
+      "options": [
+        "The labels in the dataset",
+        "The predictions of the model",
+        "The maximum depth of trees",
+        "The test accuracy"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "A Random Forest with only one tree becomes equivalent to:",
+      "options": [
+        "A neural network",
+        "A support vector machine",
+        "A decision tree",
+        "A logistic regression model"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "Which statement about ensemble methods is FALSE?",
+      "options": [
+        "They combine multiple models.",
+        "They often improve generalization.",
+        "They always use identical training data and features.",
+        "Random Forest is an ensemble method."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "A data scientist tunes the number of trees and maximum depth of a Random Forest using Grid Search and Cross-Validation. What is the main objective?",
+      "options": [
+        "Reduce the size of the dataset",
+        "Find hyperparameter settings that generalize well to unseen data",
+        "Remove all features",
+        "Guarantee 100% training accuracy"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

@@ -1,0 +1,1106 @@
+{
+  "module": "Module 1",
+  "level": "9-10",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which part of a neural network receives raw data first?",
+      "options": [
+        "Hidden layer",
+        "Output layer",
+        "Input layer",
+        "Activation function"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "question": "What is the main role of hidden layers in a neural network?",
+      "options": [
+        "Store the final answer only",
+        "Perform mathematical transformations on data",
+        "Replace the input layer",
+        "Convert images into text"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "What does a weight represent in a neuron?",
+      "options": [
+        "A delay in learning",
+        "The importance of an input",
+        "The size of the dataset",
+        "The error rate of the model"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "question": "Why is bias added in a neuron?",
+      "options": [
+        "To make the neuron ignore all inputs",
+        "To guarantee the neuron can still activate even when inputs are zero",
+        "To reduce the number of hidden layers",
+        "To convert output into pixels"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which equation best represents the basic calculation of a neuron?",
+      "options": [
+        "y = mx + b",
+        "z = (w . x) + b",
+        "a = x / w",
+        "p = w - b"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "question": "In the neuron formula, what does x stand for?",
+      "options": [
+        "The output score",
+        "The input data",
+        "The bias term",
+        "The learning rate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "question": "A neuron multiplies inputs by weights and then adds bias. The result is called:",
+      "options": [
+        "z",
+        "x",
+        "m",
+        "Loss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which scenario best matches the poster example in the chapter?",
+      "options": [
+        "Predicting whether a promotional poster will go viral",
+        "Counting how many pages are in a notebook",
+        "Measuring screen brightness",
+        "Storing photos in a folder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q9",
+      "question": "Which input was described as more important for predicting whether a poster will go viral?",
+      "options": [
+        "Bright colors",
+        "A famous guest speaker",
+        "The poster being square",
+        "The file name of the poster"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is the purpose of the activation function in a neural network?",
+      "options": [
+        "To decide whether a neuron should pass its signal forward",
+        "To calculate the dataset size",
+        "To remove all weights",
+        "To split training and testing data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "question": "The activation function can be compared to a:",
+      "options": [
+        "Battery charger",
+        "Gatekeeper",
+        "Printer head",
+        "Calculator screen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "question": "What happens when a neuron's score is too low after the activation function?",
+      "options": [
+        "The neuron fires anyway",
+        "The signal stops",
+        "The network becomes deep learning automatically",
+        "The weight becomes zero permanently"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "question": "The passing of data forward through the network is called:",
+      "options": [
+        "Backpropagation",
+        "Forward propagation",
+        "Gradient clipping",
+        "Pooling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "question": "What is the main goal of AI training?",
+      "options": [
+        "To make the loss as close to zero as possible",
+        "To maximize random guesses",
+        "To increase the number of inputs",
+        "To remove all biases from the formula"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "question": "At the start of learning, the weights and biases of an AI are usually:",
+      "options": [
+        "Perfectly accurate",
+        "Random",
+        "Equal to zero always",
+        "Copied from the output layer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which technique helps AI move downhill toward minimum loss?",
+      "options": [
+        "Pooling",
+        "Gradient Descent",
+        "Activation",
+        "Tokenization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "question": "In the mountain analogy, what does the gradient represent?",
+      "options": [
+        "The size of the valley",
+        "The slope of the ground",
+        "The final output",
+        "The training dataset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "question": "What is the goal of the blindfolded hiker in the gradient descent analogy?",
+      "options": [
+        "To climb to the highest mountain top",
+        "To find the lowest point in the valley",
+        "To freeze on the slope",
+        "To change the mountain shape"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q19",
+      "question": "What does the learning rate control in gradient descent?",
+      "options": [
+        "How much the AI learns from data labels",
+        "The size of each step taken downhill",
+        "The number of layers in the network",
+        "The accuracy percentage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "question": "What could happen if the learning rate is too large?",
+      "options": [
+        "The AI may step over the bottom and miss the minimum",
+        "The model cannot read inputs",
+        "The loss instantly becomes zero",
+        "The network stops using weights"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q21",
+      "question": "What could happen if the learning rate is too small?",
+      "options": [
+        "The AI may never reach the minimum efficiently",
+        "The AI becomes a CNN automatically",
+        "The loss turns negative",
+        "The neuron stops multiplying inputs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q22",
+      "question": "Backpropagation mainly helps the AI to:",
+      "options": [
+        "Forget the training data",
+        "Learn from mistakes by adjusting weights and biases",
+        "Increase the number of images",
+        "Generate new input layers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "In backpropagation, the error is sent backward from the:",
+      "options": [
+        "Input layer",
+        "Output layer",
+        "Hidden layer only",
+        "Bias term"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "question": "Which mathematical rule is used in backpropagation to trace error through layers?",
+      "options": [
+        "Pythagoras theorem",
+        "Chain Rule",
+        "Quadratic formula",
+        "Mean rule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "question": "Repeated cycles of guessing, checking error, and correcting make the AI become:",
+      "options": [
+        "Less connected",
+        "More accurate and intelligent",
+        "Randomly slower",
+        "Untrained forever"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "question": "Why are standard neural networks often unsuitable for 4K photos or long essays?",
+      "options": [
+        "They are too simple for massive complex data",
+        "They always require no weights",
+        "They only work on numbers",
+        "They cannot use hidden layers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q27",
+      "question": "What problem would occur if a standard neural network tried to process a very high-resolution image directly?",
+      "options": [
+        "It would need millions of weights and could crash the computer",
+        "It would automatically become an LSTM",
+        "It would lose all hidden layers",
+        "It would stop using biases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q28",
+      "question": "Which specialized architecture is designed for vision tasks?",
+      "options": [
+        "CNN",
+        "RNN",
+        "LSTM",
+        "Backprop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "question": "Which specialized architecture is designed for memory and sequences?",
+      "options": [
+        "CNN",
+        "RNN",
+        "Pooling",
+        "Convolution"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "question": "What kind of data is a CNN most suitable for?",
+      "options": [
+        "Grid-like data",
+        "Only spoken language",
+        "Only random numbers",
+        "Only text summaries"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q31",
+      "question": "In the CNN analogy, the detective uses a magnifying glass that acts like a:",
+      "options": [
+        "Bias",
+        "Filter",
+        "Loss",
+        "Loop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "A CNN filter is usually described as a tiny grid of numbers of size:",
+      "options": [
+        "1x1",
+        "2x2",
+        "3x3",
+        "10x10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q33",
+      "question": "What does a CNN filter do when sliding across an image?",
+      "options": [
+        "It multiplies its values with the pixels underneath",
+        "It deletes all low scores automatically",
+        "It changes the image into a sentence",
+        "It adds random noise to the image"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q34",
+      "question": "What does a high filter score usually indicate?",
+      "options": [
+        "The filter found the pattern it was looking for",
+        "The image has no pixels",
+        "The output layer has failed",
+        "The data is unrelated to vision"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q35",
+      "question": "What is the main purpose of pooling in a CNN?",
+      "options": [
+        "To make the image larger",
+        "To keep only the most important number from a small section",
+        "To convert pixels into words",
+        "To increase the number of weights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "question": "Pooling helps CNNs mainly by:",
+      "options": [
+        "Shrinking data while preserving important features",
+        "Eliminating the need for filters",
+        "Changing labels into images",
+        "Increasing the number of channels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q37",
+      "question": "Which of the following can CNNs eventually recognize after stacking enough layers?",
+      "options": [
+        "Only numbers",
+        "Faces, cars, or cats",
+        "Only keyboard strokes",
+        "Only audio tones"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "question": "Why are CNNs described as specialized networks?",
+      "options": [
+        "They are built only for image-like data",
+        "They can only work with bias terms",
+        "They are used for all tasks equally",
+        "They never use mathematical operations"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q39",
+      "question": "Why are standard neural networks weak for reading long text sequences?",
+      "options": [
+        "They forget earlier inputs quickly",
+        "They use too many filters",
+        "They have too many images",
+        "They cannot calculate loss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q40",
+      "question": "Which data type most clearly shows why order matters?",
+      "options": [
+        "A static photo",
+        "A sentence",
+        "A still logo",
+        "A single number"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "question": "What is a sequence in the context of RNNs?",
+      "options": [
+        "Data arranged in a specific order",
+        "Any random collection of pixels",
+        "A list of weights only",
+        "A training loss report"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q42",
+      "question": "What special structure does an RNN use to carry memory forward?",
+      "options": [
+        "A loop",
+        "A filter",
+        "A kernel",
+        "A pooling layer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q43",
+      "question": "Which example best illustrates an RNN use case from the chapter?",
+      "options": [
+        "Predicting the next word on a phone keyboard",
+        "Detecting edges in a poster",
+        "Measuring image brightness",
+        "Reducing image size"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q44",
+      "question": "What happens when a standard neural network sees input #2?",
+      "options": [
+        "It may forget input #1",
+        "It automatically becomes an RNN",
+        "It always stores the whole sentence perfectly",
+        "It stops using weights"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q45",
+      "question": "What is the main flaw of RNNs called in the chapter?",
+      "options": [
+        "Exploding pixel problem",
+        "Vanishing Gradient problem",
+        "Hidden filter problem",
+        "Lossless sequence problem"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "question": "Why does the Vanishing Gradient problem occur?",
+      "options": [
+        "Because too many large numbers are added repeatedly",
+        "Because many small numbers are multiplied repeatedly and become tiny",
+        "Because filters are too large",
+        "Because the input layer is empty"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "question": "What is the main consequence of the Vanishing Gradient problem?",
+      "options": [
+        "The AI remembers earlier parts of long data very well",
+        "The AI cannot properly learn from the beginning of long sequences",
+        "The AI becomes a CNN",
+        "The AI loses its input layer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q48",
+      "question": "Which kind of memory do RNNs have according to the chapter?",
+      "options": [
+        "Strong long-term memory",
+        "Weak long-term memory",
+        "No memory at all",
+        "Perfect memory for all sequences"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q49",
+      "question": "In what year were LSTMs introduced as the upgraded version of RNNs?",
+      "options": [
+        "1997",
+        "2012",
+        "2017",
+        "1950"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q50",
+      "question": "What does LSTM stand for?",
+      "options": [
+        "Long Short-Term Memory",
+        "Large Sequential Text Model",
+        "Linear Signal Tracking Machine",
+        "Learning State Transfer Module"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q51",
+      "question": "How is an LSTM described in comparison to an RNN?",
+      "options": [
+        "An RNN with a less useful output layer",
+        "An RNN with a highly advanced VIP memory system",
+        "A CNN with extra pooling",
+        "A network without any loop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q52",
+      "question": "What is the purpose of the LSTM Cell State?",
+      "options": [
+        "To store only images",
+        "To carry important memories through the sequence",
+        "To replace the output layer",
+        "To calculate the learning rate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q53",
+      "question": "The Cell State in LSTM is compared to a:",
+      "options": [
+        "Magnifying glass",
+        "Fast-moving conveyor belt",
+        "Red pen",
+        "Pixel grid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q54",
+      "question": "Why is the conveyor belt analogy important for LSTM?",
+      "options": [
+        "It shows how important memories travel safely across a long sequence",
+        "It shows how images are cropped",
+        "It shows how weights are randomized",
+        "It shows how data is pooled"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q55",
+      "question": "What can LSTMs specifically choose to do with information?",
+      "options": [
+        "Forget useless info and protect important info",
+        "Only store colors",
+        "Only process images",
+        "Only change the loss function"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q56",
+      "question": "Why did LSTMs become especially useful for text prediction?",
+      "options": [
+        "They can remember important sequence information over long ranges",
+        "They ignore all previous words",
+        "They only work on photographs",
+        "They replace the need for training"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q57",
+      "question": "Which task was explicitly mentioned as a major use of LSTMs for years?",
+      "options": [
+        "Language translation",
+        "Image pooling",
+        "Weight randomization",
+        "Signal conversion from pixels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q58",
+      "question": "Which task was also mentioned as a major use of LSTMs for years?",
+      "options": [
+        "Voice assistants",
+        "Poster filtering",
+        "Logo shrinking",
+        "Gradient descent tuning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q59",
+      "question": "A key reason LSTMs outperform basic RNNs is that they:",
+      "options": [
+        "Use a more advanced memory system with gates",
+        "Have no hidden layers",
+        "Skip training data",
+        "Remove sequences entirely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q60",
+      "question": "Which statement best connects CNNs, RNNs, and LSTMs to their design purpose?",
+      "options": [
+        "CNNs handle vision, RNNs handle sequence memory, LSTMs improve long-term sequence memory",
+        "CNNs handle memory, RNNs handle images, LSTMs handle loss",
+        "CNNs handle tokens, RNNs handle filters, LSTMs handle activation",
+        "All three are identical in purpose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q61",
+      "question": "Why does the chapter say specialized architectures were needed?",
+      "options": [
+        "Because one standard network was too simple for complex data",
+        "Because weights are unnecessary in AI",
+        "Because images cannot be stored in computers",
+        "Because biases must always be removed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q62",
+      "question": "Which type of data is most likely to need a CNN rather than an RNN?",
+      "options": [
+        "A sequence of words in a paragraph",
+        "A 4K photo",
+        "A spoken sentence over time",
+        "A list of timestamps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q63",
+      "question": "Which type of data is most likely to need an RNN or LSTM rather than a CNN?",
+      "options": [
+        "A still photograph",
+        "A sequence of text",
+        "A logo design",
+        "A pixel grid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q64",
+      "question": "What is the most direct reason CNNs are powerful for vision?",
+      "options": [
+        "They analyze local patterns inside grid-like visual data",
+        "They memorize the whole image instantly",
+        "They only process one pixel per second",
+        "They use the Chain Rule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q65",
+      "question": "What is the most direct reason RNNs are useful for language?",
+      "options": [
+        "Language has no order",
+        "They can pass memory forward through a sequence",
+        "They reduce image size",
+        "They eliminate weights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q66",
+      "question": "Which component in neural networks decides whether a computed score becomes an active signal?",
+      "options": [
+        "Weight",
+        "Bias",
+        "Activation function",
+        "Learning rate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q67",
+      "question": "Which of the following best describes the output layer?",
+      "options": [
+        "The layer where raw data enters",
+        "The layer that makes the final decision or prediction",
+        "The layer that only stores bias values",
+        "The layer that multiplies pixels"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q68",
+      "question": "Why is backpropagation essential after a wrong prediction?",
+      "options": [
+        "It lets the network identify which parameters caused the mistake",
+        "It converts images into sequences",
+        "It removes all hidden layers",
+        "It increases the data size"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q69",
+      "question": "Which component is most directly adjusted during backpropagation?",
+      "options": [
+        "Weights and biases",
+        "Only the input layer name",
+        "Only the activation function type",
+        "Only the dataset labels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q70",
+      "question": "A model that learns to recognize a specific logo from a crowded poster is most likely using:",
+      "options": [
+        "CNN-style visual feature detection",
+        "RNN memory looping",
+        "LSTM gates for translation",
+        "Gradient descent alone without layers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q71",
+      "question": "What is the role of the hidden layers in a deep neural network when compared to the input and output layers?",
+      "options": [
+        "They transform raw data into useful representations",
+        "They store final predictions only",
+        "They act as the dataset",
+        "They replace the activation function"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q72",
+      "question": "Which statement best explains why deep learning is called 'deep'?",
+      "options": [
+        "Because it uses deep oceans of data",
+        "Because it has many hidden layers",
+        "Because it always works with 3D objects",
+        "Because it avoids mathematical calculations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q73",
+      "question": "In the poster example, which factor had a much higher weight?",
+      "options": [
+        "Bright colors",
+        "Famous guest speaker",
+        "Poster size",
+        "File format"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q74",
+      "question": "Which of these best describes the final score z in the neuron formula?",
+      "options": [
+        "The weighted sum plus bias",
+        "The number of hidden layers",
+        "The dataset label",
+        "The learning rate step"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q75",
+      "question": "What does the term 'forward propagation' refer to in the chapter?",
+      "options": [
+        "Sending error backward after a mistake",
+        "Passing data through layers toward the output",
+        "Reducing weights to zero",
+        "Making the loss function smaller"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q76",
+      "question": "Which action happens first in the process of learning from mistakes?",
+      "options": [
+        "Backpropagation adjusts weights",
+        "The AI makes a guess",
+        "The gradient becomes zero",
+        "The output layer disappears"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q77",
+      "question": "Why is the learning rate described as a 'step size'?",
+      "options": [
+        "Because it controls how far the AI moves in each update",
+        "Because it counts the number of layers",
+        "Because it measures accuracy",
+        "Because it changes the dataset"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q78",
+      "question": "If an AI is moving down the loss landscape but keeps overshooting the lowest point, what is most likely wrong?",
+      "options": [
+        "The learning rate is too large",
+        "The model has too many labels",
+        "The input layer is missing",
+        "The activation function is absent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q79",
+      "question": "Which of the following best illustrates the role of pooling in CNNs?",
+      "options": [
+        "Keeping the strongest feature from a local region",
+        "Adding more random weights",
+        "Making text sequences longer",
+        "Correcting the loss function directly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q80",
+      "question": "Why are CNNs especially effective on image data compared to ordinary neural networks?",
+      "options": [
+        "They exploit the grid structure of pixels through filters and pooling",
+        "They convert every image into one number",
+        "They remove the need for learning",
+        "They only work with labels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q81",
+      "question": "Which of these would be the least suitable task for an RNN?",
+      "options": [
+        "Next-word prediction",
+        "Time-series forecasting",
+        "Reading a sentence",
+        "Finding edges in a photo"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q82",
+      "question": "Which of these is most directly harmed by the vanishing gradient problem?",
+      "options": [
+        "The ability to learn from early parts of long sequences",
+        "The number of pixels in an image",
+        "The size of the filter in CNNs",
+        "The existence of bias terms"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q83",
+      "question": "What makes an LSTM more suitable than a basic RNN for long text?",
+      "options": [
+        "It uses a cell state to preserve useful information",
+        "It removes all loops",
+        "It works only with images",
+        "It does not require training"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "What is the main purpose of the three gates in an LSTM?",
+      "options": [
+        "To decide what to forget, what to keep, and what to pass on",
+        "To increase image size",
+        "To generate weights randomly",
+        "To split testing data into categories"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q85",
+      "question": "The LSTM cell state is best compared to what?",
+      "options": [
+        "A fast-moving conveyor belt",
+        "A scoring rubric",
+        "A magnifying glass",
+        "A red pen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q86",
+      "question": "Which of the following is a direct benefit of the cell state in LSTMs?",
+      "options": [
+        "It keeps important memories from vanishing too quickly",
+        "It converts images to tokens",
+        "It removes the need for weights",
+        "It increases the number of filters"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q87",
+      "question": "Why did LSTMs become the gold standard for years in language-related tasks?",
+      "options": [
+        "They can handle long-term dependencies better",
+        "They are smaller than all other models",
+        "They require no training data",
+        "They work only with photographs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q88",
+      "question": "Which statement best contrasts CNNs and RNNs?",
+      "options": [
+        "CNNs focus on spatial patterns, while RNNs focus on sequences",
+        "CNNs focus on sequences, while RNNs focus on pixels",
+        "CNNs use memory loops, while RNNs use filters",
+        "CNNs and RNNs are identical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q89",
+      "question": "Which network would best process a video frame by frame while keeping sequence order in mind?",
+      "options": [
+        "CNN only",
+        "RNN or LSTM",
+        "Bias network",
+        "Activation network"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q90",
+      "question": "A network with multiple hidden layers, weights, biases, activation functions, and backpropagation is best described as:",
+      "options": [
+        "A deep neural network",
+        "A token window",
+        "A pooling matrix",
+        "A static rule system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q91",
+      "question": "Which of the following best explains why a neural network is inspired by the human brain?",
+      "options": [
+        "It uses biological neurons",
+        "It uses interconnected digital nodes that pass signals",
+        "It stores memories in the skull",
+        "It has no layers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q92",
+      "question": "If a neuron’s weighted input sum is very low, what is the likely role of the activation function?",
+      "options": [
+        "To stop the neuron from firing",
+        "To increase the dataset size",
+        "To convert the model into CNN",
+        "To reduce bias to zero"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q93",
+      "question": "Which concept is most directly responsible for improving a model after each mistake?",
+      "options": [
+        "Backpropagation",
+        "Pooling",
+        "Tokenization",
+        "Convolution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q94",
+      "question": "Which of the following is the best reason AI engineers use gradient descent?",
+      "options": [
+        "To randomly choose weights",
+        "To systematically reduce loss",
+        "To increase the number of input nodes",
+        "To make images sharper"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q95",
+      "question": "Which part of the training process directly measures how wrong the AI was?",
+      "options": [
+        "Loss function",
+        "Input layer",
+        "Filter",
+        "Gatekeeper"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q96",
+      "question": "Which hidden danger is most associated with a neural network having too many irrelevant patterns in the training data?",
+      "options": [
+        "Overfitting",
+        "Pooling",
+        "Forward propagation",
+        "Activation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q97",
+      "question": "Which of these best shows the idea of perfect fitting?",
+      "options": [
+        "The AI memorizes every training example exactly and fails on new data",
+        "The AI understands the key pattern and works well on unseen examples",
+        "The AI cannot process input data",
+        "The AI has no weights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q98",
+      "question": "What is the best description of a digital neuron?",
+      "options": [
+        "A node that performs weighted calculations on inputs",
+        "A camera that scans images",
+        "A sentence predictor only",
+        "A loss tracker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q99",
+      "question": "Which statement about deep learning is most accurate?",
+      "options": [
+        "It uses many hidden layers to solve complex problems",
+        "It avoids all mathematical transformations",
+        "It only works with one neuron",
+        "It replaces the need for training data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q100",
+      "question": "Which sequence of technologies best matches the chapter's progression for sequence processing?",
+      "options": [
+        "CNN → RNN → LSTM",
+        "RNN → CNN → LSTM",
+        "LSTM → CNN → RNN",
+        "Activation → Bias → Weight"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

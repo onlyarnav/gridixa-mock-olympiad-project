@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why does the KV cache create a memory problem during long-text generation?",
+      "options": [
+        "Because it stores only the final output",
+        "Because it stores Key and Value information for many past words in memory",
+        "Because it removes positional information",
+        "Because it replaces attention with convolution"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Why could earlier AI models usually handle only shorter inputs?",
+      "options": [
+        "They did not use any data",
+        "The memory needed for stored context became too large for long texts",
+        "They could not generate tokens",
+        "They were trained only on images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is the main goal of context engineering?",
+      "options": [
+        "To make every model smaller",
+        "To help models process very long documents efficiently",
+        "To eliminate the need for GPUs",
+        "To remove the KV cache completely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Sparse Attention works by:",
+      "options": [
+        "Comparing every word with every other word",
+        "Focusing only on nearby and some important distant words",
+        "Ignoring all distant context entirely",
+        "Rotating the word embeddings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is the main trade-off of Sparse Attention?",
+      "options": [
+        "It increases memory usage but improves full context understanding",
+        "It saves memory but slightly reduces full context understanding",
+        "It removes the need for training data",
+        "It prevents long-text generation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Ring Attention is most useful because it:",
+      "options": [
+        "Processes long text across multiple GPUs by dividing the work",
+        "Stores all words in a single hidden layer",
+        "Uses fixed positions instead of relative positions",
+        "Only works on short prompts"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "In Ring Attention, large text is first:",
+      "options": [
+        "Converted into images",
+        "Divided into parts and processed across multiple GPUs",
+        "Compressed into one token",
+        "Turned into labels"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "How does Ring Attention help with very long inputs?",
+      "options": [
+        "By forcing the model to ignore most words",
+        "By allowing systems to share information while processing different parts",
+        "By removing the need for memory",
+        "By using only one GPU for everything"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "RoPE stands for:",
+      "options": [
+        "Rotary Position Embedding",
+        "Relative Output Position Encoding",
+        "Recurrent Position Evaluation",
+        "Randomized Prompt Embedding"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "What is the main idea behind RoPE?",
+      "options": [
+        "Assigning fixed positions to words permanently",
+        "Rotating the mathematical representation of words based on position",
+        "Deleting all positional information",
+        "Using only absolute distances between tokens"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Why is RoPE useful for long sequences?",
+      "options": [
+        "It helps the AI understand how far apart words are",
+        "It reduces the number of training examples needed to zero",
+        "It eliminates the need for tokenization",
+        "It prevents the use of attention"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Compared to fixed positional encoding, RoPE emphasizes:",
+      "options": [
+        "Relative positioning",
+        "Image resolution",
+        "Training data cleaning",
+        "Token cost reduction only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Which three factors are highlighted by scaling laws?",
+      "options": [
+        "Model size, training data, and computing power",
+        "Token count, punctuation, and file type",
+        "Memory, latency, and accuracy",
+        "Queries, keys, and values"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "What is the key idea of scaling laws?",
+      "options": [
+        "Only model size matters",
+        "Performance depends on balancing model size, data, and compute",
+        "More layers always solve every problem",
+        "Training data is optional if the model is large enough"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Why is increasing only model size not enough according to scaling laws?",
+      "options": [
+        "Because the model also needs enough training data",
+        "Because larger models cannot use attention",
+        "Because larger models only work on short texts",
+        "Because compute becomes irrelevant"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Scaling laws help engineers mainly by:",
+      "options": [
+        "Designing smarter and more cost-effective AI systems",
+        "Removing the need for GPUs",
+        "Replacing tokenization with raw text",
+        "Making all models identical"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which technique is most directly aimed at reducing memory pressure by selective focus?",
+      "options": [
+        "Sparse Attention",
+        "Ring Attention",
+        "RoPE",
+        "Scaling Laws"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Which technique is most directly aimed at distributing long-text work across multiple GPUs?",
+      "options": [
+        "Sparse Attention",
+        "Ring Attention",
+        "RoPE",
+        "KV Cache"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which technique is most directly related to improving positional understanding in long sequences?",
+      "options": [
+        "RoPE",
+        "Sparse Attention",
+        "Ring Attention",
+        "KV Cache"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which option correctly matches the technique to its main role?",
+      "options": [
+        "KV Cache — rotates word positions",
+        "Sparse Attention — compares every word with all others",
+        "Ring Attention — splits text across GPUs for long inputs",
+        "Scaling Laws — stores keys and values in memory"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

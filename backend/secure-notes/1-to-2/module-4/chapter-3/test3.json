@@ -1,0 +1,226 @@
+{
+  "title": "Module 4 Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which type of chart is most suitable for showing how monthly website traffic changes over a year?",
+      "options": [
+        "Bar Chart",
+        "Scatter Plot",
+        "Line Chart",
+        "Pie Chart"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "A line chart is primarily used to visualize:",
+      "options": [
+        "Relationships between two numerical variables",
+        "Changes and trends over time",
+        "Parts of a whole",
+        "Textual information"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which chart would be best for comparing the number of students in different school houses?",
+      "options": [
+        "Line Chart",
+        "Scatter Plot",
+        "Bar Chart",
+        "Area Chart"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "In a bar chart, what does the height (or length) of each bar typically represent?",
+      "options": [
+        "A trend over time",
+        "A category's value or frequency",
+        "A mathematical equation",
+        "A correlation coefficient"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which visualization is most appropriate for exploring whether study hours and exam scores are related?",
+      "options": [
+        "Scatter Plot",
+        "Bar Chart",
+        "Line Chart",
+        "Histogram"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "What does each point in a scatter plot represent?",
+      "options": [
+        "A category",
+        "A trend line",
+        "A pair of numerical values",
+        "A percentage"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "A company wants to compare sales across five different products. Which chart should they use?",
+      "options": [
+        "Line Chart",
+        "Scatter Plot",
+        "Bar Chart",
+        "Network Graph"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "Which chart type would best reveal a steady increase in temperature over several days?",
+      "options": [
+        "Bar Chart",
+        "Scatter Plot",
+        "Line Chart",
+        "Table"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "If points in a scatter plot tend to rise from left to right, this suggests:",
+      "options": [
+        "No relationship",
+        "A negative relationship",
+        "A positive relationship",
+        "Missing data"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Which statement about line charts is TRUE?",
+      "options": [
+        "They are best for comparing unrelated categories",
+        "They connect data points to highlight trends",
+        "They only work with percentages",
+        "They cannot display numerical data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "What is a key advantage of bar charts?",
+      "options": [
+        "They clearly compare values across categories",
+        "They show continuous trends over time better than line charts",
+        "They reveal correlations better than scatter plots",
+        "They require fewer data points"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Which scenario is BEST suited for a scatter plot?",
+      "options": [
+        "Comparing population across cities",
+        "Tracking stock prices daily",
+        "Analyzing the relationship between height and weight",
+        "Comparing annual revenue by department"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "A teacher records attendance for each month and wants to show how it changes throughout the year. Which chart is most suitable?",
+      "options": [
+        "Scatter Plot",
+        "Bar Chart",
+        "Line Chart",
+        "Flow Chart"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "What can scatter plots help identify besides relationships?",
+      "options": [
+        "Outliers or unusual data points",
+        "Grammar errors",
+        "Image quality",
+        "Database structure"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Which chart would be LEAST effective for displaying changes in stock prices every minute during a trading day?",
+      "options": [
+        "Line Chart",
+        "Scatter Plot",
+        "Bar Chart",
+        "Line Chart with markers"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q16",
+      "question": "In a scatter plot showing exercise hours versus fitness scores, points are scattered randomly with no visible pattern. This most likely indicates:",
+      "options": [
+        "A strong positive relationship",
+        "A strong negative relationship",
+        "Little or no relationship",
+        "Perfect correlation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "Why are line charts commonly used in business reports?",
+      "options": [
+        "They effectively display trends and performance over time",
+        "They replace numerical analysis",
+        "They only require categorical data",
+        "They cannot show declines"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "A researcher wants to compare survey responses from four age groups. Which visualization is most appropriate?",
+      "options": [
+        "Line Chart",
+        "Bar Chart",
+        "Scatter Plot",
+        "Trend Line"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which chart type is specifically designed to reveal patterns between two quantitative variables?",
+      "options": [
+        "Bar Chart",
+        "Line Chart",
+        "Scatter Plot",
+        "Pie Chart"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "A data analyst wants to compare city populations while also observing population growth over ten years. Which combination would be MOST effective?",
+      "options": [
+        "Bar Chart for city comparison and Line Chart for growth trends",
+        "Scatter Plot for comparison and Pie Chart for growth",
+        "Only a Scatter Plot",
+        "Only a Bar Chart"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

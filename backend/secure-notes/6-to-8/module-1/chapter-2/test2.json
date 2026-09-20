@@ -1,0 +1,226 @@
+{
+    "title": "Chapter 2 Test",
+    "timePerQuestion": 40,
+    "questions": [
+        {
+            "id": "q1",
+            "question": "In Artificial Intelligence systems, what role does data primarily play?",
+            "options": [
+                "It powers the computer hardware",
+                "It acts as the information used for learning",
+                "It replaces algorithms",
+                "It stores programs permanently"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q2",
+            "question": "In the kitchen analogy used to explain AI, what does an algorithm represent?",
+            "options": [
+                "The cooking utensils",
+                "The ingredients",
+                "The recipe that guides the process",
+                "The finished meal"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q3",
+            "question": "Which combination correctly forms the basic foundation of most AI systems?",
+            "options": [
+                "Electricity and Internet",
+                "Hardware and Screens",
+                "Data and Algorithms",
+                "Storage and Memory"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q4",
+            "question": "What is the key idea behind Machine Learning compared to traditional programming?",
+            "options": [
+                "Computers learn patterns from data instead of following fixed rules",
+                "Computers run programs faster",
+                "Computers store more files",
+                "Computers replace human programmers"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q5",
+            "question": "When a computer studies thousands of examples and discovers patterns on its own, which concept is being demonstrated?",
+            "options": [
+                "Binary coding",
+                "Machine Learning",
+                "Hardware optimization",
+                "Manual programming"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q6",
+            "question": "Which situation best represents how Machine Learning works?",
+            "options": [
+                "A computer follows exact instructions written by a programmer",
+                "A computer studies many examples and finds patterns by itself",
+                "A computer only performs calculations",
+                "A computer stores files without analysis"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q7",
+            "question": "In Supervised Learning, what special feature does the training data contain?",
+            "options": [
+                "Hidden patterns only",
+                "Unorganized data",
+                "Labeled answers",
+                "Encrypted information"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q8",
+            "question": "Teaching an AI to recognize good and bad logos using labeled examples is an example of:",
+            "options": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "Quantum Learning"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q9",
+            "question": "In Unsupervised Learning, what is the main task given to the AI system?",
+            "options": [
+                "Follow strict human instructions",
+                "Find hidden patterns in unlabeled data",
+                "Memorize answers",
+                "Perform calculations only"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q10",
+            "question": "Grouping customers based on their buying habits without knowing their identities is an example of:",
+            "options": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "Manual Programming"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q11",
+            "question": "Which Machine Learning method learns through rewards and penalties?",
+            "options": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "Statistical Learning"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q12",
+            "question": "Training an AI to improve at a game like chess by rewarding successful moves is an example of:",
+            "options": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "Binary Learning"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q13",
+            "question": "Which real-world system commonly uses Supervised Learning to protect users?",
+            "options": [
+                "Spam email detection",
+                "Battery charging systems",
+                "Screen brightness adjustment",
+                "File compression"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q14",
+            "question": "When an email system moves suspicious messages to a spam folder, what is the AI mainly analyzing?",
+            "options": [
+                "The user's internet speed",
+                "Patterns found in past spam emails",
+                "The size of attachments only",
+                "The color of the email text"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q15",
+            "question": "Face unlock on smartphones works by studying which type of information?",
+            "options": [
+                "Battery signals",
+                "Unique facial features",
+                "Phone storage capacity",
+                "Screen resolution"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q16",
+            "question": "During Face Unlock setup, why does the phone ask the user to move their head in different directions?",
+            "options": [
+                "To improve camera brightness",
+                "To collect detailed facial data from multiple angles",
+                "To test internet speed",
+                "To activate the microphone"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q17",
+            "question": "What does the term AI Bias refer to?",
+            "options": [
+                "AI systems working faster than humans",
+                "AI making unfair decisions because of biased training data",
+                "AI refusing to process information",
+                "AI systems running without electricity"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q18",
+            "question": "If an AI hiring system is trained mostly on resumes of men, what problem might occur?",
+            "options": [
+                "The AI will stop working",
+                "The AI may unfairly prefer male candidates",
+                "The AI will delete resumes",
+                "The AI will only hire programmers"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q19",
+            "question": "The phrase 'Garbage In, Garbage Out' in AI means:",
+            "options": [
+                "AI systems produce waste data",
+                "Bad input data leads to incorrect results",
+                "AI deletes useless data",
+                "AI stores information forever"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q20",
+            "question": "What is the most important responsibility of humans when building AI systems?",
+            "options": [
+                "Use the fastest computers available",
+                "Provide fair and balanced training data",
+                "Remove all algorithms",
+                "Avoid using Machine Learning"
+            ],
+            "correctAnswer": 1
+        }
+    ]
+}

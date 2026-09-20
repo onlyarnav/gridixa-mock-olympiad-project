@@ -1,0 +1,1106 @@
+{
+  "title": "Module Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why is Python described as a translator between humans and computers?",
+      "options": [
+        "Because it converts human-readable instructions into executable computer instructions",
+        "Because it directly understands human emotions",
+        "Because it replaces binary values with images",
+        "Because it removes the need for computer memory"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "question": "Which statement best explains why Python became popular in AI development?",
+      "options": [
+        "It forces programmers to write complex syntax",
+        "It helps developers focus more on solving problems than fighting syntax",
+        "It can only be used for beginner projects",
+        "It does not support mathematical computation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What does it mean that Python is an interpreted language?",
+      "options": [
+        "The entire program is converted to machine code before execution",
+        "Python executes instructions step-by-step using an interpreter",
+        "Python cannot check syntax before running code",
+        "Python only runs on AI hardware"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which hidden step happens after Python checks syntax and before execution?",
+      "options": [
+        "It converts code into bytecode",
+        "It deletes all variables",
+        "It converts strings into images",
+        "It removes function calls"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Why is Python compared to a Swiss Army knife?",
+      "options": [
+        "Because it only performs one task",
+        "Because it contains many useful capabilities for different domains",
+        "Because it is mainly a hardware tool",
+        "Because it cannot be used in AI"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Which of the following is NOT mentioned as a Python use case in the notes?",
+      "options": [
+        "Building AI chatbots",
+        "Creating websites",
+        "Controlling robots",
+        "Manufacturing physical CPUs"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q7",
+      "question": "Why is Python's simplicity described as deceptive?",
+      "options": [
+        "Because Python is secretly weak",
+        "Because clean syntax hides advanced systems like memory management and AI libraries",
+        "Because Python does not support real-world software",
+        "Because Python cannot run mathematical operations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which idea best captures Python's role in Machine Learning workflows?",
+      "options": [
+        "Collect data, process data, compute results",
+        "Ignore data, avoid computation, print only text",
+        "Use only strings and never numbers",
+        "Replace algorithms with manual typing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "What is syntax in Python?",
+      "options": [
+        "The structure and arrangement of code Python expects",
+        "The memory location of a variable",
+        "The final answer printed by a program",
+        "The speed of a processor"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Why is syntax more than just style?",
+      "options": [
+        "Because wrong syntax can stop Python from understanding the instruction",
+        "Because syntax only affects colors in code editors",
+        "Because syntax is optional in Python",
+        "Because syntax only applies to comments"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "Which line is valid Python 3 syntax?",
+      "options": [
+        "print \"Hello\"",
+        "print(\"Hello\")",
+        "print Hello",
+        "print = \"Hello\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "What is a Python statement?",
+      "options": [
+        "A complete instruction given to Python",
+        "Only a comment line",
+        "Only a variable name",
+        "Only a data type"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "If a program has three print statements one after another, how does Python normally execute them?",
+      "options": [
+        "Randomly",
+        "From bottom to top",
+        "Sequentially from top to bottom",
+        "Only the last one runs"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "What makes indentation especially important in Python?",
+      "options": [
+        "It defines blocks of code",
+        "It only improves visual beauty",
+        "It replaces variable names",
+        "It converts strings into numbers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Which code would produce an indentation error?",
+      "options": [
+        "if True:\n    print(\"Run\")",
+        "if True:\nprint(\"Run\")",
+        "print(\"Run\")",
+        "name = \"AI\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "What is the purpose of comments in Python?",
+      "options": [
+        "To store values permanently",
+        "To write notes for humans that Python ignores",
+        "To force Python to execute faster",
+        "To replace syntax rules"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Which symbol starts a single-line comment in Python?",
+      "options": [
+        "//",
+        "#",
+        "/*",
+        "--"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Why should programmers read error messages carefully?",
+      "options": [
+        "Error messages are guidance systems for debugging",
+        "Error messages always mean the computer is broken",
+        "Error messages should always be ignored",
+        "Error messages only appear in games"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "What does the escape character \\n do inside a string?",
+      "options": [
+        "Deletes the string",
+        "Creates a new line",
+        "Converts text to integer",
+        "Stops the program"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which expression correctly prints quotation marks inside a string?",
+      "options": [
+        "print(\"She said \\\"Python is amazing\\\"\")",
+        "print(\"She said \"Python is amazing\"\")",
+        "print(She said Python is amazing)",
+        "print(\"She said \\Python is amazing\\\")"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q21",
+      "question": "What is a program?",
+      "options": [
+        "A set of instructions given to a computer",
+        "A single number stored in memory",
+        "Only a mathematical symbol",
+        "Only a printed output"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q22",
+      "question": "Why is the first Python program important beyond being a beginner exercise?",
+      "options": [
+        "It begins interaction with computational systems",
+        "It trains a neural network automatically",
+        "It creates a full AI chatbot",
+        "It removes the need for syntax"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q23",
+      "question": "What does the print() function do?",
+      "options": [
+        "Stores data permanently",
+        "Displays output on the screen",
+        "Converts code into bytecode only",
+        "Deletes variables"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q24",
+      "question": "In print(\"Welcome to AI\"), what is \"Welcome to AI\"?",
+      "options": [
+        "Integer",
+        "Boolean",
+        "String",
+        "Operator"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q25",
+      "question": "Which beginner mistake would most likely cause a NameError?",
+      "options": [
+        "Typing prit(\"Hello\") instead of print(\"Hello\")",
+        "Writing print(\"Hello\")",
+        "Using quotes around text",
+        "Writing one print statement per line"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q26",
+      "question": "Why is clean code preferred over writing many statements on one line?",
+      "options": [
+        "Clean code is easier to read, debug, and maintain",
+        "Python cannot execute multiple statements",
+        "Clean code always runs 100 times faster",
+        "Messy code is never valid"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q27",
+      "question": "What does computational thinking involve?",
+      "options": [
+        "Breaking problems into parts and designing systematic solutions",
+        "Memorizing only print statements",
+        "Avoiding logical steps",
+        "Writing code randomly until it works"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q28",
+      "question": "What is a variable in Python?",
+      "options": [
+        "A named memory location used to store data",
+        "A fixed keyword that cannot change",
+        "A type of loop",
+        "A syntax error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q29",
+      "question": "What does the assignment operator = mean in Python?",
+      "options": [
+        "Compare two values",
+        "Store the value on the right into the variable on the left",
+        "Delete a variable",
+        "Check if code is valid"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q30",
+      "question": "What will this code print?\ncoins = 10\ncoins = 25\nprint(coins)",
+      "options": [
+        "10",
+        "25",
+        "10 25",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q31",
+      "question": "Which variable name is valid in Python?",
+      "options": [
+        "2score",
+        "student-name",
+        "student_marks",
+        "class"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q32",
+      "question": "Why is class not a good variable name?",
+      "options": [
+        "It starts with a number",
+        "It contains a hyphen",
+        "It is a reserved keyword",
+        "It is too short"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q33",
+      "question": "Which naming style is commonly recommended in Python?",
+      "options": [
+        "snake_case",
+        "kebab-case",
+        "ALL*SYMBOLS",
+        "space separated names"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q34",
+      "question": "Why is physics_marks better than a as a variable name?",
+      "options": [
+        "It makes the code easier to understand",
+        "It runs faster in every program",
+        "It uses fewer characters",
+        "It prevents all errors"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q35",
+      "question": "What does Python's case sensitivity mean?",
+      "options": [
+        "name and Name are different variables",
+        "Python ignores capital letters",
+        "All variables must be uppercase",
+        "All variables must be lowercase"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q36",
+      "question": "What is dynamic typing?",
+      "options": [
+        "Python automatically detects the data type of a value",
+        "Python requires every variable type to be declared manually",
+        "Python variables cannot change values",
+        "Python only supports strings"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q37",
+      "question": "Which line demonstrates multiple variable assignment?",
+      "options": [
+        "x, y, z = 10, 20, 30",
+        "x y z = 10 20 30",
+        "x = y = z =",
+        "10, 20, 30 = x, y, z"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q38",
+      "question": "What is the output?\na = 5\nb = 10\na, b = b, a\nprint(a, b)",
+      "options": [
+        "5 10",
+        "10 5",
+        "5 5",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q39",
+      "question": "Which concept do variables strongly represent in computational thinking?",
+      "options": [
+        "Abstraction",
+        "Randomness only",
+        "Syntax deletion",
+        "Loop termination"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q40",
+      "question": "What data type is 50 in Python?",
+      "options": [
+        "float",
+        "str",
+        "int",
+        "bool"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q41",
+      "question": "What data type is 98.7 in Python?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q42",
+      "question": "What data type is \"VisionAI\"?",
+      "options": [
+        "String",
+        "Integer",
+        "Float",
+        "Boolean"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q43",
+      "question": "What are the only two values of a Boolean?",
+      "options": [
+        "0 and 1 only",
+        "True and False",
+        "Yes and Maybe",
+        "int and float"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q44",
+      "question": "What does type() do in Python?",
+      "options": [
+        "Checks the data type of a value",
+        "Converts every value to string",
+        "Prints only integers",
+        "Creates a loop"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q45",
+      "question": "What is the output?\nx = 10\ny = 20\nprint(x + y)",
+      "options": [
+        "1020",
+        "30",
+        "10 20",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q46",
+      "question": "What is the output?\nx = \"10\"\ny = \"20\"\nprint(x + y)",
+      "options": [
+        "30",
+        "1020",
+        "10 + 20",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q47",
+      "question": "Why does \"10\" + \"20\" produce \"1020\"?",
+      "options": [
+        "Because Python treats them as strings and concatenates them",
+        "Because Python always adds quoted numbers mathematically",
+        "Because Python deletes the quotes first",
+        "Because integers cannot be added"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q48",
+      "question": "Which conversion correctly turns the string \"18\" into a number for arithmetic?",
+      "options": [
+        "str(\"18\")",
+        "int(\"18\")",
+        "bool(\"18\")",
+        "type(\"18\")"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q49",
+      "question": "When using input(), how does Python store the entered value by default?",
+      "options": [
+        "As an integer",
+        "As a float",
+        "As a string",
+        "As a Boolean"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q50",
+      "question": "Why does print(\"Age: \" + 18) cause an error?",
+      "options": [
+        "Python cannot directly concatenate a string and an integer",
+        "Python cannot print text",
+        "18 is not a valid number",
+        "+ cannot join strings"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q51",
+      "question": "Which corrected line joins text and number properly?",
+      "options": [
+        "print(\"Age: \" + str(18))",
+        "print(\"Age: \" + int(18))",
+        "print(\"Age: \" - 18)",
+        "print(\"Age: \" / 18)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q52",
+      "question": "What is an operator?",
+      "options": [
+        "A symbol that tells Python to perform an action on values or variables",
+        "A variable that stores only strings",
+        "A block of repeated code",
+        "A Python error message"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q53",
+      "question": "In 5 + 3, what is +?",
+      "options": [
+        "Operand",
+        "Operator",
+        "Variable",
+        "Function"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q54",
+      "question": "What is the result of 10 / 2 in Python?",
+      "options": [
+        "5",
+        "5.0",
+        "10",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q55",
+      "question": "Which operator performs floor division?",
+      "options": [
+        "/",
+        "//",
+        "%",
+        "**"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q56",
+      "question": "What is the output of print(10 // 3)?",
+      "options": [
+        "3.33",
+        "3",
+        "1",
+        "30"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q57",
+      "question": "What does the modulus operator % return?",
+      "options": [
+        "Quotient",
+        "Remainder",
+        "Power",
+        "Decimal division"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q58",
+      "question": "What is the output of print(10 % 3)?",
+      "options": [
+        "1",
+        "3",
+        "0",
+        "10"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q59",
+      "question": "Which operator is used for exponentiation?",
+      "options": [
+        "^",
+        "**",
+        "//",
+        "%"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q60",
+      "question": "What is the output of print(2 ** 3)?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q61",
+      "question": "What is the output of print(\"AI \" * 3)?",
+      "options": [
+        "AI AI AI ",
+        "AI3",
+        "Error",
+        "AI * 3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q62",
+      "question": "Which operator checks equality?",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        ">="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q63",
+      "question": "Which operator means not equal to?",
+      "options": [
+        "==",
+        "!=",
+        "<=",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q64",
+      "question": "What does and return?",
+      "options": [
+        "True only if both conditions are True",
+        "True if at least one condition is True",
+        "Always False",
+        "The opposite of the condition"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q65",
+      "question": "What does or return?",
+      "options": [
+        "True only if both conditions are True",
+        "True if at least one condition is True",
+        "Always False",
+        "Only numeric values"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q66",
+      "question": "What does not do?",
+      "options": [
+        "Repeats a loop",
+        "Reverses a Boolean result",
+        "Adds two values",
+        "Stores a variable"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q67",
+      "question": "What is the output of print(2 + 3 * 4)?",
+      "options": [
+        "20",
+        "14",
+        "24",
+        "9"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q68",
+      "question": "What is the output of print((2 + 3) * 4)?",
+      "options": [
+        "14",
+        "20",
+        "24",
+        "9"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q69",
+      "question": "What does x += 3 mean?",
+      "options": [
+        "x = x + 3",
+        "x == 3",
+        "x = 3 - x",
+        "x = x * 3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q70",
+      "question": "Which keywords build Python's conditional decision system?",
+      "options": [
+        "if, else, elif",
+        "for, while, range",
+        "def, return, lambda",
+        "int, str, bool"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q71",
+      "question": "Why are conditional statements important?",
+      "options": [
+        "They allow programs to make decisions and react differently",
+        "They only display text",
+        "They replace all variables",
+        "They prevent mathematical operations"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q72",
+      "question": "What must appear at the end of an if condition line?",
+      "options": [
+        "Comma",
+        "Colon",
+        "Semicolon",
+        "Quotation mark"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q73",
+      "question": "What happens if an if condition is False and there is no else block?",
+      "options": [
+        "The indented block does not run",
+        "Python always runs the block anyway",
+        "The program must crash",
+        "Python converts False into True"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q74",
+      "question": "What does elif mean?",
+      "options": [
+        "End loop if",
+        "Else if",
+        "Equal if",
+        "Error line if"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q75",
+      "question": "How does Python check an if-elif-else chain?",
+      "options": [
+        "From bottom to top",
+        "Randomly",
+        "Top to bottom until the first True condition",
+        "It checks only else first"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q76",
+      "question": "What is the output?\nmarks = 95\nif marks >= 50:\n    print(\"Passed\")\nelif marks >= 90:\n    print(\"Excellent\")",
+      "options": [
+        "Excellent",
+        "Passed",
+        "Passed Excellent",
+        "No output"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q77",
+      "question": "Why does the previous code print Passed instead of Excellent?",
+      "options": [
+        "Python stops after the first True condition",
+        "Python cannot compare numbers",
+        "elif always runs before if",
+        "marks is stored as a string"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q78",
+      "question": "What are nested conditions?",
+      "options": [
+        "Conditions placed inside other conditions",
+        "Loops placed after functions only",
+        "Variables with underscores",
+        "Operators used with strings"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q79",
+      "question": "Which value is falsy in Python?",
+      "options": [
+        "\"AI\"",
+        "1",
+        "\"\"",
+        "True"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q80",
+      "question": "Which condition correctly checks both age and ID?",
+      "options": [
+        "if age >= 18 and has_id:",
+        "if age >= 18 or and has_id:",
+        "if age = 18 and has_id:",
+        "if age >= 18 has_id:"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q81",
+      "question": "What is a loop?",
+      "options": [
+        "A mechanism that repeats a block of code multiple times",
+        "A type of string",
+        "A syntax error",
+        "A named memory location"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q82",
+      "question": "When is a for loop usually used?",
+      "options": [
+        "When repetition count is known",
+        "Only when there is an error",
+        "Only for strings",
+        "When no repetition is needed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q83",
+      "question": "What does range(5) generate?",
+      "options": [
+        "1, 2, 3, 4, 5",
+        "0, 1, 2, 3, 4",
+        "0, 1, 2, 3, 4, 5",
+        "5 only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q84",
+      "question": "What programming concept is shown by Python starting range(5) at 0?",
+      "options": [
+        "Zero-based indexing",
+        "Dynamic typing",
+        "String concatenation",
+        "Recursive calling"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q85",
+      "question": "In for i in range(5), what is i?",
+      "options": [
+        "Loop variable",
+        "Function name",
+        "String literal",
+        "Reserved keyword"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q86",
+      "question": "What does range(1, 6) produce?",
+      "options": [
+        "1, 2, 3, 4, 5",
+        "1, 2, 3, 4, 5, 6",
+        "0, 1, 2, 3, 4, 5",
+        "6 only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q87",
+      "question": "What does range(0, 10, 2) produce?",
+      "options": [
+        "0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
+        "0, 2, 4, 6, 8",
+        "2, 4, 6, 8, 10",
+        "0, 2, 4, 6, 8, 10"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q88",
+      "question": "What is a nested loop?",
+      "options": [
+        "A loop inside another loop",
+        "A loop that never starts",
+        "A variable inside a string",
+        "A function without parameters"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q89",
+      "question": "When is a while loop usually used?",
+      "options": [
+        "When repetition depends on a condition",
+        "Only when repetition count is exactly known",
+        "Only to print strings",
+        "Only inside functions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q90",
+      "question": "What causes an infinite while loop?",
+      "options": [
+        "A condition that never becomes False",
+        "A loop with range(5)",
+        "A string inside print()",
+        "A valid indentation block"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q91",
+      "question": "What does break do inside a loop?",
+      "options": [
+        "Immediately stops the loop",
+        "Skips only the current iteration",
+        "Repeats the loop forever",
+        "Creates a new loop"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q92",
+      "question": "What does continue do inside a loop?",
+      "options": [
+        "Immediately stops the entire program",
+        "Skips the current iteration and moves to the next one",
+        "Deletes the loop variable",
+        "Converts loop output into a string"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q93",
+      "question": "What is the output?\nfor i in range(5):\n    if i == 2:\n        continue\n    print(i)",
+      "options": [
+        "0 1 2 3 4",
+        "0 1 3 4",
+        "2 only",
+        "0 1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q94",
+      "question": "What is the output?\nfor i in range(10):\n    if i == 5:\n        break\n    print(i)",
+      "options": [
+        "0 1 2 3 4",
+        "0 1 2 3 4 5",
+        "5 6 7 8 9",
+        "No output"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q95",
+      "question": "What is a function?",
+      "options": [
+        "A reusable block of code designed to perform a specific task",
+        "A syntax error",
+        "A string stored in memory",
+        "A type of comparison operator"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q96",
+      "question": "Which keyword is used to create a function in Python?",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q97",
+      "question": "What happens when Python reads a function definition but the function is not called?",
+      "options": [
+        "The function is stored but its body does not execute yet",
+        "The function automatically executes",
+        "Python deletes the function",
+        "Python converts it into a loop"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q98",
+      "question": "What are parameters in a function?",
+      "options": [
+        "Input placeholders used by the function",
+        "Error messages",
+        "Loop counters only",
+        "Reserved keywords only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q99",
+      "question": "Why is return more powerful than print() in many functions?",
+      "options": [
+        "return sends a value back so it can be reused in further computation",
+        "return only displays text on the screen",
+        "return stops Python permanently",
+        "return is used only for comments"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q100",
+      "question": "Which statement best describes modular programming with functions?",
+      "options": [
+        "Dividing complex problems into smaller reusable functions",
+        "Writing the same code repeatedly",
+        "Avoiding parameters and return values",
+        "Using only one long program with no structure"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

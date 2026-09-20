@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why do raw pixels create a problem for standard Transformers?",
+      "options": [
+        "Because pixels have no color information",
+        "Because attention over millions of pixels would require enormous memory and computation",
+        "Because Transformers can only process sound",
+        "Because pixels cannot be converted into numbers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "A 1920 × 1080 image is difficult for a standard Transformer mainly because:",
+      "options": [
+        "It has too few pixels to learn from",
+        "Each pixel would have to attend to every other pixel, making the KV cache huge",
+        "The image cannot be flattened",
+        "Vision models cannot use embeddings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is the main idea behind Vision Transformers (ViT)?",
+      "options": [
+        "They process images as sequences of patches instead of raw pixels",
+        "They convert images directly into audio",
+        "They remove attention and use only convolution",
+        "They use one pixel as one hidden layer"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "In the ViT pipeline, what happens first?",
+      "options": [
+        "Positional encoding is added",
+        "The image is chopped into small patches",
+        "Self-attention is calculated",
+        "The output caption is generated"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Why are image patches flattened in ViT?",
+      "options": [
+        "To reduce the number of colors",
+        "To convert each 2D patch into a 1D vector that can be processed by a Transformer",
+        "To remove the need for embeddings",
+        "To make the image smaller on screen"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is the purpose of linear projection in ViT?",
+      "options": [
+        "To convert raw pixel numbers into embeddings",
+        "To rotate the image patches",
+        "To detect edges like a CNN filter",
+        "To compress the final answer"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Why does ViT apply positional encoding to image patches?",
+      "options": [
+        "To tell the model where each patch belongs in the original image",
+        "To change the brightness of the image",
+        "To make patches square",
+        "To reduce token cost"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Self-attention in a Vision Transformer helps the model:",
+      "options": [
+        "Relate one patch to another, such as a dog's ear to its nose",
+        "Convert text into sound",
+        "Remove patch boundaries permanently",
+        "Increase image resolution"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "What is CLIP mainly designed to do?",
+      "options": [
+        "Generate videos from text",
+        "Connect images and human language in a shared representation space",
+        "Replace all Transformers with CNNs",
+        "Predict the next word in a sentence only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Which two networks make up CLIP?",
+      "options": [
+        "A CNN and an RNN",
+        "A Text Encoder and an Image Encoder",
+        "A Decoder and a Tokenizer",
+        "A Generator and a Discriminator"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "In CLIP, what does the Image Encoder do?",
+      "options": [
+        "Reads captions",
+        "Looks at pictures and converts them into vectors",
+        "Writes the final answer",
+        "Calculates token masks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "What does contrastive learning try to achieve in CLIP?",
+      "options": [
+        "Make matching image-text pairs closer and non-matching pairs farther apart",
+        "Turn all images into the same vector",
+        "Remove all captions from the dataset",
+        "Train only on negative examples"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Which metric does CLIP use to compare the image vector and text vector?",
+      "options": [
+        "Accuracy",
+        "Cosine similarity",
+        "Loss function only",
+        "ReLU score"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "What happens when an image and its caption match in CLIP training?",
+      "options": [
+        "Their vectors are pushed farther apart",
+        "Their vectors are pulled closer together",
+        "The caption is deleted",
+        "The image encoder stops learning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Cross-attention differs from self-attention because:",
+      "options": [
+        "Queries, Keys, and Values come from different data streams",
+        "It does not use vectors",
+        "It works only on images",
+        "It removes the need for text"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "In the chapter's example, where does the Query come from in cross-attention?",
+      "options": [
+        "The image patches",
+        "The text prompt",
+        "The spectrogram",
+        "The output answer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "In cross-attention, where do the Keys and Values come from?",
+      "options": [
+        "The text prompt",
+        "The image",
+        "The tokenizer",
+        "The loss function"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "What is the main purpose of cross-attention in a multimodal chatbot?",
+      "options": [
+        "To let text query visual information and generate an answer from it",
+        "To convert every image into a caption automatically without text",
+        "To replace image encoders",
+        "To reduce patch size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "How does an AI usually process audio in the chapter's multimodal pipeline?",
+      "options": [
+        "As random noise only",
+        "By converting sound into a spectrogram and treating it like an image",
+        "By splitting it into words directly",
+        "By using only cross-attention without encoders"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "What is the role of Temporal Attention in video understanding?",
+      "options": [
+        "It measures how image patches change over time to understand motion and action",
+        "It removes all movement from video",
+        "It converts video into text tokens only",
+        "It replaces the need for frames"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

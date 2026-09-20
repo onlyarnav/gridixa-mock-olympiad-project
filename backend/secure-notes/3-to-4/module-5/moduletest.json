@@ -1,0 +1,1114 @@
+{
+  "title": "Module 5 Assessment - Part 1",
+  "timePerQuestion": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary objective of AI Safety?",
+      "options": [
+        "Increase computational speed",
+        "Ensure AI systems behave safely and beneficially",
+        "Reduce storage requirements",
+        "Improve graphics rendering"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "The Paperclip Maximizer thought experiment demonstrates:",
+      "options": [
+        "Efficient optimization",
+        "Data compression",
+        "Risks of misaligned objectives",
+        "Cloud computing"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which concept focuses on making AI goals match human intentions?",
+      "options": [
+        "Alignment",
+        "Quantization",
+        "Encryption",
+        "Caching"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "Reward hacking occurs when an AI:",
+      "options": [
+        "Fails to learn",
+        "Uses excessive memory",
+        "Receives no rewards",
+        "Finds unintended ways to maximize rewards"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q5",
+      "question": "Specification gaming is best described as:",
+      "options": [
+        "Following instructions exactly as intended",
+        "Exploiting loopholes in the objective definition",
+        "Improving model performance",
+        "Compressing model weights"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "A model performing poorly because real-world data differs from training data is an example of:",
+      "options": [
+        "Distribution shift",
+        "Overclocking",
+        "Graph embedding",
+        "Pruning"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Interpretability primarily concerns:",
+      "options": [
+        "Reducing training time",
+        "Understanding model decisions",
+        "Increasing parameters",
+        "Improving hardware"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Adversarial attacks attempt to:",
+      "options": [
+        "Improve model accuracy",
+        "Compress neural networks",
+        "Fool AI systems using crafted inputs",
+        "Reduce energy usage"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "Human-in-the-loop systems involve:",
+      "options": [
+        "Complete human replacement",
+        "Removing automation",
+        "Ignoring feedback",
+        "Human oversight in decision making"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q10",
+      "question": "Robustness refers to a model's ability to:",
+      "options": [
+        "Maintain performance under varying conditions",
+        "Increase dataset size",
+        "Reduce storage",
+        "Generate images"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "q11",
+      "question": "Outer alignment focuses on:",
+      "options": [
+        "Hardware optimization",
+        "Whether objectives reflect human values",
+        "Network security",
+        "Database indexing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Inner alignment concerns:",
+      "options": [
+        "Cloud deployment",
+        "Internet connectivity",
+        "Internal objectives learned by the model",
+        "Screen resolution"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "The King Midas story is commonly used to explain:",
+      "options": [
+        "Graph learning",
+        "Distributed systems",
+        "Data leakage",
+        "Goal misspecification"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q14",
+      "question": "RLHF stands for:",
+      "options": [
+        "Reinforcement Learning from Human Feedback",
+        "Reliable Learning Human Framework",
+        "Recursive Learning Hybrid Function",
+        "Reinforced Logic Handling Framework"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Value alignment aims to:",
+      "options": [
+        "Align AI behavior with human values",
+        "Align databases with servers",
+        "Align GPUs with CPUs",
+        "Align files with folders"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Instrumental goals are:",
+      "options": [
+        "Final goals only",
+        "Sub-goals that help achieve larger objectives",
+        "Random actions",
+        "Human emotions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Constitutional AI uses:",
+      "options": [
+        "Only reinforcement learning",
+        "Only supervised learning",
+        "Explicit principles to guide behavior",
+        "Only hardware constraints"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Reward misspecification is primarily an:",
+      "options": [
+        "Optimization problem",
+        "Networking issue",
+        "Storage issue",
+        "Alignment challenge"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q19",
+      "question": "Which is a major alignment research objective?",
+      "options": [
+        "Ensuring intended AI behavior",
+        "Increasing monitor size",
+        "Reducing internet cost",
+        "Improving printer speed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which technique directly incorporates human preferences into training?",
+      "options": [
+        "Pruning",
+        "RLHF",
+        "Quantization",
+        "Hashing"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "q21",
+      "question": "Risk is best defined as:",
+      "options": [
+        "Storage capacity",
+        "Potential for undesirable outcomes",
+        "Internet speed",
+        "CPU usage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q22",
+      "question": "Reliability refers to:",
+      "options": [
+        "Consistent system performance",
+        "Large model size",
+        "Graphics quality",
+        "Number of users"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q23",
+      "question": "Confidence and certainty are:",
+      "options": [
+        "Always identical",
+        "Completely unrelated",
+        "Different concepts",
+        "Both meaningless"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q24",
+      "question": "Graceful degradation means:",
+      "options": [
+        "Sudden catastrophic failure",
+        "Deleting system logs",
+        "Ignoring errors",
+        "Failing safely while retaining partial functionality"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q25",
+      "question": "Redundancy improves:",
+      "options": [
+        "Reliability",
+        "Screen brightness",
+        "File naming",
+        "Color depth"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q26",
+      "question": "Failure mode analysis helps identify:",
+      "options": [
+        "Potential failure pathways",
+        "New hardware",
+        "Training labels",
+        "File formats"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q27",
+      "question": "Which factor is critical in safety-critical systems?",
+      "options": [
+        "Font style",
+        "High reliability",
+        "Color palette",
+        "Animation quality"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q28",
+      "question": "Risk mitigation aims to:",
+      "options": [
+        "Increase failures",
+        "Increase uncertainty",
+        "Reduce likelihood or impact of failures",
+        "Increase costs"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q29",
+      "question": "Uncertainty is important because:",
+      "options": [
+        "Predictions are never perfectly certain",
+        "Models always fail",
+        "Data never changes",
+        "Training never ends"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q30",
+      "question": "Aviation systems often employ redundancy primarily to improve:",
+      "options": [
+        "Entertainment",
+        "Appearance",
+        "Marketing",
+        "Reliability"
+      ],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "q31",
+      "question": "Edge AI performs inference primarily:",
+      "options": [
+        "On local devices",
+        "Only in cloud servers",
+        "Only in data centers",
+        "Only on browsers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q32",
+      "question": "A major benefit of Edge AI is:",
+      "options": [
+        "Lower latency",
+        "Higher latency",
+        "Increased bandwidth usage",
+        "Greater dependence on connectivity"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q33",
+      "question": "TinyML focuses on:",
+      "options": [
+        "Supercomputers",
+        "Resource-constrained devices",
+        "Quantum systems",
+        "Mainframes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q34",
+      "question": "Quantization primarily reduces:",
+      "options": [
+        "Model precision requirements",
+        "Training labels",
+        "Network connections",
+        "Screen resolution"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q35",
+      "question": "Pruning removes:",
+      "options": [
+        "Training datasets",
+        "User accounts",
+        "Less important parameters",
+        "Processors"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q36",
+      "question": "An NPU is primarily designed for:",
+      "options": [
+        "Printing",
+        "Networking",
+        "Gaming",
+        "AI acceleration"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q37",
+      "question": "Which advantage of Edge AI most directly improves privacy?",
+      "options": [
+        "Data remains on device",
+        "More cloud uploads",
+        "More data sharing",
+        "Centralized storage"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q38",
+      "question": "Hybrid Edge-Cloud systems combine:",
+      "options": [
+        "Cloud and printers",
+        "Local and cloud processing",
+        "Cloud and keyboards",
+        "Cloud and scanners"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q39",
+      "question": "Offline functionality is most associated with:",
+      "options": [
+        "Cloud-only AI",
+        "Traditional databases",
+        "Edge AI",
+        "Email servers"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q40",
+      "question": "Bandwidth savings occur because:",
+      "options": [
+        "Data is processed locally",
+        "Files are duplicated",
+        "Networks are expanded",
+        "Storage increases"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "q41",
+      "question": "Federated Learning enables:",
+      "options": [
+        "Sharing all raw data",
+        "Training without sharing raw data",
+        "Deleting data",
+        "Avoiding learning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q42",
+      "question": "FedAvg stands for:",
+      "options": [
+        "Fast Averaging",
+        "Feature Averaging",
+        "Federated Averaging",
+        "Federal Aggregation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q43",
+      "question": "In Federated Learning, the model moves to:",
+      "options": [
+        "The cloud only",
+        "The spreadsheet",
+        "The printer",
+        "The data"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q44",
+      "question": "Non-IID data means:",
+      "options": [
+        "Client data distributions differ",
+        "All clients have identical data",
+        "Data is encrypted",
+        "Data is missing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q45",
+      "question": "The primary role of the central server is:",
+      "options": [
+        "Aggregating updates",
+        "Deleting models",
+        "Generating images",
+        "Labeling data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q46",
+      "question": "Secure Aggregation helps:",
+      "options": [
+        "Reduce screen resolution",
+        "Protect client updates",
+        "Increase bandwidth usage",
+        "Delete training data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q47",
+      "question": "A classic example of Federated Learning is:",
+      "options": [
+        "Spreadsheet software",
+        "Video editing",
+        "Smartphone keyboards",
+        "PDF readers"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q48",
+      "question": "Which is a major challenge in Federated Learning?",
+      "options": [
+        "Communication costs",
+        "Color selection",
+        "File naming",
+        "Animation rendering"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q49",
+      "question": "Federated Learning is strongly connected to:",
+      "options": [
+        "Computer graphics",
+        "Networking protocols",
+        "Edge AI",
+        "Database indexing"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q50",
+      "question": "In a Federated Learning system, raw client data is generally:",
+      "options": [
+        "Shared publicly",
+        "Stored centrally",
+        "Published online",
+        "Kept locally"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q51",
+      "question": "The primary goal of Privacy-Preserving Learning is to:",
+      "options": [
+        "Improve graphics rendering",
+        "Learn from data while protecting sensitive information",
+        "Increase storage capacity",
+        "Reduce internet usage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q52",
+      "question": "Differential Privacy primarily protects:",
+      "options": [
+        "Individual records",
+        "GPUs",
+        "Databases",
+        "Cloud servers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q53",
+      "question": "Which attack attempts to determine whether a specific record was used during model training?",
+      "options": [
+        "Data poisoning",
+        "Adversarial attack",
+        "Membership inference attack",
+        "Clustering attack"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q54",
+      "question": "Homomorphic Encryption allows:",
+      "options": [
+        "Deleting encrypted data",
+        "Compressing encrypted data",
+        "Training without models",
+        "Computation on encrypted data"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q55",
+      "question": "Secure Multi-Party Computation enables:",
+      "options": [
+        "Joint computation without revealing private inputs",
+        "Faster internet",
+        "Image classification",
+        "Hardware acceleration"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q56",
+      "question": "The Privacy-Utility Tradeoff refers to:",
+      "options": [
+        "Storage versus memory",
+        "Increasing privacy may reduce some utility",
+        "CPU versus GPU performance",
+        "Cloud versus Edge computing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q57",
+      "question": "Model inversion attacks attempt to:",
+      "options": [
+        "Recover information from trained models",
+        "Improve optimization",
+        "Reduce latency",
+        "Create embeddings"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q58",
+      "question": "Privacy by Design means:",
+      "options": [
+        "Adding privacy after deployment",
+        "Ignoring privacy requirements",
+        "Building privacy into systems from the start",
+        "Encrypting everything"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q59",
+      "question": "Which technique often adds carefully calibrated noise to data?",
+      "options": [
+        "Federated Averaging",
+        "Graph Embedding",
+        "Differential Privacy",
+        "Pruning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q60",
+      "question": "Data leakage is primarily considered a:",
+      "options": [
+        "Privacy risk",
+        "Hardware issue",
+        "Network protocol",
+        "Forecasting technique"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "q61",
+      "question": "A graph is fundamentally composed of:",
+      "options": [
+        "Rows and columns",
+        "Nodes and edges",
+        "Pixels and channels",
+        "Files and folders"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q62",
+      "question": "In Graph ML, nodes generally represent:",
+      "options": [
+        "Relationships",
+        "Predictions",
+        "Entities",
+        "Labels"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q63",
+      "question": "What do edges represent?",
+      "options": [
+        "Algorithms",
+        "Features",
+        "Files",
+        "Relationships"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q64",
+      "question": "A social network is an example of:",
+      "options": [
+        "Graph-structured data",
+        "Image data",
+        "Audio data",
+        "Tabular data only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q65",
+      "question": "Graph Embeddings convert graph information into:",
+      "options": [
+        "Numerical vectors",
+        "Images",
+        "Videos",
+        "Networks"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q66",
+      "question": "The foundation of most Graph Neural Networks is:",
+      "options": [
+        "Message Passing",
+        "Sorting",
+        "Compression",
+        "Hashing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q67",
+      "question": "Node Classification predicts:",
+      "options": [
+        "Future relationships",
+        "Properties of nodes",
+        "Database size",
+        "Network latency"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q68",
+      "question": "Edge Prediction attempts to predict:",
+      "options": [
+        "Graph labels",
+        "Node colors",
+        "Future relationships",
+        "Storage needs"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q69",
+      "question": "Drug discovery is a major application of:",
+      "options": [
+        "Graph Machine Learning",
+        "Word Processing",
+        "Spreadsheet Modeling",
+        "Compiler Design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q70",
+      "question": "A weighted graph captures:",
+      "options": [
+        "Relationship strength",
+        "Screen brightness",
+        "File size",
+        "Monitor resolution"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "q71",
+      "question": "A Time Series is:",
+      "options": [
+        "Data collected over time",
+        "Graph data",
+        "Image data",
+        "Audio data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q72",
+      "question": "Which component represents long-term movement in data?",
+      "options": [
+        "Noise",
+        "Trend",
+        "Seasonality",
+        "Embedding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q73",
+      "question": "Ice cream sales increasing every summer is an example of:",
+      "options": [
+        "Trend",
+        "Noise",
+        "Seasonality",
+        "Anomaly"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q74",
+      "question": "Forecasting aims to:",
+      "options": [
+        "Compress data",
+        "Predict future values",
+        "Detect edges",
+        "Build embeddings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q75",
+      "question": "Lag features are derived from:",
+      "options": [
+        "Future observations",
+        "Past observations",
+        "Missing values",
+        "Random observations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q76",
+      "question": "Moving averages are mainly used to:",
+      "options": [
+        "Reduce noise",
+        "Increase variance",
+        "Delete records",
+        "Encrypt datasets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q77",
+      "question": "Stationarity refers to:",
+      "options": [
+        "Stable statistical properties over time",
+        "No movement in data",
+        "No missing values",
+        "No labels"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q78",
+      "question": "Which deep learning architecture was specifically designed to handle sequential dependencies?",
+      "options": [
+        "CNN",
+        "LSTM",
+        "K-Means",
+        "PCA"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q79",
+      "question": "Concept drift occurs when:",
+      "options": [
+        "The underlying data patterns change over time",
+        "Storage decreases",
+        "Graphs become larger",
+        "Models are deleted"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q80",
+      "question": "Electricity demand prediction is an example of:",
+      "options": [
+        "Node Classification",
+        "Anomaly Detection",
+        "Forecasting",
+        "Graph Embedding"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "q81",
+      "question": "Anomaly Detection aims to identify:",
+      "options": [
+        "Common patterns",
+        "Unusual observations",
+        "Graph nodes",
+        "Missing files"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q82",
+      "question": "A single unusual observation is called a:",
+      "options": [
+        "Trend",
+        "Seasonality",
+        "Point Anomaly",
+        "Cluster"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q83",
+      "question": "An observation that is abnormal only in a specific situation is a:",
+      "options": [
+        "Point anomaly",
+        "Collective anomaly",
+        "Trend anomaly",
+        "Contextual anomaly"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q84",
+      "question": "A group of observations that become suspicious together forms a:",
+      "options": [
+        "Collective anomaly",
+        "Point anomaly",
+        "Seasonality pattern",
+        "Forecast"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q85",
+      "question": "Isolation Forest is based on the idea that anomalies are:",
+      "options": [
+        "Harder to isolate",
+        "Easier to isolate",
+        "Always clustered",
+        "Always labeled"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q86",
+      "question": "Autoencoders detect anomalies using:",
+      "options": [
+        "Reconstruction error",
+        "Graph edges",
+        "Node labels",
+        "Seasonal cycles"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q87",
+      "question": "Most real-world anomaly detection systems are:",
+      "options": [
+        "Always supervised",
+        "Primarily unsupervised",
+        "Always reinforcement learning",
+        "Always rule-based"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q88",
+      "question": "Fraud detection is a major application of:",
+      "options": [
+        "Anomaly Detection",
+        "Image Segmentation",
+        "Speech Recognition",
+        "Machine Translation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q89",
+      "question": "A false positive occurs when:",
+      "options": [
+        "A real anomaly is missed",
+        "An anomaly is detected correctly",
+        "A normal event is flagged as anomalous",
+        "A graph is classified"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q90",
+      "question": "Anomaly scores generally indicate:",
+      "options": [
+        "Storage usage",
+        "Network speed",
+        "Graph density",
+        "Likelihood of abnormality"
+      ],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "q91",
+      "question": "A smartphone keyboard learning from users locally without uploading raw text is an example of:",
+      "options": [
+        "Federated Learning",
+        "Graph Classification",
+        "Anomaly Detection",
+        "Edge Prediction"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q92",
+      "question": "Detecting suspicious accounts in a transaction network combines:",
+      "options": [
+        "Graph ML and Anomaly Detection",
+        "Computer Vision and OCR",
+        "Speech and NLP",
+        "Rendering and Animation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q93",
+      "question": "Monitoring website traffic for unusual spikes combines:",
+      "options": [
+        "Graph Embedding and RL",
+        "Time Series and Anomaly Detection",
+        "Computer Vision and NLP",
+        "Pruning and Quantization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q94",
+      "question": "Suggesting 'People You May Know' is primarily an example of:",
+      "options": [
+        "Forecasting",
+        "Anomaly Detection",
+        "Edge Prediction",
+        "Differential Privacy"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q95",
+      "question": "Which technology best supports privacy-preserving distributed training?",
+      "options": [
+        "Federated Learning",
+        "LSTM",
+        "PCA",
+        "Decision Trees"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q96",
+      "question": "An AI system maintaining performance under unexpected conditions demonstrates:",
+      "options": [
+        "Seasonality",
+        "Robustness",
+        "Forecasting",
+        "Embedding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q97",
+      "question": "Learning from entities and relationships is the primary goal of:",
+      "options": [
+        "Time Series Analysis",
+        "Anomaly Detection",
+        "Graph Machine Learning",
+        "Differential Privacy"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q98",
+      "question": "Predicting next week's electricity demand is an example of:",
+      "options": [
+        "Node Classification",
+        "Graph Classification",
+        "Anomaly Detection",
+        "Time Series Forecasting"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q99",
+      "question": "Adding calibrated noise to protect individual records is associated with:",
+      "options": [
+        "Differential Privacy",
+        "Edge AI",
+        "Graph Neural Networks",
+        "Isolation Forest"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q100",
+      "question": "A trustworthy healthcare monitoring system would ideally combine safety, privacy, reliability, forecasting and anomaly detection because:",
+      "options": [
+        "Only forecasting matters",
+        "Only privacy matters",
+        "Real-world AI systems require multiple complementary techniques",
+        "Only anomaly detection matters"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

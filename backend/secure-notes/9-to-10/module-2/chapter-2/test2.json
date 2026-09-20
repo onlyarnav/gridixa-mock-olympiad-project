@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why is a standard LLM described as a 'genius locked in a box'?",
+      "options": [
+        "It can think but cannot directly act in the real world",
+        "It cannot understand language",
+        "It can only generate images",
+        "It works only without data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "question": "What extra capability turns an LLM into an AI Agent?",
+      "options": [
+        "More hidden layers only",
+        "A specific goal, logic loop, and access to tools",
+        "A larger vocabulary list",
+        "A faster keyboard layout"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "The ReAct framework stands for:",
+      "options": [
+        "Reasoning + Acting",
+        "Reading + Analyzing + Computing + Thinking",
+        "Response + Accuracy + Creativity + Training",
+        "Reasoning + Attention + Context + Tokens"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "What is the main purpose of the ReAct framework?",
+      "options": [
+        "To make the AI speak faster",
+        "To force the AI to break problems into thoughts, actions, and observations",
+        "To remove the need for tools",
+        "To replace the LLM with a calculator"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "In the ReAct workflow, which step comes first when solving a task?",
+      "options": [
+        "Action",
+        "Observation",
+        "Thought",
+        "Result"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "In the MUN example, what is the correct first tool use after the initial thought?",
+      "options": [
+        "Send_Email",
+        "Search_Database",
+        "Search_Web",
+        "Write_Report"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Why would a standard chatbot fail at the MUN email task described in the chapter?",
+      "options": [
+        "It cannot generate any text",
+        "It cannot search the web or send emails directly",
+        "It cannot understand winners",
+        "It cannot use Thought steps"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which sequence correctly matches the ReAct agent's workflow in the example?",
+      "options": [
+        "Thought → Action → Observation → Thought",
+        "Action → Thought → Observation → Action",
+        "Observation → Action → Thought → Result",
+        "Thought → Observation → Result → Action"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "What is the role of the Observation step in a ReAct loop?",
+      "options": [
+        "To guess the final answer without tools",
+        "To record the result of the previous action and guide the next step",
+        "To train the model from scratch",
+        "To ignore previous outputs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "An API is best described as:",
+      "options": [
+        "A physical robot arm",
+        "A digital bridge that allows software systems to communicate",
+        "A type of neural network layer",
+        "A dataset cleaning tool"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Why do AI agents use APIs?",
+      "options": [
+        "To make the LLM larger",
+        "To connect the model to real-world tools and services",
+        "To eliminate the need for prompts",
+        "To store hidden layers permanently"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which task would most likely require a Weather API?",
+      "options": [
+        "Finding tomorrow's temperature",
+        "Writing a poem",
+        "Counting tokens in a sentence",
+        "Compressing an image"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Which tool would be most appropriate if an AI agent needs to do complex arithmetic?",
+      "options": [
+        "Search API",
+        "Calculator API",
+        "Image Generation API",
+        "Translation API"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "If an AI agent needs to create a promotional poster, which API is the best match?",
+      "options": [
+        "Weather API",
+        "Image Generation API",
+        "Database API",
+        "Email API"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "The biggest advantage of Multi-Agent Systems is that they:",
+      "options": [
+        "Use only one giant agent for all tasks",
+        "Divide work among specialized agents that collaborate",
+        "Do not need any tools",
+        "Replace all APIs with manual coding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which agent in a multi-agent system is responsible for breaking the user's request into smaller tasks?",
+      "options": [
+        "Reviewer Agent",
+        "Coder Agent",
+        "Manager Agent",
+        "Researcher Agent"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "Which agent would most likely browse the web to gather facts?",
+      "options": [
+        "Researcher Agent",
+        "Reviewer Agent",
+        "Manager Agent",
+        "Coder Agent"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Which agent is most likely to write Python code based on research?",
+      "options": [
+        "Manager Agent",
+        "Researcher Agent",
+        "Reviewer Agent",
+        "Coder Agent"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q19",
+      "question": "What is the primary responsibility of the Reviewer Agent?",
+      "options": [
+        "To search the web for facts",
+        "To test code and check for bugs",
+        "To send emails to users",
+        "To generate posters"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Why are multi-agent systems often more effective than a single all-purpose agent?",
+      "options": [
+        "Because each agent specializes in a different role and works together",
+        "Because they never use reasoning",
+        "Because they only work offline",
+        "Because they do not need user prompts"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

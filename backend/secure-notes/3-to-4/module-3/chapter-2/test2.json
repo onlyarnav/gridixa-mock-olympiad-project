@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "A weather model predicts a 70% chance of rain on 100 different days. If the model is perfectly calibrated, approximately how many of those days should actually experience rain?",
+      "options": [
+        "30",
+        "50",
+        "70",
+        "100"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "Probability calibration primarily measures whether:",
+      "options": [
+        "Predictions are fast",
+        "Predicted probabilities match real-world frequencies",
+        "The model uses deep learning",
+        "The dataset is balanced"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "A classifier predicts 99% confidence for almost every prediction but is correct only 80% of the time. This model is:",
+      "options": [
+        "Perfectly calibrated",
+        "Underconfident",
+        "Overconfident",
+        "Random"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which statement best describes an underconfident model?",
+      "options": [
+        "It gives probabilities that are too high.",
+        "It gives probabilities lower than the actual correctness frequency.",
+        "It never makes mistakes.",
+        "It predicts only one class."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Why is probability calibration important in medical diagnosis systems?",
+      "options": [
+        "It increases GPU speed.",
+        "Doctors need reliable confidence estimates to make decisions.",
+        "It eliminates all uncertainty.",
+        "It reduces dataset size."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is uncertainty in machine learning?",
+      "options": [
+        "The inability to train a model",
+        "The possibility that a prediction may be wrong",
+        "The number of features in a dataset",
+        "The total training time"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which situation demonstrates high uncertainty?",
+      "options": [
+        "The model predicts 'Cat' with 99.9% confidence.",
+        "The model predicts 'Dog' with 50% confidence.",
+        "The model always predicts the same label.",
+        "The model has zero loss."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "An autonomous vehicle detects an object and assigns only 52% confidence to its prediction. The safest action is likely to:",
+      "options": [
+        "Ignore the object",
+        "Accelerate",
+        "Treat the prediction cautiously and slow down",
+        "Assume the object does not exist"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "Why do AI systems need to estimate uncertainty?",
+      "options": [
+        "To avoid using probabilities",
+        "To know when predictions may be unreliable",
+        "To eliminate training data",
+        "To reduce model complexity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "A facial recognition system predicts an identity with only 35% confidence. A well-designed system should:",
+      "options": [
+        "Accept the prediction immediately",
+        "Request additional verification",
+        "Increase the confidence artificially",
+        "Ignore uncertainty"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Confidence in machine learning predictions generally refers to:",
+      "options": [
+        "The model's training time",
+        "How certain the model is about its prediction",
+        "The number of model parameters",
+        "The size of the dataset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "A bank's fraud detection model assigns 98% confidence that a transaction is fraudulent. What is the most reasonable action?",
+      "options": [
+        "Ignore the prediction",
+        "Approve the transaction immediately",
+        "Investigate or temporarily block the transaction",
+        "Delete the customer account"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "Decision-making systems often use confidence thresholds because:",
+      "options": [
+        "All predictions are equally reliable.",
+        "Low-confidence predictions may require human review.",
+        "Confidence values are meaningless.",
+        "Thresholds improve internet speed."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "A model is perfectly calibrated. Out of all predictions made with 80% confidence, approximately what percentage should be correct?",
+      "options": [
+        "20%",
+        "50%",
+        "80%",
+        "100%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Which application requires both accurate predictions and reliable confidence estimates the MOST?",
+      "options": [
+        "Movie recommendation systems",
+        "Video game score prediction",
+        "Medical diagnosis systems",
+        "Music playlists"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q16",
+      "question": "A model predicts with high confidence but is frequently wrong. This indicates:",
+      "options": [
+        "Excellent calibration",
+        "Overconfidence and poor calibration",
+        "Perfect uncertainty estimation",
+        "Low variance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Which statement best describes the relationship between confidence and decision making?",
+      "options": [
+        "Confidence should always be ignored.",
+        "Higher confidence often leads to stronger automated decisions.",
+        "All decisions should be random.",
+        "Confidence and decisions are unrelated."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "A medical AI only gives automatic diagnoses when confidence exceeds 95%. Predictions below this threshold are sent to doctors. This is an example of:",
+      "options": [
+        "Feature engineering",
+        "Threshold-based decision making",
+        "Overfitting",
+        "Cross-validation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which statement about uncertainty is TRUE?",
+      "options": [
+        "A model can never be uncertain.",
+        "Uncertainty estimation helps prevent risky decisions.",
+        "Uncertainty always means the model is bad.",
+        "Only neural networks have uncertainty."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "An AI assistant gives two answers: one with 55% confidence and another with 97% confidence. A rational decision system should:",
+      "options": [
+        "Treat both predictions equally",
+        "Prefer the prediction with higher confidence while considering calibration",
+        "Always choose the lower confidence prediction",
+        "Ignore confidence values entirely"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

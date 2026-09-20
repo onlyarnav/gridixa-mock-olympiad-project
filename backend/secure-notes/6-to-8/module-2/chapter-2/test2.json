@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why must machine learning datasets be split into training and testing data?",
+      "options": [
+        "To increase computer memory",
+        "To verify whether the AI learned concepts instead of memorizing examples",
+        "To reduce the number of algorithms used",
+        "To prevent the AI from using labels"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "If an AI recognizes animals correctly only from images it has already seen during training, but fails on new images, the model is likely:",
+      "options": [
+        "Underfitting",
+        "Overfitting",
+        "Perfectly fitted",
+        "Optimized"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Training data in machine learning primarily serves which purpose?",
+      "options": [
+        "Evaluating model performance",
+        "Helping the AI learn patterns and relationships",
+        "Reducing the dataset size",
+        "Testing hardware performance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which scenario BEST represents underfitting in an AI model?",
+      "options": [
+        "The model performs perfectly on training and testing data",
+        "The model memorizes training data but fails on new examples",
+        "The model performs poorly even on simple training examples",
+        "The model ignores irrelevant patterns"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "question": "What is the primary goal of testing data?",
+      "options": [
+        "To train the AI further",
+        "To measure the AI’s ability to generalize to new data",
+        "To reduce training time",
+        "To store backup data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "If an AI thinks 'a picture without a tree cannot contain a dog' because most training images had trees, the model is showing:",
+      "options": [
+        "Perfect fitting",
+        "Overfitting",
+        "Underfitting",
+        "Optimization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which situation BEST represents perfect fitting in AI training?",
+      "options": [
+        "The AI memorizes every training example",
+        "The AI ignores all patterns in data",
+        "The AI learns meaningful patterns and performs well on unseen data",
+        "The AI only works on training data"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "In a dog-detection system, the AI predicts 'dog' for a picture of a cat. This is an example of:",
+      "options": [
+        "True Positive",
+        "False Positive",
+        "True Negative",
+        "False Negative"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "If the AI correctly predicts 'no dog' for a picture that truly has no dog, this is:",
+      "options": [
+        "True Positive",
+        "True Negative",
+        "False Positive",
+        "False Negative"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "If a dog is present in an image but the AI predicts 'no dog', which outcome occurs?",
+      "options": [
+        "True Positive",
+        "False Positive",
+        "False Negative",
+        "True Negative"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "Which metric simply measures the percentage of total correct predictions made by the AI?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Accuracy",
+        "Loss"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "Precision mainly answers which question?",
+      "options": [
+        "How many predictions were correct overall?",
+        "When the AI says 'yes', how often is it correct?",
+        "How many real cases exist in the dataset?",
+        "How fast the model trains"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Recall focuses primarily on:",
+      "options": [
+        "How many real positive cases the AI successfully finds",
+        "The total number of predictions",
+        "The number of negative examples",
+        "The training speed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Which metric is specifically designed to balance both precision and recall?",
+      "options": [
+        "Accuracy",
+        "F1 Score",
+        "Loss",
+        "Error Rate"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Why can accuracy sometimes be misleading when evaluating an AI model?",
+      "options": [
+        "It ignores correct predictions",
+        "It does not consider training data",
+        "It may hide imbalances between correct and incorrect positive predictions",
+        "It always produces incorrect values"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q16",
+      "question": "The loss function in AI training primarily helps by:",
+      "options": [
+        "Storing more training data",
+        "Measuring how wrong predictions are",
+        "Reducing dataset size",
+        "Increasing model memory"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "In the dartboard analogy for loss, what does a higher loss value indicate?",
+      "options": [
+        "The prediction is very accurate",
+        "The AI prediction is far from the correct answer",
+        "The dataset is too small",
+        "The training data is perfect"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Why is reducing loss during training important?",
+      "options": [
+        "It increases training data size",
+        "It helps the AI make fewer and smaller mistakes",
+        "It eliminates the need for testing data",
+        "It removes neural networks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which example represents a small loss compared to a large loss?",
+      "options": [
+        "Predicting 'zebra' for a horse instead of 'toaster'",
+        "Predicting 'dog' for a dog",
+        "Predicting 'cat' for a cat",
+        "Predicting 'animal' for an animal"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which evaluation approach gives the most balanced understanding of model performance?",
+      "options": [
+        "Using only accuracy",
+        "Using only recall",
+        "Using only precision",
+        "Using multiple metrics like precision, recall, and F1 score"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}

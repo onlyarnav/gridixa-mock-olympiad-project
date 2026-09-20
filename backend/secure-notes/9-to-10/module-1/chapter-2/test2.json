@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why were specialized neural network architectures like CNNs and RNNs needed?",
+      "options": [
+        "Standard neural networks cannot perform any calculations",
+        "Standard networks are too simple for large, complex data like images and long text",
+        "Standard networks only work on tiny datasets",
+        "Standard networks can only classify numbers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "A CNN is most suitable for which kind of data?",
+      "options": [
+        "Grid-like data such as images",
+        "Only spoken language",
+        "Only random numbers",
+        "Only database tables"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "In CNNs, the mathematical operation used to scan an image with a small window is called:",
+      "options": [
+        "Normalization",
+        "Convolution",
+        "Backpropagation",
+        "Embedding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "The filter or kernel in a CNN is best described as:",
+      "options": [
+        "A huge dataset of images",
+        "A tiny grid of numbers that slides over the image",
+        "A memory cell for text",
+        "A layer that only stores labels"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What does a high convolution score usually indicate?",
+      "options": [
+        "The filter found an important pattern like an edge or curve",
+        "The image has no useful information",
+        "The network is overfitting",
+        "The pixels are all identical"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "Pooling in a CNN mainly helps by:",
+      "options": [
+        "Increasing image size",
+        "Keeping only the most important values and reducing data",
+        "Adding more pixels to the image",
+        "Turning images into words"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which sequence best describes how CNNs build higher-level vision understanding?",
+      "options": [
+        "Pooling → Random guessing → Convolution",
+        "Convolution and pooling stacked in layers",
+        "Text analysis → Memory loops → Output",
+        "Backpropagation → Tokenization → Prediction"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Why are CNNs poor at understanding sentences compared with RNNs?",
+      "options": [
+        "CNNs cannot process any data",
+        "CNNs are designed for images, not sequential order",
+        "CNNs always forget all inputs",
+        "CNNs only work on audio files"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "A sequence is best defined as:",
+      "options": [
+        "A random collection of pixels",
+        "Data where order matters",
+        "A dataset with no labels",
+        "A single image"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What special feature allows an RNN to remember previous information?",
+      "options": [
+        "A convolution filter",
+        "A loop that passes memory forward",
+        "A pooling layer",
+        "A fixed kernel"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "The vanishing gradient problem occurs when:",
+      "options": [
+        "The learning rate becomes very large",
+        "Repeated multiplication of small values makes gradients nearly zero",
+        "The image becomes too bright",
+        "The model has too many filters"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Why does vanishing gradient hurt RNN learning on long sequences?",
+      "options": [
+        "It prevents the model from storing any output",
+        "It weakens learning from earlier parts of the sequence",
+        "It makes images blurrier",
+        "It increases the number of filters"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Which architecture was created to fix the vanishing gradient problem in RNNs?",
+      "options": [
+        "CNN",
+        "LSTM",
+        "Decision Tree",
+        "Naive Bayes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "An LSTM is best described as an RNN with:",
+      "options": [
+        "No memory at all",
+        "A more advanced memory system",
+        "Only image filters",
+        "A smaller dataset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "What is the role of the LSTM cell state?",
+      "options": [
+        "To blur images during training",
+        "To carry important memories through long sequences",
+        "To delete all old information instantly",
+        "To convert pixels into tokens"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "The gates in an LSTM mainly help the network to:",
+      "options": [
+        "Choose what to forget and what to keep",
+        "Turn images into videos",
+        "Increase the number of pixels",
+        "Replace the need for training"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "The conveyor belt analogy for LSTM's cell state emphasizes its ability to:",
+      "options": [
+        "Randomly shuffle words",
+        "Carry memory safely across a long sequence",
+        "Remove all hidden layers",
+        "Stop the network from learning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which task was LSTM especially valuable for before newer models became dominant?",
+      "options": [
+        "Text prediction and language translation",
+        "Only edge detection in images",
+        "Only object counting in photos",
+        "Sorting numbers in spreadsheets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Why did LSTMs become the gold standard for many language tasks for years?",
+      "options": [
+        "They ignored sequence order completely",
+        "They could preserve important memory over long data",
+        "They used fewer pixels than CNNs",
+        "They worked only on small texts"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which pairing is correctly matched?",
+      "options": [
+        "CNN — memory for sequences",
+        "RNN — processing grid-like images",
+        "LSTM — improved long-term memory in sequences",
+        "Pooling — storing important words in text"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

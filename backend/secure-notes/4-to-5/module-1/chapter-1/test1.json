@@ -1,0 +1,228 @@
+
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the main purpose of Artificial Intelligence (AI)?",
+      "options": [
+        "To replace all humans",
+        "To make machines think and perform tasks that normally require human intelligence",
+        "To increase internet speed",
+        "To create only robots"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following is the BEST example of AI?",
+      "options": [
+        "A calculator adding two numbers",
+        "A fan rotating at one speed",
+        "A voice assistant answering your questions",
+        "A flashlight turning on"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which activity below most likely uses Artificial Intelligence?",
+      "options": [
+        "A smartphone unlocking using face recognition",
+        "A notebook storing handwritten notes",
+        "A pencil writing on paper",
+        "A ruler measuring length"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "How is AI different from a normal computer program?",
+      "options": [
+        "AI can learn from data and improve its decisions",
+        "AI works only without electricity",
+        "AI never makes mistakes",
+        "AI does not need instructions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Which of these is an everyday application of AI?",
+      "options": [
+        "Recommendation of videos on YouTube",
+        "A blank notebook",
+        "A wooden chair",
+        "A glass bottle"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "A navigation app suggests the fastest route because it can:",
+      "options": [
+        "Guess randomly",
+        "Learn from traffic data and make decisions",
+        "Drive the car itself",
+        "Change the roads"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which statement about humans and AI is TRUE?",
+      "options": [
+        "AI has real emotions like humans",
+        "Humans can think creatively and understand feelings better than AI",
+        "AI is always smarter than every human",
+        "Humans learn only from computers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "A smart speaker answers your questions after listening to your voice. Which AI ability is mainly being used first?",
+      "options": [
+        "Speech recognition",
+        "Flying",
+        "Cooking",
+        "Painting walls"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "Which device is LEAST likely to use AI?",
+      "options": [
+        "A smartwatch tracking your health",
+        "An online translator",
+        "A simple light switch",
+        "A chatbot"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Why do companies use AI in shopping websites?",
+      "options": [
+        "To recommend products customers may like",
+        "To remove all products",
+        "To stop customers from buying",
+        "To make the internet slower"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "Which example shows AI learning from experience?",
+      "options": [
+        "A recommendation app suggesting better movies after learning what you watch",
+        "A clock showing the time",
+        "A door opening with a key",
+        "A book staying on a shelf"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "A robot vacuum changes its path after detecting furniture. This shows AI can:",
+      "options": [
+        "Observe its surroundings and make decisions",
+        "Grow like a plant",
+        "Repair furniture",
+        "Create electricity"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Which task is usually easier for humans than AI?",
+      "options": [
+        "Understanding emotions in a friend's face",
+        "Searching millions of records quickly",
+        "Doing repeated calculations",
+        "Sorting thousands of files"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Which pair correctly matches an AI application with its task?",
+      "options": [
+        "Face Unlock → Recognizing faces",
+        "Calculator → Understanding emotions",
+        "Fan → Translating languages",
+        "Light Bulb → Answering questions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "If an AI assistant suggests songs based on your previous listening habits, it is mainly using:",
+      "options": [
+        "Patterns in data",
+        "Magic",
+        "Random guessing",
+        "Handwritten notes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which statement BEST explains why AI is becoming common in daily life?",
+      "options": [
+        "It can help people perform many tasks faster and smarter",
+        "It removes the need for electricity",
+        "It works only in schools",
+        "It can replace nature"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "A language translation app converts English into Hindi instantly. This is an example of AI because it:",
+      "options": [
+        "Understands and processes human language",
+        "Builds roads",
+        "Prints books",
+        "Charges batteries"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "Which situation requires AI instead of a simple fixed program?",
+      "options": [
+        "Recognizing different animals in thousands of photos",
+        "Adding 25 + 17",
+        "Displaying today's date",
+        "Turning on an LED light"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Why is AI not exactly the same as human intelligence?",
+      "options": [
+        "AI learns from data but does not naturally think, feel, or understand like humans",
+        "AI sleeps every night",
+        "AI eats food",
+        "AI grows older every year"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which of the following BEST describes Artificial Intelligence?",
+      "options": [
+        "Machines using data to recognize patterns, learn, and make intelligent decisions",
+        "Machines that only follow one fixed instruction forever",
+        "Computers that work only without humans",
+        "Programs that can never improve"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
+

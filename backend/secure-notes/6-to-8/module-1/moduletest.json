@@ -1,0 +1,1106 @@
+{
+  "module": "Introduction to AI",
+  "level": "6-8",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the main goal of Artificial Intelligence?",
+      "options": [
+        "To replace electricity in computers",
+        "To give machines the ability to learn, reason, and solve problems like humans",
+        "To increase the size of computer memory",
+        "To convert hardware into software"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which ability is NOT typically associated with human intelligence that AI tries to imitate?",
+      "options": [
+        "Recognizing patterns",
+        "Understanding language",
+        "Learning from experience",
+        "Generating electricity"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q3",
+      "question": "What makes AI different from a basic calculator?",
+      "options": [
+        "AI follows strict rules only",
+        "AI can learn from data and make decisions",
+        "AI can only perform arithmetic",
+        "AI cannot process information"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which AI ability allows a smart speaker to understand voice commands?",
+      "options": [
+        "Speech recognition",
+        "Image compression",
+        "Hardware optimization",
+        "Memory storage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "question": "AI recommending videos based on what you watch is an example of:",
+      "options": [
+        "Pattern recognition and prediction",
+        "Manual programming",
+        "Hardware acceleration",
+        "Binary encoding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "question": "Which type of AI exists today and is designed to perform one specific task extremely well?",
+      "options": [
+        "General AI",
+        "Narrow AI",
+        "Quantum AI",
+        "Hybrid AI"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "question": "An AI system that could perform any intellectual task a human can do is called:",
+      "options": [
+        "Narrow AI",
+        "Reactive AI",
+        "General AI",
+        "Predictive AI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "question": "Which real-world technology is an example of Narrow AI in sports?",
+      "options": [
+        "Scoreboard timer",
+        "DRS ball-tracking in cricket",
+        "Manual umpiring",
+        "Paper score sheets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "question": "Who proposed the idea of the Turing Test in 1950?",
+      "options": [
+        "Bill Gates",
+        "Alan Turing",
+        "Elon Musk",
+        "Tim Berners-Lee"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "question": "What does the Turing Test try to determine?",
+      "options": [
+        "Whether computers are faster than humans",
+        "Whether a machine can think like a human in conversation",
+        "Whether machines can solve math problems",
+        "Whether computers can store large data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which computer defeated world chess champion Garry Kasparov in 1997?",
+      "options": [
+        "Watson",
+        "DeepMind",
+        "Deep Blue",
+        "AlphaGo"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q12",
+      "question": "The major breakthrough in 2012 that allowed computers to recognize images was:",
+      "options": [
+        "Cloud computing",
+        "Deep learning",
+        "Binary coding",
+        "Quantum networking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "question": "Which AI architecture introduced in 2017 greatly improved language understanding?",
+      "options": [
+        "Transformers",
+        "Neural chips",
+        "Binary engines",
+        "Logic processors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "question": "In AI learning, what does 'data' represent?",
+      "options": [
+        "Electric circuits",
+        "Information used for learning",
+        "Computer casing",
+        "Hardware chips"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q15",
+      "question": "What is an algorithm in AI?",
+      "options": [
+        "A physical computer chip",
+        "A step-by-step set of instructions to solve a problem",
+        "A storage device",
+        "A computer virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "question": "Machine Learning mainly differs from traditional programming because:",
+      "options": [
+        "Computers learn patterns from data instead of following only fixed rules",
+        "Programs run slower",
+        "It does not require computers",
+        "It removes the need for data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q17",
+      "question": "In which type of Machine Learning does the AI learn from labeled examples?",
+      "options": [
+        "Unsupervised Learning",
+        "Supervised Learning",
+        "Reinforcement Learning",
+        "Automatic Learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which learning method involves AI finding hidden patterns in unlabeled data?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Manual Learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q19",
+      "question": "An AI learning by rewards and penalties (like training a dog or playing a game) is using:",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Static Learning"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q20",
+      "question": "Spam email detection primarily uses which Machine Learning method?",
+      "options": [
+        "Supervised Learning",
+        "Reinforcement Learning",
+        "Manual Filtering",
+        "Quantum Learning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q21",
+      "question": "What is AI Bias?",
+      "options": [
+        "AI making decisions randomly",
+        "AI learning unfair patterns from biased data",
+        "AI losing data permanently",
+        "AI refusing to process information"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "question": "The phrase 'Garbage In, Garbage Out' in AI means:",
+      "options": [
+        "AI works best without data",
+        "Bad or biased data leads to bad AI decisions",
+        "AI cannot process large datasets",
+        "AI deletes incorrect data automatically"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "Which of the following is NOT one of the core principles of AI Ethics mentioned in the chapter?",
+      "options": [
+        "Fair",
+        "Safe",
+        "Private",
+        "Fast"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q24",
+      "question": "Deepfakes are:",
+      "options": [
+        "Real videos captured by AI cameras",
+        "AI-generated fake videos or audio that look real",
+        "Encrypted security systems",
+        "Data backup methods"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "question": "Which career focuses on collecting and preparing large datasets so AI can learn correctly?",
+      "options": [
+        "AI Engineer",
+        "Data Scientist",
+        "Robotics Engineer",
+        "Game Designer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "question": "Which of the following best describes Artificial Intelligence?",
+      "options": [
+        "Machines that only store information",
+        "Machines designed to imitate human intelligence",
+        "Devices that only perform calculations",
+        "Software used only for gaming"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "question": "Recognizing patterns such as identifying a dog from a cat is an example of:",
+      "options": [
+        "Human and AI intelligence ability",
+        "Electrical engineering",
+        "Hardware repair",
+        "Computer networking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q28",
+      "question": "Which AI ability allows smartphones to unlock using your face?",
+      "options": [
+        "Voice synthesis",
+        "Facial recognition",
+        "Data compression",
+        "Binary processing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "question": "When AI analyzes millions of possible moves in a game to choose the best one, it is demonstrating:",
+      "options": [
+        "Random guessing",
+        "Strategic analysis",
+        "Hardware repair",
+        "Manual programming"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "question": "Which statement about Narrow AI is correct?",
+      "options": [
+        "It can perform any intellectual task",
+        "It specializes in one specific task",
+        "It replaces all human intelligence",
+        "It cannot process data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "question": "Which example best represents General AI?",
+      "options": [
+        "A calculator performing arithmetic",
+        "A chatbot answering customer queries",
+        "A machine capable of learning any task like humans",
+        "A spam filter in email"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q32",
+      "question": "Which AI system studied millions of chess moves and defeated a world champion?",
+      "options": [
+        "AlphaZero",
+        "Deep Blue",
+        "Watson",
+        "ChatGPT"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "The Turing Test is based on evaluating whether:",
+      "options": [
+        "A computer can solve equations quickly",
+        "A human can distinguish between a machine and a human in conversation",
+        "A machine can store large data",
+        "A robot can move like humans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "question": "Deep Learning improved AI mainly by helping computers:",
+      "options": [
+        "Run faster hardware",
+        "Recognize images and objects",
+        "Store files efficiently",
+        "Generate electricity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "Transformers in AI are mainly related to:",
+      "options": [
+        "Electric power systems",
+        "Language understanding by AI",
+        "Hardware networking",
+        "Computer cooling systems"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "question": "In AI development, what is considered the 'ingredients' needed for learning?",
+      "options": [
+        "Hardware components",
+        "Data",
+        "Processors",
+        "Graphics cards"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "question": "Which of the following is an example of data for AI training?",
+      "options": [
+        "Thousands of photos",
+        "Keyboard keys",
+        "Computer cables",
+        "Motherboard circuits"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q38",
+      "question": "An algorithm can best be described as:",
+      "options": [
+        "A random guess by a computer",
+        "A set of logical instructions",
+        "A hardware component",
+        "A network protocol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "question": "Machine Learning works similarly to how humans learn to:",
+      "options": [
+        "Install operating systems",
+        "Ride a bicycle through practice",
+        "Build processors",
+        "Repair computers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "question": "Teaching an AI using labeled images of 'Good Design' and 'Bad Design' is an example of:",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Random Learning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q41",
+      "question": "When AI organizes data into groups without labels, it is performing:",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Manual Sorting",
+        "Reinforcement Learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "question": "Which learning style is commonly used when training AI to play games like chess?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Static Learning"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q43",
+      "question": "When AI gets better at a task after receiving rewards for correct actions, it is:",
+      "options": [
+        "Reinforcement Learning",
+        "Supervised Learning",
+        "Binary Processing",
+        "Manual Programming"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q44",
+      "question": "Which real-life application uses Machine Learning to protect your email inbox?",
+      "options": [
+        "Email encryption",
+        "Spam filtering",
+        "Hardware security",
+        "File compression"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "question": "Face recognition systems learn your facial structure using:",
+      "options": [
+        "Machine Learning",
+        "Manual coding only",
+        "Mechanical sensors",
+        "Human monitoring"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q46",
+      "question": "AI Bias mainly occurs because:",
+      "options": [
+        "AI refuses to learn",
+        "Training data contains unfair patterns",
+        "Computers are slow",
+        "Algorithms are too small"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "question": "Which ethical principle ensures AI does not expose personal information?",
+      "options": [
+        "Fairness",
+        "Safety",
+        "Privacy",
+        "Speed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q48",
+      "question": "AI-generated fake videos that look real are known as:",
+      "options": [
+        "Virtual media",
+        "Deepfakes",
+        "Binary films",
+        "Digital copies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q49",
+      "question": "Which challenge arises when AI replaces humans in repetitive jobs?",
+      "options": [
+        "Energy shortage",
+        "Job automation",
+        "Data compression",
+        "Hardware failure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q50",
+      "question": "Which professional designs the physical machines that use AI, such as drones or robotic arms?",
+      "options": [
+        "AI Engineer",
+        "Data Scientist",
+        "Robotics Engineer",
+        "Network Administrator"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q51",
+      "question": "Which of the following abilities is commonly used to describe human intelligence that AI tries to replicate?",
+      "options": [
+        "Learning from mistakes",
+        "Generating electricity",
+        "Cooling processors",
+        "Building circuits"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q52",
+      "question": "A machine that only follows strict instructions without learning is best described as:",
+      "options": [
+        "Artificial Intelligence",
+        "Machine Learning system",
+        "Traditional programmed computer",
+        "Deep learning network"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q53",
+      "question": "Which AI ability converts sound waves from your voice into text commands?",
+      "options": [
+        "Image detection",
+        "Speech recognition",
+        "Video compression",
+        "Network routing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q54",
+      "question": "Which platform commonly uses AI to recommend short videos based on user behavior?",
+      "options": [
+        "TikTok or Instagram Reels",
+        "Calculator apps",
+        "Spreadsheet software",
+        "File manager"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q55",
+      "question": "AI used in smartphone cameras to apply face filters works mainly through:",
+      "options": [
+        "Face detection technology",
+        "Data encryption",
+        "Binary storage",
+        "Manual editing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q56",
+      "question": "Which statement best describes Narrow AI?",
+      "options": [
+        "AI that performs multiple human tasks",
+        "AI designed for a single specialized task",
+        "AI that replaces human intelligence completely",
+        "AI that controls all machines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q57",
+      "question": "General AI is currently:",
+      "options": [
+        "Widely used in smartphones",
+        "Only available in science fiction",
+        "Used in spam filters",
+        "Installed in calculators"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q58",
+      "question": "Which fictional object is used as an analogy for General AI in the chapter?",
+      "options": [
+        "Time Turner",
+        "Sorting Hat",
+        "Magic Wand",
+        "Invisibility Cloak"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q59",
+      "question": "The Turing Test involves:",
+      "options": [
+        "Testing robot movement",
+        "Testing computer memory",
+        "Comparing machine conversation with human conversation",
+        "Measuring processor speed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q60",
+      "question": "Which event proved that computers could beat humans in strategic games?",
+      "options": [
+        "Launch of Google",
+        "Deep Blue defeating Kasparov",
+        "Creation of the internet",
+        "Development of smartphones"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q61",
+      "question": "Before the deep learning breakthrough, computers struggled mainly with:",
+      "options": [
+        "Image recognition",
+        "Basic arithmetic",
+        "File storage",
+        "Word processing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q62",
+      "question": "Transformers helped AI improve in:",
+      "options": [
+        "Understanding grammar and context",
+        "Generating electricity",
+        "Repairing hardware",
+        "Cooling processors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q63",
+      "question": "Which technology uses AI to analyze traffic and suggest the fastest route?",
+      "options": [
+        "Google Maps",
+        "Word Processor",
+        "Spreadsheet",
+        "Calculator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q64",
+      "question": "Chat boxes on websites that help customers usually use:",
+      "options": [
+        "Human operators only",
+        "AI chatbots",
+        "Hardware sensors",
+        "Mechanical switches"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q65",
+      "question": "Self-driving cars rely on cameras and sensors to:",
+      "options": [
+        "Play music",
+        "Recognize roads and obstacles",
+        "Charge batteries",
+        "Store data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q66",
+      "question": "Which analogy describes data and algorithms in AI?",
+      "options": [
+        "Battery and electricity",
+        "Ingredients and recipe",
+        "Keyboard and monitor",
+        "Engine and wheels"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q67",
+      "question": "Which of the following can be considered AI training data?",
+      "options": [
+        "Thousands of audio clips",
+        "Computer fans",
+        "Power cables",
+        "Cooling systems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q68",
+      "question": "Machine Learning allows computers to:",
+      "options": [
+        "Automatically discover patterns in data",
+        "Repair hardware",
+        "Generate electricity",
+        "Replace operating systems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q69",
+      "question": "Grouping customers by shopping behavior without labels is an example of:",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Manual Programming"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q70",
+      "question": "In reinforcement learning, AI improves mainly through:",
+      "options": [
+        "Trial and error",
+        "Manual instructions",
+        "Hardware upgrades",
+        "Data deletion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q71",
+      "question": "Which concept warns that bad training data leads to bad AI outcomes?",
+      "options": [
+        "Garbage In, Garbage Out",
+        "Binary Logic Rule",
+        "Machine Efficiency Principle",
+        "Algorithm Balance Theory"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q72",
+      "question": "Which AI ethical rule ensures AI treats everyone equally?",
+      "options": [
+        "Fairness",
+        "Speed",
+        "Automation",
+        "Prediction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q73",
+      "question": "AI-generated misinformation can cause problems mainly because:",
+      "options": [
+        "It spreads quickly online",
+        "It uses too much electricity",
+        "It breaks hardware",
+        "It deletes data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q74",
+      "question": "Despite automation, which human abilities are difficult for AI to replace?",
+      "options": [
+        "Creativity and empathy",
+        "Simple calculations",
+        "Repetitive tasks",
+        "Data sorting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q75",
+      "question": "Which career mainly focuses on designing algorithms and AI systems?",
+      "options": [
+        "AI Engineer",
+        "Civil Engineer",
+        "Mechanical Technician",
+        "Electrician"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q76",
+      "question": "Which situation best shows the difference between a traditional computer program and an AI system?",
+      "options": [
+        "A calculator giving the same result for 5+5 every time",
+        "A computer turning on with a power button",
+        "A monitor displaying images",
+        "A keyboard typing letters"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q77",
+      "question": "Which of the following AI applications mainly relies on analyzing patterns in user behavior?",
+      "options": [
+        "Video recommendation systems",
+        "Basic text editors",
+        "Computer cooling systems",
+        "Printer drivers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q78",
+      "question": "If an AI built for predicting cricket ball paths is asked to write a poem and fails, this shows:",
+      "options": [
+        "The AI has low memory",
+        "The AI is a Narrow AI system",
+        "The AI is a General AI",
+        "The AI has no algorithms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q79",
+      "question": "Which condition must be satisfied for a machine to pass the Turing Test?",
+      "options": [
+        "It must solve complex math faster than humans",
+        "It must fool a human into believing they are chatting with another human",
+        "It must control a robot",
+        "It must store large amounts of data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q80",
+      "question": "The victory of Deep Blue over Garry Kasparov mainly demonstrated that:",
+      "options": [
+        "Computers can outperform humans in specific logical tasks",
+        "Humans cannot play chess anymore",
+        "Computers can feel emotions",
+        "Chess requires no strategy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q81",
+      "question": "The 2012 deep learning breakthrough allowed computers to overcome which major limitation?",
+      "options": [
+        "Difficulty recognizing objects in images",
+        "Slow internet speed",
+        "Limited storage capacity",
+        "Lack of electricity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q82",
+      "question": "Why did the invention of Transformers become important for modern chatbots?",
+      "options": [
+        "They allowed AI to understand language context better",
+        "They increased computer battery life",
+        "They improved screen resolution",
+        "They reduced internet costs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q83",
+      "question": "Which example best represents 'data' in an AI training system?",
+      "options": [
+        "Thousands of labeled images of animals",
+        "A computer keyboard",
+        "A power supply unit",
+        "A graphics card"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "If data are the 'ingredients' in AI, what role does the algorithm play?",
+      "options": [
+        "The recipe that processes the data",
+        "The kitchen where food is stored",
+        "The electricity powering the system",
+        "The delivery system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q85",
+      "question": "Which statement best explains why Machine Learning is different from traditional programming?",
+      "options": [
+        "Rules are discovered automatically from data",
+        "Programs are written without computers",
+        "No algorithms are required",
+        "Data is not needed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q86",
+      "question": "An AI trained with 20,000 labeled images of 'good' and 'bad' posters is learning using:",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Manual Programming"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q87",
+      "question": "When an AI organizes unlabeled customer purchase data into groups based on similarity, it is using:",
+      "options": [
+        "Unsupervised Learning",
+        "Supervised Learning",
+        "Reinforcement Learning",
+        "Direct Programming"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q88",
+      "question": "Which situation is the best example of Reinforcement Learning?",
+      "options": [
+        "AI improving a game strategy after receiving rewards for winning",
+        "AI reading labeled images",
+        "AI sorting labeled emails",
+        "AI following prewritten instructions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q89",
+      "question": "Why does spam filtering improve over time?",
+      "options": [
+        "It learns patterns from emails previously marked as spam",
+        "It deletes all emails automatically",
+        "It increases storage capacity",
+        "It reduces internet speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q90",
+      "question": "When setting up FaceID by turning your head in different directions, you are primarily:",
+      "options": [
+        "Providing training data for the AI system",
+        "Installing hardware drivers",
+        "Increasing processor speed",
+        "Changing screen settings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q91",
+      "question": "AI bias occurs mainly when:",
+      "options": [
+        "The training data contains unfair or incomplete information",
+        "Computers run out of memory",
+        "Algorithms stop working",
+        "The internet disconnects"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q92",
+      "question": "Which situation is the best example of AI bias?",
+      "options": [
+        "A hiring AI rejecting qualified candidates because past data favored one group",
+        "A calculator giving the wrong answer",
+        "A computer shutting down",
+        "A robot running out of power"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q93",
+      "question": "Which ethical principle ensures AI systems do not cause harm to humans?",
+      "options": [
+        "Safety",
+        "Speed",
+        "Prediction",
+        "Automation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q94",
+      "question": "Which ethical principle ensures that personal user information is protected?",
+      "options": [
+        "Privacy",
+        "Fairness",
+        "Automation",
+        "Prediction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q95",
+      "question": "Why are deepfakes considered dangerous?",
+      "options": [
+        "They can create realistic fake videos that mislead people",
+        "They slow down computers",
+        "They damage hardware",
+        "They reduce internet speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q96",
+      "question": "Which major societal challenge is linked to AI replacing repetitive human tasks?",
+      "options": [
+        "Job automation",
+        "Battery failure",
+        "Screen damage",
+        "Internet congestion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q97",
+      "question": "Which ability mentioned in the chapter is hardest for AI to replace in humans?",
+      "options": [
+        "Empathy and creativity",
+        "Simple calculations",
+        "Repetitive assembly work",
+        "Sorting data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q98",
+      "question": "Which AI career focuses mainly on writing algorithms and building AI models?",
+      "options": [
+        "AI Engineer",
+        "Civil Engineer",
+        "Electrical Technician",
+        "Network Installer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q99",
+      "question": "Which professional ensures AI systems learn from clean and unbiased datasets?",
+      "options": [
+        "Data Scientist",
+        "Mechanical Engineer",
+        "System Administrator",
+        "Web Designer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q100",
+      "question": "Which career combines AI with physical machines such as robots and drones?",
+      "options": [
+        "Robotics Engineer",
+        "Software Tester",
+        "Accountant",
+        "Graphic Designer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which feature most clearly distinguishes an AI Agent from a traditional AI model?",
+      "options": [
+        "It processes images using neural networks",
+        "It responds to prompts only",
+        "It actively interacts with its environment to achieve goals",
+        "It stores large datasets"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "Traditional AI systems are often called 'passive' mainly because they:",
+      "options": [
+        "Wait for human instructions before performing tasks",
+        "Cannot analyze data",
+        "Do not use neural networks",
+        "Only operate offline"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "The Observe → Decide → Act cycle in AI agents represents:",
+      "options": [
+        "A data compression technique",
+        "A continuous decision-making loop",
+        "A neural network training method",
+        "A data storage algorithm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "In the agent loop, which step primarily gathers information about the environment?",
+      "options": [
+        "Observe",
+        "Decide",
+        "Act",
+        "Evaluate"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "When an AI agent calculates the best possible action using its neural network model, it is performing which step?",
+      "options": [
+        "Observe",
+        "Decide",
+        "Train",
+        "Store"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "In the agent loop, which step directly changes the environment?",
+      "options": [
+        "Observe",
+        "Analyze",
+        "Decide",
+        "Act"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q7",
+      "question": "Which component of an AI agent corresponds to 'senses' in humans?",
+      "options": [
+        "Input",
+        "Brain",
+        "Output",
+        "Algorithm"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which component of an AI agent processes data and determines the best action?",
+      "options": [
+        "Input",
+        "Brain (Model)",
+        "Output",
+        "Sensor network"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "In a robotic AI agent, which device would most likely function as an input sensor?",
+      "options": [
+        "Camera",
+        "Motor",
+        "Wheel",
+        "Hydraulic arm"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Which action best represents the 'Output' component of a digital AI agent?",
+      "options": [
+        "Reading text on a webpage",
+        "Analyzing neural network parameters",
+        "Sending an automated email",
+        "Storing training data"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "Which scenario best demonstrates the Observe step for a chess AI agent?",
+      "options": [
+        "Evaluating millions of possible future moves",
+        "Scanning the board to identify piece positions",
+        "Moving a rook to capture a piece",
+        "Saving the game result"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which step occurs immediately after an agent performs an action?",
+      "options": [
+        "Training the neural network",
+        "Resetting the system",
+        "Observing the updated environment",
+        "Stopping the agent loop"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "Deep Blue is considered an AI agent primarily because it:",
+      "options": [
+        "Stores chess game databases",
+        "Follows the Observe-Decide-Act loop to play chess",
+        "Runs on powerful hardware",
+        "Uses large datasets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "In video games, enemy NPC bots behave like AI agents because they:",
+      "options": [
+        "Use fixed animations only",
+        "Interact with players based on environmental conditions",
+        "Require constant human control",
+        "Only move randomly"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "If a game bot runs away when its health becomes low, this behavior occurs mainly during which stage?",
+      "options": [
+        "Observe",
+        "Decide",
+        "Act",
+        "Input"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Why is the Observe step essential for an AI agent?",
+      "options": [
+        "It stores previous training data",
+        "It allows the agent to adapt to changes in the environment",
+        "It prevents the agent from acting",
+        "It reduces computational power"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Which example best illustrates a digital AI agent interacting with its environment?",
+      "options": [
+        "An AI translating a sentence when prompted",
+        "An AI reading stored documents",
+        "An AI automatically publishing content on social media",
+        "An AI calculating numbers"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Why do AI agents continuously repeat the Observe → Decide → Act cycle?",
+      "options": [
+        "To train neural networks repeatedly",
+        "Because the environment keeps changing after each action",
+        "Because sensors fail frequently",
+        "To reduce computation time"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which future application best represents an advanced AI agent described in the chapter?",
+      "options": [
+        "A chatbot answering questions",
+        "An AI that only translates languages",
+        "An AI assistant planning and organizing events automatically",
+        "An AI that only stores calendar data"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "The shift from passive AI systems to AI agents mainly represents a transition toward:",
+      "options": [
+        "AI that only processes data",
+        "AI that independently performs multi-step tasks",
+        "AI that replaces neural networks",
+        "AI that requires less computing power"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

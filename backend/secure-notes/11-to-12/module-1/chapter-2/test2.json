@@ -1,0 +1,226 @@
+{
+  "title": "Agents Framework Design Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why is an LLM alone not considered an autonomous agent?",
+      "options": [
+        "Because it cannot generate tokens",
+        "Because it is only a text prediction system without planning, memory, or tools",
+        "Because it cannot process language",
+        "Because it only works offline"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What is the main purpose of wrapping an LLM in an agent framework?",
+      "options": [
+        "To convert it into a hardware processor",
+        "To enable it to perform tasks autonomously using planning, memory, and tools",
+        "To remove its language abilities",
+        "To stop it from generating tokens"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which component of an agent framework acts as the 'brain'?",
+      "options": [
+        "Memory",
+        "Planning",
+        "The Core LLM",
+        "Tools"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "In an agent framework, what does the memory component mainly provide?",
+      "options": [
+        "A GPU cooling system",
+        "The ability to recall past actions and information",
+        "A method for generating tokens faster",
+        "A tool for compiling code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which two elements together form the memory system described in the chapter?",
+      "options": [
+        "CPU cache and GPU RAM",
+        "Short-term context window and long-term vector database",
+        "Token dictionary and tokenizer",
+        "Planning graph and decision tree"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is the role of planning in an autonomous agent?",
+      "options": [
+        "To break a large goal into smaller actionable steps",
+        "To convert text into images",
+        "To store vector embeddings",
+        "To manage GPU temperature"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Which of the following best describes the 'Tools/Actions' pillar?",
+      "options": [
+        "Algorithms for token prediction",
+        "External APIs that allow the agent to interact with the real world",
+        "A method to compress neural networks",
+        "A GPU scheduling system"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Why can the simple ReAct loop fail in complex tasks?",
+      "options": [
+        "It lacks any reasoning capability",
+        "It may get trapped in repeated cycles of failing and retrying",
+        "It cannot generate tokens",
+        "It deletes memory automatically"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "What is the main idea behind Chain of Thought (CoT)?",
+      "options": [
+        "The model outputs only the final answer",
+        "The model explains its reasoning step-by-step before the final answer",
+        "The model removes intermediate tokens",
+        "The model disables attention layers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Why does Chain of Thought reduce hallucinations?",
+      "options": [
+        "It gives the attention mechanism more intermediate reasoning context",
+        "It removes token prediction entirely",
+        "It increases GPU clock speed",
+        "It disables the decoder"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "What is the main idea behind Tree of Thoughts (ToT)?",
+      "options": [
+        "Exploring multiple solution paths simultaneously",
+        "Generating only one plan quickly",
+        "Removing reasoning from the agent",
+        "Deleting incorrect tokens automatically"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "In Tree of Thoughts, what happens after the agent generates multiple possible plans?",
+      "options": [
+        "It deletes them immediately",
+        "It uses an internal judging mechanism to score them",
+        "It sends them to the user",
+        "It trains a new model"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "What does the agent do with low-scoring branches in Tree of Thoughts?",
+      "options": [
+        "Expands them further",
+        "Abandons them and focuses on better branches",
+        "Stores them permanently",
+        "Sends them to a GPU cluster"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "What technique allows an LLM to trigger real-world tools like APIs?",
+      "options": [
+        "Vector embedding",
+        "Function calling",
+        "Token pruning",
+        "Sparse attention"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "In function calling, what does the LLM generate instead of normal English text?",
+      "options": [
+        "A compressed neural layer",
+        "A structured JSON object describing the function call",
+        "A binary hardware instruction",
+        "A GPU command"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "What happens after the LLM generates a tool-call JSON output?",
+      "options": [
+        "The model retrains itself",
+        "The external program executes the API and returns the results",
+        "The model deletes the prompt",
+        "The tokenizer converts it to images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Why are modern AI systems often built as multi-agent systems?",
+      "options": [
+        "Because a single agent cannot run on GPUs",
+        "Because multiple specialized agents can divide complex tasks",
+        "Because one agent cannot generate tokens",
+        "Because agents must always run offline"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "In a sequential multi-agent system, how do agents interact?",
+      "options": [
+        "They compete against each other",
+        "They pass results from one agent to the next like an assembly line",
+        "They ignore each other's outputs",
+        "They run only in parallel"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "What is the role of the Manager Agent in a hierarchical system?",
+      "options": [
+        "It trains the neural network layers",
+        "It divides a complex task into sub-tasks and assigns them to workers",
+        "It deletes unused tokens",
+        "It replaces the tokenizer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which option best summarizes the purpose of multi-agent orchestration?",
+      "options": [
+        "To force a single AI model to perform every task",
+        "To coordinate multiple specialized agents to solve complex problems",
+        "To remove planning from AI systems",
+        "To disable tool usage"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

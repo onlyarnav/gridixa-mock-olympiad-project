@@ -1,0 +1,1106 @@
+{
+  "title": "Module 3 - Model Evaluation and Explainability Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which metric measures the proportion of all predictions that were correct?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Accuracy",
+        "F1 Score"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "A medical test identifies 90 sick patients correctly but also marks 30 healthy people as sick. Which metric is directly affected by these false positives?",
+      "options": [
+        "Recall",
+        "Precision",
+        "MAE",
+        "R\u00b2 Score"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Recall answers the question:",
+      "options": [
+        "Of all predicted positives, how many were correct?",
+        "How many total predictions were correct?",
+        "Of all actual positives, how many did the model find?",
+        "How close are predicted values to actual values?"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which metric provides a balance between precision and recall?",
+      "options": [
+        "Accuracy",
+        "Mean Squared Error",
+        "R\u00b2 Score",
+        "F1 Score"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q5",
+      "question": "A spam detector catches every spam email but also marks many genuine emails as spam. The model most likely has:",
+      "options": [
+        "High precision and low recall",
+        "High recall and low precision",
+        "Low recall and low precision",
+        "Perfect accuracy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "In a highly imbalanced dataset, accuracy can be misleading because:",
+      "options": [
+        "It ignores true positives",
+        "It ignores false negatives",
+        "A model can achieve high accuracy by predicting only the majority class",
+        "It cannot be calculated"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Which metric is commonly used for regression problems?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Mean Absolute Error (MAE)",
+        "F1 Score"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "What does Mean Absolute Error (MAE) measure?",
+      "options": [
+        "The squared average of errors",
+        "The average absolute difference between predictions and actual values",
+        "The percentage of correct predictions",
+        "The correlation between variables"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Compared to MAE, Mean Squared Error (MSE) penalizes:",
+      "options": [
+        "Small errors less heavily",
+        "Large errors more heavily",
+        "All errors equally",
+        "Only positive errors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "A model predicts house prices. One prediction is off by \u20b950,000 while another is off by \u20b95,000. Which metric will punish the \u20b950,000 error disproportionately more?",
+      "options": [
+        "Accuracy",
+        "MAE",
+        "MSE",
+        "Recall"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "The R\u00b2 (coefficient of determination) score measures:",
+      "options": [
+        "The percentage of classification accuracy",
+        "The proportion of variance explained by the model",
+        "The average absolute error",
+        "The precision of positive predictions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "An R\u00b2 score of 1 indicates:",
+      "options": [
+        "The model performs worse than random guessing",
+        "The model explains none of the variance",
+        "A perfect fit to the data",
+        "The model has high bias"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "Error analysis is primarily performed to:",
+      "options": [
+        "Increase dataset size",
+        "Understand why the model makes mistakes",
+        "Reduce the number of features automatically",
+        "Avoid testing the model"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "A classifier consistently mistakes cats for dogs but rarely confuses dogs for birds. This observation is an example of:",
+      "options": [
+        "Feature engineering",
+        "Cross-validation",
+        "Error analysis",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Which tool is especially useful for analyzing classification errors across classes?",
+      "options": [
+        "Confusion Matrix",
+        "Histogram",
+        "Scatter Plot",
+        "Learning Rate Scheduler"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "A model predicts every patient as healthy in a disease dataset where only 2% are sick. The model achieves 98% accuracy. What is the biggest issue?",
+      "options": [
+        "Accuracy is misleading because recall for sick patients is very poor.",
+        "The model has perfect precision.",
+        "The model has perfect F1 score.",
+        "The model has low variance."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which metric would be most important for a cancer detection system where missing a positive case is extremely dangerous?",
+      "options": [
+        "Precision",
+        "Recall",
+        "MAE",
+        "R\u00b2 Score"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which metric would be most important for an email spam filter where incorrectly marking genuine emails as spam should be minimized?",
+      "options": [
+        "Recall",
+        "Precision",
+        "MSE",
+        "R\u00b2 Score"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "After performing error analysis, a data scientist discovers that most mistakes occur in low-light images. What is the MOST reasonable next step?",
+      "options": [
+        "Ignore the issue",
+        "Collect more low-light training data or improve preprocessing",
+        "Decrease the test dataset size",
+        "Remove all low-light images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which sequence best represents a mature machine learning evaluation workflow?",
+      "options": [
+        "Train \u2192 Deploy immediately",
+        "Train \u2192 Compute metrics \u2192 Analyze errors \u2192 Improve the model",
+        "Collect data \u2192 Deploy \u2192 Evaluate",
+        "Evaluate \u2192 Delete misclassified samples"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q21",
+      "question": "A weather model predicts a 70% chance of rain on 100 different days. If the model is perfectly calibrated, approximately how many of those days should actually experience rain?",
+      "options": [
+        "30",
+        "50",
+        "70",
+        "100"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q22",
+      "question": "Probability calibration primarily measures whether:",
+      "options": [
+        "Predictions are fast",
+        "Predicted probabilities match real-world frequencies",
+        "The model uses deep learning",
+        "The dataset is balanced"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q23",
+      "question": "A classifier predicts 99% confidence for almost every prediction but is correct only 80% of the time. This model is:",
+      "options": [
+        "Perfectly calibrated",
+        "Underconfident",
+        "Overconfident",
+        "Random"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q24",
+      "question": "Which statement best describes an underconfident model?",
+      "options": [
+        "It gives probabilities that are too high.",
+        "It gives probabilities lower than the actual correctness frequency.",
+        "It never makes mistakes.",
+        "It predicts only one class."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q25",
+      "question": "Why is probability calibration important in medical diagnosis systems?",
+      "options": [
+        "It increases GPU speed.",
+        "Doctors need reliable confidence estimates to make decisions.",
+        "It eliminates all uncertainty.",
+        "It reduces dataset size."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q26",
+      "question": "What is uncertainty in machine learning?",
+      "options": [
+        "The inability to train a model",
+        "The possibility that a prediction may be wrong",
+        "The number of features in a dataset",
+        "The total training time"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q27",
+      "question": "Which situation demonstrates high uncertainty?",
+      "options": [
+        "The model predicts 'Cat' with 99.9% confidence.",
+        "The model predicts 'Dog' with 50% confidence.",
+        "The model always predicts the same label.",
+        "The model has zero loss."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q28",
+      "question": "An autonomous vehicle detects an object and assigns only 52% confidence to its prediction. The safest action is likely to:",
+      "options": [
+        "Ignore the object",
+        "Accelerate",
+        "Treat the prediction cautiously and slow down",
+        "Assume the object does not exist"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q29",
+      "question": "Why do AI systems need to estimate uncertainty?",
+      "options": [
+        "To avoid using probabilities",
+        "To know when predictions may be unreliable",
+        "To eliminate training data",
+        "To reduce model complexity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q30",
+      "question": "A facial recognition system predicts an identity with only 35% confidence. A well-designed system should:",
+      "options": [
+        "Accept the prediction immediately",
+        "Request additional verification",
+        "Increase the confidence artificially",
+        "Ignore uncertainty"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q31",
+      "question": "Confidence in machine learning predictions generally refers to:",
+      "options": [
+        "The model's training time",
+        "How certain the model is about its prediction",
+        "The number of model parameters",
+        "The size of the dataset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q32",
+      "question": "A bank's fraud detection model assigns 98% confidence that a transaction is fraudulent. What is the most reasonable action?",
+      "options": [
+        "Ignore the prediction",
+        "Approve the transaction immediately",
+        "Investigate or temporarily block the transaction",
+        "Delete the customer account"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q33",
+      "question": "Decision-making systems often use confidence thresholds because:",
+      "options": [
+        "All predictions are equally reliable.",
+        "Low-confidence predictions may require human review.",
+        "Confidence values are meaningless.",
+        "Thresholds improve internet speed."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q34",
+      "question": "A model is perfectly calibrated. Out of all predictions made with 80% confidence, approximately what percentage should be correct?",
+      "options": [
+        "20%",
+        "50%",
+        "80%",
+        "100%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q35",
+      "question": "Which application requires both accurate predictions and reliable confidence estimates the MOST?",
+      "options": [
+        "Movie recommendation systems",
+        "Video game score prediction",
+        "Medical diagnosis systems",
+        "Music playlists"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q36",
+      "question": "A model predicts with high confidence but is frequently wrong. This indicates:",
+      "options": [
+        "Excellent calibration",
+        "Overconfidence and poor calibration",
+        "Perfect uncertainty estimation",
+        "Low variance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q37",
+      "question": "Which statement best describes the relationship between confidence and decision making?",
+      "options": [
+        "Confidence should always be ignored.",
+        "Higher confidence often leads to stronger automated decisions.",
+        "All decisions should be random.",
+        "Confidence and decisions are unrelated."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q38",
+      "question": "A medical AI only gives automatic diagnoses when confidence exceeds 95%. Predictions below this threshold are sent to doctors. This is an example of:",
+      "options": [
+        "Feature engineering",
+        "Threshold-based decision making",
+        "Overfitting",
+        "Cross-validation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q39",
+      "question": "Which statement about uncertainty is TRUE?",
+      "options": [
+        "A model can never be uncertain.",
+        "Uncertainty estimation helps prevent risky decisions.",
+        "Uncertainty always means the model is bad.",
+        "Only neural networks have uncertainty."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q40",
+      "question": "An AI assistant gives two answers: one with 55% confidence and another with 97% confidence. A rational decision system should:",
+      "options": [
+        "Treat both predictions equally",
+        "Prefer the prediction with higher confidence while considering calibration",
+        "Always choose the lower confidence prediction",
+        "Ignore confidence values entirely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q41",
+      "question": "What is the primary goal of Explainable AI (XAI)?",
+      "options": [
+        "To make AI models train faster",
+        "To reduce the size of datasets",
+        "To help humans understand why AI made a particular decision",
+        "To replace machine learning algorithms"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q42",
+      "question": "Why is explainability especially important in medical AI systems?",
+      "options": [
+        "Doctors need to trust and understand the reasoning behind predictions",
+        "It increases GPU memory",
+        "It guarantees perfect predictions",
+        "It eliminates uncertainty"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q43",
+      "question": "An AI system rejects a loan application but cannot explain why. This situation illustrates the problem of:",
+      "options": [
+        "Feature engineering",
+        "Black-box models",
+        "Cross-validation",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q44",
+      "question": "Which statement best describes a 'black-box' AI model?",
+      "options": [
+        "A model that uses only numerical data",
+        "A model whose internal reasoning is difficult for humans to understand",
+        "A model with no parameters",
+        "A model that cannot make predictions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q45",
+      "question": "Feature importance refers to:",
+      "options": [
+        "The number of features in a dataset",
+        "How strongly each feature influences a model's prediction",
+        "The order in which features are collected",
+        "The size of feature vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q46",
+      "question": "A house-price prediction model considers location more influential than the number of bedrooms. This is an example of:",
+      "options": [
+        "Feature importance",
+        "Fairness analysis",
+        "Model calibration",
+        "Data augmentation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q47",
+      "question": "Why is feature importance useful?",
+      "options": [
+        "It helps explain which inputs contributed most to a prediction",
+        "It guarantees zero error",
+        "It automatically removes bias",
+        "It replaces model evaluation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q48",
+      "question": "An AI predicts that a student will pass an exam mainly because of attendance and previous scores. Attendance and previous scores are:",
+      "options": [
+        "Labels",
+        "Features with high importance",
+        "Hyperparameters",
+        "Loss values"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q49",
+      "question": "Which feature would likely have high importance in a model predicting whether it will rain?",
+      "options": [
+        "Temperature and humidity",
+        "Student attendance",
+        "Movie ratings",
+        "House prices"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q50",
+      "question": "What does fairness in AI primarily aim to achieve?",
+      "options": [
+        "Faster predictions",
+        "Lower computational cost",
+        "Equal and unbiased treatment of individuals or groups",
+        "Larger datasets"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q51",
+      "question": "An AI hiring system consistently favors one gender despite equal qualifications. This is an example of:",
+      "options": [
+        "Model calibration",
+        "Fairness issue or bias",
+        "Feature scaling",
+        "Overfitting"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q52",
+      "question": "Why can biased training data lead to unfair models?",
+      "options": [
+        "The model learns patterns, including unfair ones, from the data",
+        "The model ignores the training data",
+        "Bias only affects testing data",
+        "Biased data improves generalization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q53",
+      "question": "Which of the following is an example of a fairness concern?",
+      "options": [
+        "A model takes too long to train",
+        "A recommendation system uses too much memory",
+        "A credit approval model unfairly rejects applicants from a specific region",
+        "A model uses too many features"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q54",
+      "question": "Why is explainability often connected to fairness?",
+      "options": [
+        "Understanding a model's decisions can help identify unfair behavior",
+        "Explainability automatically removes bias",
+        "Fairness and explainability are unrelated",
+        "Only explainable models can be trained"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q55",
+      "question": "A healthcare model gives different recommendations to identical patients because of their ethnicity. This indicates:",
+      "options": [
+        "Good feature engineering",
+        "A fairness problem",
+        "High feature importance",
+        "Excellent calibration"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q56",
+      "question": "Which statement about feature importance is TRUE?",
+      "options": [
+        "Every feature contributes equally.",
+        "Some features may have little or no effect on predictions.",
+        "Feature importance exists only in regression models.",
+        "Feature importance cannot be estimated."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q57",
+      "question": "An AI model predicts loan defaults. Income has very high importance, while favorite color has almost no importance. This suggests:",
+      "options": [
+        "The model is unfair",
+        "The model has learned meaningful relationships",
+        "The model is underfitting",
+        "The model cannot explain its predictions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q58",
+      "question": "Which question is MOST related to explainable AI?",
+      "options": [
+        "How many GPUs were used for training?",
+        "Why did the model classify this email as spam?",
+        "What programming language was used?",
+        "How large is the dataset?"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q59",
+      "question": "A university uses an AI system for admissions. To ensure responsible AI, administrators should be concerned about:",
+      "options": [
+        "Only maximizing accuracy",
+        "Only reducing training time",
+        "Both explainability and fairness of decisions",
+        "Only increasing dataset size"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q60",
+      "question": "Which sequence best represents responsible AI development?",
+      "options": [
+        "Train model \u2192 Ignore explanations \u2192 Deploy",
+        "Build model \u2192 Analyze feature importance \u2192 Check fairness \u2192 Deploy",
+        "Collect data \u2192 Deploy immediately",
+        "Tune hyperparameters \u2192 Ignore bias"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q61",
+      "question": "Which metric visualization shows the tradeoff between true positive rate and false positive rate? (1)",
+      "options": [
+        "ROC Curve",
+        "Histogram",
+        "Box Plot",
+        "Learning Curve"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q62",
+      "question": "A higher AUC score generally indicates: (2)",
+      "options": [
+        "Better class separation",
+        "Higher bias",
+        "More features",
+        "Lower dataset size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q63",
+      "question": "True Positives represent: (3)",
+      "options": [
+        "Correct positive predictions",
+        "Incorrect positives",
+        "Correct negatives",
+        "Incorrect negatives"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q64",
+      "question": "A calibrated model predicting 60% confidence should be correct about: (4)",
+      "options": [
+        "60% of the time",
+        "100% of the time",
+        "40% of the time",
+        "10% of the time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q65",
+      "question": "Which prediction reflects the greatest uncertainty? (5)",
+      "options": [
+        "51% confidence",
+        "99% confidence",
+        "95% confidence",
+        "100% confidence"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q66",
+      "question": "SHAP and LIME are primarily used for: (6)",
+      "options": [
+        "Model explanations",
+        "Data storage",
+        "Optimization",
+        "Compression"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q67",
+      "question": "Algorithmic fairness aims to: (7)",
+      "options": [
+        "Reduce discriminatory outcomes",
+        "Increase GPU usage",
+        "Reduce memory",
+        "Increase epochs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q68",
+      "question": "Precision becomes especially important when: (8)",
+      "options": [
+        "False positives are costly",
+        "False negatives are costly",
+        "Dataset is large",
+        "Training is slow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q69",
+      "question": "Recall becomes especially important when: (9)",
+      "options": [
+        "Missing positives is costly",
+        "False positives are cheap",
+        "Data is balanced",
+        "Model is linear"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q70",
+      "question": "RMSE differs from MAE because: (10)",
+      "options": [
+        "It squares errors before averaging",
+        "It uses classification labels",
+        "It measures recall",
+        "It uses probabilities"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q71",
+      "question": "Which metric visualization shows the tradeoff between true positive rate and false positive rate? (11)",
+      "options": [
+        "ROC Curve",
+        "Histogram",
+        "Box Plot",
+        "Learning Curve"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q72",
+      "question": "A higher AUC score generally indicates: (12)",
+      "options": [
+        "Better class separation",
+        "Higher bias",
+        "More features",
+        "Lower dataset size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q73",
+      "question": "True Positives represent: (13)",
+      "options": [
+        "Correct positive predictions",
+        "Incorrect positives",
+        "Correct negatives",
+        "Incorrect negatives"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q74",
+      "question": "A calibrated model predicting 60% confidence should be correct about: (14)",
+      "options": [
+        "60% of the time",
+        "100% of the time",
+        "40% of the time",
+        "10% of the time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q75",
+      "question": "Which prediction reflects the greatest uncertainty? (15)",
+      "options": [
+        "51% confidence",
+        "99% confidence",
+        "95% confidence",
+        "100% confidence"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q76",
+      "question": "SHAP and LIME are primarily used for: (16)",
+      "options": [
+        "Model explanations",
+        "Data storage",
+        "Optimization",
+        "Compression"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q77",
+      "question": "Algorithmic fairness aims to: (17)",
+      "options": [
+        "Reduce discriminatory outcomes",
+        "Increase GPU usage",
+        "Reduce memory",
+        "Increase epochs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q78",
+      "question": "Precision becomes especially important when: (18)",
+      "options": [
+        "False positives are costly",
+        "False negatives are costly",
+        "Dataset is large",
+        "Training is slow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q79",
+      "question": "Recall becomes especially important when: (19)",
+      "options": [
+        "Missing positives is costly",
+        "False positives are cheap",
+        "Data is balanced",
+        "Model is linear"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q80",
+      "question": "RMSE differs from MAE because: (20)",
+      "options": [
+        "It squares errors before averaging",
+        "It uses classification labels",
+        "It measures recall",
+        "It uses probabilities"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q81",
+      "question": "Which metric visualization shows the tradeoff between true positive rate and false positive rate? (21)",
+      "options": [
+        "ROC Curve",
+        "Histogram",
+        "Box Plot",
+        "Learning Curve"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q82",
+      "question": "A higher AUC score generally indicates: (22)",
+      "options": [
+        "Better class separation",
+        "Higher bias",
+        "More features",
+        "Lower dataset size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q83",
+      "question": "True Positives represent: (23)",
+      "options": [
+        "Correct positive predictions",
+        "Incorrect positives",
+        "Correct negatives",
+        "Incorrect negatives"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q84",
+      "question": "A calibrated model predicting 60% confidence should be correct about: (24)",
+      "options": [
+        "60% of the time",
+        "100% of the time",
+        "40% of the time",
+        "10% of the time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q85",
+      "question": "Which prediction reflects the greatest uncertainty? (25)",
+      "options": [
+        "51% confidence",
+        "99% confidence",
+        "95% confidence",
+        "100% confidence"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q86",
+      "question": "SHAP and LIME are primarily used for: (26)",
+      "options": [
+        "Model explanations",
+        "Data storage",
+        "Optimization",
+        "Compression"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q87",
+      "question": "Algorithmic fairness aims to: (27)",
+      "options": [
+        "Reduce discriminatory outcomes",
+        "Increase GPU usage",
+        "Reduce memory",
+        "Increase epochs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q88",
+      "question": "Precision becomes especially important when: (28)",
+      "options": [
+        "False positives are costly",
+        "False negatives are costly",
+        "Dataset is large",
+        "Training is slow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q89",
+      "question": "Recall becomes especially important when: (29)",
+      "options": [
+        "Missing positives is costly",
+        "False positives are cheap",
+        "Data is balanced",
+        "Model is linear"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q90",
+      "question": "RMSE differs from MAE because: (30)",
+      "options": [
+        "It squares errors before averaging",
+        "It uses classification labels",
+        "It measures recall",
+        "It uses probabilities"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q91",
+      "question": "Which metric visualization shows the tradeoff between true positive rate and false positive rate? (31)",
+      "options": [
+        "ROC Curve",
+        "Histogram",
+        "Box Plot",
+        "Learning Curve"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q92",
+      "question": "A higher AUC score generally indicates: (32)",
+      "options": [
+        "Better class separation",
+        "Higher bias",
+        "More features",
+        "Lower dataset size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q93",
+      "question": "True Positives represent: (33)",
+      "options": [
+        "Correct positive predictions",
+        "Incorrect positives",
+        "Correct negatives",
+        "Incorrect negatives"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q94",
+      "question": "A calibrated model predicting 60% confidence should be correct about: (34)",
+      "options": [
+        "60% of the time",
+        "100% of the time",
+        "40% of the time",
+        "10% of the time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q95",
+      "question": "Which prediction reflects the greatest uncertainty? (35)",
+      "options": [
+        "51% confidence",
+        "99% confidence",
+        "95% confidence",
+        "100% confidence"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q96",
+      "question": "SHAP and LIME are primarily used for: (36)",
+      "options": [
+        "Model explanations",
+        "Data storage",
+        "Optimization",
+        "Compression"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q97",
+      "question": "Algorithmic fairness aims to: (37)",
+      "options": [
+        "Reduce discriminatory outcomes",
+        "Increase GPU usage",
+        "Reduce memory",
+        "Increase epochs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q98",
+      "question": "Precision becomes especially important when: (38)",
+      "options": [
+        "False positives are costly",
+        "False negatives are costly",
+        "Dataset is large",
+        "Training is slow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q99",
+      "question": "Recall becomes especially important when: (39)",
+      "options": [
+        "Missing positives is costly",
+        "False positives are cheap",
+        "Data is balanced",
+        "Model is linear"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q100",
+      "question": "RMSE differs from MAE because: (40)",
+      "options": [
+        "It squares errors before averaging",
+        "It uses classification labels",
+        "It measures recall",
+        "It uses probabilities"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

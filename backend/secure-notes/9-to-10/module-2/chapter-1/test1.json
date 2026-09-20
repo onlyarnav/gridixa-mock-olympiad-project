@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why did LSTMs become a bottleneck for training very large language models?",
+      "options": [
+        "They could not process any text at all",
+        "They had to read words sequentially, making training slow",
+        "They used too many output layers",
+        "They only worked on images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What was the key idea behind the Transformer breakthrough in 2017?",
+      "options": [
+        "Replace attention with more memory cells",
+        "Delete the slow word-by-word recurrence and process all words in parallel",
+        "Use only convolution for language",
+        "Train models without data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "The paper \"Attention Is All You Need\" introduced which architecture?",
+      "options": [
+        "RNN",
+        "LSTM",
+        "Transformer",
+        "CNN"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "In self-attention, what does the Query (Q) represent?",
+      "options": [
+        "The actual meaning stored inside a word",
+        "What the model is looking for",
+        "The position of the word in a sentence",
+        "The final output token"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "In the QKV system, what is the best description of a Key (K)?",
+      "options": [
+        "A label used to describe what a word is about",
+        "The generated answer from the decoder",
+        "The exact order number of a word",
+        "The loss value of a token"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "question": "In the QKV system, the Value (V) most closely represents:",
+      "options": [
+        "The hidden meaning or information associated with the word",
+        "The query sentence itself",
+        "The word's position only",
+        "The softmax score after normalization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "When the Transformer reads the sentence 'I sat by the river bank,' why does the word 'river' help interpret 'bank' correctly?",
+      "options": [
+        "Because 'river' is always the first token",
+        "Because the Query for 'bank' strongly matches the Key of 'river'",
+        "Because the decoder ignores nearby words",
+        "Because the sentence has only one possible meaning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "What does the softmax function do in attention?",
+      "options": [
+        "It converts raw scores into probabilities that sum to 100%",
+        "It deletes unimportant words permanently",
+        "It creates the word positions",
+        "It trains the model faster by itself"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q9",
+      "question": "The main role of the Encoder in a Transformer is to:",
+      "options": [
+        "Generate the final answer token by token",
+        "Read the prompt and build a rich numerical representation of it",
+        "Forget earlier words quickly",
+        "Translate pixels into text"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "The Decoder in a Transformer mainly:",
+      "options": [
+        "Reads images and labels them",
+        "Predicts the output one token at a time",
+        "Stores all training data in memory",
+        "Removes positional information"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Why does the Decoder also use attention on the words it has already generated?",
+      "options": [
+        "To repeat the same token many times",
+        "To maintain grammar and avoid losing track of context",
+        "To eliminate the need for training",
+        "To convert the input into images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "If a Transformer did not use positional encoding, what would be the biggest problem?",
+      "options": [
+        "It would not be able to multiply matrices",
+        "It would not know the order of words in a sentence",
+        "It would stop using attention",
+        "It would only work on short prompts"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Positional Encoding can best be thought of as:",
+      "options": [
+        "A memory chip inside the decoder",
+        "A mathematical time stamp added to each word",
+        "A loss function used in training",
+        "A type of activation function"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Why is the sentence 'The dog bit the man' different from 'The man bit the dog'?",
+      "options": [
+        "Because the words are different lengths",
+        "Because word order changes meaning",
+        "Because both sentences have no subject",
+        "Because attention cannot read verbs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "What is the greatest advantage of Transformers over LSTMs mentioned in the chapter?",
+      "options": [
+        "They process text sequentially with more memory",
+        "They can process all words at the same time using parallel processing",
+        "They remove the need for any mathematical operations",
+        "They only work on very small sentences"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "The self-attention mechanism helps the model mainly by:",
+      "options": [
+        "Focusing on important relationships between words",
+        "Replacing all tokens with images",
+        "Deleting the need for encoders",
+        "Making every word equally important"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "In the library analogy, what does the Key most closely resemble?",
+      "options": [
+        "The label on the outside of a file cabinet",
+        "The researcher's final report",
+        "The physical shelf number only",
+        "The reading speed of the student"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "What happens when the Query for one word strongly matches the Key of another word?",
+      "options": [
+        "The model ignores the other word",
+        "The model gives that related word higher attention",
+        "The model removes positional encoding",
+        "The model stops processing the sentence"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Why did Transformers enable the creation of massive LLMs more effectively than earlier sequence models?",
+      "options": [
+        "They could ignore all input data",
+        "They could process long documents much faster while preserving relationships between words",
+        "They only required one training example",
+        "They never used attention"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which option correctly matches the role in a Transformer?",
+      "options": [
+        "Encoder = writes the answer; Decoder = reads the prompt",
+        "Encoder = builds context from input; Decoder = generates output tokens",
+        "Encoder = stores positions; Decoder = creates filters",
+        "Encoder = performs pooling; Decoder = performs convolution"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

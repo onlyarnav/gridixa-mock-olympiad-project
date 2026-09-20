@@ -1,0 +1,196 @@
+{
+  "title": "Module 3 Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does a function represent in mathematics?",
+      "options": [
+        "A relationship between input and output",
+        "Only a constant value",
+        "A random number generator",
+        "A type of matrix"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "question": "If f(x)=2x+3, what is f(4)?",
+      "options": ["8", "10", "11", "12"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which notation represents a derivative?",
+      "options": ["f(x)", "dy/dx", "∫f(x)", "P(x)"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "A derivative measures:",
+      "options": [
+        "Area under a curve",
+        "Rate of change",
+        "Probability",
+        "Average value"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is the derivative of x²?",
+      "options": ["x", "2x", "x²", "2"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "If a function is increasing, its derivative is generally:",
+      "options": ["Negative", "Zero", "Positive", "Undefined"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "Which concept helps optimize AI model performance?",
+      "options": [
+        "Gradient Descent",
+        "Probability",
+        "Mean",
+        "Mode"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "Gradient descent tries to minimize:",
+      "options": [
+        "Accuracy",
+        "Loss",
+        "Derivative",
+        "Mean"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "In gradient descent, weights are updated using:",
+      "options": [
+        "Random guessing",
+        "Derivative information",
+        "Median values",
+        "Probability"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What happens if the learning rate is too large?",
+      "options": [
+        "Training stops",
+        "Model reaches optimum instantly",
+        "The algorithm may overshoot the minimum",
+        "Derivative becomes zero"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "What happens when the derivative equals zero?",
+      "options": [
+        "Possible minimum or maximum",
+        "Function disappears",
+        "Probability becomes one",
+        "Gradient increases"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Which symbol commonly represents learning rate?",
+      "options": ["η", "π", "σ", "μ"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Gradient descent updates parameters in which direction?",
+      "options": [
+        "Direction of steepest increase",
+        "Direction of higher probability",
+        "Direction of steepest decrease",
+        "Random direction"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "What is the main goal of derivatives in optimization?",
+      "options": [
+        "Measure output size",
+        "Find optimal parameter movement",
+        "Calculate averages",
+        "Store vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "If f(x)=x³, what is f′(x)?",
+      "options": ["3x", "3x²", "x²", "x³"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Gradient descent is commonly used in:",
+      "options": [
+        "Neural network training",
+        "Database sorting",
+        "Probability counting",
+        "Image compression only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What does a steep slope indicate?",
+      "options": [
+        "Slow change",
+        "Fast change",
+        "No change",
+        "Stable probability"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "If learning rate is extremely small:",
+      "options": [
+        "Training may become very slow",
+        "Training becomes impossible",
+        "Loss becomes infinite",
+        "Gradient disappears"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which operation is repeated in gradient descent?",
+      "options": [
+        "Calculate gradient → update weights",
+        "Calculate mean → stop",
+        "Find mode → predict",
+        "Shuffle → reset"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Why are derivatives important in AI?",
+      "options": [
+        "They measure uncertainty",
+        "They help adjust model parameters efficiently",
+        "They generate random outputs",
+        "They replace neural networks"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

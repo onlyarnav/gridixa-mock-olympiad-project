@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why are large language models often described as 'black boxes'?",
+      "options": [
+        "Because they can never be used online",
+        "Because they generate unpredictable new text from many learned parameters",
+        "Because they only store images",
+        "Because they cannot answer questions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What makes LLM observability necessary in a live AI application?",
+      "options": [
+        "It increases the size of the training dataset",
+        "It helps track what the AI is saying and catch problems quickly",
+        "It replaces the need for a vector database",
+        "It turns the model into a chatbot"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "In the car analogy, LLM observability is compared to:",
+      "options": [
+        "The steering wheel",
+        "The dashboard",
+        "The fuel tank",
+        "The engine oil"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following is one of the three main things monitored by an observability dashboard?",
+      "options": [
+        "Word count, font size, and color",
+        "Latency, token cost, and drift",
+        "Accuracy, recall, and precision",
+        "Prompt length, user age, and browser type"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What does latency measure in an LLM system?",
+      "options": [
+        "How many prompts are stored",
+        "How long the model takes to answer",
+        "How many users are online",
+        "How many tokens are in the dataset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "What does TTFT stand for?",
+      "options": [
+        "Time To First Token",
+        "Total Token Fast Track",
+        "Text To Final Transcript",
+        "Token Transfer and Feedback Time"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q7",
+      "question": "Why is a TTFT of more than 3 seconds a problem for many Gen Z users according to the chapter?",
+      "options": [
+        "They prefer longer prompts only",
+        "They will likely close the app if the first word appears too slowly",
+        "They cannot read the output",
+        "They stop using the internet completely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "What does token cost represent in LLM observability?",
+      "options": [
+        "The number of training layers used",
+        "The money spent for tokens the AI reads and writes",
+        "The size of the chatbot window",
+        "The number of words in the response"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Why is token cost called the 'fuel gauge' of an AI system?",
+      "options": [
+        "Because it shows how much money the system is consuming",
+        "Because it measures model accuracy",
+        "Because it stores user passwords",
+        "Because it predicts the next token"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "What does drift mean in the context of LLM observability?",
+      "options": [
+        "The AI becomes faster over time",
+        "The model's behavior changes away from its original training",
+        "The tokenizer changes vocabulary",
+        "The prompt becomes shorter"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "What is the purpose of LLM-as-a-Judge?",
+      "options": [
+        "To train the model from scratch",
+        "To grade AI-generated text using another strong AI",
+        "To remove the need for observability",
+        "To convert text into vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Why is LLM-as-a-Judge considered a smart solution for evaluating text?",
+      "options": [
+        "Because it uses strict word matching only",
+        "Because it can understand deeper context and judge human-like responses",
+        "Because it ignores the rubric",
+        "Because it never makes mistakes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "In the MUN analogy, what represents the junior delegates?",
+      "options": [
+        "The Judge LLM",
+        "The custom AI app being evaluated",
+        "The grading rubric",
+        "The observability dashboard"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "In the MUN analogy, what represents the Executive Board or Senior Chairs?",
+      "options": [
+        "The prompt injection attack",
+        "The Judge LLM",
+        "The user query",
+        "The token budget"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "What does the judge LLM receive in order to evaluate an answer?",
+      "options": [
+        "Only the chatbot answer",
+        "The prompt, the chatbot's answer, and a strict rubric",
+        "Only the user profile",
+        "Only the training dataset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which quality might the rubric score in an LLM-as-a-Judge system?",
+      "options": [
+        "Tone, accuracy, and safety",
+        "Font style, color, and size",
+        "Battery, speed, and memory",
+        "Grammar, weather, and location"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What is the role of the continuous feedback loop in applied AI?",
+      "options": [
+        "To prevent any model updates forever",
+        "To make the system smarter over time using observe, evaluate, and fine-tune steps",
+        "To replace human users",
+        "To store only the first prompt"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "If the observability dashboard flags a conversation with a bad thumbs-down rating, what is the first step in the feedback loop?",
+      "options": [
+        "Observe",
+        "Deploy",
+        "Decode",
+        "Predict"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "If the Judge LLM confirms that the chatbot failed the 'Accuracy' test, what is the next likely step in the loop if the tone was also rude?",
+      "options": [
+        "Ignore the problem",
+        "Add the corrected conversation to a dataset and run SFT",
+        "Delete the vector database",
+        "Increase the TTFT"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which combination best describes the full modern AI improvement cycle from the chapter?",
+      "options": [
+        "Observe → Evaluate → Fine-Tune",
+        "Train → Forget → Restart",
+        "Search → Rank → Delete",
+        "Prompt → Tokenize → Hallucinate"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

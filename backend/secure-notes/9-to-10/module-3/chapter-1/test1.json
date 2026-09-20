@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why do modern AI engineers use an end-to-end pipeline instead of writing all model math from scratch?",
+      "options": [
+        "Because pre-trained models remove the need for data",
+        "Because the pipeline handles data preparation, model use, and output translation efficiently",
+        "Because AI models cannot be downloaded from the internet",
+        "Because transformers only work without code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which combination best represents the three main pillars of the HuggingFace ecosystem mentioned in the chapter?",
+      "options": [
+        "Model Hub, Datasets Hub, Transformers Library",
+        "GPU Hub, Token Hub, API Hub",
+        "Encoder Hub, Decoder Hub, Loss Hub",
+        "Training Hub, Testing Hub, Deployment Hub"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "question": "The Model Hub on HuggingFace is best described as:",
+      "options": [
+        "A library of training videos for programmers",
+        "A massive collection of pre-trained open-source AI models",
+        "A storage space for only private datasets",
+        "A tool used only for image editing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "The Datasets Hub is mainly used to store:",
+      "options": [
+        "Only code files",
+        "Only trained weights",
+        "Text, image, and audio data used to train models",
+        "Only token IDs"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "question": "Why is the Transformers Library so important in the HuggingFace ecosystem?",
+      "options": [
+        "It physically stores GPUs for users",
+        "It lets developers connect models and datasets with just a few lines of Python code",
+        "It automatically writes social media posts",
+        "It replaces all machine learning math with rules"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "What does ETL stand for in the data pipeline?",
+      "options": [
+        "Encode, Train, Load",
+        "Extract, Transform, Load",
+        "Evaluate, Test, Learn",
+        "Extract, Translate, Label"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "In the ETL pipeline, which step involves collecting messy raw data from sources such as TikTok transcripts and Instagram captions?",
+      "options": [
+        "Extract",
+        "Transform",
+        "Load",
+        "Decode"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "What is the main purpose of the Transform step in ETL?",
+      "options": [
+        "To make the data more messy so the model learns better",
+        "To clean, remove noise, and convert text into numbers",
+        "To store the data inside the model permanently",
+        "To generate final captions directly"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Why is a Tokenizer essential in the Transform step?",
+      "options": [
+        "It converts English words into machine-readable numbers",
+        "It trains the model on the GPU",
+        "It predicts the final answer directly",
+        "It deletes punctuation only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "What does the Load step do in the ETL pipeline?",
+      "options": [
+        "It converts numbers back into English",
+        "It feeds the cleaned numerical data into the GPU for learning",
+        "It downloads a new model from the internet",
+        "It removes the tokenizer vocabulary"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Why is tokenization model-specific in HuggingFace pipelines?",
+      "options": [
+        "Because every model uses the same token IDs",
+        "Because different models may assign different IDs to the same word",
+        "Because tokenization only works for English",
+        "Because tokenizers do not need vocabularies"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "What could happen if you use the wrong tokenizer with a model?",
+      "options": [
+        "The AI will speak total gibberish or misread the input",
+        "The model will instantly become faster",
+        "The dataset will become larger",
+        "The GPU will turn into a CPU"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "What is Encoding in the tokenization process?",
+      "options": [
+        "Turning generated numbers back into readable text",
+        "Turning a prompt into a list of integer token IDs",
+        "Training the model on the dataset",
+        "Filtering out all punctuation permanently"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "What is the role of an Attention Mask?",
+      "options": [
+        "It tells the model which tokens are real and which are padding",
+        "It measures the accuracy of the model",
+        "It turns text into images",
+        "It stores the final answer of the model"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Why are attention masks useful in a tokenized input?",
+      "options": [
+        "They help the model ignore empty padding spaces",
+        "They replace the tokenizer",
+        "They increase the vocabulary size",
+        "They make every token identical"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "What does Decoding mean in the HuggingFace pipeline?",
+      "options": [
+        "Converting model-generated numbers back into readable language",
+        "Breaking words into smaller pieces",
+        "Cleaning raw web data",
+        "Downloading the model weights"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "In inference, what happens after the tokenizer converts the user input into numbers?",
+      "options": [
+        "The numbers are loaded into the model for a forward pass",
+        "The model is deleted and replaced",
+        "The output is immediately shown without processing",
+        "The tokenizer creates a new vocabulary"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "What is the technical meaning of inference in AI?",
+      "options": [
+        "Training the model using labeled examples",
+        "Asking the AI a question and getting an answer",
+        "Cleaning only image data",
+        "Reducing the vocabulary size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which sequence correctly describes an end-to-end HuggingFace inference pipeline?",
+      "options": [
+        "Download model and tokenizer → tokenize input → forward pass → decode output",
+        "Decode output → download model → tokenize input → train model",
+        "Load model → remove tokens → predict web search → encode output",
+        "Extract output → transform model → load prompt → decode dataset"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Why is HuggingFace especially valuable for applied AI development?",
+      "options": [
+        "It eliminates the need for all programming",
+        "It gives developers access to pre-trained models, datasets, and reusable tools",
+        "It only supports one model type",
+        "It works only for social media apps"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

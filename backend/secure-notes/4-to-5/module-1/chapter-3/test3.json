@@ -1,0 +1,227 @@
+
+{
+  "title": "Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the safest way to create a password?",
+      "options": [
+        "Use your name only",
+        "Use '123456'",
+        "Use a strong password with letters, numbers, and symbols",
+        "Use the word 'password'"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following is personal information that should NOT be shared online with strangers?",
+      "options": [
+        "Your favorite color",
+        "Your school timetable",
+        "Your home address",
+        "Your favorite cartoon"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "If someone online asks for your password, what should you do?",
+      "options": [
+        "Share it immediately",
+        "Ignore the request and tell a trusted adult",
+        "Post it publicly",
+        "Change it to '1234'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Being a good digital citizen means:",
+      "options": [
+        "Being kind and respectful online",
+        "Sharing rumors",
+        "Using bad language online",
+        "Posting without thinking"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "question": "Which action is the MOST responsible when using AI?",
+      "options": [
+        "Copy AI answers without checking",
+        "Use AI to learn while thinking for yourself",
+        "Believe everything AI says",
+        "Use AI to cheat in exams"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "If an AI chatbot gives an unusual or incorrect answer, you should:",
+      "options": [
+        "Believe it immediately",
+        "Check the information with a trusted source",
+        "Share it with everyone",
+        "Never use AI again"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which of these should you NEVER post publicly online?",
+      "options": [
+        "A drawing you made",
+        "Your full home address",
+        "Your favorite sport",
+        "Your favorite book"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "What should you do if a stranger sends you a scary or uncomfortable message online?",
+      "options": [
+        "Reply immediately",
+        "Keep it a secret",
+        "Tell a trusted adult",
+        "Share it with strangers"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "Why is it important to think before posting something online?",
+      "options": [
+        "Because online posts can stay for a long time",
+        "Because the internet is slow",
+        "Because computers get tired",
+        "Because websites disappear instantly"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q10",
+      "question": "Which example shows responsible technology use?",
+      "options": [
+        "Using AI to help understand homework",
+        "Sharing your friend's password",
+        "Downloading unknown files",
+        "Using someone else's account"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "question": "What should you do before clicking a link from an unknown person?",
+      "options": [
+        "Click it quickly",
+        "Check with a trusted adult first",
+        "Forward it to friends",
+        "Download everything"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which of these is an example of cyber safety?",
+      "options": [
+        "Keeping your passwords private",
+        "Sharing passwords with classmates",
+        "Posting personal details online",
+        "Accepting every friend request"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "If AI creates a story for you, what should you remember?",
+      "options": [
+        "AI can sometimes make mistakes",
+        "AI is always correct",
+        "AI never needs checking",
+        "AI knows everything"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Which of these is the BEST digital citizenship behavior?",
+      "options": [
+        "Respecting others online",
+        "Making fun of classmates online",
+        "Sharing fake news",
+        "Posting hurtful comments"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "What should you do if you accidentally share personal information online?",
+      "options": [
+        "Ignore it",
+        "Tell a trusted adult immediately",
+        "Share more information",
+        "Create another account"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Why should you avoid sharing your location with strangers online?",
+      "options": [
+        "To protect your privacy and safety",
+        "Because phones stop working",
+        "Because maps disappear",
+        "Because games will not load"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which of these is a safe online habit?",
+      "options": [
+        "Logging out from shared computers",
+        "Leaving your account open for others",
+        "Using the same weak password everywhere",
+        "Sharing passwords with friends"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "How should AI be used in school?",
+      "options": [
+        "To copy homework without learning",
+        "To support learning and understand concepts",
+        "To cheat in tests",
+        "To avoid studying completely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "A friend asks for your password because they forgot theirs. What should you do?",
+      "options": [
+        "Share your password",
+        "Tell them to create or recover their own password",
+        "Post it in the class group",
+        "Write it on the classroom board"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which statement BEST describes safe and responsible digital behavior?",
+      "options": [
+        "Protect personal information, respect others, and use AI and technology wisely",
+        "Share passwords with friends you trust",
+        "Believe everything you see online",
+        "Use AI without checking its answers"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

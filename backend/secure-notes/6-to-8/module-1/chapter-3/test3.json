@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which situation BEST represents a violation of AI ethics?",
+      "options": [
+        "An AI recommends songs based on your listening history",
+        "An AI leaks users' passwords to hackers",
+        "An AI organizes photos by faces",
+        "An AI translates languages"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "The principle that AI should treat all people equally regardless of background refers to:",
+      "options": [
+        "Efficiency",
+        "Fairness",
+        "Automation",
+        "Optimization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "If a self-driving car is released without proper testing and causes accidents, which ethical rule has MOST clearly been violated?",
+      "options": [
+        "Fairness",
+        "Safety",
+        "Privacy",
+        "Creativity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which example BEST demonstrates the importance of privacy in AI?",
+      "options": [
+        "AI improving search results",
+        "AI recommending movies",
+        "AI protecting users’ passwords and personal messages",
+        "AI generating digital artwork"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "question": "An AI used to judge a competition favors one cultural style of design over all others. Which ethical principle is being ignored?",
+      "options": [
+        "Safety",
+        "Fairness",
+        "Privacy",
+        "Automation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Which statement BEST explains why AI ethics are necessary?",
+      "options": [
+        "AI systems are weak and unreliable",
+        "AI has powerful capabilities that could be misused",
+        "AI cannot perform tasks without ethics",
+        "AI only works with strict rules"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "Fake news created by AI is dangerous mainly because it:",
+      "options": [
+        "Is always humorous",
+        "Spreads convincing but false information quickly",
+        "Can only be read by computers",
+        "Always includes clear warnings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which technology can create a fake video of a person saying something they never said?",
+      "options": [
+        "Speech recognition",
+        "Automation",
+        "Deepfakes",
+        "Encryption"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "Why are deepfakes considered a threat to society?",
+      "options": [
+        "They increase internet speed",
+        "They make computers slower",
+        "They can damage trust by spreading fake visual evidence",
+        "They reduce data storage needs"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Automation through AI mainly affects which type of jobs first?",
+      "options": [
+        "Jobs requiring empathy and leadership",
+        "Jobs involving repetitive tasks",
+        "Jobs involving storytelling",
+        "Jobs involving complex human relationships"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which human ability is LEAST likely to be replaced by AI according to the chapter?",
+      "options": [
+        "Basic calculations",
+        "Organizing schedules",
+        "Empathy and emotional understanding",
+        "Sorting data"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "question": "An AI engineer's primary responsibility is to:",
+      "options": [
+        "Collect and clean datasets",
+        "Design and build AI algorithms",
+        "Repair robotic hardware",
+        "Write news articles using AI"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Data Scientists help AI learn effectively mainly by:",
+      "options": [
+        "Designing robot bodies",
+        "Cleaning and organizing large datasets",
+        "Manufacturing computer chips",
+        "Building physical machines"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which professional would MOST likely design robotic arms used in automated factories?",
+      "options": [
+        "AI Engineer",
+        "Data Scientist",
+        "Robotics Engineer",
+        "Graphic Designer"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "Which scenario best illustrates collaboration between humans and AI in the future?",
+      "options": [
+        "AI replacing all creative jobs",
+        "Designers using AI to brainstorm and improve ideas",
+        "AI banning human creativity",
+        "Humans avoiding technology completely"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Why must data scientists remove bias from training data?",
+      "options": [
+        "To reduce file size",
+        "To make AI run faster",
+        "To ensure AI decisions remain fair and unbiased",
+        "To prevent AI from learning anything"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q17",
+      "question": "Which example BEST represents responsible AI development?",
+      "options": [
+        "Releasing AI quickly without testing",
+        "Training AI using stolen personal data",
+        "Testing AI repeatedly before public release",
+        "Allowing AI to make decisions without supervision"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q18",
+      "question": "Why is misinformation generated by AI particularly difficult to detect?",
+      "options": [
+        "It spreads only offline",
+        "It often appears realistic and convincing",
+        "It uses unfamiliar languages",
+        "It cannot be shared online"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which career focuses MOST on giving AI a physical form to interact with the world?",
+      "options": [
+        "Robotics Engineer",
+        "Data Scientist",
+        "AI Ethicist",
+        "Software Tester"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which statement best reflects the future relationship between humans and AI?",
+      "options": [
+        "AI will eliminate all human jobs",
+        "Humans will stop using technology",
+        "Humans will use AI as a powerful assistant",
+        "AI will work without human input forever"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

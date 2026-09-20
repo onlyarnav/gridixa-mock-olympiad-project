@@ -1,0 +1,227 @@
+
+{
+  "title": "Module 2 - Chapter 1 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following is the best example of an algorithm?",
+      "options": [
+        "A random collection of ideas",
+        "A step-by-step set of instructions to solve a problem",
+        "A colorful computer screen",
+        "A type of computer game"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "What is the first step when solving a problem using computational thinking?",
+      "options": [
+        "Guess the answer",
+        "Break the problem into smaller steps",
+        "Write computer code immediately",
+        "Delete all information"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which activity shows logical reasoning?",
+      "options": [
+        "Choosing a random answer",
+        "Following clues to solve a puzzle",
+        "Closing the computer",
+        "Watching a cartoon"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "What is the main purpose of an algorithm?",
+      "options": [
+        "To decorate a webpage",
+        "To solve a problem using clear instructions",
+        "To increase internet speed",
+        "To make computers heavier"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which of these is an algorithm for brushing your teeth?",
+      "options": [
+        "Watch TV, sleep, eat breakfast",
+        "Pick up toothbrush → Apply toothpaste → Brush → Rinse",
+        "Play football → Drink water → Brush",
+        "Brush → Buy toothpaste → Wake up"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "If a recipe misses an important step, what is most likely to happen?",
+      "options": [
+        "The recipe still works perfectly",
+        "The final result may not be correct",
+        "The food cooks faster",
+        "The ingredients disappear"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "What does debugging mean?",
+      "options": [
+        "Adding new games",
+        "Finding and fixing mistakes",
+        "Deleting all files",
+        "Turning off the computer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "A robot is told to move forward 5 steps but only moves 4. What should you do?",
+      "options": [
+        "Throw the robot away",
+        "Debug the instructions to find the mistake",
+        "Ignore the problem",
+        "Turn off the lights"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which of the following helps solve difficult problems more easily?",
+      "options": [
+        "Ignoring the problem",
+        "Breaking it into smaller parts",
+        "Doing everything at once",
+        "Waiting for someone else"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is the correct order for making a sandwich?",
+      "options": [
+        "Eat → Make → Buy bread",
+        "Take bread → Add filling → Close sandwich",
+        "Close sandwich → Add filling → Take bread",
+        "Drink juice → Add filling → Sleep"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which statement best describes logical reasoning?",
+      "options": [
+        "Making decisions based on careful thinking",
+        "Choosing answers randomly",
+        "Always copying others",
+        "Never checking your work"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q12",
+      "question": "Why should algorithm steps be written clearly?",
+      "options": [
+        "So everyone follows the same instructions correctly",
+        "To make the page colorful",
+        "To confuse the reader",
+        "To make the algorithm longer"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Which situation most likely needs debugging?",
+      "options": [
+        "A program gives the wrong answer",
+        "A computer is switched off",
+        "A keyboard is clean",
+        "A monitor is bright"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "What happens if the steps of an algorithm are in the wrong order?",
+      "options": [
+        "The task may not work correctly",
+        "The computer becomes faster",
+        "Nothing changes",
+        "The internet becomes stronger"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q15",
+      "question": "Which of these is an example of solving a problem step by step?",
+      "options": [
+        "Packing your school bag using a checklist",
+        "Throwing everything into the bag randomly",
+        "Leaving books at home",
+        "Waiting until school starts"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "You notice that your paper airplane does not fly well. What is the best debugging approach?",
+      "options": [
+        "Change one fold at a time and test again",
+        "Throw it away immediately",
+        "Fold it randomly",
+        "Stop making airplanes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "Which skill is most important when writing algorithms?",
+      "options": [
+        "Clear thinking",
+        "Drawing pictures",
+        "Fast typing",
+        "Playing games"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "A friend cannot follow your instructions to build a toy. What should you do?",
+      "options": [
+        "Rewrite the steps more clearly",
+        "Tell them to guess",
+        "Remove more steps",
+        "Give up"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which action shows good computational thinking?",
+      "options": [
+        "Finding patterns before solving the problem",
+        "Skipping all the instructions",
+        "Guessing without thinking",
+        "Changing the question"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "After fixing one mistake in an algorithm, what should you do next?",
+      "options": [
+        "Test it again to see if it now works correctly",
+        "Delete the algorithm",
+        "Ignore the result",
+        "Start a different task"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

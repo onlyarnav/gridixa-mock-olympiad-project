@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does a partial derivative measure in a multivariable function?",
+      "options": [
+        "Total change of all variables together",
+        "Change of one variable while others remain constant",
+        "Average value of variables",
+        "Rate of probability change"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "For f(x, y) = x² + y², what is ∂f/∂x?",
+      "options": [
+        "2y",
+        "x",
+        "2x",
+        "x+y"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Why are partial derivatives essential in Machine Learning?",
+      "options": [
+        "They compress datasets",
+        "They determine parameter updates to reduce loss",
+        "They replace activation functions",
+        "They increase dataset size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "The collection of all partial derivatives of a function forms:",
+      "options": [
+        "Hessian",
+        "Gradient",
+        "Embedding",
+        "Distribution"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What direction does the gradient vector point toward?",
+      "options": [
+        "Steepest decrease",
+        "Steepest increase",
+        "Minimum curvature",
+        "Random direction"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Gradient descent updates parameters using:",
+      "options": [
+        "θnew = θold + η∇L",
+        "θnew = θold × η",
+        "θnew = θold − η∇L",
+        "θnew = η / θold"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "What is the primary role of the learning rate (η)?",
+      "options": [
+        "Controls update step size",
+        "Stores gradients",
+        "Calculates loss",
+        "Normalizes features"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q8",
+      "question": "A learning rate that is too large most likely causes:",
+      "options": [
+        "Overfitting only",
+        "Overshooting and divergence",
+        "Zero gradients",
+        "Automatic convergence"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which gradient descent method updates parameters using one example at a time?",
+      "options": [
+        "Batch GD",
+        "Mini-Batch GD",
+        "Stochastic GD",
+        "Adam"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Mini-batch gradient descent is popular because it:",
+      "options": [
+        "Eliminates gradients",
+        "Balances speed and stability",
+        "Uses the full dataset",
+        "Avoids optimization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Backpropagation primarily computes:",
+      "options": [
+        "Loss values",
+        "Partial derivatives",
+        "Feature scaling",
+        "Embeddings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which statement correctly differentiates gradient descent and backpropagation?",
+      "options": [
+        "Both update weights directly",
+        "Backpropagation computes gradients; gradient descent updates parameters",
+        "Gradient descent computes gradients",
+        "Backpropagation reduces learning rate"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "What optimization problem occurs when gradients become extremely small?",
+      "options": [
+        "Exploding gradients",
+        "Vanishing gradients",
+        "Overfitting",
+        "Sampling noise"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q14",
+      "question": "Which optimizer combines momentum and adaptive learning rates?",
+      "options": [
+        "SGD",
+        "AdaGrad",
+        "Adam",
+        "Newton"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q15",
+      "question": "AdamW mainly improves Adam by:",
+      "options": [
+        "Removing gradients",
+        "Handling weight decay more correctly",
+        "Using second derivatives",
+        "Removing momentum"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which regularization technique randomly disables neurons during training?",
+      "options": [
+        "Batch Normalization",
+        "Dropout",
+        "Weight Decay",
+        "Momentum"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "Gradient clipping is mainly used to:",
+      "options": [
+        "Increase learning rate",
+        "Prevent exploding gradients",
+        "Normalize inputs",
+        "Reduce epochs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Why is feature scaling helpful for optimization?",
+      "options": [
+        "It reduces model parameters",
+        "It creates smoother optimization landscapes",
+        "It eliminates gradients",
+        "It removes overfitting"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "Second-order optimization methods differ because they use:",
+      "options": [
+        "Only gradients",
+        "Only learning rates",
+        "Curvature information via second derivatives",
+        "Random search"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q20",
+      "question": "At olympiad level, optimization should be understood as:",
+      "options": [
+        "Only applying formulas",
+        "Reducing training loss without evaluation",
+        "Using gradients and training strategies to improve performance while maintaining generalization",
+        "Choosing Adam for every problem"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

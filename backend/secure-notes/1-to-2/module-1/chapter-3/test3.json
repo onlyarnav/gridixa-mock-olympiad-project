@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 3 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary purpose of conditional statements in Python?",
+      "options": [
+        "To repeat instructions",
+        "To store variables",
+        "To make decisions based on conditions",
+        "To create functions"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "Which statement about Python indentation is correct?",
+      "options": [
+        "It is optional",
+        "It replaces braces and defines code blocks",
+        "It only works in loops",
+        "It improves execution speed"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is the output?\nmarks = 95\nif marks >= 50:\n    print(\"Passed\")\nelif marks >= 90:\n    print(\"Excellent\")",
+      "options": [
+        "Excellent",
+        "Passed",
+        "Both",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which keyword allows checking multiple conditions sequentially?",
+      "options": [
+        "for",
+        "elif",
+        "continue",
+        "range"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which values are considered falsy in Python?",
+      "options": [
+        "1, True",
+        "0, \"\", False",
+        "\"Python\", 1",
+        "[1], True"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is the output?\nfor i in range(5):\n print(i)",
+      "options": [
+        "1 2 3 4 5",
+        "0 1 2 3 4",
+        "0 1 2 3 4 5",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "What does range(1,6) generate?",
+      "options": [
+        "1–6",
+        "0–6",
+        "1–5",
+        "0–5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "Which loop is preferred when repetition count is known?",
+      "options": [
+        "while",
+        "if",
+        "for",
+        "elif"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "What is an infinite loop?",
+      "options": [
+        "A loop with nested loops",
+        "A loop whose condition never becomes False",
+        "A loop with break",
+        "A loop without variables"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "What does the break statement do?",
+      "options": [
+        "Skips current iteration",
+        "Stops loop immediately",
+        "Restarts loop",
+        "Creates a condition"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "What does continue do inside loops?",
+      "options": [
+        "Ends loop",
+        "Skips current iteration",
+        "Creates recursion",
+        "Restarts program"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "What is a function?",
+      "options": [
+        "A reusable block of code",
+        "A loop condition",
+        "A datatype",
+        "A memory location"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q13",
+      "question": "Which keyword is used to define functions?",
+      "options": [
+        "function",
+        "define",
+        "def",
+        "return"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "What happens immediately after creating a function?",
+      "options": [
+        "It executes automatically",
+        "It is stored until called",
+        "It becomes recursive",
+        "It returns output"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "What is the difference between print() and return?",
+      "options": [
+        "No difference",
+        "print displays, return sends value back",
+        "return only works in loops",
+        "print stores variables"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "What are parameters in functions?",
+      "options": [
+        "Outputs",
+        "Placeholders for inputs",
+        "Loop counters",
+        "Comments"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "What concept restricts local variables to functions?",
+      "options": [
+        "Iteration",
+        "Scope",
+        "Embedding",
+        "Casting"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which function type calls itself?",
+      "options": [
+        "Lambda",
+        "Nested",
+        "Recursive",
+        "Default"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q19",
+      "question": "What will greet return?\ndef greet(name=\"Student\"):\n print(\"Hello\", name)\ngreet()",
+      "options": [
+        "Hello Student",
+        "Student",
+        "Error",
+        "Nothing printed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which programming idea is demonstrated by combining conditions, loops, and functions together?",
+      "options": [
+        "Static execution",
+        "Computational thinking and modular problem solving",
+        "Manual processing",
+        "Variable declaration"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

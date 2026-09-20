@@ -1,0 +1,227 @@
+
+{
+  "title": "Module 5 Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "In a flowchart, which symbol is typically used to represent the Start or End of a process?",
+      "options": [
+        "Rectangle",
+        "Diamond",
+        "Oval",
+        "Parallelogram"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "question": "What does a diamond symbol represent in a flowchart?",
+      "options": [
+        "Input/Output",
+        "Decision or condition check",
+        "Process execution",
+        "Start/Stop"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which flowchart symbol is generally used for calculations or processing steps?",
+      "options": [
+        "Rectangle",
+        "Diamond",
+        "Oval",
+        "Arrow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "question": "A parallelogram in a flowchart is commonly used to represent:",
+      "options": [
+        "Decision making",
+        "Input and Output operations",
+        "Program termination",
+        "Loops"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "Why are arrows important in a flowchart?",
+      "options": [
+        "They store data",
+        "They indicate the sequence and direction of execution",
+        "They perform calculations",
+        "They check conditions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "A flowchart asks: 'Is Score ≥ 40?' Which symbol should contain this question?",
+      "options": [
+        "Oval",
+        "Rectangle",
+        "Diamond",
+        "Parallelogram"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "What is debugging in programming?",
+      "options": [
+        "Writing new features",
+        "Finding and fixing errors in a program",
+        "Creating flowcharts",
+        "Compressing files"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following is a syntax error?",
+      "options": [
+        "Using '=' instead of '==' in a condition",
+        "Missing a closing bracket",
+        "Incorrect formula implementation",
+        "Wrong program output despite successful execution"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "A program runs successfully but produces incorrect results. This is most likely a:",
+      "options": [
+        "Hardware error",
+        "Syntax error",
+        "Logic error",
+        "Compilation error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "Why are logic errors often considered more difficult to detect than syntax errors?",
+      "options": [
+        "They prevent the program from running",
+        "They automatically generate error messages",
+        "The program appears to work but gives incorrect results",
+        "They only occur in flowcharts"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "A student creates a program to calculate average marks but accidentally divides by the wrong number. What type of error is this?",
+      "options": [
+        "Syntax error",
+        "Logic error",
+        "Input error",
+        "Compilation error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which debugging technique involves checking program execution step-by-step to identify where a problem occurs?",
+      "options": [
+        "Tokenization",
+        "Tracing",
+        "Compression",
+        "Chunking"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "A flowchart for checking whether a number is positive should contain which sequence?",
+      "options": [
+        "Start → Decision → Output → End",
+        "Start → End → Decision → Output",
+        "Input → End → Start",
+        "Decision → Start → End"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Which statement about flowcharts is TRUE?",
+      "options": [
+        "They can only represent mathematical problems",
+        "They visually represent the logic and sequence of steps in a solution",
+        "They replace programming languages completely",
+        "They are only used after coding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "A programmer notices that a loop executes 11 times instead of 10. The code runs successfully. What type of issue is this?",
+      "options": [
+        "Syntax error",
+        "Logic error",
+        "Hardware failure",
+        "Input-output error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which flowchart symbol would most likely appear immediately before a decision box?",
+      "options": [
+        "A process rectangle containing a calculation or input step",
+        "Another decision box only",
+        "An arrow without any symbol",
+        "A program error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "What is the primary benefit of creating a flowchart before coding?",
+      "options": [
+        "It increases processor speed",
+        "It helps visualize logic and identify potential errors early",
+        "It automatically writes code",
+        "It removes the need for testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "A flowchart branch labeled 'Yes' and 'No' usually emerges from which symbol?",
+      "options": [
+        "Rectangle",
+        "Parallelogram",
+        "Oval",
+        "Diamond"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q19",
+      "question": "Which situation best demonstrates debugging?",
+      "options": [
+        "Designing a new algorithm from scratch",
+        "Analyzing code to discover why expected output is not produced",
+        "Collecting survey data",
+        "Drawing charts from data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q20",
+      "question": "A programmer uses a flowchart to map a solution, then traces program execution and corrects an incorrect condition. Which concepts are being applied together?",
+      "options": [
+        "Data visualization and statistics",
+        "Flowchart design and debugging",
+        "Machine learning and embeddings",
+        "Networking and databases"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

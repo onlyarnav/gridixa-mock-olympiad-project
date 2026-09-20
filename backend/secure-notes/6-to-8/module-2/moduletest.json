@@ -1,0 +1,1171 @@
+{
+  "module": "AI Evolution, Data, Models, Agents & LLM Basics",
+  "level": "6-8",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What was the main inspiration behind artificial neural networks?",
+      "options": [
+        "The structure of the human brain",
+        "The design of calculators",
+        "The memory of hard drives",
+        "The speed of the internet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "In an artificial neural network, what do the digital nodes do?",
+      "options": [
+        "Store electricity only",
+        "Pass mathematical signals to one another",
+        "Print images on the screen",
+        "Replace training data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which statement best describes deep learning?",
+      "options": [
+        "A network with no hidden layers",
+        "A network with multiple hidden layers between input and output",
+        "A system that works only on spreadsheets",
+        "A machine that does not use data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "question": "In the factory analogy of deep learning, what does the hidden layer mainly represent?",
+      "options": [
+        "The final result only",
+        "Steps that process raw data into useful features",
+        "The keyboard used to enter data",
+        "The output screen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which task is CNN especially designed for?",
+      "options": [
+        "Solving math equations",
+        "Analyzing images, photos, and videos",
+        "Writing long essays without text input",
+        "Managing email folders"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "question": "Why is a CNN compared to the 'eyes' of AI?",
+      "options": [
+        "It hears audio signals",
+        "It processes visual data such as pixels",
+        "It stores long memories",
+        "It works only with numbers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "question": "What does a CNN scan across an image to find patterns?",
+      "options": [
+        "A loop",
+        "A filter",
+        "A token",
+        "A context window"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which AI application mentioned in the chapter uses CNNs?",
+      "options": [
+        "Predicting the next word while typing",
+        "Facial recognition on phones",
+        "Detecting the tone of a paragraph",
+        "Autonomous party planning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "question": "RNNs are especially useful because they can handle:",
+      "options": [
+        "Sequences",
+        "Only single images",
+        "Only random numbers",
+        "Only hardware signals"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "question": "Which of the following is an example of a sequence given in the chapter?",
+      "options": [
+        "A photograph",
+        "The words in a sentence",
+        "A single pixel",
+        "A computer monitor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "question": "Why did RNNs struggle with long tasks like a 10-page essay?",
+      "options": [
+        "They had no input layer",
+        "They had terrible short-term memory for long sequences",
+        "They could not read words",
+        "They used too many pixels"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "question": "What major breakthrough was introduced in 2017 by Google?",
+      "options": [
+        "Artificial Neural Networks",
+        "Transformers",
+        "Testing Data",
+        "Deep Blue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "question": "What is the main advantage of Transformers over earlier text-reading AI?",
+      "options": [
+        "They read one word at a time more slowly",
+        "They can look at all the words at once",
+        "They only work on images",
+        "They have no attention mechanism"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "question": "What does the Attention Mechanism help AI do?",
+      "options": [
+        "Focus on important words and ignore less important ones",
+        "Convert images into pixels",
+        "Increase the number of layers",
+        "Remove the context window limit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "question": "In the sentence 'The cat that was hiding under the table suddenly jumped,' which words would receive more attention according to the chapter?",
+      "options": [
+        "The, was, under",
+        "cat, hiding, jumped",
+        "that, the, suddenly",
+        "table, the, was"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "question": "What is a dataset in machine learning compared to in the chapter?",
+      "options": [
+        "A final exam paper",
+        "A textbook full of practice problems and answers",
+        "A computer's power supply",
+        "A website login page"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "question": "Why is training data separated from testing data?",
+      "options": [
+        "To make the AI memorize the answers twice",
+        "To check whether the AI has truly learned or just memorized",
+        "To reduce the size of the model",
+        "To remove all labels from the data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "question": "Which of the following best describes testing data?",
+      "options": [
+        "Data the AI has already studied",
+        "Brand-new data the AI has never seen before",
+        "Only unlabeled data used for storage",
+        "The training instructions for the model"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q19",
+      "question": "What is overfitting?",
+      "options": [
+        "Learning too little to solve even easy problems",
+        "Learning training data too perfectly, including unimportant details",
+        "Learning the correct general pattern only",
+        "Using no testing data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which example best shows overfitting?",
+      "options": [
+        "The AI learns that all dog pictures have trees and gets confused without trees",
+        "The AI can recognize dogs in any setting",
+        "The AI cannot identify dogs at all",
+        "The AI only looks at one picture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q21",
+      "question": "What is underfitting?",
+      "options": [
+        "Learning too much detail from the training set",
+        "Not learning enough to solve problems well",
+        "Using only testing data",
+        "Being correct on all new data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "question": "What does perfect fitting mean in AI?",
+      "options": [
+        "Memorizing every training example exactly",
+        "Learning the important patterns and working well on new data",
+        "Failing on all new examples",
+        "Ignoring the training data completely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "In the chapter, what does accuracy measure?",
+      "options": [
+        "How wrong the AI is",
+        "The percentage of correct answers",
+        "How many layers the AI has",
+        "How long the model takes to train"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "question": "What does precision tell us?",
+      "options": [
+        "When the AI says 'yes,' how often it is correct",
+        "How many total samples exist in the dataset",
+        "How large the context window is",
+        "How quickly the AI replies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q25",
+      "question": "What does recall tell us?",
+      "options": [
+        "How many real 'yes' cases the AI was able to find",
+        "How often the AI says 'no'",
+        "How much memory the AI uses",
+        "How many tokens are in the prompt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q26",
+      "question": "Why is F1 Score used?",
+      "options": [
+        "To replace loss completely",
+        "To balance precision and recall",
+        "To count the number of layers",
+        "To measure image size"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "question": "What does the Loss Function mainly show?",
+      "options": [
+        "How many correct answers the AI gave",
+        "How wrong the AI was and by how much",
+        "How many tokens the model can read",
+        "How many images are in the dataset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "question": "What is an AI Agent?",
+      "options": [
+        "An AI that only answers questions",
+        "An AI that has a goal and interacts with its environment to achieve it",
+        "A model that only processes images",
+        "A dataset used for training"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "question": "Which sequence correctly shows the Agent Loop?",
+      "options": [
+        "Decide → Observe → Act",
+        "Observe → Decide → Act",
+        "Act → Decide → Observe",
+        "Observe → Act → Decide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "question": "In the Agent Loop, what happens during the 'Observe' step?",
+      "options": [
+        "The agent changes the environment immediately",
+        "The agent gathers data from the world around it",
+        "The agent stops learning forever",
+        "The agent deletes old information"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "question": "Which of the following is an Output example for a digital AI Agent?",
+      "options": [
+        "A camera lens",
+        "Sending an automatic email",
+        "A microphone",
+        "A thermometer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "Why was Deep Blue considered an AI Agent in the chapter?",
+      "options": [
+        "It could only store chess pieces",
+        "It had a goal and chose actions to achieve it",
+        "It could write essays",
+        "It worked like a photo editor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "What is an LLM?",
+      "options": [
+        "A small rule-based calculator",
+        "A Large Language Model trained on huge amounts of text",
+        "A camera-based AI system",
+        "A file compression tool"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "question": "Why do LLMs use tokens instead of full words?",
+      "options": [
+        "Because tokens are always longer than words",
+        "Because tokens help understand changing language and new slang better",
+        "Because words cannot be stored in computers",
+        "Because tokens remove the need for training"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "What does the Context Window of an LLM represent?",
+      "options": [
+        "The number of cameras attached to the model",
+        "The amount of information it can hold in working memory at one time",
+        "The number of layers in the neural network",
+        "The size of the training dataset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "question": "Scientists created Artificial Neural Networks primarily to mimic which natural system?",
+      "options": [
+        "Human digestive system",
+        "Human brain neuron network",
+        "Electrical circuits in machines",
+        "Solar energy grids"
+      ],
+      "correctAnswer": "Human brain neuron network",
+      "explanation": "Artificial Neural Networks are inspired by the way biological neurons in the human brain connect and transmit signals."
+    },
+    {
+      "id": 37,
+      "question": "If a neural network has only an input layer and output layer with no hidden layers, it is least capable of:",
+      "options": [
+        "Handling raw numerical data",
+        "Learning complex hierarchical patterns",
+        "Performing basic classification",
+        "Receiving inputs"
+      ],
+      "correctAnswer": "Learning complex hierarchical patterns",
+      "explanation": "Hidden layers allow networks to learn complex features. Without them, the model cannot capture complex patterns."
+    },
+    {
+      "id": 38,
+      "question": "In Deep Learning, why are multiple hidden layers useful?",
+      "options": [
+        "They reduce electricity usage",
+        "They allow AI to learn patterns in increasing complexity",
+        "They prevent training data from being used",
+        "They convert images to text automatically"
+      ],
+      "correctAnswer": "They allow AI to learn patterns in increasing complexity",
+      "explanation": "Different hidden layers progressively detect basic to complex features."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following best describes how a CNN processes an image?",
+      "options": [
+        "It reads the entire image as a single word",
+        "It converts the image into audio signals",
+        "It scans pixel grids using filters to detect patterns",
+        "It memorizes every pixel without processing"
+      ],
+      "correctAnswer": "It scans pixel grids using filters to detect patterns",
+      "explanation": "CNN filters slide across pixel grids detecting patterns like edges and shapes."
+    },
+    {
+      "id": 40,
+      "question": "Which task is most suitable for a CNN?",
+      "options": [
+        "Predicting the next word in a sentence",
+        "Analyzing stock market sequences",
+        "Recognizing faces in photographs",
+        "Writing essays"
+      ],
+      "correctAnswer": "Recognizing faces in photographs",
+      "explanation": "CNNs specialize in analyzing visual patterns in images."
+    },
+    {
+      "id": 41,
+      "question": "What special feature allows an RNN to remember previous information?",
+      "options": [
+        "Looping connections",
+        "Pixel scanning",
+        "Token splitting",
+        "Filter kernels"
+      ],
+      "correctAnswer": "Looping connections",
+      "explanation": "RNNs include loops that allow information to persist across time steps."
+    },
+    {
+      "id": 42,
+      "question": "Which type of data is BEST suited for RNN processing?",
+      "options": [
+        "Independent photographs",
+        "Random numbers",
+        "Sequential text or time series",
+        "Static image grids"
+      ],
+      "correctAnswer": "Sequential text or time series",
+      "explanation": "RNNs are designed to process ordered sequences like sentences or time data."
+    },
+    {
+      "id": 43,
+      "question": "Why do traditional RNNs struggle with very long sequences?",
+      "options": [
+        "They cannot read numbers",
+        "They lose earlier information over time",
+        "They cannot process tokens",
+        "They only work with images"
+      ],
+      "correctAnswer": "They lose earlier information over time",
+      "explanation": "RNNs suffer from short-term memory issues and forget earlier parts of long sequences."
+    },
+    {
+      "id": 44,
+      "question": "Which major AI architecture solved many long-sequence problems of RNNs?",
+      "options": [
+        "Decision Trees",
+        "Transformers",
+        "CNN filters",
+        "Linear regression"
+      ],
+      "correctAnswer": "Transformers",
+      "explanation": "Transformers process entire sequences simultaneously and maintain relationships between words."
+    },
+    {
+      "id": 45,
+      "question": "The attention mechanism helps AI mainly by:",
+      "options": [
+        "Deleting unnecessary training data",
+        "Focusing on important words and relationships",
+        "Removing tokens from text",
+        "Converting images into text"
+      ],
+      "correctAnswer": "Focusing on important words and relationships",
+      "explanation": "Attention assigns importance to key words so AI understands context better."
+    },
+    {
+      "id": 46,
+      "question": "In machine learning, what is the purpose of training data?",
+      "options": [
+        "Testing AI performance",
+        "Teaching the AI patterns",
+        "Reducing token sizes",
+        "Increasing GPU temperature"
+      ],
+      "correctAnswer": "Teaching the AI patterns",
+      "explanation": "Training data allows the model to learn relationships between inputs and outputs."
+    },
+    {
+      "id": 47,
+      "question": "Why must testing data be different from training data?",
+      "options": [
+        "To prevent memorization from appearing as learning",
+        "To reduce training time",
+        "To increase token count",
+        "To make datasets smaller"
+      ],
+      "correctAnswer": "To prevent memorization from appearing as learning",
+      "explanation": "Testing with unseen data ensures the model actually learned general rules."
+    },
+    {
+      "id": 48,
+      "question": "A model that performs perfectly on training data but poorly on new data is suffering from:",
+      "options": [
+        "Underfitting",
+        "Perfect fitting",
+        "Overfitting",
+        "Tokenization"
+      ],
+      "correctAnswer": "Overfitting",
+      "explanation": "Overfitting occurs when the model memorizes training data rather than learning patterns."
+    },
+    {
+      "id": 49,
+      "question": "Which scenario best represents underfitting?",
+      "options": [
+        "AI cannot identify even obvious examples",
+        "AI perfectly predicts all training data",
+        "AI only memorizes tokens",
+        "AI only processes images"
+      ],
+      "correctAnswer": "AI cannot identify even obvious examples",
+      "explanation": "Underfitting means the model failed to learn enough patterns."
+    },
+    {
+      "id": 50,
+      "question": "Which fitting scenario indicates ideal learning?",
+      "options": [
+        "Overfitting",
+        "Perfect fitting",
+        "Underfitting",
+        "Token collapse"
+      ],
+      "correctAnswer": "Perfect fitting",
+      "explanation": "Perfect fitting means the model generalizes well to unseen data."
+    },
+    {
+      "id": 51,
+      "question": "Which metric simply measures the percentage of correct predictions?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Accuracy",
+        "Loss"
+      ],
+      "correctAnswer": "Accuracy",
+      "explanation": "Accuracy is the proportion of total predictions that are correct."
+    },
+    {
+      "id": 52,
+      "question": "Precision primarily evaluates:",
+      "options": [
+        "How many actual positives exist",
+        "How many predicted positives are correct",
+        "Total dataset size",
+        "Loss reduction speed"
+      ],
+      "correctAnswer": "How many predicted positives are correct",
+      "explanation": "Precision measures correctness among predicted positive results."
+    },
+    {
+      "id": 53,
+      "question": "Recall focuses on:",
+      "options": [
+        "Total number of tokens",
+        "Detecting actual positive cases",
+        "Reducing model size",
+        "Increasing dataset diversity"
+      ],
+      "correctAnswer": "Detecting actual positive cases",
+      "explanation": "Recall measures how many real positive cases the AI successfully identifies."
+    },
+    {
+      "id": 54,
+      "question": "Why is F1 Score useful?",
+      "options": [
+        "Balances precision and recall",
+        "Counts tokens",
+        "Reduces dataset size",
+        "Measures training time"
+      ],
+      "correctAnswer": "Balances precision and recall",
+      "explanation": "F1 Score combines precision and recall into a single balanced metric."
+    },
+    {
+      "id": 55,
+      "question": "A loss function mainly tells us:",
+      "options": [
+        "How long training takes",
+        "How incorrect predictions are",
+        "How many tokens are used",
+        "How large the dataset is"
+      ],
+      "correctAnswer": "How incorrect predictions are",
+      "explanation": "Loss measures the distance between predictions and correct answers."
+    },
+    {
+      "id": 56,
+      "question": "Which feature distinguishes an AI Agent from traditional AI?",
+      "options": [
+        "It only answers questions",
+        "It interacts with environments to achieve goals",
+        "It only processes tokens",
+        "It only uses CNN models"
+      ],
+      "correctAnswer": "It interacts with environments to achieve goals",
+      "explanation": "Agents actively observe, decide, and act to achieve objectives."
+    },
+    {
+      "id": 57,
+      "question": "The three-step agent loop consists of:",
+      "options": [
+        "Input → Train → Output",
+        "Observe → Decide → Act",
+        "Collect → Store → Display",
+        "Predict → Validate → Deploy"
+      ],
+      "correctAnswer": "Observe → Decide → Act",
+      "explanation": "This loop continuously guides agent behavior."
+    },
+    {
+      "id": 58,
+      "question": "In an AI Agent, sensors belong to which component?",
+      "options": [
+        "Output",
+        "Input",
+        "Brain",
+        "Loss layer"
+      ],
+      "correctAnswer": "Input",
+      "explanation": "Inputs allow agents to observe their environment."
+    },
+    {
+      "id": 59,
+      "question": "In AI agents, the Brain primarily performs:",
+      "options": [
+        "Environment sensing",
+        "Action execution",
+        "Decision making using models",
+        "Token storage"
+      ],
+      "correctAnswer": "Decision making using models",
+      "explanation": "The brain processes inputs and chooses optimal actions."
+    },
+    {
+      "id": 60,
+      "question": "In a digital AI agent, sending an automated email would be an example of:",
+      "options": [
+        "Input",
+        "Brain",
+        "Output",
+        "Tokenization"
+      ],
+      "correctAnswer": "Output",
+      "explanation": "Output actions change the environment."
+    },
+    {
+      "id": 61,
+      "question": "Large Language Models are mainly built using which architecture?",
+      "options": [
+        "CNN",
+        "Transformers",
+        "Decision Trees",
+        "Random Forests"
+      ],
+      "correctAnswer": "Transformers",
+      "explanation": "Modern LLMs rely on transformer architectures with attention mechanisms."
+    },
+    {
+      "id": 62,
+      "question": "What does an LLM primarily learn from large datasets?",
+      "options": [
+        "How words relate and form language patterns",
+        "How to scan images",
+        "How to measure pixel brightness",
+        "How to detect physical sensors"
+      ],
+      "correctAnswer": "How words relate and form language patterns",
+      "explanation": "LLMs learn statistical relationships in human language."
+    },
+    {
+      "id": 63,
+      "question": "Why do LLMs use tokens instead of full words?",
+      "options": [
+        "To reduce vocabulary rigidity and understand new words",
+        "To convert images faster",
+        "To increase pixel resolution",
+        "To eliminate attention mechanisms"
+      ],
+      "correctAnswer": "To reduce vocabulary rigidity and understand new words",
+      "explanation": "Tokenization allows flexible understanding of new and complex words."
+    },
+    {
+      "id": 64,
+      "question": "Approximately how many characters are usually represented by one token?",
+      "options": [
+        "1 character",
+        "2 characters",
+        "4 characters",
+        "10 characters"
+      ],
+      "correctAnswer": "4 characters",
+      "explanation": "On average, one token represents about four English characters."
+    },
+    {
+      "id": 65,
+      "question": "What limits how much information an LLM can process at once?",
+      "options": [
+        "Tokenizer length",
+        "Context window",
+        "Loss value",
+        "Precision score"
+      ],
+      "correctAnswer": "Context window",
+      "explanation": "Context window defines the maximum tokens the model can remember simultaneously."
+    },
+    {
+      "id": 66,
+      "question": "If an input exceeds the context window, the AI will:",
+      "options": [
+        "Delete the output",
+        "Forget earlier tokens",
+        "Stop tokenization",
+        "Increase precision"
+      ],
+      "correctAnswer": "Forget earlier tokens",
+      "explanation": "LLMs cannot retain tokens beyond their context window limit."
+    },
+    {
+      "id": 67,
+      "question": "Prompt engineering mainly focuses on:",
+      "options": [
+        "Designing better datasets",
+        "Writing clearer instructions for AI",
+        "Improving GPU hardware",
+        "Reducing token counts"
+      ],
+      "correctAnswer": "Writing clearer instructions for AI",
+      "explanation": "Better prompts lead to more accurate AI outputs."
+    },
+    {
+      "id": 68,
+      "question": "KV Cache improves LLM performance mainly by:",
+      "options": [
+        "Reducing memory usage permanently",
+        "Avoiding repeated processing of previous tokens",
+        "Increasing dataset size",
+        "Eliminating tokenization"
+      ],
+      "correctAnswer": "Avoiding repeated processing of previous tokens",
+      "explanation": "KV cache stores previous attention results so the model doesn't recompute them."
+    },
+    {
+      "id": 69,
+      "question": "KV Cache can be compared to:",
+      "options": [
+        "Hard drive storage",
+        "Sticky notes storing key ideas",
+        "Internet cables",
+        "Digital microphones"
+      ],
+      "correctAnswer": "Sticky notes storing key ideas",
+      "explanation": "It stores previously processed information for quick reference."
+    },
+    {
+      "id": 70,
+      "question": "What is HuggingFace primarily known for?",
+      "options": [
+        "Building smartphones",
+        "Hosting open-source AI models and datasets",
+        "Manufacturing robots",
+        "Selling GPUs"
+      ],
+      "correctAnswer": "Hosting open-source AI models and datasets",
+      "explanation": "HuggingFace is a platform where developers share machine learning models and tools."
+    },
+    {
+      "id": 71,
+      "question": "In an Artificial Neural Network, what is the primary role of digital nodes?",
+      "options": [
+        "Store entire datasets permanently",
+        "Pass mathematical signals to other nodes",
+        "Convert text into images",
+        "Generate random outputs"
+      ],
+      "correctAnswer": "Pass mathematical signals to other nodes",
+      "explanation": "Nodes in neural networks pass weighted mathematical signals to connected nodes to process information."
+    },
+    {
+      "id": 72,
+      "question": "In Deep Learning architecture, the hidden layers primarily perform which function?",
+      "options": [
+        "Remove training data",
+        "Gradually extract more complex features",
+        "Compress datasets",
+        "Store token sequences"
+      ],
+      "correctAnswer": "Gradually extract more complex features",
+      "explanation": "Hidden layers progressively learn features from simple to complex."
+    },
+    {
+      "id": 73,
+      "question": "Which sequence correctly represents the information flow in a deep neural network?",
+      "options": [
+        "Output → Hidden → Input",
+        "Input → Hidden → Output",
+        "Hidden → Input → Output",
+        "Input → Output → Hidden"
+      ],
+      "correctAnswer": "Input → Hidden → Output",
+      "explanation": "Data enters through the input layer, is processed in hidden layers, and produces results in the output layer."
+    },
+    {
+      "id": 74,
+      "question": "What would most likely happen if a CNN used no filters when processing images?",
+      "options": [
+        "It could not detect visual patterns",
+        "It would generate audio signals",
+        "It would increase token size",
+        "It would behave like an RNN"
+      ],
+      "correctAnswer": "It could not detect visual patterns",
+      "explanation": "Filters are essential for detecting edges, shapes, and patterns in images."
+    },
+    {
+      "id": 75,
+      "question": "Which AI system would most likely rely heavily on CNN technology?",
+      "options": [
+        "Speech prediction keyboard",
+        "Facial recognition security system",
+        "Weather forecasting timeline",
+        "Essay summarization AI"
+      ],
+      "correctAnswer": "Facial recognition security system",
+      "explanation": "CNNs specialize in analyzing visual data such as faces."
+    },
+    {
+      "id": 76,
+      "question": "Which property of RNNs allows them to process sequences such as sentences?",
+      "options": [
+        "Looping internal connections",
+        "Parallel image scanning",
+        "Token compression",
+        "Dataset partitioning"
+      ],
+      "correctAnswer": "Looping internal connections",
+      "explanation": "Loops allow RNNs to retain information from previous steps."
+    },
+    {
+      "id": 77,
+      "question": "A major limitation of traditional RNNs when processing very long text is:",
+      "options": [
+        "Inability to tokenize words",
+        "Forgetting earlier information",
+        "Lack of image recognition",
+        "Excessive dataset storage"
+      ],
+      "correctAnswer": "Forgetting earlier information",
+      "explanation": "RNNs suffer from memory limitations that cause earlier sequence information to fade."
+    },
+    {
+      "id": 78,
+      "question": "Transformers improved AI language understanding mainly because they:",
+      "options": [
+        "Process sequences strictly one word at a time",
+        "Look at all words simultaneously",
+        "Avoid tokenization",
+        "Remove neural networks entirely"
+      ],
+      "correctAnswer": "Look at all words simultaneously",
+      "explanation": "Transformers analyze relationships between all words at once."
+    },
+    {
+      "id": 79,
+      "question": "The attention mechanism helps an AI primarily determine:",
+      "options": [
+        "Dataset size",
+        "Which words are most important for meaning",
+        "GPU performance",
+        "Number of tokens"
+      ],
+      "correctAnswer": "Which words are most important for meaning",
+      "explanation": "Attention assigns importance to words depending on context."
+    },
+    {
+      "id": 80,
+      "question": "In machine learning workflows, the main reason for separating training and testing datasets is to:",
+      "options": [
+        "Reduce computation",
+        "Prevent memorization from appearing as learning",
+        "Increase tokenization accuracy",
+        "Eliminate hidden layers"
+      ],
+      "correctAnswer": "Prevent memorization from appearing as learning",
+      "explanation": "Testing with unseen data confirms genuine learning."
+    },
+    {
+      "id": 81,
+      "question": "If an AI model predicts dogs correctly only when trees appear in the background because training data contained trees, the model suffers from:",
+      "options": [
+        "Underfitting",
+        "Overfitting",
+        "Perfect fitting",
+        "Token drift"
+      ],
+      "correctAnswer": "Overfitting",
+      "explanation": "The model memorized irrelevant patterns in training data."
+    },
+    {
+      "id": 82,
+      "question": "Which situation best represents underfitting in an AI model?",
+      "options": [
+        "Memorizing all training data",
+        "Failing to detect simple patterns",
+        "Performing perfectly on testing data",
+        "Using too many tokens"
+      ],
+      "correctAnswer": "Failing to detect simple patterns",
+      "explanation": "Underfitting occurs when the model has not learned enough."
+    },
+    {
+      "id": 83,
+      "question": "Which metric would be most affected if an AI frequently predicts \"yes\" incorrectly?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Accuracy",
+        "Token count"
+      ],
+      "correctAnswer": "Precision",
+      "explanation": "Precision measures correctness among predicted positive cases."
+    },
+    {
+      "id": 84,
+      "question": "Which metric focuses on how many real positive cases were correctly detected?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "Loss"
+      ],
+      "correctAnswer": "Recall",
+      "explanation": "Recall measures how many actual positive cases were found."
+    },
+    {
+      "id": 85,
+      "question": "Why is the F1 score considered more balanced than accuracy?",
+      "options": [
+        "It combines precision and recall",
+        "It ignores errors",
+        "It counts tokens",
+        "It measures speed"
+      ],
+      "correctAnswer": "It combines precision and recall",
+      "explanation": "F1 Score balances the trade-off between precision and recall."
+    },
+    {
+      "id": 86,
+      "question": "In training AI models, the loss function primarily guides:",
+      "options": [
+        "Dataset labeling",
+        "Model improvement through error reduction",
+        "Token segmentation",
+        "Hardware performance"
+      ],
+      "correctAnswer": "Model improvement through error reduction",
+      "explanation": "Loss functions quantify errors so models can adjust parameters."
+    },
+    {
+      "id": 87,
+      "question": "Which characteristic uniquely defines an AI Agent?",
+      "options": [
+        "Passive response to prompts",
+        "Goal-oriented interaction with environment",
+        "Token segmentation ability",
+        "Dataset hosting"
+      ],
+      "correctAnswer": "Goal-oriented interaction with environment",
+      "explanation": "Agents actively interact with environments to achieve goals."
+    },
+    {
+      "id": 88,
+      "question": "In the agent loop, which step immediately follows observation?",
+      "options": [
+        "Training",
+        "Decision making",
+        "Tokenization",
+        "Testing"
+      ],
+      "correctAnswer": "Decision making",
+      "explanation": "After observing the environment, the agent decides the best action."
+    },
+    {
+      "id": 89,
+      "question": "In an AI agent, a camera attached to a robot functions as:",
+      "options": [
+        "Brain",
+        "Input sensor",
+        "Output actuator",
+        "Loss calculator"
+      ],
+      "correctAnswer": "Input sensor",
+      "explanation": "Sensors provide environmental data to the agent."
+    },
+    {
+      "id": 90,
+      "question": "Which of the following would be considered an output action for a digital AI agent?",
+      "options": [
+        "Reading a webpage",
+        "Analyzing tokens",
+        "Sending an automated email",
+        "Scanning sensors"
+      ],
+      "correctAnswer": "Sending an automated email",
+      "explanation": "Output actions change the external environment."
+    },
+    {
+      "id": 91,
+      "question": "Large Language Models are trained on extremely large text datasets mainly to:",
+      "options": [
+        "Understand patterns in human language",
+        "Increase token length",
+        "Replace CNN networks",
+        "Reduce context window size"
+      ],
+      "correctAnswer": "Understand patterns in human language",
+      "explanation": "LLMs learn relationships between words and phrases."
+    },
+    {
+      "id": 92,
+      "question": "Which statement best describes a token in language models?",
+      "options": [
+        "A full sentence",
+        "A chunk of a word",
+        "A single dataset",
+        "A neural layer"
+      ],
+      "correctAnswer": "A chunk of a word",
+      "explanation": "Tokens are smaller units that language models process."
+    },
+    {
+      "id": 93,
+      "question": "Why does tokenization help AI understand new words or slang?",
+      "options": [
+        "It deletes unknown words",
+        "It breaks words into reusable pieces",
+        "It ignores grammar",
+        "It increases context window"
+      ],
+      "correctAnswer": "It breaks words into reusable pieces",
+      "explanation": "Subword tokens allow AI to interpret unfamiliar words."
+    },
+    {
+      "id": 94,
+      "question": "Which factor limits the maximum length of text an LLM can process at once?",
+      "options": [
+        "Token frequency",
+        "Context window",
+        "Dataset accuracy",
+        "Hidden layer count"
+      ],
+      "correctAnswer": "Context window",
+      "explanation": "Context window defines how many tokens the model can handle simultaneously."
+    },
+    {
+      "id": 95,
+      "question": "If an LLM processes text exceeding its context window, it will most likely:",
+      "options": [
+        "Crash immediately",
+        "Forget earlier information",
+        "Delete tokens randomly",
+        "Stop generating output"
+      ],
+      "correctAnswer": "Forget earlier information",
+      "explanation": "Tokens beyond the window limit cannot remain in working memory."
+    },
+    {
+      "id": 96,
+      "question": "Prompt engineering improves AI outputs mainly by:",
+      "options": [
+        "Improving hardware",
+        "Providing clearer instructions and context",
+        "Increasing token count",
+        "Reducing datasets"
+      ],
+      "correctAnswer": "Providing clearer instructions and context",
+      "explanation": "Well-designed prompts guide AI responses effectively."
+    },
+    {
+      "id": 97,
+      "question": "KV Cache improves generation speed because it:",
+      "options": [
+        "Recomputes attention repeatedly",
+        "Stores previously processed information",
+        "Deletes tokens",
+        "Expands context window"
+      ],
+      "correctAnswer": "Stores previously processed information",
+      "explanation": "KV Cache saves previous attention calculations."
+    },
+    {
+      "id": 98,
+      "question": "The 'sticky note' analogy for KV Cache refers to:",
+      "options": [
+        "Dataset storage",
+        "Remembering previously processed tokens",
+        "Token splitting",
+        "Context expansion"
+      ],
+      "correctAnswer": "Remembering previously processed tokens",
+      "explanation": "KV cache keeps key-value pairs from earlier tokens."
+    },
+    {
+      "id": 99,
+      "question": "Which platform is widely used by AI researchers to share models and datasets?",
+      "options": [
+        "GitHub Pages",
+        "HuggingFace",
+        "Stack Overflow",
+        "Docker Hub"
+      ],
+      "correctAnswer": "HuggingFace",
+      "explanation": "HuggingFace hosts open-source ML models, datasets, and tools."
+    },
+    {
+      "id": 100,
+      "question": "Which scenario best represents the future vision of AI agents described in the content?",
+      "options": [
+        "AI answering trivia questions",
+        "AI automatically planning events and executing tasks",
+        "AI storing datasets",
+        "AI replacing sensors"
+      ],
+      "correctAnswer": "AI automatically planning events and executing tasks",
+      "explanation": "Future AI agents will autonomously observe, decide, and act to complete complex tasks."
+    }
+  ]
+}

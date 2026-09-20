@@ -1,0 +1,1107 @@
+
+{
+  "module": "Module 4",
+  "level": "11-12",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary definition of data collection?",
+      "options": [
+        "The process of deleting unnecessary files from a computer",
+        "The systematic process of gathering and measuring information on targeted variables",
+        "The graphical representation of mathematical formulas",
+        "The method of turning hardware on and off"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following best describes qualitative data?",
+      "options": [
+        "Data that can be measured with numbers",
+        "Data that describes qualities, characteristics, or categories",
+        "Data that is strictly formatted in SQL databases",
+        "Data that represents continuous numerical variables"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is an example of quantitative data?",
+      "options": [
+        "The color of a car",
+        "The texture of a fabric",
+        "The temperature outside in degrees Celsius",
+        "The type of cuisine a restaurant serves"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "question": "Why is ethical data collection important?",
+      "options": [
+        "To ensure data uses up less storage space",
+        "To maximize the cost of data analysis",
+        "To protect individual privacy and prevent misuse of personal information",
+        "To make data completely unreadable by competitors"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "question": "What is 'sampling' in the context of data collection?",
+      "options": [
+        "Selecting a representative subset of a population to make observations",
+        "Listening to audio recordings to extract data",
+        "Deleting every second row in a dataset",
+        "Creating a chart to show data distribution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "question": "Which method is commonly used to collect structured feedback from a large group of people?",
+      "options": [
+        "Deep-dive personal interviews",
+        "Surveys and questionnaires",
+        "Direct physical observation",
+        "Reading historical textbooks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "question": "What is selection bias in data collection?",
+      "options": [
+        "When the data sample is not representative of the true population",
+        "When the database crashes during collection",
+        "When data is collected too quickly",
+        "When all respondents give the exact same answer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following is considered an observational method of data collection?",
+      "options": [
+        "Counting the number of cars passing an intersection",
+        "Asking customers to fill out a feedback form",
+        "Downloading a pre-made CSV from the internet",
+        "Running a controlled chemistry experiment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q9",
+      "question": "What does GIGO stand for in data science?",
+      "options": [
+        "Gather In, Gather Out",
+        "Graphs In, Graphics Out",
+        "Garbage In, Garbage Out",
+        "Great Information, Great Output"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "question": "Why might an organization choose to collect data?",
+      "options": [
+        "To make uninformed decisions",
+        "To increase their server maintenance costs",
+        "To discover patterns, answer questions, and test hypotheses",
+        "To avoid using computers entirely"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q11",
+      "question": "What is primary data?",
+      "options": [
+        "Data that is collected by someone else for a different purpose",
+        "Data collected firsthand by the researcher for their specific project",
+        "Data that is over ten years old",
+        "Data that only contains numbers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "question": "Which of the following is a source of secondary data?",
+      "options": [
+        "Conducting a new survey in a shopping mall",
+        "Recording the temperature outside your window",
+        "Using a government census report published online",
+        "Interviewing a local business owner"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q13",
+      "question": "What is a major advantage of using secondary data?",
+      "options": [
+        "It is always 100% accurate and unbiased",
+        "It is usually faster and cheaper to obtain than primary data",
+        "It perfectly matches the exact needs of your specific, unique project",
+        "It requires no cleaning or preparation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "question": "What is an API (Application Programming Interface) in the context of data sources?",
+      "options": [
+        "A piece of hardware that stores hard drives",
+        "A manual book of printed data tables",
+        "A software bridge that allows applications to fetch data from web servers dynamically",
+        "A tool used to draw bar charts"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q15",
+      "question": "What is 'web scraping'?",
+      "options": [
+        "Physically cleaning a computer monitor",
+        "An automated method used to extract large amounts of data from websites",
+        "Deleting old websites from the internet",
+        "Writing new code for a web page"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following is an internal data source for a retail company?",
+      "options": [
+        "A competitor's public pricing list",
+        "National economic inflation rates",
+        "The company's own sales transaction database",
+        "A public dataset on global weather"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q17",
+      "question": "What is 'open data'?",
+      "options": [
+        "Data that is highly classified by the government",
+        "Data that is freely available to everyone to use and republish",
+        "Data that contains viruses",
+        "Data that is currently being downloaded"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "question": "Why must a researcher evaluate secondary data carefully?",
+      "options": [
+        "Because it might have been collected using flawed methods or for a biased purpose",
+        "Because it is illegal to use secondary data",
+        "Because it will crash their computer",
+        "Because secondary data is always stored in an unreadable format"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q19",
+      "question": "Which collection method generates primary, qualitative data?",
+      "options": [
+        "A thermometer recording temperature every hour",
+        "A focus group discussing their feelings about a new product",
+        "Downloading a stock market history dataset",
+        "Counting foot traffic using an automated turnstile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "question": "Which data source would provide the most reliable demographic data for an entire country?",
+      "options": [
+        "A poll on a social media influencer's page",
+        "A random survey of 10 people in one city",
+        "The official national census",
+        "A blog post about population estimates"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q21",
+      "question": "What does CSV stand for?",
+      "options": [
+        "Computer Saved Variables",
+        "Comma-Separated Values",
+        "Common System Vector",
+        "Coded Structural Vision"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "question": "What is the primary structural characteristic of a CSV file?",
+      "options": [
+        "It uses hierarchical nested tags",
+        "It organizes data in a tabular format using a specific delimiter, usually a comma",
+        "It stores data as images of text",
+        "It requires Microsoft Word to open"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "question": "What does JSON stand for?",
+      "options": [
+        "JavaScript Object Notation",
+        "Java System Operation Node",
+        "Joint Standard Objective Network",
+        "Joined String Orientation Number"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q24",
+      "question": "How is data formatted in a JSON file?",
+      "options": [
+        "As rows and columns with commas",
+        "Using tags like <name>John</name>",
+        "As key-value pairs, often nested, like {\"name\": \"John\"}",
+        "As a binary stream of 1s and 0s"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q25",
+      "question": "What is the main difference between an Excel (.xlsx) file and a CSV file?",
+      "options": [
+        "CSV files support multiple sheets and formulas; Excel files do not",
+        "Excel files can save formatting, formulas, and multiple sheets; CSV is plain text only",
+        "CSV files are proprietary; Excel is open-source",
+        "Excel files can only store numbers; CSV can store text"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "question": "Which data format relies on tags to structure data, similar to HTML?",
+      "options": [
+        "CSV",
+        "JSON",
+        "XML",
+        "TSV"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q27",
+      "question": "What type of data is a traditional SQL database best suited for?",
+      "options": [
+        "Highly structured relational data in tables",
+        "Unstructured audio files",
+        "Nested, deeply complex JSON documents",
+        "Raw image pixels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q28",
+      "question": "Which of the following is an example of unstructured data?",
+      "options": [
+        "An Excel spreadsheet of employee salaries",
+        "A relational database of customer orders",
+        "A folder full of raw video files and text emails",
+        "A CSV file containing stock prices"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q29",
+      "question": "Why is JSON widely used in modern web APIs?",
+      "options": [
+        "It is the only format computers understand",
+        "It is lightweight, easy for humans to read, and easily parsed by web languages like JavaScript",
+        "It automatically creates bar charts in the browser",
+        "It compresses data to take up zero storage space"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "question": "What does a TSV file use to separate data fields?",
+      "options": [
+        "Commas",
+        "Colons",
+        "Tabs",
+        "Semicolons"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q31",
+      "question": "If you open a CSV file in a plain text editor, what will you see?",
+      "options": [
+        "A fully formatted grid with colored cells",
+        "Lines of text where values are separated by commas",
+        "Unreadable binary code",
+        "A series of pie charts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "Which format is considered 'semi-structured'?",
+      "options": [
+        "A standard SQL database table",
+        "A JSON file containing varied nested objects",
+        "A raw audio recording",
+        "A completely filled CSV file"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "What is a 'delimiter' in data formats?",
+      "options": [
+        "A character used to separate different values or fields in plain text files",
+        "A tool used to delete files",
+        "A mathematical function used to limit file size",
+        "The header row of a table"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q34",
+      "question": "Which data format would be best for transferring a massive, flat table of 10 million rows across systems efficiently?",
+      "options": [
+        "Microsoft Word Document",
+        "CSV",
+        "XML",
+        "JPEG"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "question": "In JSON, what symbols are used to denote an array (a list of items)?",
+      "options": [
+        "Curly braces { }",
+        "Parentheses ( )",
+        "Square brackets [ ]",
+        "Angle brackets < >"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q36",
+      "question": "What does a 'missing value' refer to in a dataset?",
+      "options": [
+        "A value that is too large to display",
+        "An empty or null entry where data was expected but not recorded",
+        "A value that is statistically insignificant",
+        "A number that is negative"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "question": "Which of these is a common representation of a missing value in programming and databases?",
+      "options": [
+        "NaN (Not a Number) or NULL",
+        "100",
+        "infinity",
+        "Done"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q38",
+      "question": "What is the primary risk of ignoring missing values in a dataset during analysis?",
+      "options": [
+        "It will make the dataset too small",
+        "It can lead to biased models, skewed statistics, and incorrect conclusions",
+        "It will automatically delete the entire file",
+        "It will convert all numbers to text"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "question": "If a respondent skips a survey question about income because they find it too sensitive, this missing data is likely:",
+      "options": [
+        "Missing Completely at Random (MCAR)",
+        "Missing Not at Random (MNAR)",
+        "A system error",
+        "Not considered missing data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "question": "What does MCAR mean regarding missing data?",
+      "options": [
+        "Missing Completely at Random; the missingness has no relationship with any data values",
+        "Multiple Categories Are Random",
+        "Machine Calculated Average Result",
+        "Missing Cars And Roads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q41",
+      "question": "What is 'listwise deletion' (dropping rows)?",
+      "options": [
+        "Filling in missing values with the mean",
+        "Removing the entire row/record if it contains any missing value",
+        "Deleting the entire dataset and starting over",
+        "Dropping the column that has missing values"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "question": "When is it generally acceptable to drop rows with missing values?",
+      "options": [
+        "When the missing values make up 90% of the dataset",
+        "When the dataset is very large and the missing values account for a tiny, random fraction",
+        "When you don't know how to code an imputation",
+        "Always, it is the only correct method"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "question": "What is 'imputation' in data science?",
+      "options": [
+        "The process of deleting missing values",
+        "The process of replacing missing data with substituted values, like the mean or median",
+        "The process of extracting data from a web page",
+        "The process of encrypting data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "question": "If you have a column with a few missing values and severe outliers, which imputation method is safest?",
+      "options": [
+        "Mean imputation",
+        "Median imputation",
+        "Dropping all columns",
+        "Replacing with zeros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "question": "Which of these is NOT a common reason for missing data?",
+      "options": [
+        "Human error during manual data entry",
+        "A sensor going offline for a few hours",
+        "The data successfully passing all validation checks",
+        "A user refusing to answer a specific survey question"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q46",
+      "question": "What is data cleaning?",
+      "options": [
+        "Physically wiping down servers",
+        "The process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data",
+        "Hiding data from unauthorized users",
+        "Sorting data from highest to lowest"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "question": "What does 'deduplication' mean?",
+      "options": [
+        "Copying the data so there is a backup",
+        "Multiplying all values by two",
+        "Identifying and removing exact duplicate records from a dataset",
+        "Splitting one column into two"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q48",
+      "question": "Why is standardizing text data (e.g., converting all text to lowercase) an important cleaning step?",
+      "options": [
+        "Because computers view 'Apple' and 'apple' as two entirely different distinct values",
+        "Because uppercase letters take up more memory",
+        "Because lowercase data is faster to download",
+        "Because standardizing text automatically fixes typos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q49",
+      "question": "If a 'Date' column contains '12/01/2023', '2023-12-01', and 'Dec 1st 2023', what data cleaning step is required?",
+      "options": [
+        "Deduplication",
+        "Format standardization to a single datetime format",
+        "Imputation",
+        "Dropping the column"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q50",
+      "question": "What is an 'outlier' in a dataset?",
+      "options": [
+        "A data point that perfectly matches the mean",
+        "A data point that differs significantly from other observations",
+        "A value that is missing",
+        "A duplicate record"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q51",
+      "question": "If a column supposed to contain ages has a value of '999', what does this likely represent?",
+      "options": [
+        "A very old person",
+        "A correct measurement",
+        "An error or a placeholder code for a missing/invalid value",
+        "The median of the dataset"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q52",
+      "question": "What is 'trimming whitespace'?",
+      "options": [
+        "Removing spaces at the beginning and end of a text string",
+        "Deleting empty rows",
+        "Changing the background color of a graph to black",
+        "Removing missing values"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q53",
+      "question": "In a time series dataset (like daily weather), what does 'forward fill' imputation do?",
+      "options": [
+        "Fills the missing value with the overall mean",
+        "Takes the last known value and carries it forward to fill the missing gap",
+        "Uses the next available future value to fill the gap",
+        "Deletes the missing day completely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q54",
+      "question": "What does data type casting involve?",
+      "options": [
+        "Throwing away unnecessary data",
+        "Converting data from one type to another, such as converting a 'string' of \"123\" into an 'integer' 123",
+        "Creating a duplicate dataset",
+        "Encrypting a database"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q55",
+      "question": "If a dataset has a column 'Customer_ID' with 10,000 unique rows, but 5 rows have identical IDs and identical information, what should you do?",
+      "options": [
+        "Change the IDs randomly",
+        "Drop all 10,000 rows",
+        "Keep them, duplicates don't matter",
+        "Remove the duplicates to ensure data integrity"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q56",
+      "question": "Why would you remove irrelevant columns during data cleaning?",
+      "options": [
+        "To make the dataset run slower",
+        "To reduce noise and save memory if the column does not contribute to your specific analysis",
+        "To intentionally lose data",
+        "Because datasets can only have 10 columns"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q57",
+      "question": "How can typo errors in categorical data (e.g., 'NY', 'N.Y.', 'New York') affect analysis?",
+      "options": [
+        "It makes the analysis 3 times more accurate",
+        "The system will treat them as three separate categories, splitting the data incorrectly",
+        "It will crash the computer",
+        "Typographical errors have no effect on data analysis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q58",
+      "question": "What is a 'sanity check' in data cleaning?",
+      "options": [
+        "Running the data through an antivirus",
+        "A quick logical test, such as ensuring all 'Ages' are between 0 and 120",
+        "Testing the computer's RAM",
+        "Checking if the internet connection is stable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q59",
+      "question": "Which imputation method is best for a column containing categorical data like 'City'?",
+      "options": [
+        "Mean imputation",
+        "Median imputation",
+        "Mode (most frequent value) imputation",
+        "Zero imputation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q60",
+      "question": "Data cleaning is usually estimated to take up what percentage of a data scientist's time?",
+      "options": [
+        "1-5%",
+        "10-20%",
+        "60-80%",
+        "100%"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q61",
+      "question": "What defines a 'clean dataset' ready for analysis?",
+      "options": [
+        "It has no missing values, no duplicates, standardized formats, and correct data types",
+        "It has been printed on white paper",
+        "It contains only numbers",
+        "It is saved as a PDF"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q62",
+      "question": "According to 'Tidy Data' principles, what should each row represent?",
+      "options": [
+        "A single variable",
+        "A single observation or record",
+        "The summary statistics of the dataset",
+        "A completely random set of numbers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q63",
+      "question": "According to 'Tidy Data' principles, what should each column represent?",
+      "options": [
+        "A single observation",
+        "A single variable or feature",
+        "A duplicate of the row",
+        "A random identifier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q64",
+      "question": "What does data normalization or scaling achieve?",
+      "options": [
+        "It changes all text to numbers",
+        "It adjusts the values of numeric columns to a common scale without distorting differences in the ranges of values",
+        "It encrypts the dataset",
+        "It removes all zeros from the data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q65",
+      "question": "Why do we use One-Hot Encoding?",
+      "options": [
+        "To heat up the computer processor",
+        "To convert categorical text variables into a binary numeric format (1s and 0s) for machine learning models",
+        "To merge two datasets together",
+        "To sort a column alphabetically"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q66",
+      "question": "If you have a column for 'Size' with values 'Small', 'Medium', 'Large', what type of encoding is most appropriate?",
+      "options": [
+        "Label Encoding (e.g., 1, 2, 3), because there is an inherent order",
+        "Dropping the column",
+        "Leaving it as text",
+        "Replacing them with random numbers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q67",
+      "question": "What is 'Feature Engineering' in dataset preparation?",
+      "options": [
+        "Building a hardware feature",
+        "Creating new, useful columns (features) based on existing data to improve analysis",
+        "Deleting all columns",
+        "Drawing diagrams of the database"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q68",
+      "question": "If you have a 'Date of Birth' column, a feature engineering step might be to:",
+      "options": [
+        "Delete the column",
+        "Calculate and create a new 'Current Age' column",
+        "Change all birth dates to today's date",
+        "Convert the date to a currency"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q69",
+      "question": "What is a Data Dictionary?",
+      "options": [
+        "A book that translates foreign languages",
+        "A document describing the contents, format, meaning, and structure of the elements in a dataset",
+        "A software program that automatically cleans data",
+        "An alphabetical list of all words in a CSV file"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q70",
+      "question": "Why do data scientists often split a clean dataset into a 'training set' and a 'test set'?",
+      "options": [
+        "To fit the data on a smaller USB drive",
+        "To train a machine learning model on one portion and evaluate its true performance on the unseen portion",
+        "To have a backup copy in case one breaks",
+        "Because databases have a row limit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q71",
+      "question": "What is the primary use of a line chart?",
+      "options": [
+        "To show the parts of a whole",
+        "To display trends or changes in data over continuous time intervals",
+        "To show correlation between two unrelated variables",
+        "To display the distribution of a single category"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q72",
+      "question": "On a standard time-series line chart, what does the horizontal X-axis represent?",
+      "options": [
+        "The measured value or quantity",
+        "The categories being compared",
+        "Chronological time (e.g., days, months, years)",
+        "The cumulative total"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q73",
+      "question": "What does a downward sloping line on a line chart indicate?",
+      "options": [
+        "An increasing trend",
+        "A decreasing trend over time",
+        "No change over time",
+        "A formatting error"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q74",
+      "question": "Why are the data points in a line chart connected by a line?",
+      "options": [
+        "To make it look like a bar chart",
+        "To imply a continuous progression or transition between the measured data points",
+        "To trap the data inside a shape",
+        "To measure the area under the points"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q75",
+      "question": "When is it appropriate to use multiple lines on a single line chart?",
+      "options": [
+        "To compare the trends of multiple distinct categories over the same time period",
+        "When you only have one variable",
+        "When the data represents disjointed, unrelated categories",
+        "Never, a line chart can only have one line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q76",
+      "question": "In a line chart, what does a flat, horizontal line signify?",
+      "options": [
+        "Rapid growth",
+        "Severe decline",
+        "Stagnation or no change in the value over that time period",
+        "An outlier in the data"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q77",
+      "question": "Which of the following datasets is best visualized with a line chart?",
+      "options": [
+        "The favorite colors of 100 students",
+        "The monthly sales revenue of a store over the last 5 years",
+        "The height versus the weight of a group of dogs",
+        "The market share of three different smartphone brands today"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q78",
+      "question": "What is a risk of having too many lines plotted on a single line chart?",
+      "options": [
+        "The lines will become bar charts",
+        "It becomes a 'spaghetti chart', making it cluttered and impossible to read",
+        "The axes will disappear",
+        "The data will become correlated automatically"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q79",
+      "question": "If a line chart shows distinct, repeating peaks every December, what is this pattern called?",
+      "options": [
+        "An outlier",
+        "A negative trend",
+        "Seasonality",
+        "A flatline"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q80",
+      "question": "Why is it generally bad practice to use a line chart for categorical data (e.g., Apples, Bananas, Oranges on the X-axis)?",
+      "options": [
+        "Because the lines are too thin to see",
+        "Because connecting categorical variables implies a sequential transition that doesn't exist",
+        "Because categorical data has no numbers",
+        "Because it will look like a pie chart"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q81",
+      "question": "What is the primary use of a bar chart?",
+      "options": [
+        "To show trends over continuous time",
+        "To compare quantities or frequencies across different distinct categories",
+        "To plot geospatial coordinates",
+        "To find outliers in continuous numerical data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q82",
+      "question": "In a vertical bar chart (column chart), what determines the value of a category?",
+      "options": [
+        "The width of the bar",
+        "The color of the bar",
+        "The height of the bar reaching the Y-axis",
+        "The distance between bars"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q83",
+      "question": "When is a horizontal bar chart usually preferred over a vertical one?",
+      "options": [
+        "When the category names are very long and need space to be readable",
+        "When there is only one category",
+        "When tracking time-series data",
+        "When showing parts of a whole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "What is a 'grouped' or 'clustered' bar chart?",
+      "options": [
+        "A chart where all bars are combined into one giant bar",
+        "A chart placing bars of different sub-categories side-by-side for each main category group",
+        "A chart that only uses circles",
+        "A line chart disguised as a bar chart"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q85",
+      "question": "What is a 'stacked' bar chart used for?",
+      "options": [
+        "Showing the total size of categories while also showing the proportional breakdown of sub-groups within them",
+        "Hiding negative numbers",
+        "Plotting relationships between two continuous variables",
+        "Showing seasonal trends over time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q86",
+      "question": "Why must the numerical axis of a bar chart almost always start at zero?",
+      "options": [
+        "To make the chart taller",
+        "To prevent visual distortion, as bar charts use length to represent proportion; truncating the axis exaggerates differences",
+        "Because negative numbers don't exist in data",
+        "It is just a stylistic choice with no mathematical reason"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q87",
+      "question": "What is a common best practice for ordering bars in a standard bar chart (unless there is an inherent order like dates or age groups)?",
+      "options": [
+        "Randomly order them",
+        "Order them alphabetically to make them look jagged",
+        "Sort them sequentially by value (ascending or descending) to make comparison easier",
+        "Sort them by the length of the category name"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q88",
+      "question": "Which of these is the main difference between a Bar Chart and a Histogram?",
+      "options": [
+        "Histograms show trends over time; bar charts show correlation",
+        "Bar charts show distinct categories with gaps between bars; Histograms show continuous numerical distributions with no gaps",
+        "Histograms only use lines",
+        "There is no difference; they are the exact same thing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q89",
+      "question": "Why are 3D effects on bar charts generally considered a bad design choice?",
+      "options": [
+        "They use up too much ink when printing",
+        "They distort the perspective, making it difficult to accurately align the top of the bar with the axis values",
+        "They make the chart look too modern",
+        "They turn the bar chart into a scatter plot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q90",
+      "question": "If you want to show the number of cars sold by 5 different companies last month, which chart is best?",
+      "options": [
+        "Line chart",
+        "Scatter plot",
+        "Bar chart",
+        "Pie chart"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q91",
+      "question": "What is the primary purpose of a scatter plot?",
+      "options": [
+        "To show the relationship or correlation between two continuous numeric variables",
+        "To show the frequency of a single categorical variable",
+        "To display a sequential time series",
+        "To show parts of a whole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q92",
+      "question": "In a scatter plot, how is a single data point represented?",
+      "options": [
+        "By a vertical bar",
+        "By a slice of a circle",
+        "By a single dot placed at the intersection of its X and Y axis values",
+        "By a line connecting it to the origin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q93",
+      "question": "If the dots on a scatter plot generally form a line sloping upwards from left to right, this indicates:",
+      "options": [
+        "A negative correlation",
+        "A positive correlation",
+        "No correlation",
+        "An error in the data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q94",
+      "question": "If the dots on a scatter plot form a line sloping downwards from left to right, this indicates:",
+      "options": [
+        "A positive correlation",
+        "A negative correlation",
+        "A zero correlation",
+        "A categorical relationship"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q95",
+      "question": "What does a scatter plot look like when there is no correlation between the two variables?",
+      "options": [
+        "A perfectly straight horizontal line",
+        "A perfectly straight vertical line",
+        "A random, scattered cloud of dots with no discernible pattern",
+        "A perfect circle"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q96",
+      "question": "On a scatter plot investigating cause and effect, where is the independent variable usually plotted?",
+      "options": [
+        "On the vertical Y-axis",
+        "On the horizontal X-axis",
+        "As the color of the dot",
+        "As the size of the dot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q97",
+      "question": "How are outliers visually identified on a scatter plot?",
+      "options": [
+        "They are colored red automatically",
+        "They are points that lie far away from the general cluster or trend line of the other data points",
+        "They form a perfect straight line",
+        "They are placed on the axis lines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q98",
+      "question": "What is a 'line of best fit' (or trendline) in a scatter plot?",
+      "options": [
+        "A line that connects every single dot in chronological order",
+        "A straight or curved line drawn through the center of the data points that best represents the overall trend",
+        "The border around the chart area",
+        "The Y-axis line"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q99",
+      "question": "What is 'overplotting' in a scatter plot?",
+      "options": [
+        "Making the axes too long",
+        "When too many data points overlap, creating a solid block of color and hiding the density of the data",
+        "Plotting data that doesn't belong",
+        "Drawing the line of best fit incorrectly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q100",
+      "question": "If you add a third numerical variable to a scatter plot by changing the size of the dots, what is the resulting chart commonly called?",
+      "options": [
+        "A Bubble Chart",
+        "A 3D Bar Chart",
+        "A Density Plot",
+        "A Stacked Scatter Plot"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

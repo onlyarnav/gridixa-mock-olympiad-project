@@ -1,0 +1,226 @@
+{
+  "title": "Module 4 Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "A dataset contains empty entries in the 'Age' column for several students. These empty entries are best described as:",
+      "options": [
+        "Duplicate values",
+        "Missing values",
+        "Outliers",
+        "Categories"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "Why are missing values considered a problem in data analysis?",
+      "options": [
+        "They always increase dataset size",
+        "They can reduce accuracy and lead to incorrect conclusions",
+        "They automatically remove duplicate records",
+        "They improve model performance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is an example of simple data cleaning?",
+      "options": [
+        "Training a neural network",
+        "Generating synthetic data",
+        "Removing duplicate records",
+        "Building a vector database"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "question": "A spreadsheet contains the entries 'Delhi', 'delhi', and 'DELHI' for the same city. What data-cleaning task would best address this issue?",
+      "options": [
+        "Feature engineering",
+        "Normalization of text formatting",
+        "Data visualization",
+        "Tokenization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What is the primary objective of preparing a clean dataset?",
+      "options": [
+        "To increase file size",
+        "To make data more suitable for accurate analysis and AI models",
+        "To remove all numerical values",
+        "To convert every dataset into images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "question": "Which action is MOST appropriate when two identical rows appear in a dataset?",
+      "options": [
+        "Add more duplicates",
+        "Convert them into missing values",
+        "Remove redundant duplicate records",
+        "Replace them with random data"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q7",
+      "question": "A dataset records student scores as '85', '90', 'N/A', and '88'. Which value requires cleaning attention?",
+      "options": [
+        "85",
+        "90",
+        "N/A",
+        "88"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q8",
+      "question": "What is one benefit of handling missing values before training an AI model?",
+      "options": [
+        "It guarantees perfect predictions",
+        "It helps the model learn from more complete and reliable data",
+        "It eliminates the need for testing",
+        "It doubles GPU speed"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which dataset is likely to be considered cleaner?",
+      "options": [
+        "Contains duplicate rows and blank entries",
+        "Contains inconsistent formats and missing fields",
+        "Contains standardized entries with minimal missing data",
+        "Contains random symbols in several columns"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "question": "A data analyst notices that dates are stored as '01/05/25', 'May 1, 2025', and '2025-05-01'. What cleaning step is needed?",
+      "options": [
+        "Data augmentation",
+        "Standardizing date formats",
+        "Reducing dataset size",
+        "Building a histogram"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "question": "Which of the following best describes data cleaning?",
+      "options": [
+        "Collecting new data from surveys",
+        "Transforming raw data into accurate, consistent, and usable data",
+        "Creating charts from data",
+        "Compressing data into vectors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "If a dataset contains both 'Male'/'Female' and 'M'/'F' in the same column, what issue exists?",
+      "options": [
+        "Missing values",
+        "Duplicate rows",
+        "Inconsistent data representation",
+        "Numerical overflow"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "question": "Why should data be cleaned before visualization?",
+      "options": [
+        "To ensure charts reflect accurate information",
+        "To increase the number of columns",
+        "To remove all text values",
+        "To guarantee colorful graphs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q14",
+      "question": "Which of the following is NOT typically part of simple data cleaning?",
+      "options": [
+        "Removing duplicates",
+        "Fixing formatting inconsistencies",
+        "Handling missing values",
+        "Training a deep learning model"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q15",
+      "question": "A dataset has 1,000 rows, but 100 rows are exact copies of other rows. What is the most likely impact if they remain?",
+      "options": [
+        "Potential bias and distorted analysis",
+        "Improved randomness",
+        "Guaranteed accuracy",
+        "Faster data processing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q16",
+      "question": "Which statement best explains why clean datasets are important for AI systems?",
+      "options": [
+        "AI models learn patterns from the data they receive",
+        "AI models ignore data quality",
+        "Clean data eliminates the need for algorithms",
+        "Dirty data always improves generalization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q17",
+      "question": "An analyst replaces blank values in a survey column with the average value of that column. This is an example of:",
+      "options": [
+        "Handling missing values",
+        "Data duplication",
+        "Feature removal",
+        "Outlier generation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q18",
+      "question": "What is the relationship between data cleaning and preparing clean datasets?",
+      "options": [
+        "They are unrelated processes",
+        "Data cleaning is a major step in preparing clean datasets",
+        "Preparing clean datasets happens before any cleaning",
+        "Data cleaning only applies to images"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q19",
+      "question": "A machine learning project fails because many important fields contain blanks and inconsistent labels. Which stage was most likely neglected?",
+      "options": [
+        "Data cleaning and preparation",
+        "Data visualization",
+        "Model deployment",
+        "Hyperparameter tuning"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which scenario BEST represents a well-prepared clean dataset?",
+      "options": [
+        "Contains duplicates, blanks, and inconsistent formats",
+        "Contains random missing values and mixed date styles",
+        "Contains standardized entries, minimal missing values, and consistent formatting",
+        "Contains only numerical columns regardless of context"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

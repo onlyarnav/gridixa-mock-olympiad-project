@@ -1,0 +1,226 @@
+{
+  "title": "Chapter 2 Test",
+  "timePerQuestion": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary purpose of Bayes' Theorem in AI systems?",
+      "options": [
+        "Compress datasets",
+        "Update belief using evidence",
+        "Reduce dimensions",
+        "Generate embeddings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "question": "In Bayes' Theorem, P(A) represents:",
+      "options": [
+        "Posterior",
+        "Likelihood",
+        "Prior probability",
+        "Evidence"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "question": "Which probability expression means 'Probability of hypothesis after observing evidence'?",
+      "options": [
+        "P(B)",
+        "P(B|A)",
+        "P(A)",
+        "P(A|B)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q4",
+      "question": "A common mistake in Bayesian reasoning is:",
+      "options": [
+        "Using multiplication",
+        "Confusing P(A|B) with P(B|A)",
+        "Ignoring priors only",
+        "Using posterior distributions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "question": "What problem explains why rare events can still produce many false positives?",
+      "options": [
+        "Variance collapse",
+        "Entropy problem",
+        "Base rate effect",
+        "Sampling noise"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q6",
+      "question": "Naive Bayes is called 'naive' because it assumes:",
+      "options": [
+        "Classes are balanced",
+        "Features are independent",
+        "Data is Gaussian",
+        "Labels are random"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "question": "A Probability Mass Function (PMF) is used for:",
+      "options": [
+        "Continuous variables",
+        "Discrete variables",
+        "Optimization",
+        "Dimensionality reduction"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "question": "For continuous variables, probability is obtained from:",
+      "options": [
+        "Point values",
+        "Vector magnitude",
+        "Area under the curve",
+        "Matrix multiplication"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q9",
+      "question": "Which distribution models a binary outcome?",
+      "options": [
+        "Poisson",
+        "Bernoulli",
+        "Normal",
+        "Exponential"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "question": "Which distribution models the number of successes across fixed independent trials?",
+      "options": [
+        "Categorical",
+        "Poisson",
+        "Binomial",
+        "Gaussian"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "question": "Softmax primarily converts:",
+      "options": [
+        "Matrices into tensors",
+        "Logits into probability distributions",
+        "Probabilities into embeddings",
+        "Vectors into scalars"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q12",
+      "question": "The standard normal distribution is represented as:",
+      "options": [
+        "N(1,1)",
+        "N(0,1)",
+        "N(0,0)",
+        "N(1,0)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q13",
+      "question": "Entropy in AI primarily measures:",
+      "options": [
+        "Accuracy",
+        "Computation cost",
+        "Uncertainty",
+        "Memory usage"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q14",
+      "question": "Cross-entropy strongly penalizes:",
+      "options": [
+        "Correct predictions",
+        "Confident incorrect predictions",
+        "Low variance",
+        "Sparse matrices"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q15",
+      "question": "Expected value represents:",
+      "options": [
+        "Maximum probability",
+        "Long-term average outcome",
+        "Median outcome",
+        "Most recent observation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q16",
+      "question": "Variance primarily measures:",
+      "options": [
+        "Central tendency",
+        "Spread of values",
+        "Prediction confidence",
+        "Model accuracy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q17",
+      "question": "In hypothesis testing, H₀ represents:",
+      "options": [
+        "Alternative hypothesis",
+        "Default assumption",
+        "Posterior belief",
+        "Final prediction"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q18",
+      "question": "If p-value < α, what decision is made?",
+      "options": [
+        "Reject H₀",
+        "Accept H₀ as true",
+        "Increase sample size",
+        "Ignore results"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q19",
+      "question": "A Type I error means:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false alternative hypothesis",
+        "Low statistical power",
+        "Large effect size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q20",
+      "question": "Which statement best reflects olympiad-level understanding of hypothesis testing?",
+      "options": [
+        "Small p-values prove the model is correct",
+        "Statistical significance always implies practical significance",
+        "Hypothesis testing evaluates whether observed evidence is strong enough against a default assumption",
+        "Accuracy alone determines model quality"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

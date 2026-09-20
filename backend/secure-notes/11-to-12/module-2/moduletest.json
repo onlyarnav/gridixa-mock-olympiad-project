@@ -1,0 +1,1106 @@
+{
+  "module": "Module 2",
+  "level": "11-12",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the main practical reason KV Cache becomes a problem in long-text generation?",
+      "options": [
+        "It makes the tokenizer slower",
+        "It stores past Keys and Values for many tokens, increasing memory usage",
+        "It removes the need for attention",
+        "It changes the meaning of embeddings"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "Why could earlier AI models only handle shorter inputs more easily?",
+      "options": [
+        "They lacked any training data",
+        "Their memory requirements grew too large for long sequences",
+        "They were trained only on audio",
+        "They used no GPU at all"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "Which technique focuses only on nearby and some distant important words instead of every word with every other word?",
+      "options": [
+        "Sparse Attention",
+        "Ring Attention",
+        "RoPE",
+        "Scaling Laws"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q4",
+      "question": "What is the main trade-off of Sparse Attention as described in the chapter?",
+      "options": [
+        "It uses more memory but improves full context understanding",
+        "It saves memory but slightly reduces full context understanding",
+        "It removes the need for GPUs",
+        "It makes embeddings unnecessary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "question": "How does Ring Attention help handle very long inputs?",
+      "options": [
+        "By turning text into images",
+        "By dividing large text across multiple GPUs and sharing information",
+        "By compressing words into tokens",
+        "By removing attention entirely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is the key mathematical idea behind RoPE?",
+      "options": [
+        "It rotates the representation of words based on position",
+        "It replaces words with images",
+        "It stores keys in a database",
+        "It counts the number of chunks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "question": "Why is RoPE useful for long sequences?",
+      "options": [
+        "It helps the AI understand how far apart words are",
+        "It removes the need for positional information",
+        "It deletes old tokens automatically",
+        "It increases GPU memory directly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which factor is NOT listed as part of scaling laws in the chapter?",
+      "options": [
+        "Model size",
+        "Training data",
+        "Computing power",
+        "Attention masks"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q9",
+      "question": "What is the core message of scaling laws?",
+      "options": [
+        "Only model size matters",
+        "Balance between model size, data, and compute matters",
+        "Smaller models always outperform larger ones",
+        "Training data is unnecessary if compute is high"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "question": "Why is increasing model size alone not enough according to scaling laws?",
+      "options": [
+        "Because the model must also be trained on enough data",
+        "Because GPUs stop working with large models",
+        "Because attention becomes impossible",
+        "Because embeddings disappear"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "question": "What does the chapter imply about efficient AI system design?",
+      "options": [
+        "It depends on balancing performance and cost",
+        "It depends only on using the biggest model",
+        "It depends only on sparse attention",
+        "It depends only on more GPUs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "question": "Why do raw pixels create a problem for standard Transformers?",
+      "options": [
+        "Because Transformers cannot read any numbers",
+        "Because a high-resolution image has too many pixels for quadratic attention math",
+        "Because pixels cannot be flattened",
+        "Because images always lack meaning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "question": "What is the approximate size of a 1920 × 1080 image in pixels?",
+      "options": [
+        "About 2 million pixels",
+        "About 20,000 pixels",
+        "About 200 million pixels",
+        "About 2,000 pixels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "question": "Why would feeding every pixel as a token into attention be dangerous?",
+      "options": [
+        "The KV Cache matrix would become extremely large",
+        "The model would stop using embeddings",
+        "The image would become shorter",
+        "The tokenizer would turn off"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "question": "What is the main purpose of Vision Transformers?",
+      "options": [
+        "To process text faster than all models",
+        "To make Transformers understand images without crashing the GPU",
+        "To eliminate patches from images",
+        "To replace all attention mechanisms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "question": "In ViT, what is the purpose of patching?",
+      "options": [
+        "To divide the image into tiny squares",
+        "To convert text into audio",
+        "To remove positional information",
+        "To compare vectors using cosine similarity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q17",
+      "question": "What is the usual patch size mentioned for Vision Transformers?",
+      "options": [
+        "8 × 8 pixels",
+        "16 × 16 pixels",
+        "32 × 32 pixels",
+        "64 × 64 pixels"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "question": "Why are image patches flattened in the ViT pipeline?",
+      "options": [
+        "To convert them into 1D vectors for Transformer processing",
+        "To increase the number of colors",
+        "To make them shorter than text tokens",
+        "To remove their pixel values"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q19",
+      "question": "What does linear projection do to flattened image patches?",
+      "options": [
+        "It converts raw pixel numbers into embeddings",
+        "It turns embeddings back into pixels",
+        "It compares image and text similarity",
+        "It splits the image into frames"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q20",
+      "question": "Why does ViT use positional encoding on patches?",
+      "options": [
+        "To show where each patch belongs in the original image",
+        "To label each patch with a caption",
+        "To reduce the number of patches",
+        "To replace attention with convolution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q21",
+      "question": "What does self-attention in ViT help the model learn?",
+      "options": [
+        "How one patch relates to another patch",
+        "How text tokens become audio",
+        "How to reduce the number of GPUs",
+        "How to rank captions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q22",
+      "question": "Which patch relation is explicitly used as an example in the chapter?",
+      "options": [
+        "The dog's ear patch and the dog's nose patch",
+        "The sky patch and the keyboard patch",
+        "The caption patch and the GPU patch",
+        "The text patch and the audio patch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q23",
+      "question": "What problem does CLIP primarily solve?",
+      "options": [
+        "It teaches AI how to connect language with images",
+        "It compresses key-value memory",
+        "It makes long documents shorter",
+        "It generates only audio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q24",
+      "question": "Which two separate neural networks does CLIP use?",
+      "options": [
+        "Text Encoder and Image Encoder",
+        "CNN and RNN",
+        "Decoder and Generator",
+        "Query Network and Key Network"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q25",
+      "question": "What model is used as the image encoder in CLIP?",
+      "options": [
+        "A Vision Transformer",
+        "An LSTM",
+        "A sparse attention model only",
+        "A knowledge graph"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q26",
+      "question": "What does CLIP compare between image and caption outputs?",
+      "options": [
+        "Cosine similarity",
+        "Loss ratio",
+        "Attention masks",
+        "Token frequency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q27",
+      "question": "When an image and caption match in CLIP training, what happens to their vectors?",
+      "options": [
+        "They are pushed apart",
+        "They are pulled closer together",
+        "They are replaced with patches",
+        "They become latent graphs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "question": "What is the final goal of CLIP's shared space?",
+      "options": [
+        "To place matching images and words near each other in vector space",
+        "To remove all captions from the internet",
+        "To convert images into text only",
+        "To store only audio information"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "question": "Which pair is used in the chapter as an example of a word and a matching image concept?",
+      "options": [
+        "Microphone and a photograph of a microphone",
+        "Bank and a calculator",
+        "Dog and a keyboard",
+        "Tree and a sentence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q30",
+      "question": "What is the role of Cross-Attention in multimodal AI?",
+      "options": [
+        "To connect text tokens with image tokens",
+        "To compress embeddings into latent vectors",
+        "To replace both encoders",
+        "To split images into frames"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q31",
+      "question": "In Cross-Attention, where do the Queries come from in the example given?",
+      "options": [
+        "The image",
+        "The text prompt",
+        "The vector database",
+        "The spectrogram"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "question": "In Cross-Attention, where do the Keys and Values come from in the example given?",
+      "options": [
+        "The text prompt",
+        "The image",
+        "The GPU",
+        "The tokenizer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "question": "Which query was used in the chapter's image example?",
+      "options": [
+        "What color is the delegate's tie?",
+        "Who won Best Delegate?",
+        "What is the weather in Paris?",
+        "How many pixels are in the image?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q34",
+      "question": "What is the output of Cross-Attention in the tie example?",
+      "options": [
+        "Blue",
+        "Green",
+        "Red",
+        "Black"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q35",
+      "question": "What is the main difference between Self-Attention and Cross-Attention?",
+      "options": [
+        "Self-Attention uses the same data stream for Q, K, and V; Cross-Attention mixes two streams",
+        "Self-Attention uses only images; Cross-Attention uses only text",
+        "Self-Attention does not use queries",
+        "Cross-Attention cannot use values"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q36",
+      "question": "Why is audio often converted into a spectrogram for AI processing?",
+      "options": [
+        "Because the spectrogram can be treated like an image",
+        "Because audio cannot contain time information",
+        "Because spectrograms remove frequency information",
+        "Because transformers only accept captions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q37",
+      "question": "What does a spectrogram represent?",
+      "options": [
+        "Time and frequency",
+        "Only color values",
+        "Only token IDs",
+        "Only spatial edges"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q38",
+      "question": "How does the chapter suggest AI listens to a podcast?",
+      "options": [
+        "It converts sound to a spectrogram and then processes it like an image",
+        "It reads the transcript only and ignores audio",
+        "It uses the vector database directly",
+        "It applies cross-attention to raw sound waves without preprocessing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q39",
+      "question": "Why is video described as especially suitable for temporal attention?",
+      "options": [
+        "Because it is a fast sequence of still frames",
+        "Because it contains no spatial information",
+        "Because it can be treated as a single token",
+        "Because it eliminates the need for patches"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q40",
+      "question": "What does the Temporal Attention layer measure in video processing?",
+      "options": [
+        "How image patches change over time",
+        "How captions match images",
+        "How many tokens are in a prompt",
+        "How to reduce vector dimension"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q41",
+      "question": "Which capability does temporal attention most directly improve?",
+      "options": [
+        "Understanding motion, action, and physics",
+        "Turning text into vector databases",
+        "Reducing patch size",
+        "Compressing Key and Value caches"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q42",
+      "question": "What is the central issue with standard LLMs mentioned in the RAG chapter?",
+      "options": [
+        "They hallucinate and can be outdated",
+        "They cannot generate tokens",
+        "They only work on images",
+        "They cannot use embeddings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q43",
+      "question": "Why are LLM answers less reliable for current information?",
+      "options": [
+        "They do not automatically update with new data",
+        "They use too many patches",
+        "They only process audio",
+        "They are always connected to live databases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q44",
+      "question": "What does hallucination mean in the LLM chapter?",
+      "options": [
+        "The model creates incorrect or made-up information confidently",
+        "The model stops generating output",
+        "The model only answers in images",
+        "The model forgets all prompts instantly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q45",
+      "question": "What is the main purpose of RAG?",
+      "options": [
+        "To connect the AI to external data sources before answering",
+        "To replace training with random guesses",
+        "To eliminate the need for a retriever",
+        "To convert video into spectrograms"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q46",
+      "question": "What is retrieved before the generator produces an answer in RAG?",
+      "options": [
+        "Relevant information from a database or documents",
+        "Random token IDs",
+        "Only the user’s keyboard input",
+        "The final answer from another LLM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q47",
+      "question": "What is the main benefit of RAG over a plain LLM?",
+      "options": [
+        "It improves accuracy and reduces hallucinations",
+        "It removes the need for any documents",
+        "It disables the retriever",
+        "It prevents all contextual reasoning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q48",
+      "question": "Which component in the RAG architecture searches a database for the most relevant information?",
+      "options": [
+        "Retriever",
+        "Generator",
+        "User Query",
+        "Chunker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q49",
+      "question": "Which component in the RAG architecture uses the retrieved data to create the final answer?",
+      "options": [
+        "Retriever",
+        "Generator",
+        "Embedding model",
+        "Vector database"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q50",
+      "question": "Why are large documents divided into chunks in RAG?",
+      "options": [
+        "Because whole documents are too large to process at once",
+        "Because chunks remove meaning",
+        "Because chunking eliminates the need for embeddings",
+        "Because only small documents can be stored in a database"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q51",
+      "question": "What is the main purpose of good chunking?",
+      "options": [
+        "To keep important context while making searching precise",
+        "To randomize the document order",
+        "To increase hallucinations",
+        "To eliminate vector similarity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q52",
+      "question": "What does an embedding model convert text into?",
+      "options": [
+        "Numerical vectors",
+        "Images",
+        "Audio waveforms",
+        "JSON schemas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q53",
+      "question": "What do similar embeddings indicate?",
+      "options": [
+        "Similar meanings",
+        "Different colors",
+        "Higher GPU usage",
+        "Shorter documents only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q54",
+      "question": "What is stored inside a vector database?",
+      "options": [
+        "Embeddings",
+        "Raw pixels",
+        "Human judgments",
+        "Only prompts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q55",
+      "question": "How does a vector database compare a query to stored information?",
+      "options": [
+        "Using cosine similarity",
+        "Using patching",
+        "Using temporal attention",
+        "Using tokenization only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q56",
+      "question": "What does cosine similarity measure in vector search?",
+      "options": [
+        "How close two vectors are in direction",
+        "How many words are in a chunk",
+        "How many GPUs are being used",
+        "How much a model hallucinated"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q57",
+      "question": "What is the main limitation of standard RAG called in the chapter?",
+      "options": [
+        "The needle in a haystack problem",
+        "The patch explosion problem",
+        "The rotation problem",
+        "The attention bottleneck problem"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q58",
+      "question": "Why can standard RAG miss some important information?",
+      "options": [
+        "Important details may be scattered across multiple chunks",
+        "Embeddings do not exist",
+        "Retrievers cannot search at all",
+        "Vector databases only store images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q59",
+      "question": "What extra structure do knowledge graphs use beyond isolated text?",
+      "options": [
+        "Nodes and edges",
+        "Patches and frames",
+        "Queries and keys",
+        "Tokens and masks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q60",
+      "question": "In a knowledge graph, what does a node represent?",
+      "options": [
+        "An entity such as a person, place, or concept",
+        "A cosine angle",
+        "A GPU register",
+        "A chunk boundary"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q61",
+      "question": "In a knowledge graph, what does an edge represent?",
+      "options": [
+        "A relationship between entities",
+        "A text chunk",
+        "A hallucination",
+        "A patch embedding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q62",
+      "question": "Why are knowledge graphs useful for AI reasoning?",
+      "options": [
+        "They show how different pieces of information are connected",
+        "They remove the need for retrieval",
+        "They only store audio data",
+        "They replace cosine similarity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q63",
+      "question": "What is GraphRAG?",
+      "options": [
+        "A method combining RAG and knowledge graphs",
+        "A replacement for embeddings",
+        "A type of Vision Transformer",
+        "A method only for audio models"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q64",
+      "question": "What does GraphRAG gain from the RAG side?",
+      "options": [
+        "Retrieval of relevant data",
+        "Patch-based image processing",
+        "Temporal frame analysis",
+        "Latent vector compression"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q65",
+      "question": "What does GraphRAG gain from the knowledge graph side?",
+      "options": [
+        "Relationships between concepts",
+        "Token padding",
+        "GPU parallelism only",
+        "Audio spectrograms"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q66",
+      "question": "Why is GraphRAG considered more advanced than standard RAG?",
+      "options": [
+        "It can find deeper connections and answer more complex queries",
+        "It removes the need for retrieval",
+        "It only works on tiny datasets",
+        "It disables semantic similarity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q67",
+      "question": "Which of the following is most directly improved by GraphRAG compared with plain RAG?",
+      "options": [
+        "Context-aware reasoning over connected facts",
+        "Raw pixel processing",
+        "Token count reduction in images",
+        "Positional encoding in video only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q68",
+      "question": "Which pipeline order best matches standard RAG?",
+      "options": [
+        "User Query → Retriever → Generator",
+        "Generator → Retriever → User Query",
+        "Chunking → Output → Query",
+        "Embedding → Hallucination → Answer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q69",
+      "question": "Why does RAG help with outdated information?",
+      "options": [
+        "It can retrieve updated data from external sources",
+        "It changes the model's training history",
+        "It deletes the need for documents",
+        "It freezes knowledge permanently"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q70",
+      "question": "What is the best description of the relationship between embeddings and vector databases?",
+      "options": [
+        "Embeddings are stored in vector databases for similarity search",
+        "Vector databases create embeddings from images only",
+        "Embeddings replace retrieval",
+        "Vector databases remove semantic meaning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q71",
+      "question": "Which of the following best explains why a query vector is compared with stored vectors in RAG?",
+      "options": [
+        "To find the most semantically similar chunks",
+        "To detect audio frequency",
+        "To calculate patch sizes",
+        "To count attention heads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q72",
+      "question": "What is the likely effect of poor chunking on a RAG system?",
+      "options": [
+        "Important context may be lost or retrieval may become less precise",
+        "The model becomes a ViT",
+        "The retriever stops using vectors",
+        "The knowledge graph becomes unnecessary"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q73",
+      "question": "Which of the following is the clearest example of hallucination?",
+      "options": [
+        "Confidently generating a made-up fact",
+        "Retrieving a relevant paragraph from a database",
+        "Comparing vectors using cosine similarity",
+        "Dividing a document into chunks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q74",
+      "question": "What does the chapter imply about LLM knowledge at the time of answering?",
+      "options": [
+        "It is based on patterns learned during training rather than real-time knowledge",
+        "It is always updated live from the internet",
+        "It only knows knowledge graphs",
+        "It depends entirely on image patches"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q75",
+      "question": "Which of the following is the strongest reason a vector database is better than raw text search for RAG?",
+      "options": [
+        "It enables meaning-based similarity search through embeddings",
+        "It only stores smaller files",
+        "It removes the need for retrievers",
+        "It guarantees zero hallucinations by itself"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q76",
+      "question": "What makes sparse attention a form of context engineering rather than full attention?",
+      "options": [
+        "It selectively attends to only some words instead of all word pairs",
+        "It uses no memory at all",
+        "It converts text to images",
+        "It only works on patches"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q77",
+      "question": "Why might ring attention be especially useful for extremely long documents?",
+      "options": [
+        "It distributes processing across multiple GPUs",
+        "It removes the need for a transformer",
+        "It uses only one GPU and one token",
+        "It converts the document into a graph"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q78",
+      "question": "Which idea best connects RoPE and long-sequence understanding?",
+      "options": [
+        "Relative positions help the model know how far apart words are",
+        "Absolute word IDs are discarded",
+        "Patches are used instead of words",
+        "Vectors are stored in graphs only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q79",
+      "question": "What is the main challenge solved by the Vision Transformer patching pipeline?",
+      "options": [
+        "Making images manageable for a Transformer without processing every pixel separately",
+        "Turning text into audio",
+        "Reducing the size of query vectors",
+        "Removing all embeddings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q80",
+      "question": "What is the main mathematical object used by CLIP to compare image and text outputs?",
+      "options": [
+        "Cosine similarity",
+        "Softmax over patches",
+        "Temporal attention",
+        "Sparse masking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q81",
+      "question": "What does CLIP do when image and text do not match?",
+      "options": [
+        "It pushes their vectors apart",
+        "It ignores the image",
+        "It changes the caption into a patch",
+        "It collapses them into one token"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q82",
+      "question": "Which of the following is the best analogy for CLIP's shared embedding space?",
+      "options": [
+        "Matching image and word concepts living near each other in vector space",
+        "A list of unrelated file names",
+        "A set of random patches without labels",
+        "A GPU memory map"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q83",
+      "question": "Why can a standard Transformer not directly process raw high-definition images efficiently?",
+      "options": [
+        "The number of pixel tokens would make attention and KV cache huge",
+        "It cannot use embeddings",
+        "It only accepts text chunks",
+        "It cannot flatten vectors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q84",
+      "question": "What is the best reason to treat audio spectrograms like images in AI?",
+      "options": [
+        "They map time and frequency into a visual grid that can be patched",
+        "They eliminate the need for any encoder",
+        "They are already text tokens",
+        "They remove all temporal information"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q85",
+      "question": "What is the role of the image encoder in CLIP?",
+      "options": [
+        "To convert images into vectors that can be compared with text vectors",
+        "To generate captions directly",
+        "To create chunk boundaries",
+        "To calculate scaling laws"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q86",
+      "question": "What is the role of the text encoder in CLIP?",
+      "options": [
+        "To convert captions into vectors for comparison",
+        "To patch images into squares",
+        "To run temporal attention",
+        "To retrieve chunks from a database"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q87",
+      "question": "Why is cross-attention especially useful in multimodal chatbots?",
+      "options": [
+        "It allows text to query image information directly",
+        "It turns all images into text before processing",
+        "It removes the need for encoders",
+        "It is only used in RAG systems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q88",
+      "question": "What does the text prompt do in the cross-attention example?",
+      "options": [
+        "It asks the image a mathematical question",
+        "It becomes a vector database",
+        "It replaces the image encoder",
+        "It is ignored after tokenization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q89",
+      "question": "Which output best matches the cross-attention tie example?",
+      "options": [
+        "Blue",
+        "Yellow",
+        "Purple",
+        "Orange"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q90",
+      "question": "What is the main purpose of temporal attention in video models?",
+      "options": [
+        "To understand how visual information changes over time",
+        "To compare captions with images",
+        "To remove frame order",
+        "To convert the video into text only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q91",
+      "question": "Which of the following is the strongest reason graphs help AI in retrieval?",
+      "options": [
+        "They encode relationships explicitly rather than leaving facts isolated",
+        "They reduce patch size",
+        "They eliminate cosine similarity",
+        "They replace all embeddings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q92",
+      "question": "What is the most likely consequence of using a very large database with poor retrieval in RAG?",
+      "options": [
+        "Finding the exact relevant data becomes challenging",
+        "The model becomes a ViT",
+        "The system stops using chunks",
+        "Cosine similarity no longer works"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q93",
+      "question": "Which of the following best describes why GraphRAG is context-aware?",
+      "options": [
+        "It uses both retrieved text and relationships among concepts",
+        "It only retrieves one chunk",
+        "It ignores node connections",
+        "It works without embeddings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q94",
+      "question": "What does a knowledge graph store besides entities?",
+      "options": [
+        "Relationships between entities",
+        "Token masks",
+        "Patch colors",
+        "GPU temperatures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q95",
+      "question": "Which approach is most suitable when the goal is to combine retrieved evidence with conceptual relationships?",
+      "options": [
+        "GraphRAG",
+        "Sparse Attention",
+        "RoPE",
+        "Temporal Attention"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q96",
+      "question": "Which of these best captures the overall role of context engineering?",
+      "options": [
+        "To help models handle long texts efficiently without losing too much meaning",
+        "To remove all position information",
+        "To turn images into graphs only",
+        "To replace the vector database"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q97",
+      "question": "Which pairing is most accurate?",
+      "options": [
+        "ViT for images, CLIP for image-text alignment, RAG for external knowledge retrieval",
+        "ViT for graphs, CLIP for audio only, RAG for patching",
+        "ViT for memory, CLIP for scaling, RAG for temporal attention",
+        "ViT for cosine similarity, CLIP for chunking, RAG for rotation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q98",
+      "question": "Which of the following is the best summary of the chapter's evolution of multimodal AI?",
+      "options": [
+        "Text-only Transformers were extended to images, audio, and video through patching, encoders, and attention mechanisms",
+        "All non-text data was converted directly into raw tokens without preprocessing",
+        "Only audio was supported through RAG",
+        "Images replaced language models entirely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q99",
+      "question": "Which of the following best captures the relation between embeddings and meaning?",
+      "options": [
+        "Embeddings encode semantic similarity in numerical form",
+        "Embeddings are only for images",
+        "Embeddings remove all context",
+        "Embeddings are the same as chunks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q100",
+      "question": "Which statement best summarizes the overall message of Module 2?",
+      "options": [
+        "Efficient attention, multimodal processing, and retrieval systems make AI more scalable, accurate, and context-aware",
+        "Only bigger models matter",
+        "Only images matter in AI",
+        "LLMs do not need external data or structure"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

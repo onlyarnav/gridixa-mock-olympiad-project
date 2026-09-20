@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon --exec tsx server.js",
+    "start": "node server.js",
+    "build": "echo 'No build step required'",
+    "lint": "echo 'No lint configured'",
+    "type-check": "tsc --noEmit",
+    "test": "node --test --import tsx modules/olympiad/**/*.test.ts"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.3.2",
+    "ioredis": "^5.11.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.2",
+    "nodemailer": "^8.0.4",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.18.0",
+    "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^26.1.1",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
